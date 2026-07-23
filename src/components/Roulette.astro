@@ -55,7 +55,7 @@ const strings = {
           </div>
         </div>
 
-        <button class="btn btn-gold" id="spinBtn" style="font-size:1.15rem;padding:14px 34px">🎰 {strings.spin}</button>
+        <button class="btn btn-gold" id="spinBtn" style="font-size:1.15rem;padding:14px 34px">{strings.spin}</button>
 
         <div class="roll-result" id="result" aria-live="polite"></div>
         <div class="roll-cta" id="cta" style="display:none">
@@ -98,7 +98,7 @@ const strings = {
     result.textContent = "";
     portrait.classList.add("broken");
     spinBtn.disabled = true;
-    spinBtn.textContent = "⏳ " + S.spinning;
+    spinBtn.textContent = S.spinning;
     reelEls.forEach((r) => r.classList.add("spin"));
 
     const flick = setInterval(() => {
@@ -132,7 +132,7 @@ const strings = {
       viewLink.href = pick.url;
       cta.style.display = "flex";
       spinBtn.disabled = false;
-      spinBtn.textContent = "🎰 " + S.spin;
+      spinBtn.textContent = S.spin;
       spinning = false;
     }, 1600);
   }

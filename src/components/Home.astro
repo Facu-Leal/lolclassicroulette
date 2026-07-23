@@ -22,14 +22,16 @@ const jsonLd = {
 <Base lang={lang} alt={alt} active="home" jsonLd={jsonLd}>
   <section class="hero">
     <div class="wrap">
+      <div class="inner">
       <span class="kicker">{t.hero.kicker}</span>
       <h1 set:html={t.hero.title.replace(/(Classic|Classic)/, '<span class="hl">Classic</span>')} />
       <p class="sub">{t.hero.sub}</p>
       <div class="cta-row">
-        <a class="btn btn-gold" href={rouletteUrl(lang)}>🎰 {t.hero.ctaRoulette}</a>
+        <a class="btn btn-gold" href={rouletteUrl(lang)}>{t.hero.ctaRoulette}</a>
         <a class="btn btn-ghost" href="#builds">{t.hero.ctaBuilds}</a>
       </div>
       <p class="release-note">{t.releaseNote}</p>
+      </div>
     </div>
   </section>
   <section class="wrap" id="builds">
