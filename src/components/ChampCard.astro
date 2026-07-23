@@ -7,7 +7,7 @@ const { champ, lang } = Astro.props;
 const t = ui[lang];
 const lane = laneMeta[champ.lane];
 const tier = tierMeta[champ.tier];
-const img = champImg(champ.slug);
+const img = champImg(champ.champSlug || champ.slug);
 ---
 <article
   class="card"

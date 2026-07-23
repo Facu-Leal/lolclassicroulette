@@ -4,17 +4,15 @@ import { laneMeta, tierMeta } from "../data/champions.js";
 import { ui, champUrl } from "../data/i18n.js";
 import { champImg, itemImg, spellImg } from "../data/assets.js";
 import { itemInfo } from "../data/items.js";
-import { guides } from "../data/guides.js";
-import { skills } from "../data/skills.js";
 
 const { champ, lang } = Astro.props;
 const t = ui[lang];
 const lane = laneMeta[champ.lane];
 const tier = tierMeta[champ.tier];
 const b = champ.build;
-const portrait = champImg(champ.slug);
-const g = guides[champ.slug] || {};
-const sk = skills[champ.slug];
+const portrait = champImg(champ.champSlug || champ.slug);
+const g = { guide: champ.guide, masteryWhy: champ.masteryWhy };
+const sk = champ.skills;
 
 // Genera la secuencia 1-18: R en 6/11/16; el resto maximiza order[0] > order[1] > order[2].
 function buildSeq(order) {

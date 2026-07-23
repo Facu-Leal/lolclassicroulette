@@ -1,11 +1,11 @@
-import { champions } from './src/data/champions.js';
+import { allBuilds } from './src/data/allBuilds.js';
 import { writeFileSync } from 'node:fs';
 
-const BASE = 'https://lolclassicbuilds.netlify.app'; // cambiar por tu dominio
+const BASE = 'https://lolclassicroulette.com'; // cambiar por tu dominio
 const pairs = [
   { es: '/es', en: '/en' },
   { es: '/es/ruleta', en: '/en/roulette' },
-  ...champions.map(c => ({ es: `/es/campeon/${c.slug}`, en: `/en/champion/${c.slug}` })),
+  ...allBuilds.map(c => ({ es: `/es/campeon/${c.slug}`, en: `/en/champion/${c.slug}` })),
 ];
 
 const esc = (s) => s.replace(/&/g, '&amp;');

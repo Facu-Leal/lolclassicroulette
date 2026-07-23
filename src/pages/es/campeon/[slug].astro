@@ -1,9 +1,9 @@
 ---
 import ChampionDetail from "../../../components/ChampionDetail.astro";
-import { champions } from "../../../data/champions.js";
+import { allBuilds } from "../../../data/allBuilds.js";
 
 export function getStaticPaths() {
-  return champions.map((champ) => ({ params: { slug: champ.slug }, props: { champ } }));
+  return allBuilds.map((champ) => ({ params: { slug: champ.slug }, props: { champ } }));
 }
 
 const { champ } = Astro.props;

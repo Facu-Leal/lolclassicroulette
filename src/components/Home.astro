@@ -1,13 +1,14 @@
 ---
 import Base from "../layouts/Base.astro";
 import ChampCard from "./ChampCard.astro";
-import { champions, laneMeta, tierMeta } from "../data/champions.js";
+import { laneMeta, tierMeta } from "../data/champions.js";
+import { allBuilds } from "../data/allBuilds.js";
 import { ui, rouletteUrl } from "../data/i18n.js";
 
 const { lang } = Astro.props;
 const t = ui[lang];
 const alt = { es: "/es", en: "/en" };
-const sorted = [...champions].sort((a, b) => a.name.localeCompare(b.name));
+const sorted = [...allBuilds].sort((a, b) => a.name.localeCompare(b.name) || a.lane.localeCompare(b.lane));
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -32,7 +33,7 @@ const jsonLd = {
     </div>
   </section>
   <section class="wrap" id="builds">
-    <h2 class="section-title">{t.nav.builds} <span class="count">· {champions.length} {t.labels.champions}</span></h2>
+    <h2 class="section-title">{t.nav.builds} <span class="count">· {allBuilds.length} builds</span></h2>
 
     <div class="toolbar" role="search">
       <input type="search" id="q" placeholder={t.filters.search} aria-label={t.filters.search} autocomplete="off" />

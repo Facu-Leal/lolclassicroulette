@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
-import { champions, laneMeta, tierMeta } from "../data/champions.js";
+import { laneMeta, tierMeta } from "../data/champions.js";
+import { allBuilds } from "../data/allBuilds.js";
 import { ui, rouletteUrl, routes } from "../data/i18n.js";
 import { champImg } from "../data/assets.js";
 
@@ -8,14 +9,14 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const alt = { es: rouletteUrl("es"), en: rouletteUrl("en") };
 
-const data = champions.map((c) => ({
+const data = allBuilds.map((c) => ({
   slug: c.slug,
   name: c.name,
   lane: laneMeta[c.lane][lang],
   laneColor: laneMeta[c.lane].color,
   tier: tierMeta[c.tier][lang],
   build: c.build.name[lang],
-  img: champImg(c.slug),
+  img: champImg(c.champSlug || c.slug),
   url: `/${lang}/${routes[lang].champ}/${c.slug}`,
 }));
 

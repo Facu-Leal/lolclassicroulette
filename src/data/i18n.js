@@ -21,7 +21,7 @@ export const ui = {
     hero: {
       kicker: "Modo Season 3 · 29 jul 2026",
       title: "Builds locas para League of Legends Classic",
-      sub: "Una build NO convencional para cada uno de los 60 campeones del modo. Probá lo más troll de la vieja escuela: AP Yi, GP AP, Rammus AP y mucho más.",
+      sub: "Más de 70 builds NO convencionales para los 60 campeones del modo, incluyendo picks de ADC. Probá lo más troll de la vieja escuela: AP Yi, GP AP, Rammus AP y mucho más.",
       ctaRoulette: "Girar la ruleta",
       ctaBuilds: "Ver todas las builds",
     },
@@ -52,7 +52,7 @@ export const ui = {
     hero: {
       kicker: "Season 3 mode · Jul 29, 2026",
       title: "Crazy builds for League of Legends Classic",
-      sub: "One NON-conventional build for each of the mode's 60 champions. Try the trolliest old-school picks: AP Yi, AP GP, AP Rammus and more.",
+      sub: "70+ off-meta builds for the mode's 60 champions, including ADC picks. Try the trolliest old-school picks: AP Yi, AP GP, AP Rammus and more.",
       ctaRoulette: "Spin the wheel",
       ctaBuilds: "See all builds",
     },

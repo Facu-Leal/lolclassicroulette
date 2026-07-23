@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lolclassicbuilds.netlify.app/sitemap.xml
+Sitemap: https://lolclassicroulette.com/sitemap.xml

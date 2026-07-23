@@ -28,7 +28,7 @@ lol-classic-builds/
 
 ## ⚠️ Antes de publicar (1 minuto)
 
-Cambiá la URL placeholder por tu dominio final en **dos** lugares:
+El dominio ya está configurado como **`https://lolclassicroulette.com`** en `astro.config.mjs` y `gen-sitemap.mjs`. Si algún día lo cambiás, actualizalo en esos dos lugares (y en `public/robots.txt`):
 
 1. `astro.config.mjs` → `site: 'https://TU-DOMINIO'`
 2. `gen-sitemap.mjs` → `const BASE = 'https://TU-DOMINIO'`
@@ -90,6 +90,8 @@ npm run preview  # previsualiza dist/
 
 Todo el contenido de campeones vive en **`src/data/champions.js`**. Cada campeón tiene:
 `lane` (top/jungle/mid/adc/support), `tier` (meme/sleeper/viable), y un objeto `build` con `name`, `items`, `masteries`, `runes`, `summoners` y `playstyle`, cada texto en `{ es, en }`. Agregá o cambiá lo que quieras y recompilá. Las descripciones de cada objeto están en `src/data/items.js`, y la guía de "cómo jugar" + el porqué de las maestrías por campeón en `src/data/guides.js`. El orden de habilidades (qué subir nivel por nivel + la justificación) está en `src/data/skills.js`.
+
+**Varias builds por campeón:** un campeón puede tener más de una build (ej. la versión off-meta y la de ADC). Las builds extra están en **`src/data/extraBuilds.js`** (cada una autocontenida: build + guía + maestrías + orden de habilidades, con `champSlug` para la imagen). Todo se une en `src/data/allBuilds.js`, que es lo que consumen las páginas. Para agregar otra build, copiá una entrada de `extraBuilds.js`, cambiá el `slug` (único) y listo.
 
 ---
 
