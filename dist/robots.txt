@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lolclassicbuilds.netlify.app/sitemap.xml

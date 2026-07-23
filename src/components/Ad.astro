@@ -1,0 +1,28 @@
+---
+// Banner lateral. Renderiza según site.banners[slot].type:
+// image | html | adsense | none (placeholder).
+import { site } from "../data/site.js";
+const { slot = "left" } = Astro.props;
+const b = (site.banners && site.banners[slot]) || { type: "none" };
+const ads = site.adsense || {};
+const adsOn = ads.enabled && ads.client && !String(ads.client).includes("XXXX");
+const type = b.type || "none";
+---
+{type === "image" && b.image ? (
+  <a class="ad-banner" href={b.href || "#"} target="_blank" rel="sponsored noopener noreferrer" aria-label={b.alt || "Publicidad"}>
+    <img src={b.image} alt={b.alt || "Publicidad"} loading="lazy" width="160" height="600" />
+  </a>
+) : type === "html" && b.html ? (
+  <div class="ad-html" set:html={b.html} />
+) : type === "adsense" && adsOn ? (
+  <>
+    <ins class="adsbygoogle" style="display:block;width:160px;height:600px"
+         data-ad-client={ads.client} data-ad-slot={ads.slots && ads.slots[slot]}></ins>
+    <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </>
+) : (
+  <div class="ad-placeholder ad-vertical" aria-hidden="true">
+    <span>Publicidad / Ad</span>
+    <small>160 × 600</small>
+  </div>
+)}

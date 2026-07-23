@@ -1,0 +1,198 @@
+---
+import Base from "../layouts/Base.astro";
+import { laneMeta, tierMeta } from "../data/champions.js";
+import { ui, champUrl } from "../data/i18n.js";
+import { champImg, itemImg, spellImg } from "../data/assets.js";
+import { itemInfo } from "../data/items.js";
+import { guides } from "../data/guides.js";
+import { skills } from "../data/skills.js";
+
+const { champ, lang } = Astro.props;
+const t = ui[lang];
+const lane = laneMeta[champ.lane];
+const tier = tierMeta[champ.tier];
+const b = champ.build;
+const portrait = champImg(champ.slug);
+const g = guides[champ.slug] || {};
+const sk = skills[champ.slug];
+
+// Genera la secuencia 1-18: R en 6/11/16; el resto maximiza order[0] > order[1] > order[2].
+function buildSeq(order) {
+  const seq = new Array(18).fill(null);
+  [6, 11, 16].forEach((l) => (seq[l - 1] = "R"));
+  const nonR = [];
+  for (let l = 1; l <= 18; l++) if (!seq[l - 1]) nonR.push(l);
+  const o = order;
+  const plan = [o[0], o[1], o[2], o[0], o[0], o[0], o[0], o[1], o[1], o[1], o[1], o[2], o[2], o[2], o[2]];
+  nonR.forEach((l, i) => (seq[l - 1] = plan[i]));
+  return seq;
+}
+const seq = sk ? buildSeq(sk.order) : null;
+const rowsOrder = ["Q", "W", "E", "R"];
+const abilColor = { Q: "#4a86c9", W: "#4e9a51", E: "#c8923a", R: "#c0563e" };
+
+const L = {
+  es: {
+    howto: "Cómo jugar esta build",
+    skillTitle: "Orden de habilidades",
+    priority: "Prioridad de mejora",
+    rNote: "La definitiva (R) siempre se sube en los niveles 6, 11 y 16.",
+    whyOrder: "Por qué este orden",
+    levelHdr: "Nivel",
+    itemsTitle: "Objetos y qué hacen",
+    masteryTitle: "Maestrías: cómo funcionan",
+    masterySystem: "En Season 3 tenés hasta 30 puntos (a nivel 30) para repartir en tres árboles: Ofensiva (daño), Defensa (aguante) y Utilidad (maná, reducción de enfriamiento y movilidad). La notación 21/0/9 significa 21 puntos en Ofensiva, 0 en Defensa y 9 en Utilidad.",
+    whyPage: "Por qué esta página",
+    summFor: "Hechizos de invocador",
+  },
+  en: {
+    howto: "How to play this build",
+    skillTitle: "Skill order",
+    priority: "Max priority",
+    rNote: "The ultimate (R) is always leveled at 6, 11 and 16.",
+    whyOrder: "Why this order",
+    levelHdr: "Level",
+    itemsTitle: "Items and what they do",
+    masteryTitle: "Masteries: how they work",
+    masterySystem: "In Season 3 you have up to 30 points (at level 30) to split across three trees: Offense (damage), Defense (durability) and Utility (mana, cooldown reduction and mobility). The notation 21/0/9 means 21 points in Offense, 0 in Defense and 9 in Utility.",
+    whyPage: "Why this page",
+    summFor: "Summoner spells",
+  },
+}[lang];
+
+const alt = { es: champUrl("es", champ.slug), en: champUrl("en", champ.slug) };
+const title = `${champ.name} — ${b.name[lang]}`;
+const howtoText = (g.guide && g.guide[lang]) || b.playstyle[lang];
+const description = `${b.name[lang]} · ${champ.name} ${lane[lang]}. ${b.playstyle[lang]}`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: title,
+  description: howtoText,
+  inLanguage: t.htmlLang,
+  step: b.items.map((it, i) => ({
+    "@type": "HowToStep", position: i + 1, name: it,
+    text: (itemInfo[it] && itemInfo[it][lang]) || it,
+  })),
+};
+---
+<Base lang={lang} title={title} description={description} alt={alt} active="builds" ogType="article" jsonLd={jsonLd}>
+  <section class="detail">
+    <div class="wrap">
+      <nav class="crumbs">
+        <a href={`/${lang}`}>{t.nav.home}</a> ／ <a href={`/${lang}#builds`}>{t.nav.builds}</a> ／ <span>{champ.name}</span>
+      </nav>
+
+      <div class="detail-head">
+        {portrait && (
+          <img class="detail-portrait" src={portrait} alt={champ.name} width="96" height="96"
+               onerror="this.classList.add('broken')" />
+        )}
+        <h1>{champ.name}</h1>
+        <span class="badge lane" style={`border-color:${lane.color};background:${lane.color}22;color:#fff`}>{lane[lang]}</span>
+        <span class="badge tier">{tier[lang]}</span>
+      </div>
+      <p class="detail-sub"><span class="build-title">{b.name[lang]}</span></p>
+
+      <div class="panel">
+        <h2>{L.howto}</h2>
+        <p style="margin:0">{howtoText}</p>
+      </div>
+
+      {sk && (
+        <div class="panel">
+          <h2>{L.skillTitle}</h2>
+          <p class="muted" style="margin:0 0 8px"><strong>{L.priority}:</strong></p>
+          <div class="skill-prio">
+            {sk.order.map((k, i) => (
+              <span class="skill-chip">
+                <span class="key" style={`background:${abilColor[k]}`}>{k}</span>
+                <span>{sk.abil[k]}</span>
+                {i < sk.order.length - 1 && <span class="arrow">→</span>}
+              </span>
+            ))}
+          </div>
+          <p class="muted" style="margin:0 0 12px;font-size:.85rem">{L.rNote}</p>
+
+          <div class="skill-grid-wrap">
+            <table class="skill-grid">
+              <thead>
+                <tr>
+                  <th>{L.levelHdr}</th>
+                  {Array.from({ length: 18 }, (_, i) => <th>{i + 1}</th>)}
+                </tr>
+              </thead>
+              <tbody>
+                {rowsOrder.map((k) => (
+                  <tr>
+                    <th class="ab" style={`background:${abilColor[k]}`}>{k}</th>
+                    {seq.map((s) => (
+                      <td class={s === k ? "on" : ""} style={s === k ? `background:${abilColor[k]}` : ""}>{s === k ? k : ""}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <dl class="kv" style="margin:14px 0 0">
+            <dt>{L.whyOrder}</dt><dd>{sk.why[lang]}</dd>
+          </dl>
+        </div>
+      )}
+
+      <div class="panel">
+        <h2>{L.itemsTitle}</h2>
+        <ol class="item-list">
+          {b.items.map((it) => {
+            const ii = itemImg(it);
+            const info = itemInfo[it] && itemInfo[it][lang];
+            return (
+              <li>
+                {ii && <img class="thumb" src={ii} alt={it} width="32" height="32" loading="lazy" onerror="this.classList.add('broken')" />}
+                <div class="item-text">
+                  <span class="item-name">{it}</span>
+                  {info && <span class="item-desc">{info}</span>}
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+      </div>
+
+      <div class="panel">
+        <h2>{L.masteryTitle}</h2>
+        <p class="muted" style="margin:0 0 10px">{L.masterySystem}</p>
+        <dl class="kv">
+          <dt>{t.labels.masteries}</dt><dd>{b.masteries[lang]}</dd>
+          {g.masteryWhy && (<><dt>{L.whyPage}</dt><dd>{g.masteryWhy[lang]}</dd></>)}
+          <dt>{t.labels.runes}</dt><dd>{b.runes[lang]}</dd>
+        </dl>
+      </div>
+
+      <div class="panel">
+        <h2>{L.summFor}</h2>
+        <div class="spell-list">
+          {b.summoners.map((s) => {
+            const si = spellImg(s);
+            return (
+              <span class="spell">
+                {si && <img class="thumb" src={si} alt={s} width="28" height="28" loading="lazy" onerror="this.classList.add('broken')" />}
+                <span>{s}</span>
+              </span>
+            );
+          })}
+        </div>
+      </div>
+
+      <div class="panel">
+        <dl class="kv" style="margin:0">
+          <dt>{t.labels.lane}</dt><dd>{lane[lang]}</dd>
+          <dt>{t.labels.role}</dt><dd>{champ.origRole}</dd>
+        </dl>
+      </div>
+      <p><a class="btn btn-ghost" href={`/${lang}#builds`}>← {t.labels.backHome}</a></p>
+    </div>
+  </section>
+</Base>

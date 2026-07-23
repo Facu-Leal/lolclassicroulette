@@ -1,0 +1,141 @@
+---
+import Base from "../layouts/Base.astro";
+import { champions, laneMeta, tierMeta } from "../data/champions.js";
+import { ui, rouletteUrl, routes } from "../data/i18n.js";
+import { champImg } from "../data/assets.js";
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const alt = { es: rouletteUrl("es"), en: rouletteUrl("en") };
+
+const data = champions.map((c) => ({
+  slug: c.slug,
+  name: c.name,
+  lane: laneMeta[c.lane][lang],
+  laneColor: laneMeta[c.lane].color,
+  tier: tierMeta[c.tier][lang],
+  build: c.build.name[lang],
+  img: champImg(c.slug),
+  url: `/${lang}/${routes[lang].champ}/${c.slug}`,
+}));
+
+const strings = {
+  spin: t.roulette.spin,
+  spinning: t.roulette.spinning,
+  again: t.labels.randomAgain,
+  view: t.roulette.viewBuild,
+  yourRoll: t.labels.yourRoll,
+  lane: t.labels.lane,
+  champ: lang === "es" ? "Campeón" : "Champion",
+  build: t.labels.build,
+};
+---
+<Base lang={lang} title={t.roulette.title} description={t.roulette.sub} alt={alt} active="roulette">
+  <section class="roulette-wrap">
+    <div class="wrap">
+      <span class="kicker">{t.hero.kicker}</span>
+      <h1 style="font-family:Georgia,serif;color:var(--parchment);font-size:clamp(1.8rem,4vw,2.8rem);margin:16px 0 8px">{t.roulette.title}</h1>
+      <p class="sub" style="max-width:58ch;margin:0 auto;color:var(--text-dim)">{t.roulette.sub}</p>
+
+      <div class="roulette-stage">
+        <img id="rollPortrait" class="roll-portrait broken" alt="" width="72" height="72" />
+        <div class="reels">
+          <div class="reel" id="reel-champ">
+            <span class="reel-label">{strings.champ}</span>
+            <span class="reel-value" data-role="champ">—</span>
+          </div>
+          <div class="reel" id="reel-lane">
+            <span class="reel-label">{strings.lane}</span>
+            <span class="reel-value" data-role="lane">—</span>
+          </div>
+          <div class="reel" id="reel-build">
+            <span class="reel-label">{strings.build}</span>
+            <span class="reel-value" data-role="build" style="font-size:.98rem">—</span>
+          </div>
+        </div>
+
+        <button class="btn btn-gold" id="spinBtn" style="font-size:1.15rem;padding:14px 34px">🎰 {strings.spin}</button>
+
+        <div class="roll-result" id="result" aria-live="polite"></div>
+        <div class="roll-cta" id="cta" style="display:none">
+          <a class="btn btn-gold" id="viewLink" href="#">{strings.view} →</a>
+          <button class="btn btn-ghost" id="againBtn">{strings.again}</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="application/json" id="rouletteData" set:html={JSON.stringify(data)} />
+  <script type="application/json" id="rouletteStrings" set:html={JSON.stringify(strings)} />
+</Base>
+
+<script>
+  const DATA = JSON.parse(document.getElementById("rouletteData").textContent);
+  const S = JSON.parse(document.getElementById("rouletteStrings").textContent);
+
+  const reels = {
+    champ: document.querySelector('[data-role="champ"]'),
+    lane: document.querySelector('[data-role="lane"]'),
+    build: document.querySelector('[data-role="build"]'),
+  };
+  const reelEls = document.querySelectorAll(".reel");
+  const spinBtn = document.getElementById("spinBtn");
+  const result = document.getElementById("result");
+  const cta = document.getElementById("cta");
+  const viewLink = document.getElementById("viewLink");
+  const againBtn = document.getElementById("againBtn");
+  const laneEl = document.getElementById("reel-lane");
+  const portrait = document.getElementById("rollPortrait");
+
+  function rand() { return DATA[Math.floor(Math.random() * DATA.length)]; }
+
+  let spinning = false;
+  function spin() {
+    if (spinning) return;
+    spinning = true;
+    cta.style.display = "none";
+    result.textContent = "";
+    portrait.classList.add("broken");
+    spinBtn.disabled = true;
+    spinBtn.textContent = "⏳ " + S.spinning;
+    reelEls.forEach((r) => r.classList.add("spin"));
+
+    const flick = setInterval(() => {
+      const c = rand();
+      reels.champ.textContent = c.name;
+      reels.lane.textContent = c.lane;
+      reels.build.textContent = c.build;
+      laneEl.style.borderColor = c.laneColor;
+    }, 70);
+
+    setTimeout(() => {
+      clearInterval(flick);
+      reelEls.forEach((r) => r.classList.remove("spin"));
+      const pick = rand();
+      reels.champ.textContent = pick.name;
+      reels.lane.textContent = pick.lane;
+      reels.build.textContent = pick.build;
+      laneEl.style.borderColor = pick.laneColor;
+      laneEl.style.background = pick.laneColor + "14";
+
+      if (pick.img) {
+        portrait.src = pick.img;
+        portrait.alt = pick.name;
+        portrait.onload = () => portrait.classList.remove("broken");
+        portrait.onerror = () => portrait.classList.add("broken");
+      }
+
+      result.innerHTML =
+        S.yourRoll + ": <strong>" + pick.name + "</strong> — " +
+        pick.lane + " · <strong>" + pick.build + "</strong> <em>(" + pick.tier + ")</em>";
+      viewLink.href = pick.url;
+      cta.style.display = "flex";
+      spinBtn.disabled = false;
+      spinBtn.textContent = "🎰 " + S.spin;
+      spinning = false;
+    }, 1600);
+  }
+
+  spinBtn.addEventListener("click", spin);
+  againBtn.addEventListener("click", spin);
+</script>

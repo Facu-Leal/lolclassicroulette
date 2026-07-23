@@ -1,0 +1,102 @@
+---
+import Base from "../layouts/Base.astro";
+import ChampCard from "./ChampCard.astro";
+import { champions, laneMeta, tierMeta } from "../data/champions.js";
+import { ui, rouletteUrl } from "../data/i18n.js";
+
+const { lang } = Astro.props;
+const t = ui[lang];
+const alt = { es: "/es", en: "/en" };
+const sorted = [...champions].sort((a, b) => a.name.localeCompare(b.name));
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `${t.siteName} — ${t.tagline}`,
+  description: t.metaDescription,
+  inLanguage: t.htmlLang,
+  about: { "@type": "VideoGame", name: "League of Legends Classic" },
+};
+---
+<Base lang={lang} alt={alt} active="home" jsonLd={jsonLd}>
+  <section class="hero">
+    <div class="wrap">
+      <span class="kicker">{t.hero.kicker}</span>
+      <h1 set:html={t.hero.title.replace(/(Classic|Classic)/, '<span class="hl">Classic</span>')} />
+      <p class="sub">{t.hero.sub}</p>
+      <div class="cta-row">
+        <a class="btn btn-gold" href={rouletteUrl(lang)}>🎰 {t.hero.ctaRoulette}</a>
+        <a class="btn btn-ghost" href="#builds">{t.hero.ctaBuilds}</a>
+      </div>
+      <p class="release-note">{t.releaseNote}</p>
+    </div>
+  </section>
+  <section class="wrap" id="builds">
+    <h2 class="section-title">{t.nav.builds} <span class="count">· {champions.length} {t.labels.champions}</span></h2>
+
+    <div class="toolbar" role="search">
+      <input type="search" id="q" placeholder={t.filters.search} aria-label={t.filters.search} autocomplete="off" />
+      <div class="chips" id="laneChips" aria-label={t.filters.lane}>
+        <button class="chip" data-lane="all" aria-pressed="true">{t.filters.all}</button>
+        {Object.entries(laneMeta).map(([k, v]) => (
+          <button class="chip" data-lane={k} aria-pressed="false">{v[lang]}</button>
+        ))}
+      </div>
+      <div class="chips" id="tierChips" aria-label={t.filters.tier}>
+        {Object.entries(tierMeta).map(([k, v]) => (
+          <button class="chip" data-tier={k} aria-pressed="false">{v[lang]}</button>
+        ))}
+      </div>
+    </div>
+
+    <div class="grid" id="grid">
+      {sorted.map((c) => <ChampCard champ={c} lang={lang} />)}
+    </div>
+    <p class="count" id="noResults" style="display:none;margin-top:20px">—</p>
+  </section>
+</Base>
+
+<script>
+  const grid = document.getElementById("grid");
+  const cards = Array.from(grid.querySelectorAll(".card"));
+  const q = document.getElementById("q");
+  const laneChips = document.getElementById("laneChips");
+  const tierChips = document.getElementById("tierChips");
+  const noResults = document.getElementById("noResults");
+  let lane = "all";
+  let tier = null;
+
+  function apply() {
+    const term = (q.value || "").trim().toLowerCase();
+    let shown = 0;
+    cards.forEach((card) => {
+      const okLane = lane === "all" || card.dataset.lane === lane;
+      const okTier = !tier || card.dataset.tier === tier;
+      const okTerm = !term || card.dataset.name.includes(term);
+      const show = okLane && okTier && okTerm;
+      card.style.display = show ? "" : "none";
+      if (show) shown++;
+    });
+    noResults.style.display = shown ? "none" : "block";
+    noResults.textContent = "0 / " + cards.length;
+  }
+
+  q.addEventListener("input", apply);
+
+  laneChips.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-lane]");
+    if (!btn) return;
+    lane = btn.dataset.lane;
+    laneChips.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === btn ? "true" : "false"));
+    apply();
+  });
+
+  tierChips.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-tier]");
+    if (!btn) return;
+    const already = btn.getAttribute("aria-pressed") === "true";
+    tier = already ? null : btn.dataset.tier;
+    tierChips.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", (!already && c === btn) ? "true" : "false"));
+    apply();
+  });
+</script>

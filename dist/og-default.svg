@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10161f"/>
+      <stop offset="1" stop-color="#0a0e14"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9c877"/>
+      <stop offset="1" stop-color="#c8963c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="582" rx="20" fill="none" stroke="#2a3446" stroke-width="2"/>
+  <text x="80" y="150" font-family="Georgia, serif" font-size="30" fill="#c8963c" letter-spacing="4">SEASON 3 · 29 JUL 2026</text>
+  <text x="80" y="300" font-family="Georgia, serif" font-size="86" font-weight="700" fill="#e8dcc0">Builds locas para</text>
+  <text x="80" y="400" font-family="Georgia, serif" font-size="86" font-weight="700" fill="url(#gold)">LoL Classic</text>
+  <text x="80" y="490" font-family="Trebuchet MS, sans-serif" font-size="34" fill="#93a1b5">60 campeones · AP Yi, GP AP, Rammus AP y más · Ruleta incluida</text>
+  <rect x="80" y="530" width="60" height="60" rx="12" fill="none" stroke="#8a6a2c" stroke-width="2"/>
+  <text x="110" y="572" font-family="Georgia, serif" font-size="30" font-weight="700" text-anchor="middle" fill="url(#gold)">LC</text>
+</svg>

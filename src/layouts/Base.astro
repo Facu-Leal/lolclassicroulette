@@ -1,0 +1,93 @@
+---
+import "../styles/global.css";
+import { ui, rouletteUrl } from "../data/i18n.js";
+import { site } from "../data/site.js";
+import Ad from "../components/Ad.astro";
+
+const {
+  lang = "es",
+  title,
+  description,
+  alt = {},
+  active = "home",
+  ogType = "website",
+  jsonLd = null,
+} = Astro.props;
+
+const t = ui[lang];
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
+const canonicalPath = Astro.url.pathname.replace(/(.)\/$/, '$1');
+const canonical = siteUrl + canonicalPath;
+const fullTitle = title ? `${title} · ${t.siteName}` : `${t.siteName} — ${t.tagline}`;
+const desc = description || t.metaDescription;
+const ogImage = siteUrl + "/og-default.svg";
+const ads = site.adsense;
+const adsOn = ads.enabled && ads.client && !ads.client.includes("XXXX");
+---
+<!DOCTYPE html>
+<html lang={t.htmlLang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://ddragon.leagueoflegends.com" />
+
+    {alt.es && <link rel="alternate" hreflang="es" href={siteUrl + alt.es} />}
+    {alt.en && <link rel="alternate" hreflang="en" href={siteUrl + alt.en} />}
+    {alt.es && <link rel="alternate" hreflang="x-default" href={siteUrl + alt.es} />}
+
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={t.siteName} />
+    <meta property="og:locale" content={t.locale.replace("-", "_")} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="theme-color" content="#0a0e14" />
+
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    {adsOn && (
+      <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads.client}`} crossorigin="anonymous"></script>
+    )}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href={`/${lang}`} aria-label={t.siteName}>
+          <span class="mark">LC</span>
+          <span><b>LoL</b> <span class="brand-classic">Classic</span> Builds</span>
+        </a>
+        <nav class="nav">
+          <a class={active === "home" ? "active" : ""} href={`/${lang}`}>{t.nav.home}</a>
+          <a class={active === "roulette" ? "active" : ""} href={rouletteUrl(lang)}>{t.nav.roulette}</a>
+          <a class={"hide-sm " + (active === "builds" ? "active" : "")} href={`/${lang}#builds`}>{t.nav.builds}</a>
+          <span class="lang-switch">
+            <a class={lang === "es" ? "active" : ""} href={alt.es || "/es"} hreflang="es">ES</a>
+            <a class={lang === "en" ? "active" : ""} href={alt.en || "/en"} hreflang="en">EN</a>
+          </span>
+        </nav>
+      </div>
+    </header>
+
+    <aside class="ad-rail left"><Ad slot="left" label="Publicidad / Ad" /></aside>
+    <aside class="ad-rail right"><Ad slot="right" label="Publicidad / Ad" /></aside>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>© {new Date().getFullYear()} {t.siteName}</span>
+        <span class="muted">{t.footer}</span>
+      </div>
+    </footer>
+  </body>
+</html>

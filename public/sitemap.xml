@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/ruleta</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/ruleta"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/roulette"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/ruleta"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/roulette</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/ruleta"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/roulette"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/ruleta"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/ahri</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/ahri"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/ahri"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/ahri"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/ahri</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/ahri"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/ahri"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/ahri"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/alistar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/alistar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/alistar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/alistar"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/alistar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/alistar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/alistar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/alistar"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/amumu</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/amumu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/amumu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/amumu"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/amumu</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/amumu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/amumu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/amumu"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/anivia</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/anivia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/anivia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/anivia"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/anivia</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/anivia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/anivia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/anivia"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/annie</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/annie"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/annie"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/annie"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/annie</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/annie"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/annie"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/annie"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/ashe</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/ashe"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/ashe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/ashe"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/ashe</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/ashe"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/ashe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/ashe"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/blitzcrank</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/blitzcrank"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/blitzcrank"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/blitzcrank"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/blitzcrank</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/blitzcrank"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/blitzcrank"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/blitzcrank"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/brand</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/brand"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/brand"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/brand"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/brand</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/brand"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/brand"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/brand"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/chogath</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/chogath"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/chogath"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/chogath"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/chogath</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/chogath"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/chogath"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/chogath"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/drmundo</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/drmundo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/drmundo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/drmundo"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/drmundo</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/drmundo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/drmundo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/drmundo"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/evelynn</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/evelynn"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/evelynn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/evelynn"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/evelynn</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/evelynn"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/evelynn"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/evelynn"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/ezreal</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/ezreal"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/ezreal"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/ezreal"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/ezreal</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/ezreal"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/ezreal"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/ezreal"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/fiddlesticks</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/fiddlesticks"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/fiddlesticks"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/fiddlesticks"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/fiddlesticks</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/fiddlesticks"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/fiddlesticks"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/fiddlesticks"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/gangplank</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/gangplank"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/gangplank"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/gangplank"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/gangplank</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/gangplank"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/gangplank"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/gangplank"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/garen</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/garen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/garen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/garen"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/garen</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/garen"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/garen"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/garen"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/gragas</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/gragas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/gragas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/gragas"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/gragas</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/gragas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/gragas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/gragas"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/graves</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/graves"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/graves"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/graves"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/graves</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/graves"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/graves"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/graves"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/heimerdinger</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/heimerdinger"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/heimerdinger"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/heimerdinger"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/heimerdinger</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/heimerdinger"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/heimerdinger"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/heimerdinger"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/janna</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/janna"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/janna"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/janna"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/janna</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/janna"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/janna"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/janna"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/jarvan</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/jarvan"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/jarvan"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/jarvan"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/jarvan</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/jarvan"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/jarvan"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/jarvan"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/jax</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/jax"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/jax"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/jax"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/jax</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/jax"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/jax"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/jax"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/karthus</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/karthus"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/karthus"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/karthus"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/karthus</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/karthus"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/karthus"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/karthus"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/kassadin</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/kassadin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/kassadin"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/kassadin"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/kassadin</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/kassadin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/kassadin"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/kassadin"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/katarina</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/katarina"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/katarina"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/katarina"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/katarina</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/katarina"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/katarina"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/katarina"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/kayle</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/kayle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/kayle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/kayle"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/kayle</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/kayle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/kayle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/kayle"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/kogmaw</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/kogmaw"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/kogmaw"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/kogmaw"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/kogmaw</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/kogmaw"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/kogmaw"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/kogmaw"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/leesin</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/leesin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/leesin"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/leesin"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/leesin</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/leesin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/leesin"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/leesin"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/leona</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/leona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/leona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/leona"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/leona</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/leona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/leona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/leona"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/lulu</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/lulu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/lulu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/lulu"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/lulu</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/lulu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/lulu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/lulu"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/lux</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/lux"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/lux"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/lux"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/lux</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/lux"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/lux"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/lux"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/malphite</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/malphite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/malphite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/malphite"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/malphite</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/malphite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/malphite"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/malphite"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/malzahar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/malzahar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/malzahar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/malzahar"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/malzahar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/malzahar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/malzahar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/malzahar"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/masteryi</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/masteryi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/masteryi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/masteryi"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/masteryi</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/masteryi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/masteryi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/masteryi"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/missfortune</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/missfortune"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/missfortune"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/missfortune"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/missfortune</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/missfortune"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/missfortune"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/missfortune"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/morgana</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/morgana"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/morgana"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/morgana"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/morgana</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/morgana"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/morgana"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/morgana"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/nasus</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/nasus"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/nasus"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/nasus"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/nasus</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/nasus"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/nasus"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/nasus"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/nidalee</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/nidalee"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/nidalee"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/nidalee"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/nidalee</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/nidalee"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/nidalee"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/nidalee"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/nunu</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/nunu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/nunu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/nunu"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/nunu</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/nunu"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/nunu"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/nunu"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/olaf</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/olaf"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/olaf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/olaf"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/olaf</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/olaf"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/olaf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/olaf"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/pantheon</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/pantheon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/pantheon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/pantheon"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/pantheon</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/pantheon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/pantheon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/pantheon"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/rammus</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/rammus"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/rammus"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/rammus"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/rammus</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/rammus"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/rammus"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/rammus"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/ryze</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/ryze"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/ryze"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/ryze"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/ryze</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/ryze"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/ryze"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/ryze"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/shaco</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/shaco"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/shaco"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/shaco"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/shaco</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/shaco"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/shaco"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/shaco"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/singed</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/singed"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/singed"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/singed"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/singed</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/singed"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/singed"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/singed"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/sivir</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/sivir"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/sivir"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/sivir"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/sivir</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/sivir"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/sivir"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/sivir"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/skarner</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/skarner"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/skarner"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/skarner"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/skarner</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/skarner"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/skarner"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/skarner"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/sona</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/sona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/sona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/sona"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/sona</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/sona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/sona"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/sona"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/soraka</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/soraka"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/soraka"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/soraka"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/soraka</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/soraka"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/soraka"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/soraka"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/taric</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/taric"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/taric"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/taric"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/taric</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/taric"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/taric"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/taric"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/teemo</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/teemo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/teemo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/teemo"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/teemo</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/teemo"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/teemo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/teemo"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/tristana</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/tristana"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/tristana"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/tristana"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/tristana</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/tristana"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/tristana"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/tristana"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/tryndamere</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/tryndamere"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/tryndamere"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/tryndamere"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/tryndamere</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/tryndamere"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/tryndamere"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/tryndamere"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/twistedfate</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/twistedfate"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/twistedfate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/twistedfate"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/twistedfate</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/twistedfate"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/twistedfate"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/twistedfate"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/twitch</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/twitch"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/twitch"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/twitch"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/twitch</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/twitch"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/twitch"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/twitch"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/urgot</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/urgot"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/urgot"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/urgot"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/urgot</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/urgot"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/urgot"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/urgot"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/vayne</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/vayne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/vayne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/vayne"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/vayne</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/vayne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/vayne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/vayne"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/veigar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/veigar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/veigar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/veigar"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/veigar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/veigar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/veigar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/veigar"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/warwick</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/warwick"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/warwick"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/warwick"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/warwick</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/warwick"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/warwick"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/warwick"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/wukong</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/wukong"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/wukong"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/wukong"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/wukong</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/wukong"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/wukong"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/wukong"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/es/campeon/zilean</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/zilean"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/zilean"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/zilean"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicbuilds.netlify.app/en/champion/zilean</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicbuilds.netlify.app/es/campeon/zilean"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicbuilds.netlify.app/en/champion/zilean"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicbuilds.netlify.app/es/campeon/zilean"/>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>

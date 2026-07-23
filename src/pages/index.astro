@@ -1,0 +1,24 @@
+---
+// Redirección raíz: detecta idioma del navegador, por defecto español.
+// Root redirect: detect browser language, default to Spanish.
+const site = Astro.site?.toString().replace(/\/$/, "") ?? "";
+---
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>LoL Classic Builds</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href={site + "/es"} />
+    <meta http-equiv="refresh" content="0; url=/es" />
+    <script is:inline>
+      (function () {
+        var l = (navigator.language || "es").toLowerCase();
+        location.replace(l.indexOf("en") === 0 ? "/en" : "/es");
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo… / Redirecting… <a href="/es">Español</a> · <a href="/en">English</a></p>
+  </body>
+</html>

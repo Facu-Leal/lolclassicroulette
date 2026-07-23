@@ -1,0 +1,34 @@
+---
+import { laneMeta, tierMeta } from "../data/champions.js";
+import { champUrl, ui } from "../data/i18n.js";
+import { champImg } from "../data/assets.js";
+
+const { champ, lang } = Astro.props;
+const t = ui[lang];
+const lane = laneMeta[champ.lane];
+const tier = tierMeta[champ.tier];
+const img = champImg(champ.slug);
+---
+<article
+  class="card"
+  data-lane={champ.lane}
+  data-tier={champ.tier}
+  data-name={champ.name.toLowerCase()}
+>
+  <div class="top">
+    <div class="card-head">
+      {img && (
+        <img class="thumb" src={img} alt={champ.name} width="48" height="48"
+             loading="lazy" onerror="this.classList.add('broken')" />
+      )}
+      <a class="champ-name" href={champUrl(lang, champ.slug)}>{champ.name}</a>
+    </div>
+    <span class="badge lane" style={`border-color:${lane.color};background:${lane.color}22;color:#fff`}>{lane[lang]}</span>
+  </div>
+  <div class="build-name">{champ.build.name[lang]}</div>
+  <p class="desc">{champ.build.playstyle[lang]}</p>
+  <div class="foot">
+    <span class="badge tier">{tier[lang]}</span>
+    <a href={champUrl(lang, champ.slug)} style="margin-left:auto;font-weight:700">{t.roulette.viewBuild} →</a>
+  </div>
+</article>
