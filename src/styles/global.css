@@ -409,3 +409,14 @@ a:hover { color: var(--gold-bright); }
 .kf-box h4 { font-family: "Cinzel", serif; color: var(--gold-bright); font-size: .82rem; margin: 4px 0 0; letter-spacing: .5px; text-transform: uppercase; }
 .kf-box p { color: var(--text); font-size: .78rem; margin: 0; line-height: 1.5; }
 .kf-box small { color: var(--gold); font-size: .72rem; font-style: italic; }
+
+/* ---- Header en móvil: solo logo (más grande), sin wordmark ---- */
+@media (max-width: 640px) {
+  .site-header .wrap { gap: 10px; height: 60px; }
+  .brand > span:last-child { display: none; }      /* ocultar "LOL CLASSIC BUILDS" */
+  .brand .mark svg { width: 42px; height: 42px; }  /* logo un poco más grande */
+  .nav { gap: 14px; }
+  .nav a { font-size: .76rem; letter-spacing: 1px; }
+  .lang-switch { margin-left: 2px; }
+  .lang-switch a { padding: 4px 8px; }
+}
