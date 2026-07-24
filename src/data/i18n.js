@@ -15,7 +15,7 @@ export const ui = {
     htmlLang: "es",
     siteName: "LoL Classic Builds",
     tagline: "Builds locas y campeones no convencionales para League of Legends Classic (Season 3)",
-    metaDescription: "Explorá builds NO convencionales para los 60 campeones de League of Legends Classic (Season 3): AP Master Yi, Gangplank AP, Shen de río y más. Ruleta aleatoria de campeón, línea y build.",
+    metaDescription: "Explorá builds NO convencionales para los 60 campeones de League of Legends Classic (Season 3): AP Master Yi, Gangplank AP, Blitzcrank one-punch y más. Ruleta aleatoria de campeón, línea y build.",
     releaseNote: "League of Legends Classic sale el 29 de julio de 2026 (Patch 26.15) — modo Season 3 con 60 campeones.",
     nav: { home: "Inicio", roulette: "Ruleta", builds: "Builds" },
     hero: {
