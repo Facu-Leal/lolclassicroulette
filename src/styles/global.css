@@ -365,3 +365,13 @@ a:hover { color: var(--gold-bright); }
 .brand .mark { width: auto; height: auto; border: 0; transform: none; background: none; box-shadow: none; display: flex; align-items: center; }
 .brand .mark::after { content: none; }
 .brand .mark svg { display: block; }
+
+/* ---- Runas (página de runas S3) ---- */
+.rune-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.rune-slot { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; background: rgba(1, 10, 19, .6); border: 1px solid var(--hair); }
+.rune-dot { width: 13px; height: 13px; margin-top: 3px; flex: 0 0 auto; border: 1px solid rgba(0, 0, 0, .5); box-shadow: 0 0 6px rgba(0, 0, 0, .4); transform: rotate(45deg); }
+.rune-text { display: flex; flex-direction: column; gap: 1px; }
+.rune-type { font-family: "Cinzel", serif; font-size: .7rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-dim); }
+.rune-val { color: var(--parchment); font-size: .92rem; }
+.rune-note { margin: 12px 0 0; font-size: .82rem; font-style: italic; }
+@media (max-width: 560px) { .rune-grid { grid-template-columns: 1fr; } }

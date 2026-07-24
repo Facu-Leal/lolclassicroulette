@@ -14,7 +14,7 @@ export const champions = [
       masteries: { es: "9/0/21 — Utilidad (regen maná + movilidad)", en: "9/0/21 — Utility (mana regen + movement)" },
       runes: { es: "Penetración mágica, MR/nivel, quints de AP plano", en: "Magic pen marks, MR/level glyphs, flat AP quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "Zoneás con Orbe y Fuego Feérico; el Encanto asegura el all-in del ADC y con DFG borrás al carry enemigo.", en: "Zone with Orb and Fox-Fire; Charm locks the ADC's all-in and DFG deletes the enemy carry." }
+      playstyle: { es: "Zoneás con Orbe y Fuego Feérico (W); el Encanto (E) asegura el all-in del ADC y con DFG borrás al carry enemigo.", en: "Zone with Orb and Fox-Fire; Charm (E) locks the ADC's all-in and DFG deletes the enemy carry." }
     }
   },
   {
@@ -53,7 +53,7 @@ export const champions = [
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de movilidad", en: "Magic pen, mana regen, movement quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "El Muro de Hielo parte peleas y protege al ADC; Escarcha + Q stunea y el Huevo te hace inmortal en línea.", en: "Crystallize splits fights and peels the ADC; Frostbite + Q stuns and the Egg makes you unkillable in lane." }
+      playstyle: { es: "El Muro de Hielo (W) parte peleas y protege al ADC; Escarcha + Q stunea y el Huevo te hace inmortal en línea.", en: "Crystallize splits fights and peels the ADC; Frostbite (E) + Q stuns and the Egg makes you unkillable in lane." }
     }
   },
   {
@@ -79,7 +79,7 @@ export const champions = [
       masteries: { es: "0/9/21 — Utilidad/Defensa", en: "0/9/21 — Utility/Defense" },
       runes: { es: "AD, armadura, quints de velocidad de ataque", en: "AD marks, armor, attack speed quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "Poke con Disparo Certero, Halcón para visión gratis y la Flecha Encantada abre peleas desde fog.", en: "Poke with Frost Shot, Hawkshot for free vision, and Enchanted Crystal Arrow opens fights from fog." }
+      playstyle: { es: "Poke con Disparo Certero, Halcón (E) para visión gratis y la Flecha Encantada abre peleas desde fog.", en: "Poke with Frost Shot, Hawkshot for free vision, and Enchanted Crystal Arrow opens fights from fog." }
     }
   },
   {
@@ -92,7 +92,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, MR/nivel, quints de AP", en: "Magic pen, MR/level, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Agarre + Puño + Explosión estática con AP hace un burst brutal; el Escudo de Maná te vuelve un cíborg terco.", en: "Grab + Power Fist + Static Field on AP is a massive burst; Mana Barrier makes you a stubborn cyborg." }
+      playstyle: { es: "Agarre + Puño + Explosión estática con AP hace un burst brutal; el Escudo de Maná te vuelve un cíborg terco.", en: "Grab + Power Fist + Static Field (R) on AP is a massive burst; Mana Barrier makes you a stubborn cyborg." }
     }
   },
   {
@@ -118,7 +118,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, salud, quints de AP", en: "Magic pen, health seals, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Ruptura + Grito Vorpal con AP borran oleadas; Festín sigue siendo ejecución real y quedás gigante.", en: "Rupture + Vorpal Spikes on AP shred waves; Feast still true-damage executes and you stay a giant." }
+      playstyle: { es: "Ruptura + Grito Vorpal con AP borran oleadas; Festín (R) sigue siendo ejecución real y quedás gigante.", en: "Rupture + Vorpal Spikes on AP shred waves; Feast (R) still true-damage executes and you stay a giant." }
     }
   },
   {
@@ -196,7 +196,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "AD, armadura, quints de AD", en: "AD marks, armor, AD quints" },
       summoners: ["Flash", "Teleport"],
-      playstyle: { es: "Warmog + Atma da salud enorme convertida en AD, y Juicio con críticos de IE + PD hace picadora de carne.", en: "Warmog + Atma turns huge health into AD, and Judgment critting with IE + PD becomes a blender." }
+      playstyle: { es: "Warmog + Atma da salud enorme convertida en AD, y Juicio (E) con críticos de IE + PD hace picadora de carne.", en: "Warmog + Atma turns huge health into AD, and Judgment critting with IE + PD becomes a blender." }
     }
   },
   {
@@ -235,7 +235,7 @@ export const champions = [
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "Las torretas zonifican todo el bot lane, el Misil Aturdidor CC-ea y hacés la línea imposible de jugar.", en: "Turrets zone the whole bot lane, the Stun Grenade CCs, and you make the lane miserable to play." }
+      playstyle: { es: "Las torretas zonifican todo el bot lane, el Misil Aturdidor CC-ea y hacés la línea imposible de jugar.", en: "Turrets (Q) zone the whole bot lane, the Stun Grenade CCs, and you make the lane miserable to play." }
     }
   },
   {
@@ -248,7 +248,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "El Tornado con AP pega un poke enorme, el escudo suma daño al ADC y seguís teniendo el mejor peel del juego.", en: "Tornado on AP pokes hard, the shield adds damage to the ADC, and you still have the best peel in the game." }
+      playstyle: { es: "El Tornado (Q) con AP pega un poke enorme, el escudo (E) suma daño al ADC y seguís teniendo el mejor peel del juego.", en: "Tornado on AP pokes hard, the shield (E) adds damage to the ADC, and you still have the best peel in the game." }
     }
   },
   {
@@ -274,7 +274,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor, AP quints" },
       summoners: ["Flash", "Teleport"],
-      playstyle: { es: "Salto + Empoderar con Lich Bane pega burst enorme; Contraataque stunea y Guinsoo + Nashor dan DPS híbrido.", en: "Leap + Empower with Lich Bane bursts hard; Counter Strike stuns and Guinsoo + Nashor give hybrid DPS." }
+      playstyle: { es: "Salto (Q) + Empoderar con Lich Bane pega burst enorme; Contraataque stunea y Guinsoo + Nashor dan DPS híbrido.", en: "Leap + Empower with Lich Bane bursts hard; Counter Strike stuns and Guinsoo + Nashor give hybrid DPS." }
     }
   },
   {
@@ -287,7 +287,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor, AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Muro + E limpian campamentos gratis, ganks con slow y Réquiem global remata desde cualquier parte del mapa.", en: "Wall + E clear camps for free, ganks with the slow, and global Requiem finishes kills from anywhere." }
+      playstyle: { es: "Muro + E limpian campamentos gratis, ganks con slow y Réquiem (R) global remata desde cualquier parte del mapa.", en: "Wall + E clear camps for free, ganks with the slow, and global Requiem (R) finishes kills from anywhere." }
     }
   },
   {
@@ -300,7 +300,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, salud, quints de AP", en: "Magic pen, health, AP quints" },
       summoners: ["Flash", "Teleport"],
-      playstyle: { es: "El Escudo Nula anula a los tops magos y te vuelve un matón; Salto Errático post-nivel 6 te hace imparable en splitpush.", en: "Null Sphere shield bullies mage tops; Riftwalk after 6 makes you an unstoppable split-pusher." }
+      playstyle: { es: "El Escudo Nula anula a los tops magos y te vuelve un matón; Salto Errático (R) post-nivel 6 te hace imparable en splitpush.", en: "Null Sphere shield bullies mage tops; Riftwalk (R) after 6 makes you an unstoppable split-pusher." }
     }
   },
   {
@@ -313,7 +313,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor, AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Shunpo entre campamentos limpia rápido y los ganks con Guillotina resetean cooldowns si consigues kills.", en: "Shunpo between camps clears fast and Death Lotus ganks reset your cooldowns on kills." }
+      playstyle: { es: "Shunpo (E) entre campamentos limpia rápido y los ganks con Guillotina resetean cooldowns si consigues kills.", en: "Shunpo (E) between camps clears fast and Death Lotus ganks reset your cooldowns on kills." }
     }
   },
   {
@@ -339,7 +339,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, MR/nivel, quints de AP", en: "Magic pen, MR/level, AP quints" },
       summoners: ["Flash", "Barrier"],
-      playstyle: { es: "Artillería Viviente hace poke infinito a rango absurdo; Vómito Corrosivo baja resistencias y la pasiva castiga a quien te mate.", en: "Living Artillery pokes endlessly at absurd range; Void Ooze shreds MR and the passive punishes whoever kills you." }
+      playstyle: { es: "Artillería Viviente hace poke infinito a rango absurdo; Vómito Corrosivo (E) baja resistencias y la pasiva castiga a quien te mate.", en: "Living Artillery pokes endlessly at absurd range; Void Ooze (E) shreds MR and the passive punishes whoever kills you." }
     }
   },
   {
@@ -378,7 +378,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Destello Reluciente con Pix hace poke duro, Metamorfosis desarma peligros y seguís teniendo el escudo/ulti para pelear.", en: "Glitterlance with Pix pokes hard, Whimsy disables threats, and you keep the shield/ult for fights." }
+      playstyle: { es: "Destello Reluciente con Pix hace poke duro, Metamorfosis desarma peligros y seguís teniendo el escudo/ulti para pelear.", en: "Glitterlance with Pix pokes hard, Whimsy disables threats, and you keep the shield (E)/ult for fights." }
     }
   },
   {
@@ -391,7 +391,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, MR/nivel, quints de AP", en: "Magic pen, MR/level, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Enraizamiento de Luz + DFG + Chispa Final borra a cualquier squishy de un combo; poke de rango infinito.", en: "Light Binding + DFG + Final Spark deletes any squishy in one combo; infinite-range poke." }
+      playstyle: { es: "Enraizamiento de Luz + DFG + Chispa Final (R) borra a cualquier squishy de un combo; poke de rango infinito.", en: "Light Binding + DFG + Final Spark deletes any squishy in one combo; infinite-range poke." }
     }
   },
   {
@@ -417,7 +417,7 @@ export const champions = [
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "Zona Nula empuja línea sola, Llamado del Vacío da vueltas de daño y la supresión bloquea al carry enemigo por completo.", en: "Null Zone pushes the wave alone, Call of the Void pokes, and the suppress fully locks the enemy carry." }
+      playstyle: { es: "Zona Nula (W) empuja línea sola, Llamado del Vacío da vueltas de daño y la supresión bloquea al carry enemigo por completo.", en: "Null Zone (W) pushes the wave alone, Call of the Void pokes, and the suppress fully locks the enemy carry." }
     }
   },
   {
@@ -430,7 +430,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP híbrido", en: "Magic pen, armor, hybrid AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Golpe Alfa escala con AP y resetea con kills; en su ulti sos una licuadora que teletransporta y borra. Build meme icónica de S3.", en: "Alpha Strike scales with AP and resets on kills; in Highlander you're a blinking blender. Iconic S3 meme build." }
+      playstyle: { es: "Golpe Alfa (Q) escala con AP y resetea con kills; en su ulti sos una licuadora que teletransporta y borra. Build meme icónica de S3.", en: "Alpha Strike (Q) scales with AP and resets on kills; in Highlander you're a blinking blender. Iconic S3 meme build." }
     }
   },
   {
@@ -443,7 +443,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "AD, armadura, quints de AD", en: "AD marks, armor, AD quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Doble Impacto y Lluvia de Balas hacen un poke brutal en bot; el ulti en teamfight es una bomba de daño desde atrás.", en: "Double Up and Make It Rain poke hard in bot; the ult in a teamfight is a damage bomb from the back." }
+      playstyle: { es: "Doble Impacto y Lluvia de Balas (E) hacen un poke brutal en bot; el ulti en teamfight es una bomba de daño desde atrás.", en: "Double Up and Make It Rain (E) poke hard in bot; the ult in a teamfight is a damage bomb from the back." }
     }
   },
   {
@@ -469,7 +469,7 @@ export const champions = [
       masteries: { es: "9/21/0 — Defensa", en: "9/21/0 — Defense" },
       runes: { es: "AD, armadura, quints de velocidad de ataque", en: "AD marks, armor, attack speed quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Los campamentos apilan Golpe Siphon rápido y Marchitar en ganks deja al carry sin escape ni velocidad de ataque.", en: "Camps stack Siphoning Strike fast and Wither ganks leave the carry with no escape or attack speed." }
+      playstyle: { es: "Los campamentos apilan Golpe Siphon rápido y Marchitar (W) en ganks deja al carry sin escape ni velocidad de ataque.", en: "Camps stack Siphoning Strike fast and Wither (W) ganks leave the carry with no escape or attack speed." }
     }
   },
   {
@@ -482,7 +482,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "La Lanza a máximo rango hace un poke devastador, el Toque Primitivo cura al ADC y en Puma tenés escape infinito.", en: "The max-range Spear pokes devastatingly, Primal Surge heals the ADC, and Cougar form gives infinite escape." }
+      playstyle: { es: "La Lanza (Q) a máximo rango hace un poke devastador, el Toque Primitivo cura al ADC y en Puma tenés escape infinito.", en: "The max-range Spear pokes devastatingly, Primal Surge heals the ADC, and Cougar form gives infinite escape." }
     }
   },
   {
@@ -495,7 +495,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor, AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Bola de Hielo con AP hace un burst enorme en ganks, Consumir da sustain infinito y el ulti canalizado revienta teamfights.", en: "Ice Blast on AP bursts hard in ganks, Consume gives infinite sustain, and the channeled ult nukes teamfights." }
+      playstyle: { es: "Bola de Hielo con AP hace un burst enorme en ganks, Consumir (Q) da sustain infinito y el ulti canalizado revienta teamfights.", en: "Ice Blast on AP bursts hard in ganks, Consume (Q) gives infinite sustain, and the channeled ult nukes teamfights." }
     }
   },
   {
@@ -534,7 +534,7 @@ export const champions = [
       masteries: { es: "0/21/9 — Defensa", en: "0/21/9 — Defense" },
       runes: { es: "Armadura, MR/nivel, quints de AP", en: "Armor, MR/level, AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Bola Rodante hace engage y con AP el ulti (Temblor) más Espinas Defensivas hacen daño real mientras sos indestructible.", en: "Powerball engages and on AP the Tremors ult plus Defensive Ball Curse deal real damage while you're indestructible." }
+      playstyle: { es: "Bola Rodante hace engage y con AP el ulti (Temblor — R) más Espinas Defensivas hacen daño real mientras sos indestructible.", en: "Powerball engages and on AP the Tremors ult plus Defensive Ball Curse deal real damage while you're indestructible." }
     }
   },
   {
@@ -599,7 +599,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor, AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Golpe de Cristal con AP + Iceborn hace daño y ralentiza en área; la Supresión sigue arrastrando al carry a tu equipo.", en: "Crystal Slash on AP + Iceborn deals AoE damage and slows; the suppress still drags the carry into your team." }
+      playstyle: { es: "Golpe de Cristal con AP + Iceborn hace daño y ralentiza en área; la Supresión (R) sigue arrastrando al carry a tu equipo.", en: "Crystal Slash on AP + Iceborn deals AoE damage and slows; the suppress still drags the carry into your team." }
     }
   },
   {
@@ -612,7 +612,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Aria de Perseverancia + Acorde de Poder hace un poke enorme; con DFG one-shoteás y el ulti (Crescendo) gana peleas.", en: "Hymn of Valor + Power Chord pokes hard; with DFG you one-shot and the Crescendo ult wins fights." }
+      playstyle: { es: "Aria de Perseverancia + Acorde de Poder hace un poke enorme; con DFG one-shoteás y el ulti (Crescendo — R) gana peleas.", en: "Hymn of Valor + Power Chord pokes hard; with DFG you one-shot and the Crescendo (R) ult wins fights." }
     }
   },
   {
@@ -638,7 +638,7 @@ export const champions = [
       masteries: { es: "9/21/0 — Defensa", en: "9/21/0 — Defense" },
       runes: { es: "Armadura, MR/nivel, quints de armadura", en: "Armor marks, MR/level, armor quints" },
       summoners: ["Flash", "Teleport"],
-      playstyle: { es: "La pasiva convierte armadura en AD, así que apilás resistencias y pegás durísimo con Destrozar; Aturdir asegura los duelos.", en: "The passive turns armor into AD, so you stack resistances and hit hard with Shatter; Dazzle wins duels." }
+      playstyle: { es: "La pasiva convierte armadura en AD, así que apilás resistencias y pegás durísimo con Destrozar; Aturdir asegura los duelos.", en: "The passive turns armor into AD, so you stack resistances and hit hard with Shatter; Dazzle (E) wins duels." }
     }
   },
   {
@@ -677,7 +677,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Giro Mortal escala con AP y con Lich Bane cada golpe pega un burst absurdo; Furia Imparable te hace inmortal 5s. Puro meme.", en: "Spinning Slash scales with AP and Lich Bane makes each hit burst absurdly; Undying Rage keeps you alive 5s. Pure meme." }
+      playstyle: { es: "Giro Mortal (E) escala con AP y con Lich Bane cada golpe pega un burst absurdo; Furia Imparable (R) te hace inmortal 5s. Puro meme.", en: "Spinning Slash (E) scales with AP and Lich Bane makes each hit burst absurdly; Undying Rage (R) keeps you alive 5s. Pure meme." }
     }
   },
   {
@@ -703,7 +703,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor, AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Apilás Veneno Mortal y detonás con Expurgar (escala con AP) para un burst enorme; el Sigilo hace ganks invisibles letales.", en: "Stack Deadly Venom and detonate with Expunge (AP scaling) for huge burst; Ambush makes invisible ganks lethal." }
+      playstyle: { es: "Apilás Veneno Mortal y detonás con Expurgar (escala con AP) para un burst enorme; el Sigilo hace ganks invisibles letales.", en: "Stack Deadly Venom and detonate with Expunge (AP scaling) for huge burst; Ambush (Q) makes invisible ganks lethal." }
     }
   },
   {
@@ -742,7 +742,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "El Horizonte de Eventos (jaula) es el mejor stun de zona; apilás AP infinito con Q y con DFG + ulti borrás carries.", en: "Event Horizon (cage) is the best zoning stun; you stack infinite AP with Q and DFG + ult deletes carries." }
+      playstyle: { es: "El Horizonte de Eventos (E) (jaula) es el mejor stun de zona; apilás AP infinito con Q y con DFG + ulti borrás carries.", en: "Event Horizon (cage) is the best zoning stun; you stack infinite AP with Q and DFG + ult deletes carries." }
     }
   },
   {
@@ -755,7 +755,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP híbrido", en: "Magic pen, armor, hybrid AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Golpe Voraz escala con AP y te cura muchísimo; con Nashor + Guinsoo hacés DPS híbrido y el ulti fija al carry para el combo.", en: "Hungering Strike scales with AP and heals a ton; Nashor + Guinsoo give hybrid DPS and the ult pins the carry for your combo." }
+      playstyle: { es: "Golpe Voraz (Q) escala con AP y te cura muchísimo; con Nashor + Guinsoo hacés DPS híbrido y el ulti fija al carry para el combo.", en: "Hungering Strike (Q) scales with AP and heals a ton; Nashor + Guinsoo give hybrid DPS and the ult pins the carry for your combo." }
     }
   },
   {
@@ -768,7 +768,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "AD, armadura, quints de AD", en: "AD marks, armor, AD quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "El clon del Señuelo confunde en ganks, y el ulti (Ciclón) con IE + PD hace críticos en área que ganan teamfights solos.", en: "Decoy's clone confuses in ganks, and Cyclone with IE + PD crits the whole team to win fights alone." }
+      playstyle: { es: "El clon del Señuelo confunde en ganks, y el ulti (Ciclón — R) con IE + PD hace críticos en área que ganan teamfights solos.", en: "Decoy (W)'s clone confuses in ganks, and Cyclone (R) with IE + PD crits the whole team to win fights alone." }
     }
   },
   {
@@ -781,7 +781,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Rebobinar deja soltar doble Bomba de Tiempo que stunea y explota por daño enorme; el ulti (Cronoturno) revive a tu carry en peleas.", en: "Rewind lets you drop a double Time Bomb that stuns and bursts hard; Chronoshift revives your carry in fights." }
+      playstyle: { es: "Rebobinar (W) deja soltar doble Bomba de Tiempo (Q) que stunea y explota por daño enorme; el ulti (Cronoturno — R) revive a tu carry en peleas.", en: "Rewind (E) lets you drop a double Time Bomb (Q) that stuns and bursts hard; Chronoshift revives your carry in fights." }
     }
   }
 ];

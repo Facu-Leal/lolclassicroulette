@@ -2,7 +2,7 @@
 // Extended per-champion guide: how to play the build + why that mastery page.
 export const guides = {
   ahri: {
-    guide: { es: "En línea poke con Orbe Engañoso al ir y volver, y guardá el Encanto para asegurar el all-in del ADC. En peleas buscá un Encanto clave, seguí con Orbe + DFG para borrar al carry, y usá las tres cargas del ulti para entrar y salir sin morir.", en: "In lane poke with Orb of Deception on the way out and back, and save Charm to lock the ADC's all-in. In fights land a key Charm, follow with Orb + DFG to delete the carry, and use the three ult dashes to get in and out safely." },
+    guide: { es: "En línea poke con Orbe Engañoso (Q) al ir y volver, y guardá el Encanto (E) para asegurar el all-in del ADC. En peleas buscá un Encanto (E) clave, seguí con Orbe + DFG para borrar al carry, y usá las tres cargas del ulti para entrar y salir sin morir.", en: "In lane poke with Orb of Deception on the way out and back, and save Charm (E) to lock the ADC's all-in. In fights land a key Charm (E), follow with Orb + DFG to delete the carry, and use the three ult dashes to get in and out safely." },
     masteryWhy: { es: "9/0/21 prioriza regeneración de maná y movilidad para sostener el poke constante de un soporte.", en: "9/0/21 prioritizes mana regen and mobility to sustain a support's constant poke." },
   },
   alistar: {
@@ -14,7 +14,7 @@ export const guides = {
     masteryWhy: { es: "21/0/9 maximiza el daño mágico del combo ulti, tu principal fuente de kills.", en: "21/0/9 maximizes the ult combo's magic damage, your main source of kills." },
   },
   anivia: {
-    guide: { es: "Usá Escarcha + Q para stunear y poke seguro; el Huevo pasivo te hace casi imposible de matar en línea. En peleas, el Muro de Hielo parte al equipo enemigo o protege a tu ADC en el momento justo.", en: "Use Frostbite + Q to stun and poke safely; the passive Egg makes you nearly unkillable in lane. In fights, Crystallize splits the enemy team or peels your ADC at the perfect moment." },
+    guide: { es: "Usá Escarcha + Q para stunear y poke seguro; el Huevo pasivo te hace casi imposible de matar en línea. En peleas, el Muro de Hielo (W) parte al equipo enemigo o protege a tu ADC en el momento justo.", en: "Use Frostbite (E) + Q to stun and poke safely; the passive Egg makes you nearly unkillable in lane. In fights, Crystallize splits the enemy team or peels your ADC at the perfect moment." },
     masteryWhy: { es: "9/0/21 da regen de maná y utilidad para spamear muros y stuns sin quedarte seco.", en: "9/0/21 gives mana regen and utility to spam walls and stuns without going dry." },
   },
   annie: {
@@ -22,11 +22,11 @@ export const guides = {
     masteryWhy: { es: "21/0/9 va full burst para que el combo Tibbers mate de una.", en: "21/0/9 goes full burst so the Tibbers combo one-shots." },
   },
   ashe: {
-    guide: { es: "Jugá pasivo y poke con Disparo Certero (Q) aprovechando el slow permanente; usá Halcón para visión gratis del río. Tu jugada estrella es la Flecha Encantada desde la niebla para iniciar peleas o cazar a alguien lejos.", en: "Play safe and poke with Frost Shot (Q) using the permaslow; use Hawkshot for free river vision. Your signature play is the Enchanted Crystal Arrow from fog to start fights or catch someone far away." },
+    guide: { es: "Jugá pasivo y poke con Disparo Certero (Q) aprovechando el slow permanente; usá Halcón (E) para visión gratis del río. Tu jugada estrella es la Flecha Encantada desde la niebla para iniciar peleas o cazar a alguien lejos.", en: "Play safe and poke with Frost Shot (Q) using the permaslow; use Hawkshot for free river vision. Your signature play is the Enchanted Crystal Arrow from fog to start fights or catch someone far away." },
     masteryWhy: { es: "0/9/21 refuerza utilidad y algo de defensa: sos un soporte utilitario, no un asesino.", en: "0/9/21 leans utility and some defense: you're a utility support, not an assassin." },
   },
   blitzcrank: {
-    guide: { es: "Todo gira alrededor del Agarre (Q): pescá a un enemigo fuera de posición y encadená Puño de Energía (E) + Explosión Estática. Con AP ese combo hace un burst brutal y el Escudo de Maná te salva del intercambio.", en: "Everything revolves around the Grab (Q): pull someone out of position and chain Power Fist (E) + Static Field. On AP that combo bursts hard and Mana Barrier saves you from the trade." },
+    guide: { es: "Todo gira alrededor del Agarre (Q): pescá a un enemigo fuera de posición y encadená Puño de Energía (E) + Explosión Estática (R). Con AP ese combo hace un burst brutal y el Escudo de Maná te salva del intercambio.", en: "Everything revolves around the Grab (Q): pull someone out of position and chain Power Fist (E) + Static Field (R). On AP that combo bursts hard and Mana Barrier saves you from the trade." },
     masteryWhy: { es: "21/0/9 convierte tu combo de enganche en daño letal, no solo en un pick.", en: "21/0/9 turns your hook combo into lethal damage, not just a pick." },
   },
   brand: {
@@ -74,11 +74,11 @@ export const guides = {
     masteryWhy: { es: "9/0/21 da maná y utilidad para plantar torretas sin parar.", en: "9/0/21 gives mana and utility to place turrets nonstop." },
   },
   janna: {
-    guide: { es: "El Tornado (Q) cargado hace un poke enorme y sirve de disengage; el escudo (E) suma daño a los autos del ADC. En apuros, el ulti (Monzón) empuja a todos y cura a tu equipo: sos el mejor peel del juego con daño extra.", en: "A charged Tornado (Q) pokes hard and disengages; the shield (E) adds damage to the ADC's autos. In trouble, the ult (Monsoon) pushes everyone away and heals your team: you're the best peel in the game with bonus damage." },
+    guide: { es: "El Tornado (Q) cargado hace un poke enorme y sirve de disengage; el escudo (E) suma daño a los autos del ADC. En apuros, el ulti (Monzón — R) empuja a todos y cura a tu equipo: sos el mejor peel del juego con daño extra.", en: "A charged Tornado (Q) pokes hard and disengages; the shield (E) adds damage to the ADC's autos. In trouble, the ult (Monsoon) pushes everyone away and heals your team: you're the best peel in the game with bonus damage." },
     masteryWhy: { es: "21/0/9 aprovecha el AP para que Tornado y escudo hagan daño real.", en: "21/0/9 leverages AP so Tornado and shield deal real damage." },
   },
   jarvan: {
-    guide: { es: "Tu combo estrella es Bandera (E) + Estocada (Q) para un knock-up garantizado que inicia la pelea. Usá el ulti (Cataclismo) para aislar y encerrar al carry enemigo con tu ADC listo para rematar.", en: "Your signature combo is Flag (E) + Dragon Strike (Q) for a guaranteed knock-up that starts the fight. Use the ult (Cataclysm) to isolate and cage the enemy carry with your ADC ready to finish." },
+    guide: { es: "Tu combo estrella es Bandera (E) + Estocada (Q) para un knock-up garantizado que inicia la pelea. Usá el ulti (Cataclismo — R) para aislar y encerrar al carry enemigo con tu ADC listo para rematar.", en: "Your signature combo is Flag (E) + Dragon Strike (Q) for a guaranteed knock-up that starts the fight. Use the ult (Cataclysm) to isolate and cage the enemy carry with your ADC ready to finish." },
     masteryWhy: { es: "0/9/21 da aguante y utilidad: iniciás y peleás, el daño lo pone tu equipo.", en: "0/9/21 gives durability and utility: you engage and peel, your team provides the damage." },
   },
   jax: {
@@ -98,7 +98,7 @@ export const guides = {
     masteryWhy: { es: "21/9/0 da burst con aguante para entrar a la pelea y resetear.", en: "21/9/0 gives burst with durability to dive in and reset." },
   },
   kayle: {
-    guide: { es: "Como soporte, poke y sostené con Ralentización Reactiva (E) y curá al ADC con Reactivación (W). Tu momento decisivo es el ulti (Intervención): volvé invulnerable a tu carry justo cuando el enemigo se compromete a matarlo.", en: "As support, poke and sustain with Reactive slow (E) and heal the ADC with Reactivation (W). Your decisive moment is the ult (Intervention): make your carry invulnerable right as the enemy commits to the kill." },
+    guide: { es: "Como soporte, poke y sostené con Ralentización Reactiva (E) y curá al ADC con Reactivación (W). Tu momento decisivo es el ulti (Intervención — R): volvé invulnerable a tu carry justo cuando el enemigo se compromete a matarlo.", en: "As support, poke and sustain with Reactive slow (E) and heal the ADC with Reactivation (W). Your decisive moment is the ult (Intervention): make your carry invulnerable right as the enemy commits to the kill." },
     masteryWhy: { es: "9/0/21 da maná y utilidad para curar y aguantar toda la línea.", en: "9/0/21 gives mana and utility to heal and sustain the whole lane." },
   },
   kogmaw: {
@@ -118,27 +118,27 @@ export const guides = {
     masteryWhy: { es: "21/0/9 aprovecha el AP para que tu poke y burst pesen de verdad.", en: "21/0/9 leverages AP so your poke and burst actually matter." },
   },
   lux: {
-    guide: { es: "Buscá el Enraizamiento de Luz (Q) para inmovilizar y encadená E → DFG → ulti (Chispa Final) para borrar a cualquier squishy de un combo. Poke a máximo rango con E y mantené distancia; sos frágil pero con daño de francotirador.", en: "Look for Light Binding (Q) to root, then chain E → DFG → ult (Final Spark) to delete any squishy in one combo. Poke at max range with E and keep your distance; you're fragile but hit like a sniper." },
+    guide: { es: "Buscá el Enraizamiento de Luz (Q) para inmovilizar y encadená E → DFG → ulti (Chispa Final — R) para borrar a cualquier squishy de un combo. Poke a máximo rango con E y mantené distancia; sos frágil pero con daño de francotirador.", en: "Look for Light Binding (Q) to root, then chain E → DFG → ult (Final Spark) to delete any squishy in one combo. Poke at max range with E and keep your distance; you're fragile but hit like a sniper." },
     masteryWhy: { es: "21/0/9 va a burst puro para que el combo one-shotee.", en: "21/0/9 goes pure burst so the combo one-shots." },
   },
   malphite: {
-    guide: { es: "Poke con Fragmentos (Q) desde lejos y farmea seguro con Voluntad de Tierra. Tu momento es el ulti (Fuerza Imparable): entrá con Flash+R sobre el carry y detoná DFG + Rabadon para one-shotearlo. Build meme pero letal.", en: "Poke with Seismic Shard (Q) from range and farm safely with Ground Slam. Your moment is the ult (Unstoppable Force): Flash+R onto the carry and detonate DFG + Rabadon to one-shot it. A meme build, but lethal." },
+    guide: { es: "Poke con Fragmentos (Q) desde lejos y farmea seguro con Voluntad de Tierra. Tu momento es el ulti (Fuerza Imparable — R): entrá con Flash+R sobre el carry y detoná DFG + Rabadon para one-shotearlo. Build meme pero letal.", en: "Poke with Seismic Shard (Q) from range and farm safely with Ground Slam. Your moment is the ult (Unstoppable Force): Flash+R onto the carry and detonate DFG + Rabadon to one-shot it. A meme build, but lethal." },
     masteryWhy: { es: "21/0/9 va full AP para que el ulti mate de un golpe.", en: "21/0/9 goes full AP so the ult one-shots." },
   },
   malzahar: {
-    guide: { es: "Zona Nula (W) empuja la línea sola y da control de área; poke con Llamado del Vacío (Q). En peleas, la supresión del ulti bloquea por completo al carry enemigo mientras Zona Nula lo derrite: sos un lockdown andante.", en: "Null Zone (W) pushes the wave alone and controls space; poke with Call of the Void (Q). In fights, the ult's suppression fully locks the enemy carry while Null Zone melts them: you're walking lockdown." },
+    guide: { es: "Zona Nula (W) empuja la línea sola y da control de área; poke con Llamado del Vacío (Q). En peleas, la supresión del ulti bloquea por completo al carry enemigo mientras Zona Nula (W) lo derrite: sos un lockdown andante.", en: "Null Zone (W) pushes the wave alone and controls space; poke with Call of the Void (Q). In fights, the ult's suppression fully locks the enemy carry while Null Zone (W) melts them: you're walking lockdown." },
     masteryWhy: { es: "9/0/21 da maná y utilidad para spamear voidlings y aguantar la línea.", en: "9/0/21 gives mana and utility to spam voidlings and hold the lane." },
   },
   masteryi: {
-    guide: { es: "Build meme icónica: Golpe Alfa (Q) escala con AP, te vuelve intocable un instante y resetea con kills. Con Guinsoo + Nashor + Lich Bane sos una licuadora en tu ulti (Segador). Limpiá jungla rápido y snowballea con ganks a líneas sin visión.", en: "Iconic meme build: Alpha Strike (Q) scales with AP, makes you briefly untargetable and resets on kills. With Guinsoo + Nashor + Lich Bane you're a blender in Highlander (R). Clear jungle fast and snowball with ganks into unwarded lanes." },
+    guide: { es: "Build meme icónica: Golpe Alfa (Q) escala con AP, te vuelve intocable un instante y resetea con kills. Con Guinsoo + Nashor + Lich Bane sos una licuadora en tu ulti (Segador — R). Limpiá jungla rápido y snowballea con ganks a líneas sin visión.", en: "Iconic meme build: Alpha Strike (Q) scales with AP, makes you briefly untargetable and resets on kills. With Guinsoo + Nashor + Lich Bane you're a blender in Highlander (R). Clear jungle fast and snowball with ganks into unwarded lanes." },
     masteryWhy: { es: "21/9/0 da daño con aguante para sobrevivir mientras spameas Alpha.", en: "21/9/0 gives damage with durability to survive while spamming Alpha." },
   },
   missfortune: {
-    guide: { es: "En bot, poke con Doble Impacto (Q) rebotando en el minion hacia el ADC y con Lluvia de Balas (E) que ralentiza y hace daño de área. En teamfights, buscá un buen ángulo para el ulti (Bombardeo) desde atrás: es una bomba de daño.", en: "In bot, poke with Double Up (Q) bouncing off a minion onto the ADC and with Make It Rain (E) for AoE slow and damage. In teamfights, find a good angle for the ult (Bullet Time) from the back: it's a damage bomb." },
+    guide: { es: "En bot, poke con Doble Impacto (Q) rebotando en el minion hacia el ADC y con Lluvia de Balas (E) que ralentiza y hace daño de área. En teamfights, buscá un buen ángulo para el ulti (Bombardeo — R) desde atrás: es una bomba de daño.", en: "In bot, poke with Double Up (Q) bouncing off a minion onto the ADC and with Make It Rain (E) for AoE slow and damage. In teamfights, find a good angle for the ult (Bullet Time) from the back: it's a damage bomb." },
     masteryWhy: { es: "21/9/0 va a daño con algo de aguante para poder canalizar el ulti.", en: "21/9/0 goes damage with some durability to channel the ult." },
   },
   morgana: {
-    guide: { es: "Limpiá campamentos sin recibir daño con Suelo Atormentado (W) y gankeá con Cadenas Oscuras (Q), una raíz larguísima. En peleas, el ulti (Restricción del Alma) aturde a los que estén cerca; el escudo negro (E) te protege del CC clave.", en: "Clear camps damage-free with Tormented Soil (W) and gank with Dark Binding (Q), a very long root. In fights, the ult (Soul Shackles) stuns those nearby; the black shield (E) protects you from key CC." },
+    guide: { es: "Limpiá campamentos sin recibir daño con Suelo Atormentado (W) y gankeá con Cadenas Oscuras (Q), una raíz larguísima. En peleas, el ulti (Restricción del Alma — R) aturde a los que estén cerca; el escudo negro (E) te protege del CC clave.", en: "Clear camps damage-free with Tormented Soil (W) and gank with Dark Binding (Q), a very long root. In fights, the ult (Soul Shackles) stuns those nearby; the black shield (E) protects you from key CC." },
     masteryWhy: { es: "21/9/0 potencia el daño de W y del ulti con algo de aguante.", en: "21/9/0 boosts W and ult damage with some durability." },
   },
   nasus: {
@@ -154,15 +154,15 @@ export const guides = {
     masteryWhy: { es: "21/9/0 potencia Bola de Hielo y el ulti con aguante para canalizar.", en: "21/9/0 boosts Ice Blast and the ult with durability to channel." },
   },
   olaf: {
-    guide: { es: "Recogé tus hachas (Q) para ralentizar y perseguir sin parar; Blade + Wit's End te dan un DPS on-hit demencial. El ulti (Ragnarok) te vuelve inmune al CC: activalo, entrá directo al carry y no habrá forma de frenarte.", en: "Pick up your axes (Q) to slow and chase relentlessly; Blade + Wit's End give insane on-hit DPS. The ult (Ragnarok) makes you CC-immune: pop it, dive straight at the carry, and nothing will stop you." },
+    guide: { es: "Recogé tus hachas (Q) para ralentizar y perseguir sin parar; Blade + Wit's End te dan un DPS on-hit demencial. El ulti (Ragnarok — R) te vuelve inmune al CC: activalo, entrá directo al carry y no habrá forma de frenarte.", en: "Pick up your axes (Q) to slow and chase relentlessly; Blade + Wit's End give insane on-hit DPS. The ult (Ragnarok — R) makes you CC-immune: pop it, dive straight at the carry, and nothing will stop you." },
     masteryWhy: { es: "21/9/0 da daño con aguante para entrar y quedarte pegado al carry.", en: "21/9/0 gives damage with durability to dive and stick to the carry." },
   },
   pantheon: {
-    guide: { es: "Poke con Lanza (Q) a máximo rango — bajo el 15% de vida del rival es crítico garantizado. Iniciá el all-in con Asalto Egida (W) para stunear y que tu ADC remate. El ulti global (Gran Estocada) te deja ayudar a otras líneas.", en: "Poke with Spear (Q) at max range — below 15% target health it's a guaranteed crit. Start the all-in with Aegis of Zeonia (W) to stun so your ADC finishes. The global ult (Grand Skyfall) lets you help other lanes." },
+    guide: { es: "Poke con Lanza (Q) a máximo rango — bajo el 15% de vida del rival es crítico garantizado. Iniciá el all-in con Asalto Egida (W) para stunear y que tu ADC remate. El ulti global (Gran Estocada — R) te deja ayudar a otras líneas.", en: "Poke with Spear (Q) at max range — below 15% target health it's a guaranteed crit. Start the all-in with Aegis of Zeonia (W) to stun so your ADC finishes. The global ult (Grand Skyfall) lets you help other lanes." },
     masteryWhy: { es: "21/9/0 potencia el poke y el burst con algo de aguante en línea.", en: "21/9/0 boosts poke and burst with some lane durability." },
   },
   rammus: {
-    guide: { es: "Rodá con Bola Rodante (Q) para iniciar y activá Postura Defensiva (W) para reflejar daño; con AP, el ulti (Temblor) más las Espinas hacen daño real mientras sos casi indestructible. Provocá (E) al carry enemigo para bloquearlo.", en: "Roll in with Powerball (Q) to engage and pop Defensive Ball Curse (W) to reflect damage; on AP, the Tremors ult plus Spikes deal real damage while you're near-indestructible. Taunt (E) the enemy carry to lock it down." },
+    guide: { es: "Rodá con Bola Rodante (Q) para iniciar y activá Postura Defensiva (W) para reflejar daño; con AP, el ulti (Temblor — R) más las Espinas hacen daño real mientras sos casi indestructible. Provocá (E) al carry enemigo para bloquearlo.", en: "Roll in with Powerball (Q) to engage and pop Defensive Ball Curse (W) to reflect damage; on AP, the Tremors ult plus Spikes deal real damage while you're near-indestructible. Taunt (E) the enemy carry to lock it down." },
     masteryWhy: { es: "0/21/9 va a defensa: sos el iniciador tanque, el AP es un extra troll.", en: "0/21/9 goes defense: you're the tank engager, the AP is a troll bonus." },
   },
   ryze: {
@@ -170,7 +170,7 @@ export const guides = {
     masteryWhy: { es: "9/21/0 va a defensa para que seas un mago tanque inmortal.", en: "9/21/0 goes defense so you're an immortal tank mage." },
   },
   shaco: {
-    guide: { es: "Plantá Cajas Sorpresa (W) en la jungla y arbustos para control y burst; abrí con Engaño (Q) por detrás y detoná con Gunblade + DFG. El clon del ulti (Alucinar) también explota AP: aparecé, borrá a dos y desaparecé.", en: "Place Jack in the Boxes (W) in the jungle and bushes for control and burst; open with Deceive (Q) from behind and detonate with Gunblade + DFG. The ult clone (Hallucinate) also explodes for AP: pop in, delete two, and vanish." },
+    guide: { es: "Plantá Cajas Sorpresa (W) en la jungla y arbustos para control y burst; abrí con Engaño (Q) por detrás y detoná con Gunblade + DFG. El clon del ulti (Alucinar — R) también explota AP: aparecé, borrá a dos y desaparecé.", en: "Place Jack in the Boxes (W) in the jungle and bushes for control and burst; open with Deceive (Q) from behind and detonate with Gunblade + DFG. The ult clone (Hallucinate) also explodes for AP: pop in, delete two, and vanish." },
     masteryWhy: { es: "21/9/0 da burst con aguante para sobrevivir tras el combo asesino.", en: "21/9/0 gives burst with durability to survive after the assassin combo." },
   },
   singed: {
@@ -178,7 +178,7 @@ export const guides = {
     masteryWhy: { es: "0/9/21 da aguante y movilidad para sobrevivir metido entre los enemigos.", en: "0/9/21 gives durability and mobility to survive deep in the enemy team." },
   },
   sivir: {
-    guide: { es: "Poke con el Bumerán (Q) que pega a la ida y a la vuelta, y usá el Escudo Mágico (E) para anular la habilidad de enganche del enemigo. El ulti (En la Caza) da velocidad a todo el equipo: forzá peleas o persecuciones ganadas.", en: "Poke with Boomerang Blade (Q) which hits going out and coming back, and use Spell Shield (E) to negate the enemy's engage ability. The ult (On The Hunt) speeds up your whole team: force winning fights or chases." },
+    guide: { es: "Poke con el Bumerán (Q) que pega a la ida y a la vuelta, y usá el Escudo Mágico (E) para anular la habilidad de enganche del enemigo. El ulti (En la Caza — R) da velocidad a todo el equipo: forzá peleas o persecuciones ganadas.", en: "Poke with Boomerang Blade (Q) which hits going out and coming back, and use Spell Shield (E) to negate the enemy's engage ability. The ult (On The Hunt) speeds up your whole team: force winning fights or chases." },
     masteryWhy: { es: "21/9/0 da daño para que tu poke y el engage con el ulti pesen.", en: "21/9/0 gives damage so your poke and ult engage matter." },
   },
   skarner: {
@@ -186,7 +186,7 @@ export const guides = {
     masteryWhy: { es: "21/9/0 potencia el daño de Q con aguante para llegar a la supresión.", en: "21/9/0 boosts Q damage with durability to reach the suppress." },
   },
   sona: {
-    guide: { es: "Alterná tus auras: poke con Aria de Perseverancia (Q) + Acorde de Poder y sostené a tu equipo con las otras. Con DFG one-shoteás a un squishy y el ulti (Crescendo) aturde a varios: es tu iniciación o tu disengage clave.", en: "Rotate your auras: poke with Hymn of Valor (Q) + Power Chord and sustain your team with the others. With DFG you one-shot a squishy and the ult (Crescendo) stuns multiple enemies: it's your key engage or disengage." },
+    guide: { es: "Alterná tus auras: poke con Aria de Perseverancia (Q) + Acorde de Poder y sostené a tu equipo con las otras. Con DFG one-shoteás a un squishy y el ulti (Crescendo — R) aturde a varios: es tu iniciación o tu disengage clave.", en: "Rotate your auras: poke with Hymn of Valor (Q) + Power Chord and sustain your team with the others. With DFG you one-shot a squishy and the ult (Crescendo — R) stuns multiple enemies: it's your key engage or disengage." },
     masteryWhy: { es: "21/0/9 aprovecha el AP para pasar de soporte a carry de daño.", en: "21/0/9 leverages AP to turn support into a damage carry." },
   },
   soraka: {
@@ -194,7 +194,7 @@ export const guides = {
     masteryWhy: { es: "21/0/9 va a daño para que el spam de Q realmente lastime.", en: "21/0/9 goes damage so the Q spam actually hurts." },
   },
   taric: {
-    guide: { es: "Apilá armadura: tu pasiva la convierte en AD, así que sos tanque y pegás fuerte a la vez con Destrozar (E). Usá Deslumbrar (E cargado) para stunear y ganar duelos; Gema Radiante escuda a tus aliados en la pelea.", en: "Stack armor: your passive turns it into AD, so you're tanky and hit hard at once with Shatter (E). Use Dazzle (charged) to stun and win duels; Radiance shields allies in the fight." },
+    guide: { es: "Apilá armadura: tu pasiva la convierte en AD, así que sos tanque y pegás fuerte a la vez con Destrozar (E). Usá Deslumbrar (E) (E cargado) para stunear y ganar duelos; Gema Radiante escuda a tus aliados en la pelea.", en: "Stack armor: your passive turns it into AD, so you're tanky and hit hard at once with Shatter (E). Use Dazzle (E) (charged) to stun and win duels; Radiance shields allies in the fight." },
     masteryWhy: { es: "9/21/0 va a defensa, que además se traduce en AD por tu pasiva.", en: "9/21/0 goes defense, which also converts into AD via your passive." },
   },
   teemo: {
@@ -202,7 +202,7 @@ export const guides = {
     masteryWhy: { es: "21/9/0 potencia la quemadura y el on-hit con algo de aguante.", en: "21/9/0 boosts the burn and on-hit with some durability." },
   },
   tristana: {
-    guide: { es: "Poné Carga Explosiva (E) sobre el enemigo y detoná con autos/Q: con AP el estallido hace un daño enorme. El Salto (W) resetea con kills, así que entrá, borrá y saltá fuera; el ulti (Disparo de Culata) hace peel o remate.", en: "Put Explosive Charge (E) on the enemy and detonate with autos/Q: on AP the burst is huge. Rocket Jump (W) resets on kills, so dive in, delete, and jump out; the ult (Buster Shot) peels or finishes." },
+    guide: { es: "Poné Carga Explosiva (E) sobre el enemigo y detoná con autos/Q: con AP el estallido hace un daño enorme. El Salto (W) resetea con kills, así que entrá, borrá y saltá fuera; el ulti (Disparo de Culata — R) hace peel o remate.", en: "Put Explosive Charge (E) on the enemy and detonate with autos/Q: on AP the burst is huge. Rocket Jump (W) resets on kills, so dive in, delete, and jump out; the ult (Buster Shot) peels or finishes." },
     masteryWhy: { es: "21/0/9 va full AP para que la Carga Explosiva reviente.", en: "21/0/9 goes full AP so Explosive Charge blows up." },
   },
   tryndamere: {
@@ -210,7 +210,7 @@ export const guides = {
     masteryWhy: { es: "21/0/9 va a AP para que el spin + Lich Bane haga daño real.", en: "21/0/9 goes AP so the spin + Lich Bane deals real damage." },
   },
   twistedfate: {
-    guide: { es: "Cargá el Mazo Trucado (E) para asegurar críticos y elegí la carta según la situación: dorada para stunear, roja para área. Poke con cartas y autos, y usá el ulti (Destino) para roamear y matar en otras líneas con visión global.", en: "Charge Stacked Deck (E) for guaranteed crits and pick your card by situation: gold to stun, red for AoE. Poke with cards and autos, and use the ult (Destiny) to roam and kill in other lanes with global vision." },
+    guide: { es: "Cargá el Mazo Trucado (E) para asegurar críticos y elegí la carta según la situación: dorada para stunear, roja para área. Poke con cartas y autos, y usá el ulti (Destino — R) para roamear y matar en otras líneas con visión global.", en: "Charge Stacked Deck (E) for guaranteed crits and pick your card by situation: gold to stun, red for AoE. Poke with cards and autos, and use the ult (Destiny) to roam and kill in other lanes with global vision." },
     masteryWhy: { es: "21/9/0 da daño de crítico con aguante para pelear en el medio.", en: "21/9/0 gives crit damage with durability to brawl in mid." },
   },
   twitch: {
@@ -234,11 +234,11 @@ export const guides = {
     masteryWhy: { es: "21/9/0 potencia el daño híbrido con aguante para pelear largo.", en: "21/9/0 boosts hybrid damage with durability for long fights." },
   },
   wukong: {
-    guide: { es: "En ganks, el Señuelo (W) deja un clon que confunde y te vuelve invisible un instante para reposicionar. En teamfights, el ulti (Ciclón) con IE + PD hace críticos en área que ganan la pelea solos; iniciá con Salto (E) + Golpe Aplastante (Q).", en: "On ganks, Decoy (W) leaves a clone that confuses and briefly stealths you to reposition. In teamfights, Cyclone (R) with IE + PD crits the whole team to win fights alone; open with Nimbus Strike (E) + Crushing Blow (Q)." },
+    guide: { es: "En ganks, el Señuelo (W) deja un clon que confunde y te vuelve invisible un instante para reposicionar. En teamfights, el ulti (Ciclón — R) con IE + PD hace críticos en área que ganan la pelea solos; iniciá con Salto (E) + Golpe Aplastante (Q).", en: "On ganks, Decoy (W) leaves a clone that confuses and briefly stealths you to reposition. In teamfights, Cyclone (R) with IE + PD crits the whole team to win fights alone; open with Nimbus Strike (E) + Crushing Blow (Q)." },
     masteryWhy: { es: "21/9/0 da daño de crítico con aguante para entrar a la pelea.", en: "21/9/0 gives crit damage with durability to dive the fight." },
   },
   zilean: {
-    guide: { es: "Rebobinar (E) te deja soltar dos Bombas de Tiempo seguidas: la primera stunea y la segunda explota por daño enorme. Poke con ese combo y acelerá aliados con W. El ulti (Cronoturno) revive a tu carry en plena pelea: cambia teamfights.", en: "Rewind (E) lets you drop two Time Bombs back to back: the first stuns, the second bursts hard. Poke with that combo and speed allies with W. The ult (Chronoshift) revives your carry mid-fight: it swings teamfights." },
+    guide: { es: "Rebobinar (E) te deja soltar dos Bombas de Tiempo seguidas: la primera stunea y la segunda explota por daño enorme. Poke con ese combo y acelerá aliados con W. El ulti (Cronoturno — R) revive a tu carry en plena pelea: cambia teamfights.", en: "Rewind (E) lets you drop two Time Bombs back to back: the first stuns, the second bursts hard. Poke with that combo and speed allies with W. The ult (Chronoshift) revives your carry mid-fight: it swings teamfights." },
     masteryWhy: { es: "21/0/9 va a daño para que la doble bomba reviente squishies.", en: "21/0/9 goes damage so the double bomb blows up squishies." },
   },
 };

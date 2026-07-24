@@ -4,6 +4,7 @@ import { laneMeta, tierMeta } from "../data/champions.js";
 import { ui, champUrl } from "../data/i18n.js";
 import { champImg, itemImg, spellImg } from "../data/assets.js";
 import { itemInfo } from "../data/items.js";
+import { runeSlots, runesForBuild } from "../data/runes.js";
 
 const { champ, lang } = Astro.props;
 const t = ui[lang];
@@ -13,6 +14,7 @@ const b = champ.build;
 const portrait = champImg(champ.champSlug || champ.slug);
 const g = { guide: champ.guide, masteryWhy: champ.masteryWhy };
 const sk = champ.skills;
+const runes = runesForBuild(champ);
 
 // Genera la secuencia 1-18: R en 6/11/16; el resto maximiza order[0] > order[1] > order[2].
 function buildSeq(order) {
@@ -41,6 +43,8 @@ const L = {
     masteryTitle: "Maestrías: cómo funcionan",
     masterySystem: "En Season 3 tenés hasta 30 puntos (a nivel 30) para repartir en tres árboles: Ofensiva (daño), Defensa (aguante) y Utilidad (maná, reducción de enfriamiento y movilidad). La notación 21/0/9 significa 21 puntos en Ofensiva, 0 en Defensa y 9 en Utilidad.",
     whyPage: "Por qué esta página",
+    runesTitle: "Runas",
+    runesSystem: "En Season 3 las runas eran un sistema APARTE de las maestrías: se compraban con PI (puntos de influencia) y se colocaban en 4 ranuras — Marcas (rojas), Sellos (amarillos), Glifos (azules) y Quintaesencias (moradas, las más fuertes). Daban stats planos: daño, armadura, penetración, etc.",
     summFor: "Hechizos de invocador",
   },
   en: {
@@ -54,6 +58,8 @@ const L = {
     masteryTitle: "Masteries: how they work",
     masterySystem: "In Season 3 you have up to 30 points (at level 30) to split across three trees: Offense (damage), Defense (durability) and Utility (mana, cooldown reduction and mobility). The notation 21/0/9 means 21 points in Offense, 0 in Defense and 9 in Utility.",
     whyPage: "Why this page",
+    runesTitle: "Runes",
+    runesSystem: "In Season 3, runes were a system SEPARATE from masteries: bought with IP (Influence Points) and slotted into 4 tiers — Marks (red), Seals (yellow), Glyphs (blue) and Quintessences (purple, the strongest). They gave flat stats: damage, armor, penetration, etc.",
     summFor: "Summoner spells",
   },
 }[lang];
@@ -160,12 +166,28 @@ const jsonLd = {
       </div>
 
       <div class="panel">
+        <h2>{L.runesTitle}</h2>
+        <p class="muted" style="margin:0 0 14px">{L.runesSystem}</p>
+        <div class="rune-grid">
+          {runeSlots.map((sl) => (
+            <div class="rune-slot">
+              <span class="rune-dot" style={`background:${sl.color}`}></span>
+              <div class="rune-text">
+                <span class="rune-type">{sl[lang]}</span>
+                <span class="rune-val">{runes[sl.key][lang]}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p class="muted rune-note">{b.runes[lang]}</p>
+      </div>
+
+      <div class="panel">
         <h2>{L.masteryTitle}</h2>
         <p class="muted" style="margin:0 0 10px">{L.masterySystem}</p>
         <dl class="kv">
           <dt>{t.labels.masteries}</dt><dd>{b.masteries[lang]}</dd>
           {g.masteryWhy && (<><dt>{L.whyPage}</dt><dd>{g.masteryWhy[lang]}</dd></>)}
-          <dt>{t.labels.runes}</dt><dd>{b.runes[lang]}</dd>
         </dl>
       </div>
 
