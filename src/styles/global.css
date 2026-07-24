@@ -389,3 +389,23 @@ a:hover { color: var(--gold-bright); }
 .ad-ph-hover span { color: var(--text); font-size: .78rem; text-transform: none; letter-spacing: 0; }
 .ad-ph-hover a { color: var(--gold); font-size: .8rem; word-break: break-all; border-bottom: 1px solid var(--gold-dim); text-transform: none; letter-spacing: 0; }
 .ad-ph-hover a:hover { color: var(--gold-bright); }
+
+/* ---- Mensaje anti-adblock (clases neutras para que el bloqueador no lo oculte) ---- */
+.kf-rail { position: fixed; top: 94px; width: 160px; z-index: 21; display: none; }
+.kf-rail.left { left: 16px; }
+.kf-rail.right { right: 16px; }
+@media (min-width: 1440px) { .kf-rail.show { display: block; } }
+.kf-box {
+  display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center;
+  min-height: 340px; justify-content: center; padding: 20px 14px;
+  border: 1px solid var(--gold-dim); background: linear-gradient(180deg, #0c1f2b, #071019);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .45);
+}
+.kf-box .kf-mark {
+  width: 30px; height: 30px; display: grid; place-items: center;
+  border: 1px solid var(--gold-dim); color: var(--gold-bright); font-family: "Cinzel", serif; font-weight: 700; font-size: .72rem; letter-spacing: 1px;
+}
+.kf-box .kf-mark { position: relative; }
+.kf-box h4 { font-family: "Cinzel", serif; color: var(--gold-bright); font-size: .82rem; margin: 4px 0 0; letter-spacing: .5px; text-transform: uppercase; }
+.kf-box p { color: var(--text); font-size: .78rem; margin: 0; line-height: 1.5; }
+.kf-box small { color: var(--gold); font-size: .72rem; font-style: italic; }

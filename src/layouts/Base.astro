@@ -23,6 +23,10 @@ const desc = description || t.metaDescription;
 const ogImage = siteUrl + "/og-default.svg";
 const ads = site.adsense;
 const adsOn = ads.enabled && ads.client && !ads.client.includes("XXXX");
+const kf = {
+  es: { t: "Bloqueador detectado", p: "Los anuncios de este sitio no son intrusivos y ayudan a mantenerlo online. ¿Nos das una mano desactivándolo?", s: "¡Gracias por el apoyo!" },
+  en: { t: "Ad blocker detected", p: "The ads on this site are non-intrusive and help keep it online. Would you consider turning it off for us?", s: "Thanks for the support!" },
+}[lang] || { t: "Ad blocker detected", p: "The ads on this site are non-intrusive and help keep it online. Would you consider turning it off for us?", s: "Thanks for the support!" };
 ---
 <!DOCTYPE html>
 <html lang={t.htmlLang}>
@@ -82,6 +86,19 @@ const adsOn = ads.enabled && ads.client && !ads.client.includes("XXXX");
     <aside class="ad-rail left"><Ad slot="left" lang={lang} /></aside>
     <aside class="ad-rail right"><Ad slot="right" lang={lang} /></aside>
 
+    <aside class="kf-rail left" aria-hidden="true"><div class="kf-box">
+      <span class="kf-mark">LC</span>
+      <h4>{kf.t}</h4>
+      <p>{kf.p}</p>
+      <small>{kf.s}</small>
+    </div></aside>
+    <aside class="kf-rail right" aria-hidden="true"><div class="kf-box">
+      <span class="kf-mark">LC</span>
+      <h4>{kf.t}</h4>
+      <p>{kf.p}</p>
+      <small>{kf.s}</small>
+    </div></aside>
+
     <main>
       <slot />
     </main>
@@ -92,5 +109,24 @@ const adsOn = ads.enabled && ads.client && !ads.client.includes("XXXX");
         <span class="muted">{t.footer}</span>
       </div>
     </footer>
+    <div id="adbait" class="adsbox ad-placement banner-ads sponsored pub_300x250" style="position:absolute;top:0;left:0;width:1px;height:1px;opacity:0;pointer-events:none;"></div>
+    <script is:inline>
+      (function () {
+        function check() {
+          var b = document.getElementById("adbait");
+          var cs = b ? getComputedStyle(b) : null;
+          var blocked = !b || b.offsetHeight === 0 || b.offsetParent === null ||
+            (cs && (cs.display === "none" || cs.visibility === "hidden"));
+          if (blocked) {
+            var rails = document.querySelectorAll(".ad-rail");
+            for (var i = 0; i < rails.length; i++) rails[i].style.display = "none";
+            var kf = document.querySelectorAll(".kf-rail");
+            for (var j = 0; j < kf.length; j++) kf[j].classList.add("show");
+          }
+        }
+        if (document.readyState === "complete") setTimeout(check, 300);
+        else window.addEventListener("load", function () { setTimeout(check, 300); });
+      })();
+    </script>
   </body>
 </html>
