@@ -331,3 +331,37 @@ a:hover { color: var(--gold-bright); }
   .nav a.hide-sm { display: none; }
   .hero .inner { padding: 28px 22px; }
 }
+
+/* ---- Build del día ---- */
+.daily {
+  display: flex; align-items: center; gap: 18px; padding: 16px 18px; margin-top: 14px;
+  position: relative; text-decoration: none;
+  border: 1px solid var(--gold-edge); background: linear-gradient(180deg, #0c1f2b, #08131c);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .45);
+}
+.daily::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+.daily:hover { border-color: var(--gold-dim); }
+.daily-img { width: 76px; height: 76px; flex: 0 0 auto; border: 1px solid var(--gold-dim); }
+.daily-body { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.daily-date { text-transform: capitalize; font-size: .74rem; letter-spacing: .5px; }
+.daily-champ { font-family: "Cinzel", serif; font-size: 1.2rem; color: var(--parchment); letter-spacing: .5px; }
+.daily-build { color: var(--gold); font-weight: 600; }
+.daily-badges { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+.daily-cta { font-family: "Cinzel", serif; text-transform: uppercase; letter-spacing: 1px; font-size: .76rem; color: var(--gold); white-space: nowrap; }
+@media (max-width: 560px) { .daily { flex-wrap: wrap; } .daily-badges { margin-left: 0; } }
+
+/* ---- Paginación ---- */
+.pager { display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; margin-top: 26px; }
+.page-btn {
+  min-width: 38px; padding: 8px 12px; cursor: pointer; font-family: "Cinzel", serif;
+  font-size: .8rem; letter-spacing: 1px; border: 1px solid var(--hair); background: var(--black);
+  color: var(--text-dim); transition: color .12s, border-color .12s, background .12s;
+}
+.page-btn:hover:not(:disabled) { color: var(--gold); border-color: var(--gold-dim); }
+.page-btn.active { color: var(--gold-bright); border-color: var(--gold); background: rgba(200, 170, 110, .12); }
+.page-btn:disabled { opacity: .4; cursor: default; }
+
+/* ---- Logo (emblema SVG) ---- */
+.brand .mark { width: auto; height: auto; border: 0; transform: none; background: none; box-shadow: none; display: flex; align-items: center; }
+.brand .mark::after { content: none; }
+.brand .mark svg { display: block; }

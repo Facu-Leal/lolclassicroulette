@@ -3,12 +3,29 @@ import Base from "../layouts/Base.astro";
 import ChampCard from "./ChampCard.astro";
 import { laneMeta, tierMeta } from "../data/champions.js";
 import { allBuilds } from "../data/allBuilds.js";
-import { ui, rouletteUrl } from "../data/i18n.js";
+import { ui, rouletteUrl, champUrl } from "../data/i18n.js";
+import { champImg } from "../data/assets.js";
 
 const { lang } = Astro.props;
 const t = ui[lang];
 const alt = { es: "/es", en: "/en" };
 const sorted = [...allBuilds].sort((a, b) => a.name.localeCompare(b.name) || a.lane.localeCompare(b.lane));
+
+const D = {
+  es: { dailyTitle: "Build del día", view: "Ver build", prev: "Anterior", next: "Siguiente", noRes: "Sin resultados", pageOf: (a, b) => `Página ${a} de ${b}` },
+  en: { dailyTitle: "Build of the day", view: "View build", prev: "Previous", next: "Next", noRes: "No results", pageOf: (a, b) => `Page ${a} of ${b}` },
+}[lang];
+
+// Datos mínimos para "Build del día" (elegida en el cliente según la fecha)
+const buildsData = sorted.map((c) => ({
+  name: c.name,
+  lane: laneMeta[c.lane][lang],
+  laneColor: laneMeta[c.lane].color,
+  tier: tierMeta[c.tier][lang],
+  build: c.build.name[lang],
+  img: champImg(c.champSlug || c.slug),
+  url: champUrl(lang, c.slug),
+}));
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -23,17 +40,32 @@ const jsonLd = {
   <section class="hero">
     <div class="wrap">
       <div class="inner">
-      <span class="kicker">{t.hero.kicker}</span>
-      <h1 set:html={t.hero.title.replace(/(Classic|Classic)/, '<span class="hl">Classic</span>')} />
-      <p class="sub">{t.hero.sub}</p>
-      <div class="cta-row">
-        <a class="btn btn-gold" href={rouletteUrl(lang)}>{t.hero.ctaRoulette}</a>
-        <a class="btn btn-ghost" href="#builds">{t.hero.ctaBuilds}</a>
-      </div>
-      <p class="release-note">{t.releaseNote}</p>
+        <span class="kicker">{t.hero.kicker}</span>
+        <h1 set:html={t.hero.title.replace(/(Classic)/, '<span class="hl">Classic</span>')} />
+        <p class="sub">{t.hero.sub}</p>
+        <div class="cta-row">
+          <a class="btn btn-gold" href={rouletteUrl(lang)}>{t.hero.ctaRoulette}</a>
+          <a class="btn btn-ghost" href="#builds">{t.hero.ctaBuilds}</a>
+        </div>
+        <p class="release-note">{t.releaseNote}</p>
       </div>
     </div>
   </section>
+
+  <section class="wrap">
+    <h2 class="section-title">{D.dailyTitle}</h2>
+    <a class="daily" id="dailyBuild" href="#">
+      <img class="daily-img thumb broken" id="dailyImg" alt="" width="76" height="76" />
+      <div class="daily-body">
+        <span class="daily-date muted" id="dailyDate"></span>
+        <span class="daily-champ" id="dailyChamp">—</span>
+        <span class="daily-build" id="dailyBuildName"></span>
+      </div>
+      <span class="daily-badges" id="dailyBadges"></span>
+      <span class="daily-cta">{D.view} →</span>
+    </a>
+  </section>
+
   <section class="wrap" id="builds">
     <h2 class="section-title">{t.nav.builds} <span class="count">· {allBuilds.length} builds</span></h2>
 
@@ -56,50 +88,105 @@ const jsonLd = {
       {sorted.map((c) => <ChampCard champ={c} lang={lang} />)}
     </div>
     <p class="count" id="noResults" style="display:none;margin-top:20px">—</p>
+    <nav class="pager" id="pager" aria-label="paginación"></nav>
   </section>
+
+  <script type="application/json" id="buildsData" set:html={JSON.stringify(buildsData)} />
+  <script type="application/json" id="homeStrings" set:html={JSON.stringify({ prev: D.prev, next: D.next, noRes: D.noRes })} />
 </Base>
 
 <script>
+  const DATA = JSON.parse(document.getElementById("buildsData").textContent);
+  const S = JSON.parse(document.getElementById("homeStrings").textContent);
+
+  // ---- Build del día (determinística por fecha local) ----
+  (function () {
+    if (!DATA.length) return;
+    const d = new Date();
+    const key = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+    const pick = DATA[key % DATA.length];
+    const el = document.getElementById("dailyBuild");
+    el.href = pick.url;
+    document.getElementById("dailyDate").textContent = d.toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "long" });
+    document.getElementById("dailyChamp").textContent = pick.name;
+    document.getElementById("dailyBuildName").textContent = pick.build;
+    const badges = document.getElementById("dailyBadges");
+    badges.innerHTML =
+      '<span class="badge lane" style="border-color:' + pick.laneColor + ';background:' + pick.laneColor + '22;color:#fff">' + pick.lane + '</span>' +
+      '<span class="badge tier">' + pick.tier + '</span>';
+    const img = document.getElementById("dailyImg");
+    if (pick.img) {
+      img.src = pick.img; img.alt = pick.name;
+      img.onload = () => img.classList.remove("broken");
+      img.onerror = () => img.classList.add("broken");
+    }
+  })();
+
+  // ---- Filtros + paginación ----
   const grid = document.getElementById("grid");
   const cards = Array.from(grid.querySelectorAll(".card"));
   const q = document.getElementById("q");
   const laneChips = document.getElementById("laneChips");
   const tierChips = document.getElementById("tierChips");
   const noResults = document.getElementById("noResults");
+  const pager = document.getElementById("pager");
+  const PAGE_SIZE = 24;
   let lane = "all";
   let tier = null;
+  let page = 1;
 
-  function apply() {
+  function matching() {
     const term = (q.value || "").trim().toLowerCase();
-    let shown = 0;
-    cards.forEach((card) => {
+    return cards.filter((card) => {
       const okLane = lane === "all" || card.dataset.lane === lane;
       const okTier = !tier || card.dataset.tier === tier;
       const okTerm = !term || card.dataset.name.includes(term);
-      const show = okLane && okTier && okTerm;
-      card.style.display = show ? "" : "none";
-      if (show) shown++;
+      return okLane && okTier && okTerm;
     });
-    noResults.style.display = shown ? "none" : "block";
-    noResults.textContent = "0 / " + cards.length;
   }
 
-  q.addEventListener("input", apply);
+  function render() {
+    const matches = matching();
+    const total = Math.max(1, Math.ceil(matches.length / PAGE_SIZE));
+    if (page > total) page = total;
+    const start = (page - 1) * PAGE_SIZE;
+    const end = start + PAGE_SIZE;
+    cards.forEach((c) => (c.style.display = "none"));
+    matches.slice(start, end).forEach((c) => (c.style.display = ""));
 
+    noResults.style.display = matches.length ? "none" : "block";
+    noResults.textContent = S.noRes;
+
+    pager.innerHTML = "";
+    if (matches.length > PAGE_SIZE) {
+      const mk = (label, p, opts = {}) => {
+        const b = document.createElement("button");
+        b.className = "page-btn" + (opts.active ? " active" : "");
+        b.textContent = label;
+        if (opts.disabled) b.disabled = true;
+        else b.addEventListener("click", () => { page = p; render(); document.getElementById("builds").scrollIntoView({ behavior: "smooth", block: "start" }); });
+        return b;
+      };
+      pager.appendChild(mk(S.prev, page - 1, { disabled: page === 1 }));
+      for (let p = 1; p <= total; p++) pager.appendChild(mk(String(p), p, { active: p === page }));
+      pager.appendChild(mk(S.next, page + 1, { disabled: page === total }));
+    }
+  }
+
+  q.addEventListener("input", () => { page = 1; render(); });
   laneChips.addEventListener("click", (e) => {
-    const btn = e.target.closest("[data-lane]");
-    if (!btn) return;
-    lane = btn.dataset.lane;
+    const btn = e.target.closest("[data-lane]"); if (!btn) return;
+    lane = btn.dataset.lane; page = 1;
     laneChips.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === btn ? "true" : "false"));
-    apply();
+    render();
+  });
+  tierChips.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-tier]"); if (!btn) return;
+    const already = btn.getAttribute("aria-pressed") === "true";
+    tier = already ? null : btn.dataset.tier; page = 1;
+    tierChips.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", (!already && c === btn) ? "true" : "false"));
+    render();
   });
 
-  tierChips.addEventListener("click", (e) => {
-    const btn = e.target.closest("[data-tier]");
-    if (!btn) return;
-    const already = btn.getAttribute("aria-pressed") === "true";
-    tier = already ? null : btn.dataset.tier;
-    tierChips.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", (!already && c === btn) ? "true" : "false"));
-    apply();
-  });
+  render();
 </script>
