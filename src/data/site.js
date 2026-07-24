@@ -12,6 +12,9 @@
 // Formato recomendado de imagen: 160 x 600 px (vertical / skyscraper).
 
 export const site = {
+  // Email de contacto para publicidad (hover en los banners vacíos).
+  contactEmail: { es: "contacto@lolclassicroulette.com", en: "contact@lolclassicroulette.com" },
+
   banners: {
     left: {
       type: "none",

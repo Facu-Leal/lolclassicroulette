@@ -1,12 +1,17 @@
 ---
-// Banner lateral. Renderiza según site.banners[slot].type:
-// image | html | adsense | none (placeholder).
+// Banner lateral. image | html | adsense | none (placeholder con CTA de publicidad en hover).
 import { site } from "../data/site.js";
-const { slot = "left" } = Astro.props;
+const { slot = "left", lang = "es" } = Astro.props;
 const b = (site.banners && site.banners[slot]) || { type: "none" };
 const ads = site.adsense || {};
 const adsOn = ads.enabled && ads.client && !String(ads.client).includes("XXXX");
 const type = b.type || "none";
+const ce = site.contactEmail;
+const email = (typeof ce === "string" ? ce : (ce && (ce[lang] || ce.en || ce.es))) || "contact@lolclassicroulette.com";
+const L = {
+  es: { ph: "Publicidad", title: "¿Tu marca acá?", sub: "Publicitá en este espacio" },
+  en: { ph: "Advertise", title: "Your brand here?", sub: "Advertise in this space" },
+}[lang] || { ph: "Publicidad", title: "¿Tu marca acá?", sub: "Publicitá en este espacio" };
 ---
 {type === "image" && b.image ? (
   <a class="ad-banner" href={b.href || "#"} target="_blank" rel="sponsored noopener noreferrer" aria-label={b.alt || "Publicidad"}>
@@ -21,8 +26,13 @@ const type = b.type || "none";
     <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </>
 ) : (
-  <div class="ad-placeholder ad-vertical" aria-hidden="true">
-    <span>Publicidad / Ad</span>
+  <div class="ad-placeholder ad-vertical" tabindex="0">
+    <span class="ad-ph-label">{L.ph}</span>
     <small>160 × 600</small>
+    <div class="ad-ph-hover">
+      <strong>{L.title}</strong>
+      <span>{L.sub}</span>
+      <a href={`mailto:${email}`}>{email}</a>
+    </div>
   </div>
 )}

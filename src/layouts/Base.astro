@@ -79,8 +79,8 @@ const adsOn = ads.enabled && ads.client && !ads.client.includes("XXXX");
       </div>
     </header>
 
-    <aside class="ad-rail left"><Ad slot="left" label="Publicidad / Ad" /></aside>
-    <aside class="ad-rail right"><Ad slot="right" label="Publicidad / Ad" /></aside>
+    <aside class="ad-rail left"><Ad slot="left" lang={lang} /></aside>
+    <aside class="ad-rail right"><Ad slot="right" lang={lang} /></aside>
 
     <main>
       <slot />
