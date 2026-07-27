@@ -23,11 +23,11 @@ export const champions = [
     title: { es: "Toro nuclear", en: "Nuclear Bull" },
     build: {
       name: { es: "AP Alistar Mid", en: "AP Alistar Mid" },
-      items: ["Deathfire Grasp", "Rabadon's Deathcap", "Rylai's Crystal Scepter", "Zhonya's Hourglass", "Sorcerer's Shoes"],
+      items: ["Deathfire Grasp", "Rabadon's Deathcap", "Rylai's Crystal Scepter", "Abyssal Scepter", "Sorcerer's Shoes"],
       masteries: { es: "21/0/9 — Ofensiva (Havoc + Archmage)", en: "21/0/9 — Offense (Havoc + Archmage)" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor seals, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Combo Cabezazo + Aplastar con AP hace daño real; con DFG el toro one-shotea magos escuálidos.", en: "Headbutt + Pulverize combo hits like a truck on AP; DFG lets the bull one-shot squishy mages." }
+      playstyle: { es: "Combo Cabezazo + Aplastar con AP hace daño real; con DFG el toro one-shotea magos escuálidos. Va Abyssal Scepter en vez de Zhonya: como sos el que engancha primero, el aura que baja la MR enemiga potencia tu combo y el de tu equipo en vez de solo protegerte a vos.", en: "Headbutt + Pulverize combo hits like a truck on AP; DFG lets the bull one-shot squishy mages. Runs Abyssal Scepter instead of Zhonya: since you're the one engaging first, the MR-shred aura boosts your combo and your team's, not just your own survival." }
     }
   },
   {
@@ -88,11 +88,11 @@ export const champions = [
     title: { es: "Robot cuántico", en: "Quantum Robot" },
     build: {
       name: { es: "AP Blitzcrank Mid", en: "AP Blitzcrank Mid" },
-      items: ["Deathfire Grasp", "Rabadon's Deathcap", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Zhonya's Hourglass"],
+      items: ["Deathfire Grasp", "Rabadon's Deathcap", "Void Staff", "Sorcerer's Shoes", "Zhonya's Hourglass"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, MR/nivel, quints de AP", en: "Magic pen, MR/level, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Agarre + Puño + Explosión estática con AP hace un burst brutal; el Escudo de Maná te vuelve un cíborg terco.", en: "Grab + Power Fist + Static Field (R) on AP is a massive burst; Mana Barrier makes you a stubborn cyborg." }
+      playstyle: { es: "Agarre + Puño + Explosión estática con AP hace un burst brutal; el Escudo de Maná te vuelve un cíborg terco. Va Void Staff en vez de Rylai: el Agarre ya inmoviliza al objetivo, así que no necesitás un slow extra — preferís penetración pura para que el combo mate incluso a quien stackea MR.", en: "Grab + Power Fist + Static Field (R) on AP is a massive burst; Mana Barrier makes you a stubborn cyborg. Runs Void Staff instead of Rylai: the Grab already roots the target, so you don't need extra slow — raw penetration makes sure the combo kills even MR stackers." }
     }
   },
   {
@@ -140,11 +140,11 @@ export const champions = [
     title: { es: "Viuda invisible", en: "Invisible Widow" },
     build: {
       name: { es: "AD On-hit Evelynn", en: "On-hit AD Evelynn" },
-      items: ["Blade of the Ruined King", "Trinity Force", "Wit's End", "Mercury's Treads", "Frozen Mallet"],
+      items: ["Blade of the Ruined King", "Trinity Force", "Wit's End", "Mercury's Treads", "Youmuu's Ghostblade"],
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "AD, armadura, quints de velocidad de ataque", en: "AD marks, armor, attack speed quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Sale del stealth con Trinity + Blade pegando on-hit brutal; en vez de burst puro, DPS sostenido que nadie ve venir.", en: "Comes out of stealth with Trinity + Blade for brutal on-hit; not pure burst but sustained DPS nobody sees coming." }
+      playstyle: { es: "Sale del stealth con Trinity + Blade pegando on-hit brutal; en vez de burst puro, DPS sostenido que nadie ve venir. Lleva Youmuu's Ghostblade en vez de Frozen Mallet: sos una emboscada, no una bruiser que se queda a pelear — el pico de velocidad te mete y te saca del combate antes de que puedan responder.", en: "Comes out of stealth with Trinity + Blade for brutal on-hit; not pure burst but sustained DPS nobody sees coming. Runs Youmuu's Ghostblade instead of Frozen Mallet: you're an ambush, not a bruiser that sticks around — the speed burst gets you in and out before they can react." }
     }
   },
   {
@@ -257,11 +257,11 @@ export const champions = [
     title: { es: "Príncipe de apoyo", en: "Support Prince" },
     build: {
       name: { es: "Jarvan Support engage", en: "Engage Support Jarvan" },
-      items: ["Sightstone", "Iceborn Gauntlet", "Randuin's Omen", "Mercury's Treads", "Sunfire Cape"],
+      items: ["Sightstone", "Iceborn Gauntlet", "Randuin's Omen", "Mercury's Treads", "Talisman of Ascension"],
       masteries: { es: "0/9/21 — Defensa/Utilidad", en: "0/9/21 — Defense/Utility" },
       runes: { es: "Armadura, MR/nivel, quints de salud", en: "Armor, MR/level, health quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "Bandera + Estocada hace un knock-up garantizado y el ulti aísla al carry enemigo para tu ADC.", en: "Flag + Drag guarantees a knock-up and the ult isolates the enemy carry for your ADC." }
+      playstyle: { es: "Bandera + Estocada hace un knock-up garantizado y el ulti aísla al carry enemigo para tu ADC. Lleva Talisman of Ascension en vez de Sunfire: tu trabajo es iniciar en grupo, y el pico de velocidad para todo tu equipo cercano hace que la Estocada llegue a tiempo — el aura de quemadura de Sunfire no te sirve de nada si nunca llegás a tocar al enemigo.", en: "Flag + Drag guarantees a knock-up and the ult isolates the enemy carry for your ADC. Runs Talisman of Ascension instead of Sunfire: your job is engaging as a group, and the speed burst for your whole nearby team makes sure Dragon Strike actually connects — Sunfire's burn aura is useless if you never reach the enemy." }
     }
   },
   {
@@ -413,11 +413,11 @@ export const champions = [
     title: { es: "Profeta del vacío", en: "Void Prophet" },
     build: {
       name: { es: "Malzahar Support lockdown", en: "Lockdown Support Malzahar" },
-      items: ["Sightstone", "Athene's Unholy Grail", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Deathfire Grasp"],
+      items: ["Sightstone", "Athene's Unholy Grail", "Liandry's Torment", "Sorcerer's Shoes", "Deathfire Grasp"],
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "Zona Nula (W) empuja línea sola, Llamado del Vacío da vueltas de daño y la supresión bloquea al carry enemigo por completo.", en: "Null Zone (W) pushes the wave alone, Call of the Void pokes, and the suppress fully locks the enemy carry." }
+      playstyle: { es: "Zona Nula (W) empuja línea sola, Llamado del Vacío da vueltas de daño y la supresión bloquea al carry enemigo por completo. Lleva Liandry's Torment en vez de un slow: mientras dura la supresión el objetivo no se puede mover igual, así que preferís que la Zona Nula bajo sus pies siga quemando por porcentaje de vida durante todo ese tiempo muerto.", en: "Null Zone (W) pushes the wave alone, Call of the Void pokes, and the suppress fully locks the enemy carry. Runs Liandry's Torment instead of a slow: the target can't move during the suppress anyway, so you'd rather have Null Zone under their feet keep burning % health the whole time they're stuck." }
     }
   },
   {
@@ -569,11 +569,11 @@ export const champions = [
     title: { es: "Químico fling", en: "Fling Chemist" },
     build: {
       name: { es: "Singed Support fling", en: "Fling Support Singed" },
-      items: ["Sightstone", "Rod of Ages", "Rylai's Crystal Scepter", "Mercury's Treads", "Abyssal Scepter"],
+      items: ["Sightstone", "Rod of Ages", "Rylai's Crystal Scepter", "Boots of Swiftness", "Abyssal Scepter"],
       masteries: { es: "0/9/21 — Defensa/Utilidad", en: "0/9/21 — Defense/Utility" },
       runes: { es: "Pen mágica, armadura, quints de movilidad", en: "Magic pen, armor, movement quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "Lanzamiento manda al ADC enemigo directo a tu torre y la Poción de Veneno hace poke constante. Troll pero efectivo.", en: "Fling throws the enemy ADC right into your tower and Poison Trail pokes constantly. Trolly but effective." }
+      playstyle: { es: "Lanzamiento manda al ADC enemigo directo a tu torre y la Poción de Veneno hace poke constante. Troll pero efectivo. Lleva Boots of Swiftness a propósito: no dan tenacidad ni resistencias, solo velocidad pura — y vos ya vivís corriendo con la Poción activa, así que ni te hace falta nada más. El troll definitivo dentro del troll.", en: "Fling throws the enemy ADC right into your tower and Poison Trail pokes constantly. Trolly but effective. Runs Boots of Swiftness on purpose: no tenacity, no resistances, just raw speed — and you already live running around with Poison Trail up, so that's genuinely all you need. The troll pick inside the troll build." }
     }
   },
   {
@@ -621,11 +621,11 @@ export const champions = [
     title: { es: "Sanadora estelar ofensiva", en: "Offensive Star Healer" },
     build: {
       name: { es: "AP Soraka Mid (clásico)", en: "AP Mid Soraka (classic)" },
-      items: ["Athene's Unholy Grail", "Rabadon's Deathcap", "Void Staff", "Sorcerer's Shoes", "Rylai's Crystal Scepter"],
+      items: ["Athene's Unholy Grail", "Rabadon's Deathcap", "Void Staff", "Sorcerer's Shoes", "Liandry's Torment"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Spam de Llamado Estelar con reducción de MR hace un poke infinito e imparable; sostenés la línea con Infusión y curás al equipo global.", en: "Spamming Starcall with MR shred pokes endlessly; you sustain with Infuse and globally heal your team." }
+      playstyle: { es: "Spam de Llamado Estelar con reducción de MR hace un poke infinito e imparable; sostenés la línea con Infusión y curás al equipo global. Lleva Liandry's Torment en vez de Rylai: como spameás el mismo hechizo una y otra vez en vez de buscar un slow puntual, la quemadura por porcentaje de vida se acumula sola con cada Llamado y termina doliendo más que un simple lentificado.", en: "Spamming Starcall with MR shred pokes endlessly; you sustain with Infuse and globally heal your team. Runs Liandry's Torment instead of Rylai: since you spam the same spell over and over rather than looking for one big slow, the % health burn stacks itself with every Starcall and ends up hurting more than a simple slow." }
     }
   },
   {
@@ -634,11 +634,11 @@ export const champions = [
     title: { es: "Gema bruiser", en: "Gem Bruiser" },
     build: {
       name: { es: "AD Taric Top", en: "AD Top Taric" },
-      items: ["Sheen", "Atma's Impaler", "Frozen Heart", "Mercury's Treads", "Warmog's Armor"],
+      items: ["Sheen", "Atma's Impaler", "Frozen Heart", "Ninja Tabi", "Warmog's Armor"],
       masteries: { es: "9/21/0 — Defensa", en: "9/21/0 — Defense" },
       runes: { es: "Armadura, MR/nivel, quints de armadura", en: "Armor marks, MR/level, armor quints" },
       summoners: ["Flash", "Teleport"],
-      playstyle: { es: "La pasiva convierte armadura en AD, así que apilás resistencias y pegás durísimo con Destrozar; Aturdir asegura los duelos.", en: "The passive turns armor into AD, so you stack resistances and hit hard with Shatter; Dazzle (E) wins duels." }
+      playstyle: { es: "La pasiva convierte armadura en AD, así que apilás resistencias y pegás durísimo con Destrozar; Aturdir asegura los duelos. Lleva Ninja Tabi en vez de Mercury's: vas top contra líneas mayormente AD, y cada punto de armadura extra es también daño gracias a tu pasiva — Mercury's te daría MR que ahí no rinde tanto.", en: "The passive turns armor into AD, so you stack resistances and hit hard with Shatter; Dazzle (E) wins duels. Runs Ninja Tabi instead of Mercury's: you're in a top lane that's mostly AD, and every extra point of armor is also damage thanks to your passive — Mercury's would give MR that doesn't pay off there." }
     }
   },
   {
@@ -660,11 +660,11 @@ export const champions = [
     title: { es: "Artillera saltarina", en: "Jumping Gunner" },
     build: {
       name: { es: "AP Tristana Mid", en: "AP Mid Tristana" },
-      items: ["Rabadon's Deathcap", "Deathfire Grasp", "Rylai's Crystal Scepter", "Void Staff", "Sorcerer's Shoes"],
+      items: ["Rabadon's Deathcap", "Deathfire Grasp", "Nashor's Tooth", "Void Staff", "Sorcerer's Shoes"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, MR/nivel, quints de AP", en: "Magic pen, MR/level, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Carga Explosiva con AP detona por daño enorme; el Salto resetea con kills y el ulti (Buster Shot) hace peel y burst.", en: "Explosive Charge on AP detonates for huge damage; Rocket Jump resets on kills and Buster Shot peels and bursts." }
+      playstyle: { es: "Carga Explosiva con AP detona por daño enorme; el Salto resetea con kills y el ulti (Buster Shot) hace peel y burst. Lleva Nashor's Tooth en vez de Rylai: como saltás y autoataca seguido para detonar la Carga más rápido, la velocidad de ataque y el CDR pesan más que un slow que casi nunca necesitás.", en: "Explosive Charge on AP detonates for huge damage; Rocket Jump resets on kills and Buster Shot peels and bursts. Runs Nashor's Tooth instead of Rylai: since you jump in and auto repeatedly to detonate Explosive Charge faster, attack speed and CDR matter more than a slow you rarely need." }
     }
   },
   {
@@ -673,11 +673,11 @@ export const champions = [
     title: { es: "Bárbaro arcano", en: "Arcane Barbarian" },
     build: {
       name: { es: "AP Tryndamere Mid", en: "AP Mid Tryndamere" },
-      items: ["Lich Bane", "Rabadon's Deathcap", "Deathfire Grasp", "Sorcerer's Shoes", "Zhonya's Hourglass"],
+      items: ["Lich Bane", "Rabadon's Deathcap", "Deathfire Grasp", "Sorcerer's Shoes", "Guardian Angel"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Giro Mortal (E) escala con AP y con Lich Bane cada golpe pega un burst absurdo; Furia Imparable (R) te hace inmortal 5s. Puro meme.", en: "Spinning Slash (E) scales with AP and Lich Bane makes each hit burst absurdly; Undying Rage (R) keeps you alive 5s. Pure meme." }
+      playstyle: { es: "Giro Mortal (E) escala con AP y con Lich Bane cada golpe pega un burst absurdo; Furia Imparable (R) te hace inmortal 5s. Puro meme. Y encima lleva Guardian Angel: si te matan después de que se acabe el ulti, revivís igual. Sos inmortal dos veces.", en: "Spinning Slash (E) scales with AP and Lich Bane makes each hit burst absurdly; Undying Rage (R) keeps you alive 5s. Pure meme. And it runs Guardian Angel on top: if they kill you after the ult wears off, you revive anyway. Immortal twice over." }
     }
   },
   {
@@ -777,11 +777,11 @@ export const champions = [
     title: { es: "Cronomante explosivo", en: "Explosive Chronokeeper" },
     build: {
       name: { es: "AP Zilean Mid double-bomb", en: "Double-Bomb AP Mid Zilean" },
-      items: ["Deathfire Grasp", "Rabadon's Deathcap", "Rylai's Crystal Scepter", "Void Staff", "Sorcerer's Shoes"],
+      items: ["Deathfire Grasp", "Rabadon's Deathcap", "Rod of Ages", "Void Staff", "Sorcerer's Shoes"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Rebobinar (W) deja soltar doble Bomba de Tiempo (Q) que stunea y explota por daño enorme; el ulti (Cronoturno — R) revive a tu carry en peleas.", en: "Rewind (E) lets you drop a double Time Bomb (Q) that stuns and bursts hard; Chronoshift revives your carry in fights." }
+      playstyle: { es: "Rebobinar (W) deja soltar doble Bomba de Tiempo (Q) que stunea y explota por daño enorme; el ulti (Cronoturno — R) revive a tu carry en peleas. Lleva Rod of Ages en vez de Rylai: sos inmóvil y parado en el mismo lugar spameando bombas, así que el maná y la vida que da con el tiempo te mantienen vivo para seguir tirando el combo toda la partida.", en: "Rewind (E) lets you drop a double Time Bomb (Q) that stuns and bursts hard; Chronoshift revives your carry in fights. Runs Rod of Ages instead of Rylai: you're immobile and parked in one spot spamming bombs, so the mana and health it grows into keep you alive to spam the combo all game." }
     }
   }
 ];
