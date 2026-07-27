@@ -12,7 +12,7 @@
 // Formato recomendado de imagen: 160 x 600 px (vertical / skyscraper).
 
 // Link de afiliado de Eneba. Cambiá SOLO esta línea si algún día cambia tu ID.
-const ENEBA_AFF = "https://www.eneba.com/?af_id=lolclassicroulette";
+export const ENEBA_AFF = "https://www.eneba.com/?af_id=lolclassicroulette";
 
 // Genera un banner vertical (160×600) con la estética del sitio para Eneba.
 // `t` son los textos por idioma. Devuelve el HTML listo para insertar.

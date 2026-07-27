@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import ChampCard from "./ChampCard.astro";
+import AdMobile from "./AdMobile.astro";
 import { laneMeta, tierMeta } from "../data/champions.js";
 import { allBuilds } from "../data/allBuilds.js";
 import { ui, rouletteUrl, champUrl } from "../data/i18n.js";
@@ -53,6 +54,10 @@ const jsonLd = {
         <p class="release-note">{t.releaseNote}</p>
       </div>
     </div>
+  </section>
+
+  <section class="wrap">
+    <AdMobile lang={lang} variant="card" />
   </section>
 
   <section class="wrap">

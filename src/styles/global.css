@@ -332,6 +332,11 @@ a:hover { color: var(--gold-bright); }
   .hero .inner { padding: 28px 22px; }
 }
 
+/* Deja lugar para la barra fija de Eneba (mobile) para que no tape el footer */
+@media (max-width: 900px) {
+  body.has-mobile-bar { padding-bottom: 54px; }
+}
+
 /* ---- Build del día ---- */
 .daily {
   display: flex; align-items: center; gap: 18px; padding: 16px 18px; margin-top: 14px;
