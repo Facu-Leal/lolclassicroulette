@@ -7,6 +7,7 @@ import Ad from "../components/Ad.astro";
 const {
   lang = "es",
   title,
+  fullTitleOverride,
   description,
   alt = {},
   active = "home",
@@ -18,7 +19,7 @@ const t = ui[lang];
 const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
 const canonicalPath = Astro.url.pathname.replace(/(.)\/$/, '$1');
 const canonical = siteUrl + canonicalPath;
-const fullTitle = title ? `${title} · ${t.siteName}` : `${t.siteName} — ${t.tagline}`;
+const fullTitle = fullTitleOverride || (title ? `${title} · ${t.siteName}` : `${t.siteName} — ${t.tagline}`);
 const desc = description || t.metaDescription;
 const ogImage = siteUrl + "/og-default.svg";
 const ads = site.adsense;
@@ -36,6 +37,7 @@ const kf = {
     <title>{fullTitle}</title>
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://ddragon.leagueoflegends.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

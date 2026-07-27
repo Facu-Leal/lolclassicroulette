@@ -66,6 +66,9 @@ const L = {
 
 const alt = { es: champUrl("es", champ.slug), en: champUrl("en", champ.slug) };
 const title = `${champ.name} — ${b.name[lang]}`;
+let pageTitle = `${title} · ${t.siteName}`;
+if (pageTitle.length > 65) pageTitle = title;
+if (pageTitle.length > 65) pageTitle = title.slice(0, 62).replace(/\s+\S*$/, "") + "\u2026";
 const howtoText = (g.guide && g.guide[lang]) || b.playstyle[lang];
 const description = `${b.name[lang]} · ${champ.name} ${lane[lang]}. ${b.playstyle[lang]}`;
 
@@ -81,7 +84,7 @@ const jsonLd = {
   })),
 };
 ---
-<Base lang={lang} title={title} description={description} alt={alt} active="builds" ogType="article" jsonLd={jsonLd}>
+<Base lang={lang} title={title} description={description} alt={alt} active="builds" ogType="article" jsonLd={jsonLd} fullTitleOverride={pageTitle}>
   <section class="detail">
     <div class="wrap">
       <nav class="crumbs">
