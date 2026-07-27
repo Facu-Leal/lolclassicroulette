@@ -6,6 +6,7 @@ const b = (site.banners && site.banners[slot]) || { type: "none" };
 const ads = site.adsense || {};
 const adsOn = ads.enabled && ads.client && !String(ads.client).includes("XXXX");
 const type = b.type || "none";
+const bannerHtml = typeof b.html === "string" ? b.html : (b.html && (b.html[lang] || b.html.es || b.html.en)) || "";
 const ce = site.contactEmail;
 const email = (typeof ce === "string" ? ce : (ce && (ce[lang] || ce.en || ce.es))) || "contact@lolclassicroulette.com";
 const L = {
@@ -17,8 +18,8 @@ const L = {
   <a class="ad-banner" href={b.href || "#"} target="_blank" rel="sponsored noopener noreferrer" aria-label={b.alt || "Publicidad"}>
     <img src={b.image} alt={b.alt || "Publicidad"} loading="lazy" width="160" height="600" />
   </a>
-) : type === "html" && b.html ? (
-  <div class="ad-html" set:html={b.html} />
+) : type === "html" && bannerHtml ? (
+  <div class="ad-html" set:html={bannerHtml} />
 ) : type === "adsense" && adsOn ? (
   <>
     <ins class="adsbygoogle" style="display:block;width:160px;height:600px"
