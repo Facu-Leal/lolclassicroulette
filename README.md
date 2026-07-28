@@ -1,8 +1,8 @@
 # LoL Classic Builds 🎰
 
-Sitio estático (Astro) con **builds NO convencionales para los 60 campeones de League of Legends Classic** (modo Season 3, sale el 29 de julio de 2026). Bilingüe (ES/EN), estilo retro Season 3, con **ruleta** que te sortea campeón + línea + build, y **SEO** completo (hreflang, sitemap, Open Graph, JSON-LD).
+Sitio estático (Astro) con **builds NO convencionales para los 62 campeones de League of Legends Classic** (modo Season 3, sale el 29 de julio de 2026). Bilingüe (ES/EN), estilo retro Season 3, con **ruleta** que te sortea campeón + línea + build, y **SEO** completo (hreflang, sitemap, Open Graph, JSON-LD).
 
-Static Astro site with off-meta builds for all 60 League of Legends Classic champions. Bilingual, retro theme, roulette, full SEO.
+Static Astro site with off-meta builds for all 62 League of Legends Classic champions. Bilingual, retro theme, roulette, full SEO.
 
 ---
 

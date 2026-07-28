@@ -1,7 +1,7 @@
 // Qué hace cada objeto de Season 3 (para jugadores nuevos). / What each Season 3 item does.
 export const itemInfo = {
   "Abyssal Scepter": { es: "AP y resistencia mágica; aura que reduce la MR de los enemigos cercanos.", en: "AP and magic resist; aura that shreds nearby enemies' magic resist." },
-  "Athene's Unholy Grail": { es: "AP, MR y regeneración de maná; recupera maná al conseguir kills o asistencias.", en: "AP, MR and mana regen; refunds mana on kills or assists." },
+  "Shushei's Mana Jug": { es: "AP, MR y regeneración de maná; recupera maná al conseguir kills o asistencias. Ítem exclusivo de LoL Classic: homenaje a Shushei, campeón del Season 1 con Fnatic (antes 'Athene's Unholy Grail').", en: "AP, MR and mana regen; refunds mana on kills or assists. A League Classic exclusive: a tribute to Shushei, Fnatic's Season 1 World Champion (formerly 'Athene's Unholy Grail')." },
   "Atma's Impaler": { es: "Armadura y crítico; convierte un % de tu vida máxima en daño de ataque. Combina con Warmog.", en: "Armor and crit; converts a % of your max health into attack damage. Pairs with Warmog." },
   "Berserker's Greaves": { es: "Botas con velocidad de ataque.", en: "Boots granting attack speed." },
   "Blade of the Ruined King": { es: "On-hit y robo de vida según % de vida del enemigo; activo que roba velocidad de movimiento. Derrite tanques.", en: "% max-health on-hit and lifesteal; active steals move speed. Melts tanks." },

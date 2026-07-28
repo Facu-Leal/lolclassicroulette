@@ -10,7 +10,7 @@ export const champions = [
     title: { es: "Soporte encantador", en: "Charm Support" },
     build: {
       name: { es: "Ahri Support poke-burst", en: "Poke-Burst Support Ahri" },
-      items: ["Athene's Unholy Grail", "Sightstone", "Deathfire Grasp", "Sorcerer's Shoes", "Rylai's Crystal Scepter"],
+      items: ["Shushei's Mana Jug", "Sightstone", "Deathfire Grasp", "Sorcerer's Shoes", "Rylai's Crystal Scepter"],
       masteries: { es: "9/0/21 — Utilidad (regen maná + movilidad)", en: "9/0/21 — Utility (mana regen + movement)" },
       runes: { es: "Penetración mágica, MR/nivel, quints de AP plano", en: "Magic pen marks, MR/level glyphs, flat AP quints" },
       summoners: ["Flash", "Exhaust"],
@@ -49,7 +49,7 @@ export const champions = [
     title: { es: "Muro con alas", en: "Winged Wall" },
     build: {
       name: { es: "Anivia Support muralla", en: "Wall Support Anivia" },
-      items: ["Sightstone", "Athene's Unholy Grail", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Frost Queen's Claim"],
+      items: ["Sightstone", "Shushei's Mana Jug", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Frost Queen's Claim"],
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de movilidad", en: "Magic pen, mana regen, movement quints" },
       summoners: ["Flash", "Exhaust"],
@@ -122,6 +122,19 @@ export const champions = [
     }
   },
   {
+    slug: "corki", name: "Corki", origRole: "Mid ADC-mage",
+    lane: "mid", tier: "meme",
+    title: { es: "Bombardero de área", en: "Area Bomber" },
+    build: {
+      name: { es: "AP Corki Mid (ni ADC ni híbrido)", en: "AP Corki Mid (neither ADC nor hybrid)" },
+      items: ["Deathfire Grasp", "Rabadon's Deathcap", "Void Staff", "Liandry's Torment", "Sorcerer's Shoes"],
+      masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
+      runes: { es: "Pen mágica, MR/nivel, quints de AP", en: "Magic pen, MR/level, AP quints" },
+      summoners: ["Flash", "Ignite"],
+      playstyle: { es: "Corki 'de verdad' es un híbrido de crítico con daño verdadero on-hit — acá lo ignoramos por completo. Bombardeo de Fósforo (Q) y Valquiria (W) ya hacen daño mágico solas, así que vamos full AP: Liandry's hace que la estela de fuego de la Valquiria queme de más, y con DFG + Rabadon la Ráfaga de Misiles (R) revienta desde lejos sin acercarte nunca a pelear cuerpo a cuerpo.", en: "'Real' Corki is a crit hybrid with true damage on-hit — here we ignore that entirely. Phosphorus Bomb (Q) and Valkyrie (W) already deal magic damage on their own, so we go full AP: Liandry's makes the Valkyrie's fire trail burn extra hard, and with DFG + Rabadon, Missile Barrage (R) deletes from range without ever getting close enough to melee." }
+    }
+  },
+  {
     slug: "drmundo", name: "Dr. Mundo", origRole: "Top/Jungle Tank",
     lane: "mid", tier: "meme",
     title: { es: "Doctor loco", en: "Mad Doctor" },
@@ -166,7 +179,7 @@ export const champions = [
     title: { es: "Espantapájaros aterrador", en: "Terror Scarecrow" },
     build: {
       name: { es: "Fiddle Support drena-miedo", en: "Drain-Fear Support Fiddle" },
-      items: ["Sightstone", "Athene's Unholy Grail", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Zhonya's Hourglass"],
+      items: ["Sightstone", "Shushei's Mana Jug", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Zhonya's Hourglass"],
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
@@ -231,7 +244,7 @@ export const champions = [
     title: { es: "Inventor molesto", en: "Annoying Inventor" },
     build: {
       name: { es: "Heimer Support torretas", en: "Turret Support Heimer" },
-      items: ["Sightstone", "Athene's Unholy Grail", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Liandry's Torment"],
+      items: ["Sightstone", "Shushei's Mana Jug", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Liandry's Torment"],
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
@@ -244,7 +257,7 @@ export const champions = [
     title: { es: "Tormenta ofensiva", en: "Offensive Storm" },
     build: {
       name: { es: "AP Janna Support carry", en: "AP Carry Support Janna" },
-      items: ["Sightstone", "Athene's Unholy Grail", "Rabadon's Deathcap", "Sorcerer's Shoes", "Deathfire Grasp"],
+      items: ["Sightstone", "Shushei's Mana Jug", "Rabadon's Deathcap", "Sorcerer's Shoes", "Deathfire Grasp"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
@@ -322,7 +335,7 @@ export const champions = [
     title: { es: "Ángel guardián", en: "Guardian Angel" },
     build: {
       name: { es: "Kayle Support peel", en: "Peel Support Kayle" },
-      items: ["Sightstone", "Athene's Unholy Grail", "Nashor's Tooth", "Sorcerer's Shoes", "Zhonya's Hourglass"],
+      items: ["Sightstone", "Shushei's Mana Jug", "Nashor's Tooth", "Sorcerer's Shoes", "Zhonya's Hourglass"],
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
@@ -374,7 +387,7 @@ export const champions = [
     title: { es: "Hada travesía", en: "Faerie Mid" },
     build: {
       name: { es: "AP Lulu Mid", en: "AP Lulu Mid" },
-      items: ["Athene's Unholy Grail", "Rabadon's Deathcap", "Rylai's Crystal Scepter", "Void Staff", "Sorcerer's Shoes"],
+      items: ["Shushei's Mana Jug", "Rabadon's Deathcap", "Rylai's Crystal Scepter", "Void Staff", "Sorcerer's Shoes"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
@@ -387,7 +400,7 @@ export const champions = [
     title: { es: "Francotiradora de luz", en: "Light Sniper" },
     build: {
       name: { es: "Lux Mid one-shot", en: "One-shot Mid Lux" },
-      items: ["Athene's Unholy Grail", "Deathfire Grasp", "Rabadon's Deathcap", "Void Staff", "Sorcerer's Shoes"],
+      items: ["Shushei's Mana Jug", "Deathfire Grasp", "Rabadon's Deathcap", "Void Staff", "Sorcerer's Shoes"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, MR/nivel, quints de AP", en: "Magic pen, MR/level, AP quints" },
       summoners: ["Flash", "Ignite"],
@@ -413,7 +426,7 @@ export const champions = [
     title: { es: "Profeta del vacío", en: "Void Prophet" },
     build: {
       name: { es: "Malzahar Support lockdown", en: "Lockdown Support Malzahar" },
-      items: ["Sightstone", "Athene's Unholy Grail", "Liandry's Torment", "Sorcerer's Shoes", "Deathfire Grasp"],
+      items: ["Sightstone", "Shushei's Mana Jug", "Liandry's Torment", "Sorcerer's Shoes", "Deathfire Grasp"],
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
@@ -426,11 +439,11 @@ export const champions = [
     title: { es: "Maestro Wuju arcano", en: "Arcane Wuju Master" },
     build: {
       name: { es: "AP Master Yi (¡el mítico!)", en: "AP Master Yi (the legendary one!)" },
-      items: ["Guinsoo's Rageblade", "Nashor's Tooth", "Lich Bane", "Wit's End", "Sorcerer's Shoes"],
+      items: ["Deathfire Grasp", "Lich Bane", "Rabadon's Deathcap", "Wit's End", "Sorcerer's Shoes"],
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP híbrido", en: "Magic pen, armor, hybrid AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Golpe Alfa (Q) escala con AP y resetea con kills; en su ulti sos una licuadora que teletransporta y borra. Build meme icónica de S3.", en: "Alpha Strike (Q) scales with AP and resets on kills; in Highlander you're a blinking blender. Iconic S3 meme build." }
+      playstyle: { es: "Golpe Alfa (Q) escala con AP y resetea con kills; en su ulti sos una licuadora que teletransporta y borra. Build meme icónica de S3. Comienza el combo siempre con DFG.", en: "Alpha Strike (Q) scales with AP and resets on kills; in Highlander you're a blinking blender. Iconic S3 meme build. Start the combo with DFG, always." }
     }
   },
   {
@@ -478,7 +491,7 @@ export const champions = [
     title: { es: "Cazadora salvaje", en: "Wild Huntress" },
     build: {
       name: { es: "AP Nidalee Support poke", en: "Poke Support AP Nidalee" },
-      items: ["Sightstone", "Athene's Unholy Grail", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Rabadon's Deathcap"],
+      items: ["Sightstone", "Shushei's Mana Jug", "Rylai's Crystal Scepter", "Sorcerer's Shoes", "Rabadon's Deathcap"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
@@ -530,11 +543,11 @@ export const champions = [
     title: { es: "Armadillo mágico", en: "Magic Armordillo" },
     build: {
       name: { es: "AP Rammus Jungla (OK)", en: "AP Rammus Jungle (OK)" },
-      items: ["Sunfire Cape", "Rabadon's Deathcap", "Rylai's Crystal Scepter", "Thornmail", "Sorcerer's Shoes"],
+      items: ["Abyssal Scepter", "Thornmail", "Sunfire Cape", "Rabadon's Deathcap", "Rylai's Crystal Scepter", "Sorcerer's Shoes"],
       masteries: { es: "0/21/9 — Defensa", en: "0/21/9 — Defense" },
       runes: { es: "Armadura, MR/nivel, quints de AP", en: "Armor, MR/level, AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Bola Rodante hace engage y con AP el ulti (Temblor — R) más Espinas Defensivas hacen daño real mientras sos indestructible.", en: "Powerball engages and on AP the Tremors ult plus Defensive Ball Curse deal real damage while you're indestructible." }
+      playstyle: { es: "Bola Rodante hace engage y con AP el ulti (Temblor — R) más Espinas Defensivas hacen daño real mientras sos indestructible. Puedes cambiar el primer y segundo objeto de órden según la situación.", en: "Powerball engages and on AP the Tremors ult plus Defensive Ball Curse deal real damage while you're indestructible. You can change the order of the first and second items based on the situation." }
     }
   },
   {
@@ -577,6 +590,19 @@ export const champions = [
     }
   },
   {
+    slug: "sion", name: "Sion", origRole: "Top Tank",
+    lane: "mid", tier: "meme",
+    title: { es: "Borra carrys", en: "Carry Eraser" },
+    build: {
+      name: { es: "AP Sion Mid (el clásico que borra carries)", en: "AP Sion Mid (the classic carry-eraser)" },
+      items: ["Deathfire Grasp", "Rabadon's Deathcap", "Liandry's Torment", "Zhonya's Hourglass", "Sorcerer's Shoes"],
+      masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
+      runes: { es: "Pen mágica, MR/nivel, quints de AP", en: "Magic pen, MR/level, AP quints" },
+      summoners: ["Flash", "Ignite"],
+      playstyle: { es: "El offtank clásico de Season 3 convertido en asesino: Mirada Críptica (Q) asusta y pega fuerte a distancia, y Rugido del Verdugo (E) baja armadura y MR justo antes del combo. Con Liandry's, cada Mirada Críptica deja quemando por porcentaje de vida, y DFG + Rabadon hacen que ese combo borre carries de un tirón. Zhonya's te salva después de entrar con Embate Imparable (R), que además te vuelve inmune al CC mientras cargás. Nadie espera que el 'tanque' pegue así.", en: "The classic Season 3 off-tank turned assassin: Cryptic Gaze (Q) fears and hits hard at range, and Roar of the Slayer (E) shreds armor and MR right before the combo. With Liandry's, every Cryptic Gaze leaves a % health burn, and DFG + Rabadon turn that combo into a one-shot on carries. Zhonya's saves you after committing with Unstoppable Onslaught (R), which also makes you CC-immune while charging. Nobody expects the 'tank' to hit like that." }
+    }
+  },
+  {
     slug: "sivir", name: "Sivir", origRole: "ADC",
     lane: "support", tier: "sleeper",
     title: { es: "Guerrera de bumerán", en: "Boomerang Warrior" },
@@ -608,7 +634,7 @@ export const champions = [
     title: { es: "Maestra virtuosa", en: "Maven Virtuoso" },
     build: {
       name: { es: "AP Sona Mid carry", en: "AP Carry Mid Sona" },
-      items: ["Deathfire Grasp", "Athene's Unholy Grail", "Rabadon's Deathcap", "Lich Bane", "Sorcerer's Shoes"],
+      items: ["Deathfire Grasp", "Shushei's Mana Jug", "Rabadon's Deathcap", "Lich Bane", "Sorcerer's Shoes"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
@@ -621,7 +647,7 @@ export const champions = [
     title: { es: "Sanadora estelar ofensiva", en: "Offensive Star Healer" },
     build: {
       name: { es: "AP Soraka Mid (clásico)", en: "AP Mid Soraka (classic)" },
-      items: ["Athene's Unholy Grail", "Rabadon's Deathcap", "Void Staff", "Sorcerer's Shoes", "Liandry's Torment"],
+      items: ["Shushei's Mana Jug", "Rabadon's Deathcap", "Void Staff", "Sorcerer's Shoes", "Liandry's Torment"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
@@ -777,11 +803,14 @@ export const champions = [
     title: { es: "Cronomante explosivo", en: "Explosive Chronokeeper" },
     build: {
       name: { es: "AP Zilean Mid double-bomb", en: "Double-Bomb AP Mid Zilean" },
-      items: ["Deathfire Grasp", "Rabadon's Deathcap", "Rod of Ages", "Void Staff", "Sorcerer's Shoes"],
+      items: ["Rod of Ages","Deathfire Grasp","Rabadon's Deathcap","Void Staff","Zhonya's Hourglass","Sorcerer's Shoes"],
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Rebobinar (W) deja soltar doble Bomba de Tiempo (Q) que stunea y explota por daño enorme; el ulti (Cronoturno — R) revive a tu carry en peleas. Lleva Rod of Ages en vez de Rylai: sos inmóvil y parado en el mismo lugar spameando bombas, así que el maná y la vida que da con el tiempo te mantienen vivo para seguir tirando el combo toda la partida.", en: "Rewind (E) lets you drop a double Time Bomb (Q) that stuns and bursts hard; Chronoshift revives your carry in fights. Runs Rod of Ages instead of Rylai: you're immobile and parked in one spot spamming bombs, so the mana and health it grows into keep you alive to spam the combo all game." }
+      playstyle: {
+        es: "Rebobinar (W) reinicia el enfriamiento de Bomba de Tiempo (Q), permitiendo colocar dos bombas casi seguidas para un burst enorme. Usa Distorsión Temporal (E) para ralentizar casi por completo a un enemigo o acelerar a un aliado, y reserva Cronoturno (R) para revivir al carry o lanzarte agresivamente.",
+        en: "Rewind (W) refreshes the cooldown of Time Bomb (Q), allowing you to throw two bombs almost back-to-back for massive burst. Use Time Warp (E) to nearly cripple an enemy's movement or speed up an ally, and save Chronoshift (R) to revive your carry or enable aggressive plays."
+      }    
     }
   }
 ];
