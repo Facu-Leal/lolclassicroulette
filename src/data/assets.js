@@ -12,6 +12,7 @@ const CDN = "https://ddragon.leagueoflegends.com/cdn";
 export const champId = {
   ahri:"Ahri", alistar:"Alistar", amumu:"Amumu", anivia:"Anivia", annie:"Annie",
   ashe:"Ashe", blitzcrank:"Blitzcrank", brand:"Brand", chogath:"Chogath",
+  corki:"Corki",
   drmundo:"DrMundo", evelynn:"Evelynn", ezreal:"Ezreal", fiddlesticks:"Fiddlesticks",
   gangplank:"Gangplank", garen:"Garen", gragas:"Gragas", graves:"Graves",
   heimerdinger:"Heimerdinger", janna:"Janna", jarvan:"JarvanIV", jax:"Jax",
@@ -20,6 +21,7 @@ export const champId = {
   malphite:"Malphite", malzahar:"Malzahar", masteryi:"MasterYi", missfortune:"MissFortune",
   morgana:"Morgana", nasus:"Nasus", nidalee:"Nidalee", nunu:"Nunu", olaf:"Olaf",
   pantheon:"Pantheon", rammus:"Rammus", ryze:"Ryze", shaco:"Shaco", singed:"Singed",
+  sion:"Sion",
   sivir:"Sivir", skarner:"Skarner", sona:"Sona", soraka:"Soraka", taric:"Taric",
   teemo:"Teemo", tristana:"Tristana", tryndamere:"Tryndamere", twistedfate:"TwistedFate",
   twitch:"Twitch", urgot:"Urgot", vayne:"Vayne", veigar:"Veigar", warwick:"Warwick",
