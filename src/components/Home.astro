@@ -11,8 +11,8 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const alt = { es: "/es", en: "/en" };
 const homeTitle = lang === "es"
-  ? "LoL Classic Builds — builds off-meta y troll (Season 3)"
-  : "LoL Classic Builds — off-meta & troll builds (Season 3)";
+  ? "LoL Classic Builds — builds off-meta y troll (Classic)"
+  : "LoL Classic Builds — off-meta & troll builds (Classic)";
 const sorted = [...allBuilds].sort((a, b) => a.name.localeCompare(b.name) || a.lane.localeCompare(b.lane));
 
 const D = {
