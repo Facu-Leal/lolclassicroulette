@@ -1,0 +1,57 @@
+---
+import Base from "../layouts/Base.astro";
+import { ui, rouletteUrl } from "../data/i18n.js";
+
+// El 404 se sirve para cualquier ruta inexistente (ES y EN), así que va bilingüe.
+// The 404 is served for any missing route (ES and EN), so it's bilingual.
+const lang = "es";
+const t = ui[lang];
+---
+<Base lang={lang} title="Página no encontrada · Page not found" description="La página que buscás no existe. / The page you're looking for doesn't exist." active="">
+  <section class="detail">
+    <div class="wrap">
+      <div class="notfound">
+        <span class="nf-code">404</span>
+        <h1 class="nf-title">Esta build no existe</h1>
+        <p class="nf-sub muted">
+          La página que buscás no está acá — capaz la borró un gancho perdido de Blitzcrank.
+          <br />
+          <span class="nf-en">The page you're looking for doesn't exist.</span>
+        </p>
+        <div class="cta-row nf-cta">
+          <a class="btn btn-gold" href="/es">Volver al inicio</a>
+          <a class="btn btn-ghost" href={rouletteUrl("es")}>Girar la ruleta</a>
+          <a class="btn btn-ghost" href="/en">English</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .notfound {
+    text-align: center;
+    padding: 60px 20px 40px;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .nf-code {
+    display: block;
+    font-family: "Cinzel", Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(5rem, 18vw, 9rem);
+    line-height: 1;
+    letter-spacing: 6px;
+    color: var(--gold);
+    text-shadow: 0 4px 22px rgba(200, 170, 110, .25);
+  }
+  .nf-title {
+    color: var(--parchment);
+    margin: 10px 0 14px;
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    letter-spacing: 1px;
+  }
+  .nf-sub { margin: 0 0 28px; font-size: 1rem; line-height: 1.6; }
+  .nf-en { color: var(--text-dim); font-size: .9rem; }
+  .nf-cta { justify-content: center; flex-wrap: wrap; }
+</style>
