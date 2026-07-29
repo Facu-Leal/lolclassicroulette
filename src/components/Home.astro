@@ -1,7 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
 import ChampCard from "./ChampCard.astro";
-import AdMobile from "./AdMobile.astro";
 import { laneMeta, tierMeta } from "../data/champions.js";
 import { allBuilds } from "../data/allBuilds.js";
 import { ui, rouletteUrl, champUrl } from "../data/i18n.js";
@@ -11,8 +10,8 @@ const { lang } = Astro.props;
 const t = ui[lang];
 const alt = { es: "/es", en: "/en" };
 const homeTitle = lang === "es"
-  ? "LoL Classic Builds — builds off-meta y troll (Classic)"
-  : "LoL Classic Builds — off-meta & troll builds (Classic)";
+  ? "LoL Classic Builds — builds off-meta y troll (Season 3)"
+  : "LoL Classic Builds — off-meta & troll builds (Season 3)";
 const sorted = [...allBuilds].sort((a, b) => a.name.localeCompare(b.name) || a.lane.localeCompare(b.lane));
 
 const D = {
@@ -54,10 +53,6 @@ const jsonLd = {
         <p class="release-note">{t.releaseNote}</p>
       </div>
     </div>
-  </section>
-
-  <section class="wrap">
-    <AdMobile lang={lang} variant="card" />
   </section>
 
   <section class="wrap">

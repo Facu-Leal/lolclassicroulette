@@ -2,8 +2,8 @@
 import "../styles/global.css";
 import { ui, rouletteUrl } from "../data/i18n.js";
 import { site } from "../data/site.js";
+import { pageUrl, pageLabels } from "../data/pages.js";
 import Ad from "../components/Ad.astro";
-import AdMobile from "../components/AdMobile.astro";
 
 const {
   lang = "es",
@@ -67,7 +67,7 @@ const kf = {
       <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads.client}`} crossorigin="anonymous"></script>
     )}
   </head>
-  <body class={active !== "home" ? "has-mobile-bar" : ""}>
+  <body>
     <header class="site-header">
       <div class="wrap">
         <a class="brand" href={`/${lang}`} aria-label={t.siteName}>
@@ -109,10 +109,14 @@ const kf = {
     <footer class="site-footer">
       <div class="wrap">
         <span>© {new Date().getFullYear()} {t.siteName}</span>
+        <nav class="foot-links" aria-label={t.siteName}>
+          <a href={pageUrl(lang, "about")}>{pageLabels[lang].about}</a>
+          <a href={pageUrl(lang, "contact")}>{pageLabels[lang].contact}</a>
+          <a href={pageUrl(lang, "privacy")}>{pageLabels[lang].privacy}</a>
+        </nav>
         <span class="muted">{t.footer}</span>
       </div>
     </footer>
-    {active !== "home" && <AdMobile lang={lang} variant="bar" />}
     <div id="adbait" class="adsbox ad-placement banner-ads sponsored pub_300x250" style="position:absolute;top:0;left:0;width:1px;height:1px;opacity:0;pointer-events:none;"></div>
     <script is:inline>
       (function () {

@@ -332,11 +332,6 @@ a:hover { color: var(--gold-bright); }
   .hero .inner { padding: 28px 22px; }
 }
 
-/* Deja lugar para la barra fija de Eneba (mobile) para que no tape el footer */
-@media (max-width: 900px) {
-  body.has-mobile-bar { padding-bottom: 54px; }
-}
-
 /* ---- Build del día ---- */
 .daily {
   display: flex; align-items: center; gap: 18px; padding: 16px 18px; margin-top: 14px;
@@ -425,3 +420,14 @@ a:hover { color: var(--gold-bright); }
   .lang-switch { margin-left: 2px; }
   .lang-switch a { padding: 4px 8px; }
 }
+
+/* ---- Footer links (páginas legales/info) ---- */
+.site-footer .wrap { flex-wrap: wrap; gap: 10px 18px; }
+.foot-links { display: flex; gap: 16px; flex-wrap: wrap; }
+.foot-links a {
+  color: var(--text-dim); font-size: .8rem; letter-spacing: .5px;
+  font-family: "Cinzel", serif; text-transform: uppercase;
+}
+.foot-links a:hover { color: var(--gold-bright); }
+.page-p { margin: 0 0 12px; }
+.page-p:last-child { margin-bottom: 0; }

@@ -5,6 +5,9 @@ const BASE = 'https://lolclassicroulette.com'; // cambiar por tu dominio
 const pairs = [
   { es: '/es', en: '/en' },
   { es: '/es/ruleta', en: '/en/roulette' },
+  { es: '/es/acerca', en: '/en/about' },
+  { es: '/es/contacto', en: '/en/contact' },
+  { es: '/es/privacidad', en: '/en/privacy' },
   ...allBuilds.map(c => ({ es: `/es/campeon/${c.slug}`, en: `/en/champion/${c.slug}` })),
 ];
 

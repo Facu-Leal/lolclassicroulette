@@ -29,6 +29,48 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://lolclassicroulette.com/es/acerca</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/acerca"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicroulette.com/es/acerca"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicroulette.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/acerca"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicroulette.com/es/acerca"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicroulette.com/es/contacto</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicroulette.com/es/contacto"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicroulette.com/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicroulette.com/es/contacto"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicroulette.com/es/privacidad</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/privacidad"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicroulette.com/es/privacidad"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicroulette.com/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/privacidad"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicroulette.com/es/privacidad"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://lolclassicroulette.com/es/campeon/ahri</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/campeon/ahri"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/champion/ahri"/>

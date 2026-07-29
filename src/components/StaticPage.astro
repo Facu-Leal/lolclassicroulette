@@ -1,0 +1,34 @@
+---
+import Base from "../layouts/Base.astro";
+import { ui } from "../data/i18n.js";
+import { pages, pageUrl, pageLabels } from "../data/pages.js";
+
+const { lang = "es", page } = Astro.props;
+const t = ui[lang];
+const doc = pages[page][lang];
+const lbl = pageLabels[lang];
+const alt = { es: pageUrl("es", page), en: pageUrl("en", page) };
+---
+<Base lang={lang} title={doc.title} description={doc.desc} alt={alt} active="">
+  <section class="detail">
+    <div class="wrap">
+      <nav class="crumbs">
+        <a href={`/${lang}`}>{t.nav.home}</a> ／ <span>{doc.title}</span>
+      </nav>
+
+      <div class="detail-head">
+        <h1>{doc.title}</h1>
+      </div>
+      {doc.updated && <p class="detail-sub muted">{lbl.updated}: {doc.updated}</p>}
+
+      {doc.sections.map((s) => (
+        <div class="panel">
+          {s.h && <h2>{s.h}</h2>}
+          {s.p.map((par) => <p class="page-p" set:html={par} />)}
+        </div>
+      ))}
+
+      <p><a class="btn btn-ghost" href={`/${lang}`}>← {t.labels.backHome}</a></p>
+    </div>
+  </section>
+</Base>

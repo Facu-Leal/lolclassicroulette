@@ -12,7 +12,6 @@ const CDN = "https://ddragon.leagueoflegends.com/cdn";
 export const champId = {
   ahri:"Ahri", alistar:"Alistar", amumu:"Amumu", anivia:"Anivia", annie:"Annie",
   ashe:"Ashe", blitzcrank:"Blitzcrank", brand:"Brand", chogath:"Chogath",
-  corki:"Corki",
   drmundo:"DrMundo", evelynn:"Evelynn", ezreal:"Ezreal", fiddlesticks:"Fiddlesticks",
   gangplank:"Gangplank", garen:"Garen", gragas:"Gragas", graves:"Graves",
   heimerdinger:"Heimerdinger", janna:"Janna", jarvan:"JarvanIV", jax:"Jax",
@@ -21,7 +20,6 @@ export const champId = {
   malphite:"Malphite", malzahar:"Malzahar", masteryi:"MasterYi", missfortune:"MissFortune",
   morgana:"Morgana", nasus:"Nasus", nidalee:"Nidalee", nunu:"Nunu", olaf:"Olaf",
   pantheon:"Pantheon", rammus:"Rammus", ryze:"Ryze", shaco:"Shaco", singed:"Singed",
-  sion:"Sion",
   sivir:"Sivir", skarner:"Skarner", sona:"Sona", soraka:"Soraka", taric:"Taric",
   teemo:"Teemo", tristana:"Tristana", tryndamere:"Tryndamere", twistedfate:"TwistedFate",
   twitch:"Twitch", urgot:"Urgot", vayne:"Vayne", veigar:"Veigar", warwick:"Warwick",
@@ -36,7 +34,7 @@ export const spellFile = {
 };
 
 // nombre de ítem -> id de Data Dragon (versión Season 3)
-export const itemId = {"Abyssal Scepter":"3001","Shushei's Mana Jug":"3174","Atma's Impaler":"3005","Berserker's Greaves":"3006","Blade of the Ruined King":"3153","Boots of Mobility":"3117","Boots of Swiftness":"3009","Deathfire Grasp":"3128","Frost Queen's Claim":"3092","Frozen Heart":"3110","Frozen Mallet":"3022","Guardian Angel":"3026","Guinsoo's Rageblade":"3124","Hextech Gunblade":"3146","Iceborn Gauntlet":"3025","Infinity Edge":"3031","Liandry's Torment":"3151","Lich Bane":"3100","Manamune":"3004","Mercury's Treads":"3111","Nashor's Tooth":"3115","Ninja Tabi":"3047","Phantom Dancer":"3046","Rabadon's Deathcap":"3089","Randuin's Omen":"3143","Rod of Ages":"3027","Rylai's Crystal Scepter":"3116","Sheen":"3057","Sightstone":"2049","Sorcerer's Shoes":"3020","Spirit of the Ancient Golem":"3207","Spirit of the Spectral Wraith":"3209","Statikk Shiv":"3087","Sunfire Cape":"3068","Talisman of Ascension":"3069","The Black Cleaver":"3071","The Bloodthirster":"3072","Thornmail":"3075","Trinity Force":"3078","Void Staff":"3135","Warmog's Armor":"3083","Wit's End":"3091","Youmuu's Ghostblade":"3142","Zhonya's Hourglass":"3157"};
+export const itemId = {"Abyssal Scepter":"3001","Athene's Unholy Grail":"3174","Atma's Impaler":"3005","Berserker's Greaves":"3006","Blade of the Ruined King":"3153","Boots of Mobility":"3117","Deathfire Grasp":"3128","Frost Queen's Claim":"3092","Frozen Heart":"3110","Frozen Mallet":"3022","Guinsoo's Rageblade":"3124","Hextech Gunblade":"3146","Iceborn Gauntlet":"3025","Infinity Edge":"3031","Liandry's Torment":"3151","Lich Bane":"3100","Manamune":"3004","Mercury's Treads":"3111","Nashor's Tooth":"3115","Phantom Dancer":"3046","Rabadon's Deathcap":"3089","Randuin's Omen":"3143","Rod of Ages":"3027","Rylai's Crystal Scepter":"3116","Sheen":"3057","Sightstone":"2049","Sorcerer's Shoes":"3020","Spirit of the Ancient Golem":"3207","Spirit of the Spectral Wraith":"3209","Statikk Shiv":"3087","Sunfire Cape":"3068","The Black Cleaver":"3071","The Bloodthirster":"3072","Thornmail":"3075","Trinity Force":"3078","Void Staff":"3135","Warmog's Armor":"3083","Wit's End":"3091","Youmuu's Ghostblade":"3142","Zhonya's Hourglass":"3157"};
 
 export function champImg(slug) {
   const id = champId[slug];
