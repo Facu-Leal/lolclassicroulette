@@ -1,4 +1,4 @@
-// Runas de Season 3 (sistema separado de las maestrías).
+// Runas clásicas (sistema separado de las maestrías).
 // 4 ranuras: Marcas (rojas ×9), Sellos (amarillos ×9), Glifos (azules ×9), Quintaesencias (moradas ×3).
 export const runeSlots = [
   { key: "marks",  es: "Marcas (rojas)",           en: "Marks (red)",            color: "#c0563e" },

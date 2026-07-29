@@ -1,4 +1,4 @@
-// League of Legends Classic (Season 3) — builds NO convencionales, una por campeón.
+// League of Legends Classic — builds NO convencionales, una por campeón.
 // NON-conventional builds, one per champion. Bilingual (es / en).
 // lane codes: top | jungle | mid | adc | support
 // tier: "meme" (pura joda) | "sleeper" (sorprende) | "viable" (raro pero funciona)
@@ -282,7 +282,7 @@ export const champions = [
     lane: "jungle", tier: "sleeper",
     title: { es: "Segador de la selva", en: "Jungle Reaper" },
     build: {
-      name: { es: "Karthus Jungla (clásico S3)", en: "Jungle Karthus (S3 classic)" },
+      name: { es: "Karthus Jungla (clásico)", en: "Jungle Karthus (classic)" },
       items: ["Spirit of the Ancient Golem", "Rod of Ages", "Rylai's Crystal Scepter", "Void Staff", "Sorcerer's Shoes"],
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP", en: "Magic pen, armor, AP quints" },
@@ -430,7 +430,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "Pen mágica, armadura, quints de AP híbrido", en: "Magic pen, armor, hybrid AP quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "Golpe Alfa (Q) escala con AP y resetea con kills; en su ulti sos una licuadora que teletransporta y borra. Build meme icónica de S3.", en: "Alpha Strike (Q) scales with AP and resets on kills; in Highlander you're a blinking blender. Iconic S3 meme build." }
+      playstyle: { es: "Golpe Alfa (Q) escala con AP y resetea con kills; en su ulti sos una licuadora que teletransporta y borra. Build meme icónica de la vieja escuela.", en: "Alpha Strike (Q) scales with AP and resets on kills; in Highlander you're a blinking blender. Iconic old-school meme build." }
     }
   },
   {

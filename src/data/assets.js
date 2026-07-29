@@ -1,6 +1,6 @@
 // Assets de imágenes vía Data Dragon (CDN oficial gratuito de Riot).
 // Image assets via Data Dragon (Riot's free official CDN).
-// Campeones y hechizos: versión actual. Ítems: versión Season 3 (3.15.5) para
+// Campeones y hechizos: versión actual. Ítems: versión clásica (3.15.5) para
 // que salgan los íconos originales de objetos que ya no existen.
 
 export const DDRAGON_VER = "16.14.1";
@@ -33,7 +33,7 @@ export const spellFile = {
   "Ghost":"SummonerHaste", "Heal":"SummonerHeal",
 };
 
-// nombre de ítem -> id de Data Dragon (versión Season 3)
+// nombre de ítem -> id de Data Dragon (versión clásica 3.15.5)
 export const itemId = {"Abyssal Scepter":"3001","Athene's Unholy Grail":"3174","Atma's Impaler":"3005","Berserker's Greaves":"3006","Blade of the Ruined King":"3153","Boots of Mobility":"3117","Deathfire Grasp":"3128","Frost Queen's Claim":"3092","Frozen Heart":"3110","Frozen Mallet":"3022","Guinsoo's Rageblade":"3124","Hextech Gunblade":"3146","Iceborn Gauntlet":"3025","Infinity Edge":"3031","Liandry's Torment":"3151","Lich Bane":"3100","Manamune":"3004","Mercury's Treads":"3111","Nashor's Tooth":"3115","Phantom Dancer":"3046","Rabadon's Deathcap":"3089","Randuin's Omen":"3143","Rod of Ages":"3027","Rylai's Crystal Scepter":"3116","Sheen":"3057","Sightstone":"2049","Sorcerer's Shoes":"3020","Spirit of the Ancient Golem":"3207","Spirit of the Spectral Wraith":"3209","Statikk Shiv":"3087","Sunfire Cape":"3068","The Black Cleaver":"3071","The Bloodthirster":"3072","Thornmail":"3075","Trinity Force":"3078","Void Staff":"3135","Warmog's Armor":"3083","Wit's End":"3091","Youmuu's Ghostblade":"3142","Zhonya's Hourglass":"3157"};
 
 export function champImg(slug) {

@@ -107,10 +107,10 @@ export const pages = {
       desc: "Qué es LoL Classic Builds: un proyecto de fans con builds off-meta, guías y ruleta para League of Legends Classic.",
       sections: [
         { h: "Qué es esto", p: [
-          "LoL Classic Builds es un proyecto de fans dedicado al modo <strong>League of Legends Classic</strong>. Reunimos builds no convencionales para los antiguos campeones del modo — AP Yi, GP AP, one-shots, picks de ADC y mucho más — con guía de cómo jugar, objetos, runas, maestrías y orden de habilidades para cada una. Y una ruleta que te sortea campeón, línea y build para tu próxima partida.",
+          "LoL Classic Builds es un proyecto de fans dedicado al modo <strong>League of Legends Classic</strong> (la vuelta al LoL clásico). Reunimos builds no convencionales para los 60 campeones del modo — AP Yi, GP AP, one-shots, picks de ADC y mucho más — con guía de cómo jugar, objetos, runas, maestrías y orden de habilidades para cada una. Y una ruleta que te sortea campeón, línea y build para tu próxima partida.",
         ] },
         { h: "Por qué lo hicimos", p: [
-          "Somos el equipo de LoL Classic Builds: jugadores a los que nos marcó la vieja escuela y quisimos armar un lugar simple y divertido para experimentar con lo más troll de esos años, sin la seriedad del meta. La idea es que entres, gires la ruleta y te rías probando algo distinto.",
+          "Somos el equipo de LoL Classic Builds: jugadores a los que nos marcó la vieja escuela y quisimos armar un lugar simple y divertido para experimentar con lo más troll de la vieja escuela, sin la seriedad del meta. La idea es que entres, gires la ruleta y te rías probando algo distinto.",
         ] },
         { h: "Colaborá", p: [
           `¿Tenés una build que deberíamos agregar, o encontraste algo para corregir? Nos encanta recibir sugerencias. Escribinos a <a href="mailto:${EMAIL.es}">${EMAIL.es}</a>.`,
@@ -125,10 +125,10 @@ export const pages = {
       desc: "What LoL Classic Builds is: a fan project with off-meta builds, guides and a roulette for League of Legends Classic.",
       sections: [
         { h: "What this is", p: [
-          "LoL Classic Builds is a fan project dedicated to the <strong>League of Legends Classic</strong> mode. We collect off-meta builds for the mode's old champions — AP Yi, AP GP, one-shots, ADC picks and much more — each with a how-to-play guide, items, runes, masteries and skill order. Plus a roulette that rolls you a champion, lane and build for your next game.",
+          "LoL Classic Builds is a fan project dedicated to the <strong>League of Legends Classic</strong> mode (the return of old-school LoL). We collect off-meta builds for the mode's 60 champions — AP Yi, AP GP, one-shots, ADC picks and much more — each with a how-to-play guide, items, runes, masteries and skill order. Plus a roulette that rolls you a champion, lane and build for your next game.",
         ] },
         { h: "Why we made it", p: [
-          "We're the LoL Classic Builds team: players shaped by the old school who wanted a simple, fun place to experiment with the trolliest picks of those years, without the seriousness of the meta. The idea is that you drop in, spin the wheel and have a laugh trying something different.",
+          "We're the LoL Classic Builds team: players shaped by the old school who wanted a simple, fun place to experiment with the trolliest picks of old-school LoL, without the seriousness of the meta. The idea is that you drop in, spin the wheel and have a laugh trying something different.",
         ] },
         { h: "Contribute", p: [
           `Got a build we should add, or spotted something to fix? We love suggestions. Email us at <a href="mailto:${EMAIL.en}">${EMAIL.en}</a>.`,

@@ -1,4 +1,4 @@
-// Qué hace cada objeto de Season 3 (para jugadores nuevos). / What each Season 3 item does.
+// Qué hace cada objeto clásico (para jugadores nuevos). / What each classic item does.
 export const itemInfo = {
   "Abyssal Scepter": { es: "AP y resistencia mágica; aura que reduce la MR de los enemigos cercanos.", en: "AP and magic resist; aura that shreds nearby enemies' magic resist." },
   "Athene's Unholy Grail": { es: "AP, MR y regeneración de maná; recupera maná al conseguir kills o asistencias.", en: "AP, MR and mana regen; refunds mana on kills or assists." },
