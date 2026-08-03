@@ -59,8 +59,8 @@ export const site = {
 
   // Opcional: solo si alguna vez usás Google AdSense (type "adsense").
   adsense: {
-    enabled: false,
-    client: "ca-pub-XXXXXXXXXXXXXXXX",
+    enabled: true,
+    client: "ca-pub-7644699688682522",
     slots: { left: "0000000000", right: "0000000000" },
   },
 };

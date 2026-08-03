@@ -1,4 +1,4 @@
-/* ===== LoL Classic Builds — estética del cliente viejo (Season 3 / Hextech) ===== */
+/* ===== LoL Classic Builds — estética del cliente viejo (Hextech) ===== */
 :root {
   --black: #010a13;
   --blue-1: #04121b;
@@ -366,7 +366,7 @@ a:hover { color: var(--gold-bright); }
 .brand .mark::after { content: none; }
 .brand .mark svg { display: block; }
 
-/* ---- Runas (página de runas S3) ---- */
+/* ---- Runas (página de runas clásicas) ---- */
 .rune-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 .rune-slot { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; background: rgba(1, 10, 19, .6); border: 1px solid var(--hair); }
 .rune-dot { width: 13px; height: 13px; margin-top: 3px; flex: 0 0 auto; border: 1px solid rgba(0, 0, 0, .5); box-shadow: 0 0 6px rgba(0, 0, 0, .4); transform: rotate(45deg); }
