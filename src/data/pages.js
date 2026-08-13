@@ -11,6 +11,7 @@ export const pageRoutes = {
   about: { es: "acerca", en: "about" },
   contact: { es: "contacto", en: "contact" },
   guide: { es: "guia", en: "guide" },
+  funbuilds: { es: "builds-divertidas", en: "fun-builds" },
 };
 
 export function pageUrl(lang, key) {
@@ -19,8 +20,8 @@ export function pageUrl(lang, key) {
 
 // Etiquetas cortas para el footer. / Short labels for the footer.
 export const pageLabels = {
-  es: { about: "Acerca de", contact: "Contacto", privacy: "Privacidad", guide: "Guía", updated: "Última actualización" },
-  en: { about: "About", contact: "Contact", privacy: "Privacy", guide: "Guide", updated: "Last updated" },
+  es: { about: "Acerca de", contact: "Contacto", privacy: "Privacidad", guide: "Guía", funbuilds: "Builds locas", updated: "Última actualización" },
+  en: { about: "About", contact: "Contact", privacy: "Privacy", guide: "Guide", funbuilds: "Fun builds", updated: "Last updated" },
 };
 
 const ADS_SETTINGS = "https://www.google.com/settings/ads";
@@ -226,6 +227,93 @@ export const pages = {
         { h: "Common mistakes for returning players", p: [
           "Forgetting to buy runes before the game (without them you start at a disadvantage). Copying modern LoL builds that rely on items that don't exist here. And underestimating the early game: in classic, early fights matter more because there are fewer tools to reverse a deficit.",
           "Our advice: start with a build from our list, read the game plan, and adjust from there. If you spot something to fix or want to suggest a build, reach us from the <a href=\"/en/contact\">contact</a> page.",
+        ] },
+      ],
+    },
+  },
+
+  funbuilds: {
+    es: {
+      title: "Las 10 builds más divertidas y rotas del LoL Classic",
+      desc: "Ranking de las builds off-meta más divertidas y rotas del LoL Classic: AP Ezreal, Alistar nuclear, AP Shaco, AP Yi y más, con guía de cada una.",
+      sections: [
+        { h: "¿Qué hace \"divertida\" a una build acá?", p: [
+          "En el LoL Classic vuelven objetos y ratios que el juego moderno borró, y eso deja pasar cosas que hoy serían impensables: magos que teletransportan y borran, tanques que one-shotean, asesinos que aparecen y desaparecen. Estas son las builds más caóticas del modo — todas divertidas, y muchas legítimamente fuertes. Entrá a cada una para ver objetos, runas, orden de habilidades y combos.",
+        ] },
+        { h: "1. AP Ezreal — la R nuclear", p: [
+          "El clásico de los clásicos: full AP para que la definitiva (Descarga Trascendente) pegue un pepinazo desde media pantalla. Robás Barones, cerrás peleas desde otra parte del mapa y pokeás sin exponerte. <a href=\"/es/campeon/ezreal-apnuke\">Ver la build de AP Ezreal →</a>",
+        ] },
+        { h: "2. Alistar nuclear — el toro que one-shotea", p: [
+          "El combo Cabezazo → Aplastar deja de ser solo control y, con Deathfire Grasp y Rabadon, pasa a borrar magos escuálidos de un saque. Encima sos casi imposible de matar con la R activa. <a href=\"/es/campeon/alistar\">Ver la build de AP Alistar →</a>",
+        ] },
+        { h: "3. AP Warwick — la sanguijuela mágica", p: [
+          "Sustain absurdo en la jungla y una supresión imposible de cancelar sobre el carry enemigo. Con AP tu Q pega y te cura más: ganás cualquier pelea larga. <a href=\"/es/campeon/warwick\">Ver la build de AP Warwick →</a>",
+        ] },
+        { h: "4. AP Shaco — la emboscada demoníaca", p: [
+          "Cajas Sorpresa que aterrorizan, veneno que ralentiza y un clon que detona con AP: aparecés, explotás a dos y desaparecés riendo. El rey de los picks tempranos. <a href=\"/es/campeon/shaco\">Ver la build de AP Shaco →</a>",
+        ] },
+        { h: "5. AP Master Yi — la licuadora", p: [
+          "Golpe Alfa escala con AP, te vuelve intocable y resetea al matar. Con la R sos una licuadora de velocidad de ataque que encadena kills hasta el pentakill. <a href=\"/es/campeon/masteryi\">Ver la build de AP Master Yi →</a>",
+        ] },
+        { h: "6. Akali AP burst — la asesina que volvió", p: [
+          "Recién devuelta al juego: Sablepistola de core para sustain y movilidad, y de ahí full AP para que el combo con la marca borre a cualquier squishy. Tres saltos con la R para entrar y salir por la Cortina de Humo. <a href=\"/es/campeon/akali-burst\">Ver la build de Akali AP →</a>",
+        ] },
+        { h: "7. AP Jax — el burst que nadie espera", p: [
+          "Tu W y el rayo de la R hacen daño mágico, así que con AP pegás un burst enorme mientras tu E te vuelve casi inmune a los autoataques. Escala hasta borrar carries. <a href=\"/es/campeon/jax\">Ver la build de AP Jax →</a>",
+        ] },
+        { h: "8. AP Gangplank — barriles explosivos", p: [
+          "Parrrley a distancia que da oro extra y barriles que, con AP, revientan a todo un equipo agrupado. Y un ulti global para meterte en cualquier pelea del mapa. <a href=\"/es/campeon/gangplank\">Ver la build de AP Gangplank →</a>",
+        ] },
+        { h: "9. Karthus jungla — la muerte que llega a todos", p: [
+          "El clásico de la jungla: farmeás con Muro de la Muerte, y en el late tu definitiva (Réquiem) castiga a TODO el equipo enemigo desde cualquier parte del mapa. Muerto seguís pegando. <a href=\"/es/campeon/karthus\">Ver la build de Karthus →</a>",
+        ] },
+        { h: "10. Veigar one-shot — AP infinito", p: [
+          "Apilás poder de habilidad sin límite y encerrás con la Jaula: Materia Oscura + Deathfire Grasp + ulti borran a cualquiera. Cuanto más AP tenga tu objetivo, más lo lastimás. <a href=\"/es/campeon/veigar-oneshot\">Ver la build de Veigar one-shot →</a>",
+        ] },
+        { h: "¿No sabés cuál probar?", p: [
+          "Tirá de la <a href=\"/es/ruleta\">ruleta</a> y que el destino te asigne campeón, línea y build. O mirá la <a href=\"/es/guia\">guía del modo</a> si venís del LoL moderno y querés entender las diferencias. Y si tenés una build rota que deberíamos agregar, <a href=\"/es/contacto\">contanos</a>.",
+        ] },
+      ],
+    },
+    en: {
+      title: "The 10 most fun and broken builds in LoL Classic",
+      desc: "Ranking of the most fun, broken off-meta builds in LoL Classic: AP Ezreal, nuclear Alistar, AP Shaco, AP Yi and more, each with a full guide.",
+      sections: [
+        { h: "What makes a build \"fun\" here?", p: [
+          "In LoL Classic, items and ratios the modern game removed come back, and that lets through things that would be unthinkable today: mages that blink and delete, tanks that one-shot, assassins that appear and vanish. These are the most chaotic builds in the mode — all fun, and many legitimately strong. Open each one for items, runes, skill order and combos.",
+        ] },
+        { h: "1. AP Ezreal — the nuclear ult", p: [
+          "The classic of classics: full AP so your ultimate (Trueshot Barrage) nukes from half the screen away. Steal Barons, close fights from across the map, and poke without exposing yourself. <a href=\"/en/champion/ezreal-apnuke\">See the AP Ezreal build →</a>",
+        ] },
+        { h: "2. Nuclear Alistar — the bull that one-shots", p: [
+          "The Headbutt → Pulverize combo stops being just crowd control and, with Deathfire Grasp and Rabadon, starts deleting squishy mages instantly. Plus you're nearly unkillable with R active. <a href=\"/en/champion/alistar\">See the AP Alistar build →</a>",
+        ] },
+        { h: "3. AP Warwick — the magic leech", p: [
+          "Absurd jungle sustain and an uncancellable suppression on the enemy carry. With AP your Q hits and heals for more: you win any drawn-out fight. <a href=\"/en/champion/warwick\">See the AP Warwick build →</a>",
+        ] },
+        { h: "4. AP Shaco — the demonic ambush", p: [
+          "Jack in the Boxes that terrify, poison that slows and a clone that detonates with AP: you pop in, blow up two, vanish laughing. The king of early picks. <a href=\"/en/champion/shaco\">See the AP Shaco build →</a>",
+        ] },
+        { h: "5. AP Master Yi — the blender", p: [
+          "Alpha Strike scales with AP, makes you untargetable and resets on kill. With R you're an attack-speed blender chaining kills all the way to a pentakill. <a href=\"/en/champion/masteryi\">See the AP Master Yi build →</a>",
+        ] },
+        { h: "6. Akali AP burst — the assassin returns", p: [
+          "Just back in the game: Gunblade core for sustain and mobility, then full AP so the marked combo deletes any squishy. Three dashes with R to enter and leave through the Twilight Shroud. <a href=\"/en/champion/akali-burst\">See the Akali AP build →</a>",
+        ] },
+        { h: "7. AP Jax — the burst nobody expects", p: [
+          "Your W and R lightning deal magic damage, so with AP you land a huge burst while your E makes you nearly immune to autoattacks. Scales until it deletes carries. <a href=\"/en/champion/jax\">See the AP Jax build →</a>",
+        ] },
+        { h: "8. AP Gangplank — explosive barrels", p: [
+          "Ranged Parrrley that grants bonus gold, and barrels that, with AP, blow up a whole grouped team. Plus a global ult to join any fight on the map. <a href=\"/en/champion/gangplank\">See the AP Gangplank build →</a>",
+        ] },
+        { h: "9. Jungle Karthus — the death that reaches everyone", p: [
+          "The jungle classic: you farm with Wall of Pain, and late your ultimate (Requiem) punishes the WHOLE enemy team from anywhere on the map. Dead, you keep dealing damage. <a href=\"/en/champion/karthus\">See the Karthus build →</a>",
+        ] },
+        { h: "10. Veigar one-shot — infinite AP", p: [
+          "You stack uncapped ability power and cage them in: Dark Matter + Deathfire Grasp + ult delete anyone. The more AP your target has, the more it hurts them. <a href=\"/en/champion/veigar-oneshot\">See the Veigar one-shot build →</a>",
+        ] },
+        { h: "Not sure which to try?", p: [
+          "Spin the <a href=\"/en/roulette\">roulette</a> and let fate assign you a champion, lane and build. Or check the <a href=\"/en/guide\">mode guide</a> if you're coming from modern LoL and want to understand the differences. And if you have a broken build we should add, <a href=\"/en/contact\">let us know</a>.",
         ] },
       ],
     },

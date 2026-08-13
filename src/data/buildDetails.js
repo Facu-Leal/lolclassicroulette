@@ -476,6 +476,124 @@ export const buildDetails = {
       en: ["Pre-place boxes at Dragon and Baron: the fear wins those fights before they start.", "Use the clone to fake an escape and drop back onto whoever chases you."],
     },
   },
+
+  lulu: {
+    strengths: {
+      es: [
+        "Poke fuerte y seguro: Destello Reluciente (Q) con Pix castiga a rango sin exponerte.",
+        "Metamorfosis (W) convierte a un asesino o diver en un bichito indefenso por un par de segundos: apaga la amenaza más grande de la pelea.",
+        "Nunca sos inútil: aunque vayas AP, seguís teniendo escudo, aceleración y el ulti para salvar aliados.",
+        "Fase de línea muy cómoda: difícil de matar y molesta de enfrentar.",
+      ],
+      en: [
+        "Strong, safe poke: Glitterlance (Q) with Pix punishes at range without exposing you.",
+        "Whimsy (W) turns an assassin or diver into a helpless critter for a couple of seconds: it shuts off the fight's biggest threat.",
+        "You're never useless: even going AP, you still have a shield, haste and the ult to save allies.",
+        "Very comfortable laning phase: hard to kill and annoying to face.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Burst bajo: sos una maga de utilidad y poke, no una one-shot; matás desgastando, no de un combo.",
+        "La Q es un skillshot esquivable: si no le pegás, tu daño baja mucho.",
+        "Hambrienta de maná al principio si abusás del poke.",
+        "Una sola W: si hay dos divers, solo podés desactivar a uno.",
+      ],
+      en: [
+        "Low burst: you're a utility/poke mage, not a one-shot; you kill by chipping, not with a single combo.",
+        "The Q is a dodgeable skillshot: if you miss, your damage drops a lot.",
+        "Mana-hungry early if you abuse the poke.",
+        "Only one W: if there are two divers, you can only disable one.",
+      ],
+    },
+    combos: {
+      es: [
+        "Poke máximo: Ayuda Pix (E) sobre el enemigo (lo revela y potencia tu Q) → Destello Reluciente (Q) para el doble slow y el daño.",
+        "Defensivo: Metamorfosis (W) sobre el asesino que salta → Q para ralentizarlo → alejate mientras no puede hacer nada.",
+      ],
+      en: [
+        "Max poke: Help Pix (E) on the enemy (reveals them and empowers your Q) → Glitterlance (Q) for the double slow and damage.",
+        "Defensive: Whimsy (W) on the assassin who jumps → Q to slow → walk away while they can do nothing.",
+      ],
+    },
+    matchups: {
+      good: {
+        es: ["Asesinos y divers melee (Akali, Master Yi) a los que anulás con Metamorfosis.", "Objetivos inmóviles que desgastás con el poke de Q + Pix."],
+        en: ["Melee assassins and divers (Akali, Master Yi) you neutralize with Whimsy.", "Immobile targets you wear down with Q + Pix poke."],
+      },
+      bad: {
+        es: ["Magos de rango largo que te superan en poke.", "Enganche duro múltiple que una sola W no alcanza a frenar."],
+        en: ["Long-range mages that out-poke you.", "Multiple hard engage that a single W can't stop."],
+      },
+    },
+    plan: {
+      es: "Ganá la línea con el poke de Q + Pix y farmea cómoda. Guardá la Metamorfosis (W) para el asesino o el enganche enemigo en cada pelea — ese es tu mayor valor. En teamfights sos mitad maga, mitad soporte: pokeá desde atrás y usá W, escudo (E) y el ulti (Crecimiento Salvaje) para salvar a quien se diveen. No gastes la W por daño; guardala para desactivar la amenaza.",
+      en: "Win lane with Q + Pix poke and farm comfortably. Save Whimsy (W) for the enemy assassin or engage every fight — that's your biggest value. In teamfights you're half mage, half support: poke from the back and use W, the shield (E) and the ult (Wild Growth) to save whoever gets dived. Don't spend W for damage; hold it to disable the threat.",
+    },
+    tips: {
+      es: ["Tirá Ayuda Pix (E) sobre el enemigo antes de la Q: lo revela y tu Destello pega más.", "Reservá la Metamorfosis (W) para el asesino, no la uses para hacer daño."],
+      en: ["Cast Help Pix (E) on the enemy before Q: it reveals them and your Glitterlance hits harder.", "Reserve Whimsy (W) for the assassin, don't use it for damage."],
+    },
+  },
+
+  tristana: {
+    strengths: {
+      es: [
+        "Carga Explosiva (E) con AP pega un burst enorme al detonar: sorprende a cualquiera que la subestime.",
+        "El Salto Cohete (W) se resetea al participar en una kill: encadenás de un objetivo al siguiente.",
+        "Poke seguro a distancia: saltás, colocás la bomba y saltás de vuelta sin quedarte.",
+        "El ulti (Descarga Explosiva) sirve para el peel (empujás al diver) o para rematar.",
+      ],
+      en: [
+        "Explosive Charge (E) with AP lands a huge burst when it detonates: it surprises anyone who underestimates it.",
+        "Rocket Jump (W) resets on takedown: you chain from one target to the next.",
+        "Safe ranged poke: you jump in, place the bomb and jump back out without lingering.",
+        "The ult (Buster Shot) works for peel (knock the diver away) or to finish a kill.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "La E necesita detonar (con autos o tiempo): el burst no es instantáneo como el de un mago puro.",
+        "Frágil: si te agarran después del salto, caés rápido.",
+        "Si la W está en cooldown y no resetea, te quedás sin escape ni movilidad.",
+        "El enganche es predecible: todos saben que vas a saltar encima.",
+      ],
+      en: [
+        "The E needs to detonate (via autos or time): the burst isn't instant like a pure mage's.",
+        "Fragile: if you're caught after the jump, you fall fast.",
+        "If W is on cooldown and doesn't reset, you're left with no escape or mobility.",
+        "The engage is predictable: everyone knows you're going to jump on top.",
+      ],
+    },
+    combos: {
+      es: [
+        "Combo de burst: Salto Cohete (W) sobre el objetivo → Carga Explosiva (E) → un autoataque para sumar cargas → detoná + DFG para matar. Si conseguís la kill, la W se resetea: saltá al siguiente.",
+        "Peel: si te divean, Descarga Explosiva (R) para empujar al asesino lejos de vos.",
+      ],
+      en: [
+        "Burst combo: Rocket Jump (W) onto the target → Explosive Charge (E) → an autoattack to add stacks → detonate + DFG to kill. If you get the kill, W resets: jump to the next.",
+        "Peel: if you get dived, Buster Shot (R) to knock the assassin away from you.",
+      ],
+    },
+    matchups: {
+      good: {
+        es: ["Mids escuálidos e inmóviles que no sobreviven al combo con la E detonada.", "Peleas donde la W encadena reseteos y snowballeás sola."],
+        en: ["Squishy, immobile mids who don't survive the combo with a detonated E.", "Fights where W chains resets and you snowball on your own."],
+      },
+      bad: {
+        es: ["CC duro que te atrapa justo después del salto.", "Magos de poke que te mantienen fuera de rango."],
+        en: ["Hard CC that catches you right after the jump.", "Poke mages that keep you out of range."],
+      },
+    },
+    plan: {
+      es: "Farmea seguro y pokeá saltando con la E y volviendo atrás. Buscá un pick donde la W te dé la kill y se resetee: ahí es cuando explotás una pelea encadenando saltos. Usá el ulti para sacarte de encima a los divers o para empujar a un enemigo hacia tu equipo. Colocá la Carga Explosiva temprano en el combo para que esté lista para detonar en el momento del burst.",
+      en: "Farm safe and poke by jumping in with E and back out. Look for a pick where W lands the kill and resets: that's when you blow up a fight chaining jumps. Use the ult to peel divers off you or to knock an enemy into your team. Place Explosive Charge early in the combo so it's ready to detonate at the burst moment.",
+    },
+    tips: {
+      es: ["Colocá la E al principio del combo: tarda en detonar, así llega lista para el momento del burst.", "Guardá la W para la ventana de reseteo, no la gastes solo como escape."],
+      en: ["Place E at the start of the combo: it takes time to detonate, so it's ready for the burst moment.", "Save W for the reset window, don't spend it just as an escape."],
+    },
+  },
 };
 
 export function detailsFor(slug) {

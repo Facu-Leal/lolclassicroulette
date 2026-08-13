@@ -6,6 +6,7 @@ const pairs = [
   { es: '/es', en: '/en' },
   { es: '/es/ruleta', en: '/en/roulette' },
   { es: '/es/guia', en: '/en/guide' },
+  { es: '/es/builds-divertidas', en: '/en/fun-builds' },
   { es: '/es/acerca', en: '/en/about' },
   { es: '/es/contacto', en: '/en/contact' },
   { es: '/es/privacidad', en: '/en/privacy' },
