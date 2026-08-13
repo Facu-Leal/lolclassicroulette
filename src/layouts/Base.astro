@@ -18,7 +18,14 @@ const {
 
 const t = ui[lang];
 const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "";
-const canonicalPath = Astro.url.pathname.replace(/(.)\/$/, '$1');
+// Con build.format 'file' el pathname puede venir como "/es/campeon/x.html".
+// Normalizamos a la URL limpia servida (sin .html ni barra final) para que
+// canonical == URL servida == sitemap == hreflang.
+let canonicalPath = Astro.url.pathname
+  .replace(/\/index\.html$/, "")
+  .replace(/\.html$/, "")
+  .replace(/(.)\/$/, "$1");
+if (canonicalPath === "") canonicalPath = "/";
 const canonical = siteUrl + canonicalPath;
 const fullTitle = fullTitleOverride || (title ? `${title} · ${t.siteName}` : `${t.siteName} — ${t.tagline}`);
 const desc = description || t.metaDescription;
