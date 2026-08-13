@@ -25,6 +25,7 @@ const desc = description || t.metaDescription;
 const ogImage = siteUrl + "/og-default.svg";
 const ads = site.adsense;
 const adsOn = ads.enabled && ads.client && !ads.client.includes("XXXX");
+const ezoicOn = site.ezoic && site.ezoic.enabled;
 const kf = {
   es: { t: "Bloqueador detectado", p: "Los anuncios de este sitio no son intrusivos y ayudan a mantenerlo online. ¿Nos das una mano desactivándolo?", s: "¡Gracias por el apoyo!" },
   en: { t: "Ad blocker detected", p: "The ads on this site are non-intrusive and help keep it online. Would you consider turning it off for us?", s: "Thanks for the support!" },
@@ -35,6 +36,18 @@ const kf = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {ezoicOn && (
+      <>
+        <script is:inline data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+        <script is:inline data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+        <script is:inline async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+        <script is:inline>
+          window.ezstandalone = window.ezstandalone || {};
+          ezstandalone.cmd = ezstandalone.cmd || [];
+        </script>
+        <script is:inline src="//ezoicanalytics.com/analytics.js"></script>
+      </>
+    )}
     <title>{fullTitle}</title>
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />

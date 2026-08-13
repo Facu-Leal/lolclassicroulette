@@ -299,6 +299,65 @@ export const buildDetails = {
       en: ["Detonate barrels with Q to save autoattacks and keep your range.", "Save W (the orange) for key CC: it cleanses stuns and anchors."],
     },
   },
+
+  "akali-burst": {
+    strengths: {
+      es: [
+        "Burst altísimo: con la marca detonada + combo borrás a cualquier squishy en un segundo.",
+        "La Cortina de Humo te vuelve invisible: peleás, esquivás skillshots y escapás desde adentro.",
+        "La R (Asalto Sombrío) te da tres saltos para entrar, resetear objetivos y salir viva.",
+        "La Sablepistola le da el sustain y la movilidad que le faltan a una asesina pura.",
+      ],
+      en: [
+        "Very high burst: with the mark detonated + combo you delete any squishy in a second.",
+        "The Twilight Shroud turns you invisible: you fight, dodge skillshots and escape from inside it.",
+        "The R (Shadow Dance) gives three dashes to enter, reset targets and get out alive.",
+        "The Gunblade gives the sustain and mobility a pure assassin lacks.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Manejo de energía: si gastás todo el combo y no matás, te quedás sin recursos y expuesta.",
+        "El CC duro te frena en seco antes de completar el combo.",
+        "La torreta revela y ataca dentro de la Cortina: no es escondite seguro bajo torre.",
+        "Frágil: si te agarran sin la W o la R listas, caés rápido.",
+      ],
+      en: [
+        "Energy management: if you spend the full combo and don't kill, you're out of resources and exposed.",
+        "Hard CC stops you cold before you finish the combo.",
+        "Turrets reveal and hit you inside the Shroud: it's not a safe hideout under tower.",
+        "Fragile: if you're caught without W or R up, you fall fast.",
+      ],
+    },
+    combos: {
+      es: [
+        "Burst completo: Marca del Asesino (Q) → autoataque para detonarla → Golpe Crescendo (E) → activo de la Sablepistola + DFG para rematar.",
+        "Entrada segura: Asalto Sombrío (R) sobre el objetivo → combo dentro de la Cortina de Humo (W) para pelear con visión negada.",
+      ],
+      en: [
+        "Full burst: Mark of the Assassin (Q) → autoattack to detonate → Crescent Slash (E) → Gunblade active + DFG to finish.",
+        "Safe entry: Shadow Dance (R) onto the target → combo inside the Twilight Shroud (W) to fight with vision denied.",
+      ],
+    },
+    matchups: {
+      good: {
+        es: ["Magos inmóviles (Veigar, Karthus) que no escapan de tu salto + burst.", "Squishies sin dashes: no sobreviven al combo con la marca detonada."],
+        en: ["Immobile mages (Veigar, Karthus) who can't escape your dash + burst.", "Squishies without dashes: they don't survive the combo with the mark detonated."],
+      },
+      bad: {
+        es: ["CC puntual (Annie, Leona) que te frena antes de completar el combo.", "Campeones con sustain o mucha vida a los que no borrás de un combo."],
+        en: ["Point-and-click CC (Annie, Leona) that stops you before you finish the combo.", "High-sustain or high-HP champions you can't delete in one combo."],
+      },
+    },
+    plan: {
+      es: "En línea, usá la Marca del Asesino (Q) para pokear y mantener la energía alta, y rushea la Sablepistola para tener sustain y movilidad. A partir del 6 sos una amenaza de pick: buscá objetivos fuera de posición, entrá con la R y borralos con el combo. En teamfights, esperá a que gasten el CC, saltá al carry enemigo y usá la Cortina de Humo y las cargas de la R para reposicionarte entre saltos.",
+      en: "In lane, use Mark of the Assassin (Q) to poke and keep energy high, and rush the Gunblade for sustain and mobility. From level 6 you're a pick threat: hunt out-of-position targets, enter with R and delete them with the combo. In teamfights, wait out their CC, jump the enemy carry and use the Twilight Shroud and R charges to reposition between leaps.",
+    },
+    tips: {
+      es: ["Detoná siempre la marca de la Q con un autoataque: es la mayor parte de tu daño y te devuelve energía.", "Guardá una carga de la R para el escape, no gastes las tres para entrar."],
+      en: ["Always detonate the Q's mark with an autoattack: it's most of your damage and refunds energy.", "Keep one R charge for the escape, don't spend all three to enter."],
+    },
+  },
 };
 
 export function detailsFor(slug) {

@@ -63,4 +63,10 @@ export const site = {
     client: "ca-pub-7644699688682522",
     slots: { left: "0000000000", right: "0000000000" },
   },
+
+  // Ezoic (Incubator). Con enabled:true se cargan los scripts de cabecera de Ezoic
+  // en el <head> de todas las páginas (necesario para "Check Connection").
+  ezoic: {
+    enabled: true,
+  },
 };

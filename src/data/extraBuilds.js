@@ -258,4 +258,20 @@ export const extraBuilds = [
     skills: { order: ["Q","W","E"], abil: { Q:"Desintegrar", W:"Incinerar", E:"Escudo Molten", R:"Invocar: Tibbers" },
       why: { es: "Q por el daño a un objetivo y porque devuelve maná al matar minions; Incinerar (W) de segundo por el daño de área del combo. E a 1 punto.", en: "Q for single-target damage and mana refund on last-hits; Incinerate (W) second for the combo's AoE damage. E at 1 point." } },
   },
+  {
+    slug: "akali-burst", champSlug: "akali", name: "Akali", origRole: "Mid assassin", lane: "mid", tier: "viable",
+    title: { es: "La asesina que volvió", en: "The assassin returns" },
+    build: {
+      name: { es: "Akali AP burst (Sablepistola)", en: "AP burst Akali (Gunblade)" },
+      items: ["Sorcerer's Shoes", "Hextech Gunblade", "Deathfire Grasp", "Rabadon's Deathcap", "Void Staff", "Zhonya's Hourglass"],
+      masteries: { es: "21/0/9 — Ofensiva / Utilidad", en: "21/0/9 — Offense / Utility" },
+      runes: { es: "Penetración mágica, armadura, RM por nivel y quints de poder de habilidad", en: "Magic pen marks, armor seals, scaling MR glyphs and AP quints" },
+      summoners: ["Flash", "Ignite"],
+      playstyle: { es: "Asesina de burst pura, recién devuelta al juego en el último parche. La Sablepistola (Hextech Gunblade) es tu core: te da robo de vida, robo de poder y un activo que ralentiza para pegarte al objetivo. De ahí, full AP para que la Marca del Asesino (Q) y el combo borren a cualquier squishy. La R te da tres saltos para entrar, matar y salir por la Cortina de Humo.", en: "A pure burst assassin, just returned to the game in the latest patch. The Gunblade (Hextech Gunblade) is your core: lifesteal, spellvamp and a slow active to stick to your target. From there, full AP so Mark of the Assassin (Q) and the combo delete any squishy. The R gives you three dashes to enter, kill and leave through the Twilight Shroud." },
+    },
+    masteryWhy: { es: "21/0/9 va a daño con algo de utilidad para energía, reducción de enfriamiento y movilidad: Akali quiere burst y moverse rápido entre objetivos.", en: "21/0/9 goes damage with some utility for energy, cooldown reduction and mobility: Akali wants burst and to move fast between targets." },
+    guide: { es: "En línea, pokeá marcando con Marca del Asesino (Q) y detonándola con un autoataque: te devuelve energía y sostiene tu presión. Comprá la Sablepistola primero — el robo de vida y el activo te dan sustain y la movilidad que Akali necesita. Para matar, encadená Q → auto (detona la marca) → Golpe Crescendo (E) y sumá el activo de la Gunblade y DFG para el burst final; con Rabadon el combo one-shotea a los squishies. La Cortina de Humo (W) es tu invisibilidad y escape: peleá dentro de ella. Con la R (Asalto Sombrío) tenés tres cargas para saltar entre objetivos y reposicionarte.", en: "In lane, poke by marking with Mark of the Assassin (Q) and detonating it with an autoattack: it refunds energy and sustains your pressure. Buy the Gunblade first — the lifesteal and active give you the sustain and mobility Akali needs. To kill, chain Q → auto (detonates the mark) → Crescent Slash (E) and add the Gunblade active and DFG for the final burst; with Rabadon the combo one-shots squishies. The Twilight Shroud (W) is your invisibility and escape: fight inside it. With the R (Shadow Dance) you have three charges to leap between targets and reposition." },
+    skills: { order: ["Q","E","W"], abil: { Q:"Marca del Asesino", W:"Cortina de Humo", E:"Golpe Crescendo", R:"Asalto Sombrío" },
+      why: { es: "Marca del Asesino (Q) primero: es tu daño principal y te devuelve energía al detonarla. Golpe Crescendo (E) de segundo por el waveclear y el combo. La Cortina (W) a 1 punto: solo necesitás la invisibilidad y el escape.", en: "Mark of the Assassin (Q) first: it's your main damage and refunds energy when detonated. Crescent Slash (E) second for waveclear and combo. Twilight Shroud (W) at 1 point — you only need the invisibility and escape." } },
+  },
 ];

@@ -10,7 +10,7 @@ const CDN = "https://ddragon.leagueoflegends.com/cdn";
 
 // slug interno -> id de Data Dragon
 export const champId = {
-  ahri:"Ahri", alistar:"Alistar", amumu:"Amumu", anivia:"Anivia", annie:"Annie",
+  ahri:"Ahri", akali:"Akali", alistar:"Alistar", amumu:"Amumu", anivia:"Anivia", annie:"Annie",
   ashe:"Ashe", blitzcrank:"Blitzcrank", brand:"Brand", chogath:"Chogath",
   drmundo:"DrMundo", evelynn:"Evelynn", ezreal:"Ezreal", fiddlesticks:"Fiddlesticks",
   gangplank:"Gangplank", garen:"Garen", gragas:"Gragas", graves:"Graves",
