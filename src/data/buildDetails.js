@@ -358,6 +358,124 @@ export const buildDetails = {
       en: ["Always detonate the Q's mark with an autoattack: it's most of your damage and refunds energy.", "Keep one R charge for the escape, don't spend all three to enter."],
     },
   },
+
+  alistar: {
+    strengths: {
+      es: [
+        "El combo Cabezazo → Aplastar encadena dos derribos garantizados: control absoluto sobre un objetivo.",
+        "Con AP + DFG ese combo deja de ser solo CC y pasa a borrar magos escuálidos.",
+        "Tu R (Voluntad Inquebrantable) te da una reducción de daño enorme: entrás, matás y sobrevivís al foco.",
+        "Base súper resistente: aunque vayas AP, seguís siendo difícil de matar.",
+      ],
+      en: [
+        "The Headbutt → Pulverize combo chains two guaranteed knock-ups: total lockdown on a target.",
+        "With AP + DFG that combo stops being just CC and starts deleting squishy mages.",
+        "Your R (Unbreakable Will) gives huge damage reduction: you dive in, kill, and survive the focus.",
+        "Tanky base stats: even going AP, you're hard to kill.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Cuerpo a cuerpo: necesitás pegarte al objetivo, y el kiteo te sufre.",
+        "Hambriento de maná al principio: si spameás el combo, te quedás seco.",
+        "Sin el combo listo, tu daño cae mucho.",
+        "Es predecible: todos saben que vas por el Cabezazo → Aplastar.",
+      ],
+      en: [
+        "Melee: you need to stick to the target, and kiting hurts you.",
+        "Mana-hungry early: if you spam the combo, you run dry.",
+        "Without the combo up, your damage drops a lot.",
+        "It's predictable: everyone knows the Headbutt → Pulverize is coming.",
+      ],
+    },
+    combos: {
+      es: [
+        "Combo estándar: Cabezazo (W) para empujar al objetivo hacia vos → Aplastar (Q) para derribarlo → DFG + Ignite para rematar.",
+        "Iniciación con Flash: Flash → Aplastar (Q) para el derribo sorpresa → Cabezazo (W) para reposicionar al enemigo hacia tu equipo.",
+      ],
+      en: [
+        "Standard combo: Headbutt (W) to knock the target toward you → Pulverize (Q) to knock them up → DFG + Ignite to finish.",
+        "Flash engage: Flash → Pulverize (Q) for the surprise knock-up → Headbutt (W) to reposition them into your team.",
+      ],
+    },
+    matchups: {
+      good: {
+        es: ["Magos inmóviles (Veigar, Karthus) que no escapan de tu combo + burst.", "Objetivos sin dash a los que fijás con el doble derribo."],
+        en: ["Immobile mages (Veigar, Karthus) who can't escape your combo + burst.", "Dashless targets you lock down with the double knock-up."],
+      },
+      bad: {
+        es: ["Poke a rango que te kitea antes de que llegues al combo.", "Comps con mucho peel/CC que te frenan antes de completar la cadena."],
+        en: ["Ranged poke that kites you before you land the combo.", "Comps with heavy peel/CC that stop you before you finish the chain."],
+      },
+    },
+    plan: {
+      es: "Roameá y buscá picks: un Cabezazo → Aplastar sobre alguien fuera de posición suele ser una muerte. En teamfights, activá la R antes de entrar, buscá al carry enemigo y encadená los derribos mientras tu equipo limpia. Cuidá el maná al principio y no gastes el combo si no vas a matar.",
+      en: "Roam and hunt picks: a Headbutt → Pulverize on someone out of position is usually a kill. In teamfights, pop R before diving, find the enemy carry and chain the knock-ups while your team cleans up. Watch your mana early and don't waste the combo unless you're going to kill.",
+    },
+    tips: {
+      es: ["Encolá el Aplastar (Q) apenas conecta el Cabezazo (W) para que el combo sea imparable.", "Activá la R antes de saltar: la reducción de daño te deja sobrevivir al foco de todo el equipo."],
+      en: ["Buffer Pulverize (Q) the instant Headbutt (W) connects so the combo is unstoppable.", "Pop R before you jump: the damage reduction lets you survive the whole team's focus."],
+    },
+  },
+
+  shaco: {
+    strengths: {
+      es: [
+        "Burst demencial: Cajas Sorpresa + Veneno + el clon que detona con AP borran a un squishy en un instante.",
+        "Engañar (Q) te da invisibilidad y un blink: aparecés, matás y desaparecés riendo.",
+        "Ganks tempranos brutales: la caja aterroriza al enemigo y le da la kill a tu equipo.",
+        "Presión de mapa con el clon: obligás al rival a jugar con miedo a la emboscada.",
+      ],
+      en: [
+        "Insane burst: Jack in the Boxes + Two-Shiv Poison + the AP-detonating clone delete a squishy in an instant.",
+        "Deceive (Q) gives stealth and a blink: pop in, kill, vanish laughing.",
+        "Brutal early ganks: the box fears the enemy and hands your team the kill.",
+        "Map pressure with the clone: you force opponents to play afraid of the ambush.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Muy frágil: si el burst no mata, quedás expuesto y morís rápido.",
+        "Escala mal si vas atrás: sos un campeón de snowball temprano.",
+        "Las cajas necesitan colocarse con anticipación; sin setup, tu daño baja.",
+        "Los guardianes de control (pink wards) revelan cajas y sigilo: te apagan.",
+      ],
+      en: [
+        "Very fragile: if the burst doesn't kill, you're exposed and die fast.",
+        "Scales poorly if behind: you're an early-snowball champion.",
+        "Boxes need to be placed in advance; without setup, your damage drops.",
+        "Control wards reveal boxes and stealth: they shut you off.",
+      ],
+    },
+    combos: {
+      es: [
+        "Emboscada: colocá Caja Sorpresa (W) en un arbusto → Veneno de las Dos Dagas (E) para ralentizar → Engañar (Q) por detrás para el crítico → Alucinar (R) y detoná el clon para el burst final.",
+        "Pick rápido: Q (invisibilidad) para acercarte → E + auto + caja: si es squishy, ya está muerto.",
+      ],
+      en: [
+        "Ambush: place Jack in the Box (W) in a bush → Two-Shiv Poison (E) to slow → Deceive (Q) from behind for the crit → Hallucinate (R) and detonate the clone for the final burst.",
+        "Fast pick: Q (stealth) to close → E + auto + box: if they're squishy, they're already dead.",
+      ],
+    },
+    matchups: {
+      good: {
+        es: ["Squishies inmóviles y con poca visión de mapa: presa fácil de la emboscada.", "Junglas de early débil a los que invadís y matás con las cajas."],
+        en: ["Immobile squishies with poor map awareness: easy ambush prey.", "Weak-early junglers you invade and kill with boxes."],
+      },
+      bad: {
+        es: ["Equipos que compran guardianes de control: revelan cajas y sigilo.", "Comps tanques que no podés reventar con un solo burst."],
+        en: ["Teams that buy control wards: they reveal boxes and stealth.", "Tanky comps you can't blow up with a single burst."],
+      },
+    },
+    plan: {
+      es: "Farmeá rápido y cacheá ganks temprano con las cajas para snowballear — sos más fuerte cuanto antes. En mid game, buscá squishies aislados con el combo Q + burst. Usá el clon (R) para fingir escapes, baitear y volver a entrar, o para duplicar el burst en pelea. Cuando el enemigo empiece a comprar pinks, jugá por objetivos y picks, no por peleas frontales.",
+      en: "Farm fast and cheese early ganks with boxes to snowball — you're strongest early. Mid game, hunt isolated squishies with the Q + burst combo. Use the clone (R) to fake escapes, bait and re-engage, or to double your burst in a fight. Once the enemy starts buying control wards, play for objectives and picks, not front-to-back fights.",
+    },
+    tips: {
+      es: ["Pre-colocá cajas en Dragón y Barón: el miedo gana esas peleas antes de que empiecen.", "Usá el clon para simular que escapás y volver a caer sobre el que te persigue."],
+      en: ["Pre-place boxes at Dragon and Baron: the fear wins those fights before they start.", "Use the clone to fake an escape and drop back onto whoever chases you."],
+    },
+  },
 };
 
 export function detailsFor(slug) {
