@@ -10,6 +10,7 @@ export const pageRoutes = {
   privacy: { es: "privacidad", en: "privacy" },
   about: { es: "acerca", en: "about" },
   contact: { es: "contacto", en: "contact" },
+  guide: { es: "guia", en: "guide" },
 };
 
 export function pageUrl(lang, key) {
@@ -18,8 +19,8 @@ export function pageUrl(lang, key) {
 
 // Etiquetas cortas para el footer. / Short labels for the footer.
 export const pageLabels = {
-  es: { about: "Acerca de", contact: "Contacto", privacy: "Privacidad", updated: "Última actualización" },
-  en: { about: "About", contact: "Contact", privacy: "Privacy", updated: "Last updated" },
+  es: { about: "Acerca de", contact: "Contacto", privacy: "Privacidad", guide: "Guía", updated: "Última actualización" },
+  en: { about: "About", contact: "Contact", privacy: "Privacy", guide: "Guide", updated: "Last updated" },
 };
 
 const ADS_SETTINGS = "https://www.google.com/settings/ads";
@@ -168,6 +169,63 @@ export const pages = {
         ] },
         { h: "Response", p: [
           "We're a small fan project, so we reply when we can — thanks for your patience. Any suggestion to improve the site is welcome.",
+        ] },
+      ],
+    },
+  },
+
+  guide: {
+    es: {
+      title: "Guía de League of Legends Classic",
+      desc: "Qué es el modo LoL Classic, en qué se diferencia del LoL actual (maestrías, runas y objetos clásicos) y cómo sacarle jugo a las builds off-meta.",
+      sections: [
+        { h: "¿Qué es League of Legends Classic?", p: [
+          "League of Legends Classic es un modo que devuelve el juego a su forma clásica: un puñado de campeones, el sistema viejo de <strong>maestrías y runas</strong>, y objetos que hace años desaparecieron del LoL moderno. Para quienes empezaron hace poco es una máquina del tiempo; para los veteranos, pura nostalgia.",
+          "La gracia del modo es que muchas cosas que hoy están \"balanceadas\" acá siguen siendo tan rotas como en su momento. Eso abre la puerta a builds que en el LoL actual serían imposibles: AP Master Yi, Gangplank AP, one-shots con objetos que ya no existen, y mucho más.",
+        ] },
+        { h: "Las grandes diferencias con el LoL actual", p: [
+          "<strong>Maestrías:</strong> en vez del sistema de runas reforjadas de hoy, tenés hasta 30 puntos (a nivel 30) para repartir en tres árboles — Ofensiva, Defensa y Utilidad. La notación 21/0/9 significa 21 puntos en Ofensiva, 0 en Defensa y 9 en Utilidad.",
+          "<strong>Runas:</strong> eran un sistema APARTE de las maestrías. Se compraban con PI (puntos de influencia) y se colocaban en 4 ranuras — Marcas, Sellos, Glifos y Quintaesencias. Daban stats planos (daño, armadura, penetración), así que definían tu poder desde el minuto uno.",
+          "<strong>Objetos:</strong> vuelven íconos como Deathfire Grasp (un activo que ejecutaba por porcentaje de vida), Atma's Impaler o el Espíritu del Antiguo Golem. Muchas builds locas dependen justamente de estos ítems que el LoL moderno borró.",
+        ] },
+        { h: "Cómo empezar", p: [
+          "Elegí un rol con el que te sientas cómodo (top, jungla, mid, ADC o support) y un campeón que te divierta. Si no sabés por dónde arrancar, tirá de nuestra <a href=\"/es/ruleta\">ruleta</a>: te sortea campeón, línea y build no convencional para que pruebes algo distinto sin pensarlo.",
+          "Después entrá a la página de esa build: vas a encontrar el orden de habilidades, los objetos con su explicación, las runas y maestrías, y desde ahora también fortalezas, debilidades, combos y enfrentamientos.",
+        ] },
+        { h: "Por qué las builds off-meta funcionan acá", p: [
+          "Dos razones. Primero, los <strong>ratios viejos</strong>: muchas habilidades escalaban con AP o AD de forma mucho más generosa que hoy, así que subir daño mágico en un campeón \"raro\" rinde de verdad. Segundo, los <strong>objetos borrados</strong>: cosas como Deathfire Grasp permitían burst por porcentaje de vida imposible en el LoL actual.",
+          "Por eso una build \"troll\" en el modo clásico no es solo un chiste — muchas veces es legítimamente fuerte. La clave es entender qué hace rota a cada una, y eso es justo lo que explicamos en cada página de build.",
+        ] },
+        { h: "Errores comunes de los que vuelven", p: [
+          "Olvidarse de comprar runas antes de la partida (sin ellas arrancás en desventaja). Copiar builds del LoL moderno que dependen de objetos que acá no existen. Y subestimar el early game: en el clásico las peleas tempranas pesan más porque hay menos herramientas para revertir una desventaja.",
+          "Nuestro consejo: empezá por una build de nuestra lista, leé el plan de partida, y ajustá a partir de ahí. Si encontrás algo para corregir o querés sugerir una build, escribinos desde la página de <a href=\"/es/contacto\">contacto</a>.",
+        ] },
+      ],
+    },
+    en: {
+      title: "League of Legends Classic guide",
+      desc: "What the LoL Classic mode is, how it differs from modern LoL (classic masteries, runes and items) and how to make off-meta builds shine.",
+      sections: [
+        { h: "What is League of Legends Classic?", p: [
+          "League of Legends Classic is a mode that takes the game back to its classic form: a handful of champions, the old <strong>masteries and runes</strong> system, and items that vanished from modern LoL years ago. For newer players it's a time machine; for veterans, pure nostalgia.",
+          "The fun of the mode is that many things considered \"balanced\" today are still as broken here as they once were. That opens the door to builds that would be impossible in modern LoL: AP Master Yi, AP Gangplank, one-shots with items that no longer exist, and much more.",
+        ] },
+        { h: "The big differences from modern LoL", p: [
+          "<strong>Masteries:</strong> instead of today's reforged runes, you get up to 30 points (at level 30) to split across three trees — Offense, Defense and Utility. The notation 21/0/9 means 21 points in Offense, 0 in Defense and 9 in Utility.",
+          "<strong>Runes:</strong> a system SEPARATE from masteries. Bought with IP (Influence Points) and slotted into 4 tiers — Marks, Seals, Glyphs and Quintessences. They gave flat stats (damage, armor, penetration), so they shaped your power from minute one.",
+          "<strong>Items:</strong> icons return like Deathfire Grasp (an active that executed by percent HP), Atma's Impaler and Spirit of the Ancient Golem. Many crazy builds depend precisely on these items modern LoL removed.",
+        ] },
+        { h: "How to get started", p: [
+          "Pick a role you're comfortable with (top, jungle, mid, ADC or support) and a champion you enjoy. If you don't know where to start, spin our <a href=\"/en/roulette\">roulette</a>: it rolls you a champion, lane and off-meta build so you can try something different without overthinking.",
+          "Then open that build's page: you'll find the skill order, items with explanations, runes and masteries, and now also strengths, weaknesses, combos and matchups.",
+        ] },
+        { h: "Why off-meta builds work here", p: [
+          "Two reasons. First, the <strong>old ratios</strong>: many abilities scaled with AP or AD far more generously than today, so stacking magic damage on an \"odd\" champion actually pays off. Second, the <strong>removed items</strong>: things like Deathfire Grasp enabled percent-HP burst that's impossible in modern LoL.",
+          "That's why a \"troll\" build in the classic mode isn't just a joke — it's often legitimately strong. The key is understanding what makes each one broken, and that's exactly what we explain on every build page.",
+        ] },
+        { h: "Common mistakes for returning players", p: [
+          "Forgetting to buy runes before the game (without them you start at a disadvantage). Copying modern LoL builds that rely on items that don't exist here. And underestimating the early game: in classic, early fights matter more because there are fewer tools to reverse a deficit.",
+          "Our advice: start with a build from our list, read the game plan, and adjust from there. If you spot something to fix or want to suggest a build, reach us from the <a href=\"/en/contact\">contact</a> page.",
         ] },
       ],
     },

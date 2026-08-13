@@ -110,6 +110,7 @@ const kf = {
       <div class="wrap">
         <span>© {new Date().getFullYear()} {t.siteName}</span>
         <nav class="foot-links" aria-label={t.siteName}>
+          <a href={pageUrl(lang, "guide")}>{pageLabels[lang].guide}</a>
           <a href={pageUrl(lang, "about")}>{pageLabels[lang].about}</a>
           <a href={pageUrl(lang, "contact")}>{pageLabels[lang].contact}</a>
           <a href={pageUrl(lang, "privacy")}>{pageLabels[lang].privacy}</a>

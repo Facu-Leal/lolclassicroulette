@@ -29,6 +29,20 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://lolclassicroulette.com/es/guia</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/guia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicroulette.com/es/guia"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://lolclassicroulette.com/en/guide</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/guia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lolclassicroulette.com/es/guia"/>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://lolclassicroulette.com/es/acerca</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://lolclassicroulette.com/es/acerca"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://lolclassicroulette.com/en/about"/>

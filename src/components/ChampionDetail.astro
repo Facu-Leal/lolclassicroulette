@@ -5,6 +5,7 @@ import { ui, champUrl } from "../data/i18n.js";
 import { champImg, itemImg, spellImg } from "../data/assets.js";
 import { itemInfo } from "../data/items.js";
 import { runeSlots, runesForBuild } from "../data/runes.js";
+import { detailsFor } from "../data/buildDetails.js";
 
 const { champ, lang } = Astro.props;
 const t = ui[lang];
@@ -15,6 +16,7 @@ const portrait = champImg(champ.champSlug || champ.slug);
 const g = { guide: champ.guide, masteryWhy: champ.masteryWhy };
 const sk = champ.skills;
 const runes = runesForBuild(champ);
+const det = detailsFor(champ.slug);
 
 // Genera la secuencia 1-18: R en 6/11/16; el resto maximiza order[0] > order[1] > order[2].
 function buildSeq(order) {
@@ -46,6 +48,14 @@ const L = {
     runesTitle: "Runas",
     runesSystem: "En el LoL clásico las runas eran un sistema APARTE de las maestrías: se compraban con PI (puntos de influencia) y se colocaban en 4 ranuras — Marcas (rojas), Sellos (amarillos), Glifos (azules) y Quintaesencias (moradas, las más fuertes). Daban stats planos: daño, armadura, penetración, etc.",
     summFor: "Hechizos de invocador",
+    strengths: "Fortalezas",
+    weaknesses: "Debilidades",
+    combos: "Combos clave",
+    matchups: "Enfrentamientos",
+    matchGood: "Le ganás a",
+    matchBad: "Te complican",
+    plan: "Plan de partida",
+    tips: "Tips rápidos",
   },
   en: {
     howto: "How to play this build",
@@ -61,6 +71,14 @@ const L = {
     runesTitle: "Runes",
     runesSystem: "In classic LoL, runes were a system SEPARATE from masteries: bought with IP (Influence Points) and slotted into 4 tiers — Marks (red), Seals (yellow), Glyphs (blue) and Quintessences (purple, the strongest). They gave flat stats: damage, armor, penetration, etc.",
     summFor: "Summoner spells",
+    strengths: "Strengths",
+    weaknesses: "Weaknesses",
+    combos: "Key combos",
+    matchups: "Matchups",
+    matchGood: "You beat",
+    matchBad: "Trouble vs",
+    plan: "Game plan",
+    tips: "Quick tips",
   },
 }[lang];
 
@@ -106,6 +124,62 @@ const jsonLd = {
         <h2>{L.howto}</h2>
         <p style="margin:0">{howtoText}</p>
       </div>
+
+      {det && (det.strengths || det.weaknesses) && (
+        <div class="panel">
+          <div class="sw-grid">
+            {det.strengths && (
+              <div>
+                <h2 class="sw-h good">{L.strengths}</h2>
+                <ul class="det-list">{det.strengths[lang].map((x) => <li>{x}</li>)}</ul>
+              </div>
+            )}
+            {det.weaknesses && (
+              <div>
+                <h2 class="sw-h bad">{L.weaknesses}</h2>
+                <ul class="det-list">{det.weaknesses[lang].map((x) => <li>{x}</li>)}</ul>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {det && det.combos && (
+        <div class="panel">
+          <h2>{L.combos}</h2>
+          <ul class="det-list">{det.combos[lang].map((x) => <li>{x}</li>)}</ul>
+        </div>
+      )}
+
+      {det && det.matchups && (
+        <div class="panel">
+          <h2>{L.matchups}</h2>
+          <div class="sw-grid">
+            <div>
+              <h3 class="sw-h good">{L.matchGood}</h3>
+              <ul class="det-list">{det.matchups.good[lang].map((x) => <li>{x}</li>)}</ul>
+            </div>
+            <div>
+              <h3 class="sw-h bad">{L.matchBad}</h3>
+              <ul class="det-list">{det.matchups.bad[lang].map((x) => <li>{x}</li>)}</ul>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {det && det.plan && (
+        <div class="panel">
+          <h2>{L.plan}</h2>
+          <p style="margin:0">{det.plan[lang]}</p>
+        </div>
+      )}
+
+      {det && det.tips && (
+        <div class="panel">
+          <h2>{L.tips}</h2>
+          <ul class="det-list">{det.tips[lang].map((x) => <li>{x}</li>)}</ul>
+        </div>
+      )}
 
       {sk && (
         <div class="panel">
@@ -219,3 +293,16 @@ const jsonLd = {
     </div>
   </section>
 </Base>
+
+<style>
+  .sw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  @media (max-width: 560px) { .sw-grid { grid-template-columns: 1fr; gap: 10px; } }
+  .sw-h { font-size: 1rem; margin: 0 0 10px; display: flex; align-items: center; gap: 8px; letter-spacing: .5px; }
+  .sw-h::before { content: "\25C6"; font-size: .6rem; }
+  .sw-h.good { color: var(--teal); }
+  .sw-h.bad { color: #c0563e; }
+  .det-list { margin: 0; padding: 0 0 0 2px; list-style: none; }
+  .det-list li { position: relative; padding: 0 0 8px 18px; line-height: 1.55; }
+  .det-list li::before { content: "\203A"; position: absolute; left: 2px; top: -1px; color: var(--gold); font-weight: 700; }
+  .det-list li:last-child { padding-bottom: 0; }
+</style>
