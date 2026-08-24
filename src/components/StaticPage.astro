@@ -8,8 +8,11 @@ const t = ui[lang];
 const doc = pages[page][lang];
 const lbl = pageLabels[lang];
 const alt = { es: pageUrl("es", page), en: pageUrl("en", page) };
+// Evita títulos > 65 chars: si el título + siteName se pasa, usamos solo el título.
+let pageTitle = `${doc.title} · ${ui[lang].siteName}`;
+if (pageTitle.length > 65) pageTitle = doc.title;
 ---
-<Base lang={lang} title={doc.title} description={doc.desc} alt={alt} active="">
+<Base lang={lang} title={doc.title} description={doc.desc} alt={alt} active="" fullTitleOverride={pageTitle}>
   <section class="detail">
     <div class="wrap">
       <nav class="crumbs">
