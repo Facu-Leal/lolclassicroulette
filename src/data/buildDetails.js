@@ -1970,6 +1970,695 @@ export const buildDetails = {
       en: ["Don't waste Intervention: save it for the key burst on your carry.", "Level E in time to switch to ranged poke and gain safety."],
     },
   },
+
+  kogmaw: {
+    strengths: {
+      es: [
+        "Artillería Viviente (R) hace poke a un rango absurdo: castigás sin que te toquen.",
+        "Vómito Corrosivo (E) baja resistencias y ralentiza, potenciando todo tu daño.",
+        "La pasiva castiga a quien te mate: hasta muerto sos peligroso.",
+        "Con AP, cada Artillería pega un pepinazo desde el otro lado de la pantalla.",
+      ],
+      en: [
+        "Living Artillery (R) pokes at absurd range: you punish without being touched.",
+        "Void Ooze (E) shreds resistances and slows, amplifying all your damage.",
+        "The passive punishes whoever kills you: even dead you're dangerous.",
+        "With AP, each Artillery hits like a truck from across the screen.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Inmóvil y frágil: cualquier dash te alcanza y te borra.",
+        "La Artillería cuesta cada vez más maná cuanto más la spameás.",
+        "Sin rango de seguridad, no aportás nada.",
+        "Depende de acertar los skillshots a larga distancia.",
+      ],
+      en: [
+        "Immobile and fragile: any dash reaches and deletes you.",
+        "Living Artillery costs more mana the more you spam it.",
+        "Without safe range, you contribute nothing.",
+        "Relies on landing skillshots at long distance.",
+      ],
+    },
+    combos: {
+      es: ["Vómito Corrosivo (E) para bajar resistencias y ralentizar → Artillería Viviente (R) repetida para el poke; Cañón de Vísceras (Q) si se acercan."],
+      en: ["Void Ooze (E) to shred resistances and slow → repeated Living Artillery (R) for poke; Bio-Arcane... Caustic Spittle (Q) if they close in."],
+    },
+    matchups: {
+      good: {
+        es: ["Comps inmóviles y agrupadas que no esquivan la Artillería.", "Asedios largos donde pokeás sin represalia."],
+        en: ["Immobile, grouped comps that can't dodge Artillery.", "Long sieges where you poke without retaliation."],
+      },
+      bad: {
+        es: ["Dive y asesinos que te alcanzan pese al rango.", "Enemigos móviles que esquivan tus skillshots."],
+        en: ["Dive and assassins who reach you despite the range.", "Mobile enemies who dodge your skillshots."],
+      },
+    },
+    plan: {
+      es: "Quedate a máxima distancia y ametrallá con Artillería Viviente, bajando resistencias con el Vómito. En peleas, no te muevas del fondo: sos una torreta de poke. Cuidá el maná porque la R escala de costo, y posicioná siempre pensando en el dive enemigo.",
+      en: "Stay at max distance and machine-gun with Living Artillery, shredding resistances with Void Ooze. In fights, don't leave the backline: you're a poke turret. Watch your mana since the R scales in cost, and always position with the enemy dive in mind.",
+    },
+    tips: {
+      es: ["No spamees la Artillería sin control: cada uso seguido cuesta mucho más maná.", "Aplicá el Vómito antes de la R para maximizar el daño."],
+      en: ["Don't mindlessly spam Artillery: each consecutive use costs much more mana.", "Apply Void Ooze before the R to maximize damage."],
+    },
+  },
+
+  leesin: {
+    strengths: {
+      es: [
+        "El ward-hop te da engages sorpresa desde ángulos imposibles.",
+        "El insec (Furia del Dragón) manda al carry enemigo directo a tu equipo: un pick que gana la pelea.",
+        "Onda Sónica + Golpe Resonante es un enganche a rango con daño y movilidad.",
+        "Voluntad de Hierro y Salvaguarda te dan sustain y peel para pelear.",
+      ],
+      en: [
+        "Ward-hopping gives you surprise engages from impossible angles.",
+        "The insec (Dragon's Rage) kicks the enemy carry straight into your team: a pick that wins the fight.",
+        "Sonic Wave + Resonating Strike is a ranged engage with damage and mobility.",
+        "Iron Will and Safeguard give you sustain and peel to brawl.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "El insec requiere práctica: mal ejecutado, malgastás el ulti.",
+        "Depende de acertar la Q o de tener un ward para engancharte.",
+        "Escala mal: sos un campeón de impacto temprano.",
+        "Si el pick no mata, quedás en medio del equipo enemigo.",
+      ],
+      en: [
+        "The insec needs practice: botched, you waste the ult.",
+        "Relies on landing Q or having a ward to engage.",
+        "Scales poorly: you're an early-impact champion.",
+        "If the pick doesn't kill, you're stuck in the enemy team.",
+      ],
+    },
+    combos: {
+      es: ["Insec: ward-hop o Q detrás del carry enemigo → Furia del Dragón (R) para patearlo hacia tu equipo → Q2 (Golpe Resonante) + Tempestad/Mutilar para rematar."],
+      en: ["Insec: ward-hop or Q behind the enemy carry → Dragon's Rage (R) to kick them into your team → Q2 (Resonating Strike) + Tempest/Cripple to finish."],
+    },
+    matchups: {
+      good: {
+        es: ["Comps donde separar y patear al carry decide la pelea.", "Bot lanes inmóviles a las que enganchás con la Q."],
+        en: ["Comps where separating and kicking the carry decides the fight.", "Immobile bot lanes you engage with Q."],
+      },
+      bad: {
+        es: ["Peel fuerte que protege al carry de tu insec.", "Comps de late donde tu impacto temprano se diluye."],
+        en: ["Strong peel that protects the carry from your insec.", "Late-game comps where your early impact fades."],
+      },
+    },
+    plan: {
+      es: "Colocá wards para tener rutas de engage y buscá picks tempranos con tu ADC. El insec es tu jugada estrella: pateá al carry enemigo hacia tu equipo cuando puedan seguir el foco. Aprovechá el sustain para ganar intercambios en línea. Sos fuerte temprano: presioná antes de que el juego se alargue.",
+      en: "Place wards for engage routes and look for early picks with your ADC. The insec is your signature play: kick the enemy carry into your team when they can follow up. Use the sustain to win lane trades. You're strong early: press before the game drags out.",
+    },
+    tips: {
+      es: ["Practicá el insec: colocá el ward detrás del objetivo antes de saltar.", "No gastes el ulti de daño: guardalo para reposicionar al carry enemigo."],
+      en: ["Practice the insec: place the ward behind the target before you hop.", "Don't use the ult for damage: save it to reposition the enemy carry."],
+    },
+  },
+
+  leona: {
+    strengths: {
+      es: [
+        "Cadena de CC infinita: Espada Cenital (E) + Espada del Amanecer (Q) + Amanecer Solar (R) bloquean al objetivo por segundos.",
+        "Tanque total: con Sunfire y Randuin sos casi imposible de matar.",
+        "Ganks que garantizan kills gracias al control encadenado.",
+        "Iniciación fiable a distancia con la E.",
+      ],
+      en: [
+        "Endless CC chain: Zenith Blade (E) + Shield of Daybreak (Q) + Solar Flare (R) lock the target for seconds.",
+        "Full tank: with Sunfire and Randuin you're nearly unkillable.",
+        "Ganks that guarantee kills thanks to the chained control.",
+        "Reliable ranged engage with E.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Poco daño propio: dependés de que tu equipo capitalice el CC.",
+        "Si fallás la iniciación, no tenés forma de rehacerla rápido.",
+        "Lenta para desengancharte: si el dive sale mal, quedás atrapada.",
+        "El ulti es un skillshot: fácil de fallar a distancia.",
+      ],
+      en: [
+        "Little damage of her own: you rely on your team capitalizing on the CC.",
+        "If you miss the engage, you can't remake it quickly.",
+        "Slow to disengage: if the dive goes wrong, you're stuck.",
+        "The ult is a skillshot: easy to miss at range.",
+      ],
+    },
+    combos: {
+      es: ["Gank: Espada Cenital (E) para engancharte al objetivo → Espada del Amanecer (Q) para aturdir → Amanecer Solar (R) para prolongar el CC mientras tu equipo lo mata."],
+      en: ["Gank: Zenith Blade (E) to lock onto the target → Shield of Daybreak (Q) to stun → Solar Flare (R) to extend the CC while your team kills them."],
+    },
+    matchups: {
+      good: {
+        es: ["Squishies sin escape que se comen toda la cadena de CC.", "Comps donde tu equipo puede seguir el foco al instante."],
+        en: ["Escapeless squishies who eat the whole CC chain.", "Comps where your team can follow up instantly."],
+      },
+      bad: {
+        es: ["Comps con QSS/tenacidad que rompen tu control.", "Enemigos de kiteo que te patean sin dejarte llegar."],
+        en: ["Comps with QSS/tenacity that break your control.", "Kiting enemies who peel you out before you arrive."],
+      },
+    },
+    plan: {
+      es: "Como jungla, gankeá líneas con la cadena de CC — es una kill casi asegurada si tu laner sigue el foco. En teamfights, elegí el objetivo prioritario, enganchá con la E y encadená todo tu control mientras aguantás con la vida de tanque. No inicies si tu equipo no puede seguirte.",
+      en: "As jungle, gank lanes with the CC chain — it's a near-guaranteed kill if your laner follows up. In teamfights, pick the priority target, engage with E and chain all your control while tanking with your health. Don't engage if your team can't follow.",
+    },
+    tips: {
+      es: ["Guardá el ulti para prolongar el CC sobre un objetivo ya enganchado, no para iniciar desde lejos.", "Enganchá al carry, no al tanque enemigo."],
+      en: ["Save the ult to extend CC on an already-locked target, not to engage from afar.", "Lock onto the carry, not the enemy tank."],
+    },
+  },
+
+  lux: {
+    strengths: {
+      es: [
+        "El combo Atadura de Luz + DFG + Chispa Final (R) borra a cualquier squishy de un saque.",
+        "Poke de rango larguísimo con la Singularidad Lúcida (E).",
+        "La Atadura (Q) enraíza hasta dos objetivos y prepara todo el combo.",
+        "La Chispa Final ejecuta a distancia y hace daño de área.",
+      ],
+      en: [
+        "The Light Binding + DFG + Final Spark (R) combo deletes any squishy in one go.",
+        "Very long-range poke with Lucent Singularity (E).",
+        "Light Binding (Q) roots up to two targets and sets up the whole combo.",
+        "Final Spark executes at range and deals AoE damage.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Todo depende de acertar la Q: si la raíz no pega, el combo se cae.",
+        "Frágil y sin dash ni escape.",
+        "Predecible si el enemigo espera la Q.",
+        "Vulnerable a los asesinos que saltan a tu línea de atrás.",
+      ],
+      en: [
+        "Everything hinges on landing the Q: if the root misses, the combo falls apart.",
+        "Fragile with no dash or escape.",
+        "Predictable if the enemy waits out the Q.",
+        "Vulnerable to assassins jumping your backline.",
+      ],
+    },
+    combos: {
+      es: ["Atadura de Luz (Q) para enraizar → Singularidad Lúcida (E) → DFG → Chispa Final (R). Con la raíz garantizás que todo el combo conecte."],
+      en: ["Light Binding (Q) to root → Lucent Singularity (E) → DFG → Final Spark (R). The root guarantees the whole combo connects."],
+    },
+    matchups: {
+      good: {
+        es: ["Squishies inmóviles que no sobreviven al combo con raíz.", "Enemigos agrupados (E + R en área)."],
+        en: ["Immobile squishies who don't survive the rooted combo.", "Grouped enemies (E + R AoE)."],
+      },
+      bad: {
+        es: ["Campeones móviles que esquivan la Q.", "Asesinos que se tiran a tu backline."],
+        en: ["Mobile champions who dodge the Q.", "Assassins who dive your backline."],
+      },
+    },
+    plan: {
+      es: "Pokeá con la E a máximo rango y buscá raíces con la Q para el combo de one-shot. En peleas, quedate detrás, enraizá a un objetivo clave y borralo con DFG + Chispa Final, después tirá otra Chispa a través de la pelea. Posicioná con cuidado: no tenés escape.",
+      en: "Poke with E at max range and look for Q roots for the one-shot combo. In fights, stay at the back, root a key target and delete them with DFG + Final Spark, then fire another Spark across the fight. Position carefully: you have no escape.",
+    },
+    tips: {
+      es: ["Siempre detoná la E sobre un objetivo ya enraizado por la Q.", "Guardá la raíz para el asesino que te salte, no la malgastes de poke."],
+      en: ["Always detonate E on a target already rooted by Q.", "Save the root for the assassin who dives you, don't waste it on poke."],
+    },
+  },
+
+  malphite: {
+    strengths: {
+      es: [
+        "El ulti (Fuerza Imparable) + DFG one-shotea al carry enemigo apenas entrás: un combo, una muerte.",
+        "Los Fragmentos Sísmicos (Q) con AP hacen un poke sorprendente desde lejos.",
+        "La R es una iniciación imposible de esquivar que aturde en área.",
+        "Aun yendo AP, la pasiva de escudo te da algo de aguante.",
+      ],
+      en: [
+        "The ult (Unstoppable Force) + DFG one-shots the enemy carry the moment you enter: one combo, one kill.",
+        "Seismic Shards (Q) with AP do surprising poke from afar.",
+        "The R is an undodgeable engage that stuns in an area.",
+        "Even going AP, the passive shield gives you some durability.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sin el ulti, tu enganche y tu burst desaparecen.",
+        "AP Malphite es mucho más frágil que la versión tanque.",
+        "Depende de un solo combo: si no matás, quedás expuesto.",
+        "El poke de la Q es de rango medio: te expone algo.",
+      ],
+      en: [
+        "Without the ult, your engage and burst disappear.",
+        "AP Malphite is much more fragile than the tank version.",
+        "Relies on a single combo: if you don't kill, you're exposed.",
+        "The Q poke is mid-range: it exposes you somewhat.",
+      ],
+    },
+    combos: {
+      es: ["Fuerza Imparable (R) sobre el carry enemigo para aturdir → DFG → Fragmento Sísmico (Q) + Golpe de Tierra (E) para borrarlo antes de que reaccione."],
+      en: ["Unstoppable Force (R) on the enemy carry to stun → DFG → Seismic Shard (Q) + Ground Slam (E) to delete them before they react."],
+    },
+    matchups: {
+      good: {
+        es: ["Squishies inmóviles que no sobreviven al combo R + DFG.", "Comps agrupadas donde el ulti aturde a varios."],
+        en: ["Immobile squishies who don't survive the R + DFG combo.", "Grouped comps where the ult stuns several."],
+      },
+      bad: {
+        es: ["Enemigos con QSS o dash que salen del ulti.", "Poke a rango que te baja antes de que puedas entrar."],
+        en: ["Enemies with QSS or a dash who escape the ult.", "Ranged poke that lowers you before you can engage."],
+      },
+    },
+    plan: {
+      es: "En línea, pokeá con los Fragmentos y farmea seguro. Tu momento es el nivel 6: guardá el ulti para caer sobre el carry enemigo y borrarlo con DFG apenas aturdís. En teamfights, la R también sirve para iniciar sobre varios agrupados. Elegí bien el objetivo porque tenés un solo combo.",
+      en: "In lane, poke with Shards and farm safe. Your moment is level 6: save the ult to land on the enemy carry and delete them with DFG the instant you stun. In teamfights, the R also works to engage on a grouped bunch. Pick your target well since you have a single combo.",
+    },
+    tips: {
+      es: ["Guardá el ulti para el carry, no lo gastes en el tanque enemigo.", "Encolá DFG y el combo apenas conecta la R para el burst máximo."],
+      en: ["Save the ult for the carry, don't spend it on the enemy tank.", "Queue DFG and the combo the instant the R connects for max burst."],
+    },
+  },
+
+  malzahar: {
+    strengths: {
+      es: [
+        "La supresión de Liberación del Vacío (R) bloquea por completo al carry enemigo: no puede moverse ni actuar.",
+        "Zona Nula (W) empuja la línea sola: control de oleada y presión gratis.",
+        "Llamado del Vacío (Q) + Visiones Maléficas dan daño sostenido y propagable.",
+        "Con DFG, la supresión se vuelve una sentencia de muerte para el objetivo.",
+      ],
+      en: [
+        "The Nether Grasp (R) suppression fully locks the enemy carry: they can't move or act.",
+        "Null Zone (W) pushes the lane on its own: wave control and free pressure.",
+        "Call of the Void (Q) + Malefic Visions give sustained, spreadable damage.",
+        "With DFG, the suppression becomes a death sentence for the target.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "La supresión te inmoviliza a vos también: quedás vulnerable mientras canalizás.",
+        "Sin el ulti, tu enganche desaparece.",
+        "Frágil: si te agarran, caés.",
+        "El QSS/tenacidad del enemigo rompe tu supresión.",
+      ],
+      en: [
+        "The suppression roots YOU too: you're vulnerable while channeling.",
+        "Without the ult, your engage disappears.",
+        "Fragile: if caught, you fall.",
+        "Enemy QSS/tenacity breaks your suppression.",
+      ],
+    },
+    combos: {
+      es: ["Visiones Maléficas (E) sobre el objetivo → Zona Nula (W) debajo → Liberación del Vacío (R) para suprimir + DFG mientras se queda quieto; Llamado del Vacío (Q) para el daño extra."],
+      en: ["Malefic Visions (E) on the target → Null Zone (W) underneath → Nether Grasp (R) to suppress + DFG while they stay still; Call of the Void (Q) for extra damage."],
+    },
+    matchups: {
+      good: {
+        es: ["Un solo carry peligroso al que anulás con la supresión.", "Bot lanes inmóviles que se comen la W y el combo."],
+        en: ["A single dangerous carry you neutralize with the suppression.", "Immobile bot lanes that eat the W and combo."],
+      },
+      bad: {
+        es: ["Enemigos con QSS o tenacidad que rompen la R.", "Comps que te divean mientras canalizás la supresión."],
+        en: ["Enemies with QSS or tenacity who break the R.", "Comps that dive you while you channel the suppression."],
+      },
+    },
+    plan: {
+      es: "En línea, empujá con la Zona Nula y desgastá con Visiones Maléficas (se propaga al matar minions). En peleas, elegí al carry más peligroso y suprimilo con la R + DFG encima — lo sacás de la pelea por completo. Cuidá tu posición porque la supresión te deja quieto y expuesto.",
+      en: "In lane, push with Null Zone and chip with Malefic Visions (it spreads on minion kills). In fights, pick the most dangerous carry and suppress them with R + DFG on top — you remove them from the fight entirely. Watch your position since the suppression leaves you still and exposed.",
+    },
+    tips: {
+      es: ["Suprimí al carry desde un ángulo seguro: quedás inmóvil durante la R.", "Colocá la Zona Nula bajo el objetivo suprimido para daño porcentual extra."],
+      en: ["Suppress the carry from a safe angle: you're immobile during the R.", "Place Null Zone under the suppressed target for extra % damage."],
+    },
+  },
+
+  missfortune: {
+    strengths: {
+      es: [
+        "Lluvia de Balas (E) + Doble Impacto hacen un poke brutal en bot lane.",
+        "El ulti (Bombardeo) es una bomba de daño de área desde la línea de atrás.",
+        "Andar Vanidoso te da velocidad para reposicionarte y perseguir.",
+        "Presión de línea altísima: castigás cualquier error de posicionamiento.",
+      ],
+      en: [
+        "Bullet Time... Make it Rain (E) + Double Up do brutal poke in the bot lane.",
+        "The ult (Bullet Time) is an AoE damage bomb from the backline.",
+        "Strut gives you speed to reposition and chase.",
+        "Very high lane pressure: you punish any positioning mistake.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "El ulti tiene canalización: si te interrumpen, perdés todo el daño.",
+        "Frágil como support de poke.",
+        "Sin escape real más allá de la velocidad de Andar Vanidoso.",
+        "Depende de posicionar bien el ulti para que pegue a varios.",
+      ],
+      en: [
+        "The ult has a channel: if interrupted, you lose all the damage.",
+        "Fragile as a poke support.",
+        "No real escape beyond Strut's speed.",
+        "Relies on positioning the ult well to hit several.",
+      ],
+    },
+    combos: {
+      es: ["Poke: Doble Impacto (Q) sobre el objetivo con un minion detrás + Lluvia de Balas (E) para el slow y el daño. Teamfight: Bombardeo (R) desde atrás cuando estén agrupados y frenados."],
+      en: ["Poke: Double Up (Q) on the target with a minion behind + Make it Rain (E) for slow and damage. Teamfight: Bullet Time (R) from the back when they're grouped and slowed."],
+    },
+    matchups: {
+      good: {
+        es: ["Bot lanes agrupadas que sufren tu poke y tu ulti.", "Comps que pelean en espacios cerrados donde el Bombardeo pega a todos."],
+        en: ["Grouped bot lanes that suffer your poke and ult.", "Comps that fight in tight spaces where Bullet Time hits everyone."],
+      },
+      bad: {
+        es: ["Enganche que te interrumpe el ulti al instante.", "Comps dispersas donde el Bombardeo apenas roza."],
+        en: ["Engage that interrupts your ult instantly.", "Spread comps where Bullet Time barely grazes."],
+      },
+    },
+    plan: {
+      es: "Domina el bot lane con el poke de Doble Impacto y Lluvia de Balas. En teamfights, quedate detrás y buscá el ángulo para canalizar el Bombardeo sobre el equipo agrupado y frenado — es un daño enorme si no te interrumpen. Usá Andar Vanidoso para reposicionarte a salvo.",
+      en: "Dominate the bot lane with Double Up and Make it Rain poke. In teamfights, stay back and find the angle to channel Bullet Time on the grouped, slowed team — it's huge damage if you're not interrupted. Use Strut to reposition safely.",
+    },
+    tips: {
+      es: ["Apuntá Doble Impacto con un minion o campeón detrás del objetivo para que rebote.", "Canalizá el ulti solo con protección: cualquier CC lo corta."],
+      en: ["Aim Double Up with a minion or champion behind the target so it bounces.", "Only channel the ult with protection: any CC cuts it."],
+    },
+  },
+
+  morgana: {
+    strengths: {
+      es: [
+        "Suelo Atormentado (W) limpia campamentos sin recibir daño: farmeo de jungla cómodo.",
+        "La Atadura Oscura (Q) es una raíz larguísima: los ganks son letales.",
+        "El Escudo Negro (E) bloquea el próximo CC: anula enganches y picks enemigos.",
+        "Restricción del Alma (R) fija a los enemigos cercanos para tu equipo.",
+      ],
+      en: [
+        "Tormented Soil (W) clears camps without taking damage: comfortable jungle farming.",
+        "Dark Binding (Q) is a very long root: ganks are lethal.",
+        "Black Shield (E) blocks the next CC: it negates enemy engages and picks.",
+        "Soul Shackles (R) locks nearby enemies for your team.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "La Atadura es un skillshot lento: si fallás, el gank se cae.",
+        "Sin la raíz, tu enganche desaparece.",
+        "El Suelo hace daño con el tiempo, no burst: los picks dependen del CC.",
+        "Frágil si te atrapan sin el Escudo Negro para vos.",
+      ],
+      en: [
+        "Dark Binding is a slow skillshot: if you miss, the gank falls apart.",
+        "Without the root, your engage disappears.",
+        "Tormented Soil does damage over time, not burst: picks rely on the CC.",
+        "Fragile if caught without Black Shield up for yourself.",
+      ],
+    },
+    combos: {
+      es: ["Gank: Atadura Oscura (Q) para enraizar → Suelo Atormentado (W) debajo para el daño → Restricción del Alma (R) si hay varios cerca; Escudo Negro (E) a un aliado clave para anular el CC enemigo."],
+      en: ["Gank: Dark Binding (Q) to root → Tormented Soil (W) underneath for damage → Soul Shackles (R) if several are close; Black Shield (E) on a key ally to negate enemy CC."],
+    },
+    matchups: {
+      good: {
+        es: ["Líneas inmóviles a las que enraizás con la Q larga.", "Comps de CC donde el Escudo Negro anula su enganche."],
+        en: ["Immobile lanes you root with the long Q.", "CC comps where Black Shield negates their engage."],
+      },
+      bad: {
+        es: ["Enemigos móviles que esquivan la Atadura lenta.", "Comps sin CC donde el Escudo Negro pierde valor."],
+        en: ["Mobile enemies who dodge the slow Dark Binding.", "Comps without CC where Black Shield loses value."],
+      },
+    },
+    plan: {
+      es: "Farmeá cómoda con el Suelo Atormentado y buscá ganks con la raíz larga sobre líneas empujadas. Usá el Escudo Negro para anular el enganche o el pick clave del enemigo — bien usado, gana peleas. La R sirve para fijar a varios en un teamfight cerrado. Todo gira en torno a acertar la Q.",
+      en: "Farm comfortably with Tormented Soil and look for ganks with the long root on pushed lanes. Use Black Shield to negate the enemy's key engage or pick — used well, it wins fights. The R locks several in a tight teamfight. Everything revolves around landing the Q.",
+    },
+    tips: {
+      es: ["Poné el Escudo Negro sobre el aliado que van a enganchar para anular su CC.", "Colocá el Suelo Atormentado debajo del objetivo enraizado para maximizar el daño."],
+      en: ["Put Black Shield on the ally they're about to engage to negate their CC.", "Place Tormented Soil under the rooted target to maximize damage."],
+    },
+  },
+
+  nasus: {
+    strengths: {
+      es: [
+        "Los campamentos apilan Golpe Siphon (Q) rápido: escalás a un pegador que ejecuta.",
+        "Marchitar (W) deja al carry enemigo sin velocidad de movimiento ni de ataque: lo anula por completo.",
+        "El ulti (Furia del Guardián de Arena) te vuelve un tanque enorme que hace daño de área.",
+        "Escala infinito: cada minion y campamento te hace más fuerte para siempre.",
+      ],
+      en: [
+        "Camps stack Siphoning Strike (Q) fast: you scale into a hitter that executes.",
+        "Wither (W) leaves the enemy carry with no move or attack speed: it fully neutralizes them.",
+        "The ult (Fury of the Sands) turns you into a huge tank that deals AoE damage.",
+        "Infinite scaling: every minion and camp makes you stronger forever.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Early game muy flojo: sos vulnerable hasta apilar y llegar a ítems.",
+        "Sin movilidad: los campeones de kiteo te sufren poco.",
+        "Depende de apilar la Q: si te niegan el farmeo, no escalás.",
+        "Un solo Marchitar: contra dos amenazas, solo frenás a una.",
+      ],
+      en: [
+        "Very weak early: you're vulnerable until you stack and hit items.",
+        "No mobility: kiting champions barely fear you.",
+        "Relies on stacking Q: if they deny your farm, you don't scale.",
+        "Only one Wither: against two threats, you only slow one.",
+      ],
+    },
+    combos: {
+      es: ["Gank: Marchitar (W) sobre el carry enemigo para dejarlo sin escape → Fuego Espiritual (E) para el slow y la reducción de armadura → Golpe Siphon (Q) apilado para el burst."],
+      en: ["Gank: Wither (W) on the enemy carry to strip their escape → Spirit Fire (E) for slow and armor shred → stacked Siphoning Strike (Q) for the burst."],
+    },
+    matchups: {
+      good: {
+        es: ["Carries que dependen de la velocidad de ataque: Marchitar los apaga.", "Peleas prolongadas donde tu ulti y tus pilas deciden."],
+        en: ["Carries that rely on attack speed: Wither shuts them off.", "Prolonged fights where your ult and stacks decide."],
+      },
+      bad: {
+        es: ["Comps de kiteo que te desgastan sin dejarte llegar.", "Enemigos que te niegan el farmeo temprano."],
+        en: ["Kiting comps that wear you down without letting you close.", "Enemies who deny your early farm."],
+      },
+    },
+    plan: {
+      es: "Apilá Golpe Siphon en los campamentos para escalar rápido y gankeá usando Marchitar para anular al carry enemigo. En mid-late, sos un tanque que ejecuta: entrá con el ulti, marchitá a la amenaza principal y pegá Q apiladas. Sos débil temprano, así que farmeá seguro hasta tu pico.",
+      en: "Stack Siphoning Strike on camps to scale fast and gank using Wither to neutralize the enemy carry. Mid-late, you're a tank that executes: enter with the ult, Wither the main threat and land stacked Q's. You're weak early, so farm safe until your spike.",
+    },
+    tips: {
+      es: ["Guardá Marchitar para el carry que más daño hace, no lo malgastes.", "Apilá la Q en campamentos y olas siempre que puedas: es poder permanente."],
+      en: ["Save Wither for the biggest damage carry, don't waste it.", "Stack Q on camps and waves whenever you can: it's permanent power."],
+    },
+  },
+
+  nidalee: {
+    strengths: {
+      es: [
+        "La Lanza (Q) a máximo rango hace un poke devastador: castiga desde lejísimos.",
+        "El Toque Primitivo (E) cura al ADC: sustain fuerte en línea.",
+        "En forma Puma (R) tenés escape y movilidad infinitos.",
+        "Las Trampas (W) dan visión y castigan a quien las pise.",
+      ],
+      en: [
+        "The Spear (Q) at max range does devastating poke: it punishes from way out.",
+        "Primal Surge (E) heals the ADC: strong lane sustain.",
+        "In Cougar form (R) you have infinite escape and mobility.",
+        "The Traps (W) give vision and punish whoever steps on them.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "La Lanza es un skillshot largo: fácil de fallar a distancia.",
+        "Su daño depende casi todo de acertar la Q.",
+        "Frágil en forma humana si te alcanzan.",
+        "Cambiar entre formas requiere buen manejo para no quedar sin herramientas.",
+      ],
+      en: [
+        "The Spear is a long skillshot: easy to miss at range.",
+        "Almost all her damage depends on landing the Q.",
+        "Fragile in human form if reached.",
+        "Swapping between forms takes good management to not run out of tools.",
+      ],
+    },
+    combos: {
+      es: ["Trampa (W) para revelar y ralentizar → Lanza (Q) a máximo rango sobre el objetivo marcado para el poke máximo; Toque Primitivo (E) para curar a tu ADC entre intercambios."],
+      en: ["Trap (W) to reveal and slow → Spear (Q) at max range on the marked target for max poke; Primal Surge (E) to heal your ADC between trades."],
+    },
+    matchups: {
+      good: {
+        es: ["Bot lanes inmóviles a las que castigás con la Lanza sin represalia.", "Comps de asedio donde tu poke y sustain deciden la línea."],
+        en: ["Immobile bot lanes you punish with the Spear without retaliation.", "Siege comps where your poke and sustain decide the lane."],
+      },
+      bad: {
+        es: ["Enganche que te agarra en forma humana.", "Campeones móviles que esquivan la Lanza."],
+        en: ["Engage that catches you in human form.", "Mobile champions who dodge the Spear."],
+      },
+    },
+    plan: {
+      es: "En línea, pokeá con la Lanza a máximo rango (marcá primero con la Trampa para asegurar el tiro) y curá a tu ADC con el Toque Primitivo. Desgastás a la bot lane enemiga hasta forzar el all-in de tu carry. Usá la forma Puma para reposicionarte y escapar. Todo depende de tu puntería con la Q.",
+      en: "In lane, poke with the Spear at max range (mark first with the Trap to secure the shot) and heal your ADC with Primal Surge. You wear down the enemy bot lane until you force your carry's all-in. Use Cougar form to reposition and escape. It all comes down to your Q aim.",
+    },
+    tips: {
+      es: ["Marcá con la Trampa o la Q corta antes de la Lanza a rango: pega mucho más sobre objetivos marcados.", "Guardá la forma Puma para escapar del enganche enemigo."],
+      en: ["Mark with the Trap or short Q before the long-range Spear: it hits much harder on marked targets.", "Save Cougar form to escape the enemy engage."],
+    },
+  },
+
+  nunu: {
+    strengths: {
+      es: [
+        "Bola de Hielo (E) con AP hace un burst enorme en ganks: un slow que revienta.",
+        "Consumir (Q) da sustain infinito y sirve para robar objetivos (Dragón/Barón).",
+        "El ulti canalizado (Cero Absoluto) revienta teamfights agrupados con un daño masivo.",
+        "Hervir Sangre (W) da velocidad a un aliado para eng+ganks.",
+      ],
+      en: [
+        "Ice Blast (E) with AP does huge burst in ganks: a slow that hurts.",
+        "Consume (Q) gives infinite sustain and steals objectives (Dragon/Baron).",
+        "The channeled ult (Absolute Zero) blows up grouped teamfights with massive damage.",
+        "Blood Boil (W) gives speed to an ally for engages+ganks.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "El ulti tiene una canalización larga: cualquier CC lo interrumpe.",
+        "Fuera del ulti, tu daño depende de la Bola de Hielo.",
+        "Poca movilidad propia para escapar de un dive.",
+        "Si te interrumpen Cero Absoluto, perdés tu mayor golpe.",
+      ],
+      en: [
+        "The ult has a long channel: any CC interrupts it.",
+        "Outside the ult, your damage relies on Ice Blast.",
+        "Little self-mobility to escape a dive.",
+        "If Absolute Zero is interrupted, you lose your biggest hit.",
+      ],
+    },
+    combos: {
+      es: ["Gank: Hervir Sangre (W) sobre vos o un aliado para llegar → Bola de Hielo (E) para el burst y el slow. Teamfight: Cero Absoluto (R) desde un ángulo protegido sobre el equipo agrupado."],
+      en: ["Gank: Blood Boil (W) on yourself or an ally to arrive → Ice Blast (E) for burst and slow. Teamfight: Absolute Zero (R) from a protected angle on the grouped team."],
+    },
+    matchups: {
+      good: {
+        es: ["Comps agrupadas que se comen todo el Cero Absoluto.", "Peleas por objetivos: robás Dragón/Barón con Consumir."],
+        en: ["Grouped comps that eat the full Absolute Zero.", "Objective fights: you steal Dragon/Baron with Consume."],
+      },
+      bad: {
+        es: ["Comps con mucho CC que interrumpen tu ulti.", "Enemigos dispersos donde Cero Absoluto pega poco."],
+        en: ["Comps with lots of CC that interrupt your ult.", "Spread enemies where Absolute Zero barely hits."],
+      },
+    },
+    plan: {
+      es: "Farmeá con Consumir (te cura) y gankeá con Bola de Hielo para el burst y el slow. En objetivos, tené Consumir listo para robar Dragón o Barón con Smite. En teamfights, canalizá Cero Absoluto desde detrás de tu frontline o después de un CC de tu equipo — protegido, es un daño demoledor.",
+      en: "Farm with Consume (it heals you) and gank with Ice Blast for burst and slow. At objectives, keep Consume ready to steal Dragon or Baron with Smite. In teamfights, channel Absolute Zero from behind your frontline or after your team's CC — protected, it's devastating damage.",
+    },
+    tips: {
+      es: ["Canalizá Cero Absoluto solo con protección o tras un CC aliado: se interrumpe con cualquier golpe de control.", "Guardá Consumir para robar objetivos con Smite."],
+      en: ["Only channel Absolute Zero with protection or after allied CC: any control interrupts it.", "Save Consume to steal objectives with Smite."],
+    },
+  },
+
+  olaf: {
+    strengths: {
+      es: [
+        "Blade + Wit's End dan un DPS on-hit demencial: derretís hasta tanques.",
+        "Ragnarok (R) te vuelve inmune al CC: entrás, pegás y nadie te frena.",
+        "Golpes Viciosos (W) te curan mientras pegás: sustain en pelea.",
+        "Contracorriente (Q) da slow y recuperás su cooldown al recoger el hacha.",
+      ],
+      en: [
+        "Blade + Wit's End give insane on-hit DPS: you melt even tanks.",
+        "Ragnarok (R) makes you immune to CC: you enter, hit and nobody stops you.",
+        "Vicious Strikes (W) heal you while you hit: fight sustain.",
+        "Undertow (Q) slows and you refund its cooldown by picking up the axe.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sin el ulti, el CC te frena y tu DPS no sirve.",
+        "Depende de pegarse al objetivo: contra kiteo puro sufrís.",
+        "Poco burst: matás con daño sostenido, lleva tiempo.",
+        "Si fallás la Q, perdés el slow para alcanzar al enemigo.",
+      ],
+      en: [
+        "Without the ult, CC stops you and your DPS is useless.",
+        "Relies on sticking to the target: against pure kiting you struggle.",
+        "Little burst: you kill with sustained damage, which takes time.",
+        "If you miss Q, you lose the slow to reach the enemy.",
+      ],
+    },
+    combos: {
+      es: ["Contracorriente (Q) para ralentizar → Ragnarok (R) para ignorar el CC → Golpes Viciosos (W) activado + autos on-hit con Blade + Wit's End para derretir al objetivo."],
+      en: ["Undertow (Q) to slow → Ragnarok (R) to ignore CC → Vicious Strikes (W) active + on-hit autos with Blade + Wit's End to melt the target."],
+    },
+    matchups: {
+      good: {
+        es: ["Comps con mucho CC: Ragnarok las vuelve inútiles contra vos.", "Tanques y objetivos de mucha vida que tu DPS on-hit derrite."],
+        en: ["Comps with lots of CC: Ragnarok makes it useless against you.", "Tanks and high-HP targets your on-hit DPS melts."],
+      },
+      bad: {
+        es: ["Kiteo puro (Vayne, Kite ADCs) que te patean sin dejarte pegar.", "Enemigos con dashes que rompen tu persecución."],
+        en: ["Pure kiting (Vayne, kite ADCs) who peel you out.", "Enemies with dashes that break your chase."],
+      },
+    },
+    plan: {
+      es: "En línea, usá la Q para pegarte y la W para sostenerte en los intercambios. En peleas, activá Ragnarok para ignorar todo el CC enemigo, saltá al carry y derretilo con tu DPS on-hit mientras te curás. Sos imparable si llegás: el desafío es alcanzar al objetivo contra el kiteo.",
+      en: "In lane, use Q to stick and W to sustain in trades. In fights, activate Ragnarok to ignore all enemy CC, jump the carry and melt them with your on-hit DPS while healing. You're unstoppable if you arrive: the challenge is reaching the target against kiting.",
+    },
+    tips: {
+      es: ["Activá Ragnarok justo antes de que te tiren el CC clave para negarlo.", "Recogé el hacha de la Q para recuperar su cooldown y mantener el slow."],
+      en: ["Activate Ragnarok just before they land their key CC to negate it.", "Pick up the Q axe to refund its cooldown and keep the slow up."],
+    },
+  },
+
+  pantheon: {
+    strengths: {
+      es: [
+        "La Lanza (Q) a máximo rango hace un poke brutal, con crítico garantizado bajo 15% de vida.",
+        "El Aturdimiento (W) asegura el all-in del ADC: salto + stun sobre el objetivo.",
+        "Bloqueo de Corazón (E) niega todos los autoataques desde un frente: peel enorme.",
+        "La Gran Estocada (R) da presencia global para unirte a peleas de todo el mapa.",
+      ],
+      en: [
+        "The Spear (Q) at max range does brutal poke, with a guaranteed crit under 15% HP.",
+        "Aegis of Zeonia (W) secures the ADC's all-in: leap + stun on the target.",
+        "Heartseeker Strike... Aegis Protection (E) negates all autoattacks from one front: huge peel.",
+        "Grand Skyfall (R) gives global presence to join fights across the map.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "El Aturdimiento (W) te mete en el medio: si tu equipo no sigue, quedás expuesto.",
+        "Frágil como support de poke.",
+        "Depende de acertar la Lanza para el poke.",
+        "Sin herramientas de escape más allá del ulti global.",
+      ],
+      en: [
+        "Aegis (W) puts you in the middle: if your team doesn't follow, you're exposed.",
+        "Fragile as a poke support.",
+        "Relies on landing the Spear for poke.",
+        "No escape tools beyond the global ult.",
+      ],
+    },
+    combos: {
+      es: ["Poke en línea: Lanza Cometa (Q) al ADC enemigo. All-in: Asalto Égida (W) para saltar y aturdir → Bloqueo de Corazón (E) + tu ADC para rematar."],
+      en: ["Lane poke: Spear Shot (Q) at the enemy ADC. All-in: Aegis of Zeonia (W) to leap and stun → Aegis Protection (E) + your ADC to finish."],
+    },
+    matchups: {
+      good: {
+        es: ["Bot lanes escuálidas a las que castigás con la Lanza y el crítico de ejecución.", "Comps de autoataque a las que peeleás con el Bloqueo de Corazón."],
+        en: ["Squishy bot lanes you punish with the Spear and the execute crit.", "Autoattack comps you peel with Aegis Protection."],
+      },
+      bad: {
+        es: ["Enganche que te castiga cuando saltás con la W.", "Poke a rango que te desgasta primero."],
+        en: ["Engage that punishes you when you leap with W.", "Ranged poke that wears you down first."],
+      },
+    },
+    plan: {
+      es: "En línea, pokeá sin parar con la Lanza (remata a enemigos bajos con el crítico garantizado) y buscá el aturdimiento para el all-in de tu ADC. Usá el Bloqueo de Corazón para negar el daño de autoataque enemigo. La Gran Estocada te deja aparecer en peleas de otras líneas: úsala para picks globales.",
+      en: "In lane, poke non-stop with the Spear (finish low enemies with the guaranteed crit) and look for the stun for your ADC's all-in. Use Aegis Protection to negate enemy autoattack damage. Grand Skyfall lets you appear in other lanes' fights: use it for global picks.",
+    },
+    tips: {
+      es: ["Usá la Lanza para rematar: bajo 15% de vida, el crítico es una ejecución.", "Orientá el Bloqueo de Corazón hacia la fuente de autoataques para peelear al ADC."],
+      en: ["Use the Spear to finish: under 15% HP, the crit is an execute.", "Face Aegis Protection toward the autoattack source to peel your ADC."],
+    },
+  },
 };
 
 export function detailsFor(slug) {
