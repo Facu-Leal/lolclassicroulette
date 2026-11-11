@@ -651,7 +651,7 @@ export const buildDetails = {
   "veigar-oneshot": {
     strengths: {
       es: [
-        "Poder de habilidad SIN límite: cada last-hit y kill con Golpe Baleful (Q) te suma AP permanente para siempre.",
+        "Poder de habilidad SIN límite: cada last-hit y kill con Golpe Maligno (Q) te suma AP permanente para siempre.",
         "Horizonte de Eventos (E) es un aturdimiento y zona garantizados: control absoluto sobre un objetivo.",
         "La definitiva escala con el AP del enemigo: borra magos de un saque.",
         "One-shot a cualquier squishy una vez que apilaste.",
@@ -678,7 +678,7 @@ export const buildDetails = {
       ],
     },
     combos: {
-      es: ["Horizonte de Eventos (E) para aturdir → Materia Oscura (W) sobre el objetivo fijado → Golpe Baleful (Q) + DFG + Explosión Primordial (R) para el borrado."],
+      es: ["Horizonte de Eventos (E) para aturdir → Materia Oscura (W) sobre el objetivo fijado → Golpe Maligno (Q) + DFG + Explosión Primordial (R) para el borrado."],
       en: ["Event Horizon (E) to stun → Dark Matter (W) on the locked target → Baleful Strike (Q) + DFG + Primordial Burst (R) for the delete."],
     },
     matchups: {
@@ -2002,7 +2002,7 @@ export const buildDetails = {
     },
     combos: {
       es: ["Vómito Corrosivo (E) para bajar resistencias y ralentizar → Artillería Viviente (R) repetida para el poke; Cañón de Vísceras (Q) si se acercan."],
-      en: ["Void Ooze (E) to shred resistances and slow → repeated Living Artillery (R) for poke; Bio-Arcane... Caustic Spittle (Q) if they close in."],
+      en: ["Void Ooze (E) to shred resistances and slow → repeated Living Artillery (R) for poke; Caustic Spittle (Q) if they close in."],
     },
     matchups: {
       good: {
@@ -2657,6 +2657,1410 @@ export const buildDetails = {
     tips: {
       es: ["Usá la Lanza para rematar: bajo 15% de vida, el crítico es una ejecución.", "Orientá el Bloqueo de Corazón hacia la fuente de autoataques para peelear al ADC."],
       en: ["Use the Spear to finish: under 15% HP, the crit is an execute.", "Face Aegis Protection toward the autoattack source to peel your ADC."],
+    },
+  },
+  rammus: {
+    strengths: {
+      es: [
+        "Bola Rodante (Q) te da engage desde lejos y te mete encima del carry antes de que reaccione.",
+        "Provocar (E) obliga al objetivo a pegarte a vos, justo cuando la Postura Defensiva le devuelve el daño.",
+        "Con Sunfire y AP, el Temblor (R) más la quemadura hacen daño de área constante sin que dejes de ser un tanque.",
+        "Thornmail + Postura Defensiva castigan a cualquier ADC que te autoataque.",
+      ],
+      en: [
+        "Powerball (Q) gives long-range engage and puts you on the carry before they can react.",
+        "Puncturing Taunt (E) forces the target to hit you, right when Defensive Ball Curl reflects the damage.",
+        "With Sunfire and AP, Tremors (R) plus the burn deal constant area damage while you stay a tank.",
+        "Thornmail + Defensive Ball Curl punish any ADC who autoattacks you.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "El daño mágico ignora tu armadura: los magos te bajan mucho más rápido que los ADC.",
+        "El AP es un extra: si no llegás a meterte en la pelea, no hacés nada.",
+        "La jungla temprana es lenta hasta que tenés la Sunfire.",
+        "Los slows te frenan la Bola Rodante y te cortan el engage.",
+      ],
+      en: [
+        "Magic damage ignores your armor: mages bring you down much faster than ADCs.",
+        "The AP is a bonus: if you can't get into the fight, you do nothing.",
+        "Early jungle clear is slow until you have Sunfire.",
+        "Slows interrupt Powerball and shut down your engage.",
+      ],
+    },
+    combos: {
+      es: ["Bola Rodante (Q) sobre el carry → Provocar (E) → Postura Defensiva (W) → Temblor (R) en el medio del equipo enemigo."],
+      en: ["Powerball (Q) onto the carry → Puncturing Taunt (E) → Defensive Ball Curl (W) → Tremors (R) in the middle of the enemy team."],
+    },
+    matchups: {
+      good: {
+        es: ["Equipos con mucho daño físico y ADC de autoataques.", "Comps agrupadas que se quedan dentro del Temblor."],
+        en: ["Teams heavy on physical damage and auto-attacking ADCs.", "Grouped comps that stay inside Tremors."],
+      },
+      bad: {
+        es: ["Equipos full AP que ignoran tu armadura.", "Kiteo con slows que no te deja llegar con la Bola."],
+        en: ["Full-AP teams that ignore your armor.", "Slow-heavy kiting that keeps Powerball from connecting."],
+      },
+    },
+    plan: {
+      es: "Limpiá jungla con cuidado hasta la Sunfire y después gankeá con Bola Rodante desde ángulos laterales. En peleas sos el iniciador: entrá rodando, provocá al carry y activá Postura Defensiva para que se lastime solo. El Temblor hace el resto mientras aguantás en el medio.",
+      en: "Clear carefully until Sunfire, then gank with Powerball from side angles. In fights you're the engager: roll in, taunt the carry and pop Defensive Ball Curl so they hurt themselves. Tremors does the rest while you tank in the middle.",
+    },
+    tips: {
+      es: ["Activá la Postura Defensiva antes de provocar, no después: así el daño reflejado arranca desde el primer golpe.", "Usá la Bola Rodante también para escapar: es tu única movilidad."],
+      en: ["Activate Defensive Ball Curl before taunting, not after: that way reflected damage starts from the first hit.", "Use Powerball to escape too: it's your only mobility."],
+    },
+  },
+  ryze: {
+    strengths: {
+      es: [
+        "Rod of Ages + Warmog te dan tanta vida que podés pelear de frente con casi cualquier top.",
+        "Prisión Rúnica (W) enraíza a punto y click: gana duelos y asegura ganks.",
+        "Cada hechizo baja los cooldowns de los demás: spameás Sobrecarga sin parar.",
+        "Poder Desesperado (R) te da vampirismo y hace que tus hechizos peguen en área.",
+      ],
+      en: [
+        "Rod of Ages + Warmog give you so much health you can fight almost any top head-on.",
+        "Rune Prison (W) is a point-and-click root: wins duels and secures ganks.",
+        "Every spell lowers your other cooldowns: you spam Overload nonstop.",
+        "Desperate Power (R) gives spell vamp and makes your spells hit in an area.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Temprano tenés poco rango y poca vida: los tops agresivos te castigan antes de la RoA.",
+        "Sin movilidad: si te kitean, no llegás a pegar.",
+        "El daño viene de la vida y el maná, no del AP: no esperes one-shotear a nadie.",
+        "Las silencias y el antiheal cortan tu combo y tu sustain.",
+      ],
+      en: [
+        "Early on you have short range and low health: aggressive tops punish you before RoA.",
+        "No mobility: if you get kited, you can't reach anyone.",
+        "Your damage comes from health and mana, not AP: don't expect to one-shot anyone.",
+        "Silences and grievous wounds shut down your combo and sustain.",
+      ],
+    },
+    combos: {
+      es: ["Prisión Rúnica (W) → Sobrecarga (Q) → Flujo de Hechizos (E) → Sobrecarga (Q); con Poder Desesperado (R) activo, todo pega en área."],
+      en: ["Rune Prison (W) → Overload (Q) → Spell Flux (E) → Overload (Q); with Desperate Power (R) active, everything hits in an area."],
+    },
+    matchups: {
+      good: {
+        es: ["Luchadores cuerpo a cuerpo que necesitan pegarte de cerca.", "Equipos sin antiheal contra los que el vampirismo te hace inmortal."],
+        en: ["Melee bruisers who need to stay close to you.", "Teams without grievous wounds, where spell vamp makes you immortal."],
+      },
+      bad: {
+        es: ["Tops de rango como Teemo o Kennen que te pokean en línea.", "Equipos con mucho daño verdadero o porcentual."],
+        en: ["Ranged tops like Teemo or Kennen who poke you in lane.", "Teams with lots of true or percent-health damage."],
+      },
+    },
+    plan: {
+      es: "Farmeá tranquilo hasta la Rod of Ages y usá el Teleport para ayudar en otras líneas. Cuando tengas RoA y Frozen Heart, empujá la línea y buscá duelos: enraizás, spameás y aguantás. En las peleas de equipo enraizá al que se meta y quedate en primera línea pegando todo el tiempo.",
+      en: "Farm safely until Rod of Ages and use Teleport to help other lanes. Once you have RoA and Frozen Heart, push and look for duels: root, spam and tank. In teamfights root whoever dives and stay in the frontline casting nonstop.",
+    },
+    tips: {
+      es: ["Comprá la Rod of Ages lo antes posible: escala con el tiempo y es la base de toda la build.", "Guardá la Prisión Rúnica para el que intente escapar o meterse en tu backline."],
+      en: ["Buy Rod of Ages as early as possible: it scales over time and is the base of the whole build.", "Save Rune Prison for whoever tries to escape or dive your backline."],
+    },
+  },
+  singed: {
+    strengths: {
+      es: [
+        "Lanzamiento (E) mueve al ADC enemigo adonde quieras: bajo tu torre o al medio de tu equipo.",
+        "Mega Adhesivo (W) ralentiza en área y deja al enemigo pegado para el Lanzamiento.",
+        "Rylai hace que el Rastro de Veneno ralentice todo lo que toca.",
+        "Insania (R) te da velocidad, resistencias y regeneración para correr en el medio de la pelea.",
+      ],
+      en: [
+        "Fling (E) throws the enemy ADC wherever you want: under your tower or into your team.",
+        "Mega Adhesive (W) slows an area and keeps the enemy stuck for the Fling.",
+        "Rylai's makes Poison Trail slow everything it touches.",
+        "Insanity Potion (R) gives speed, resistances and regen to run through the fight.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sos melee en una línea de soportes de rango: te pokean mientras te acercás.",
+        "Dependés de acercarte para el Lanzamiento: el CC enemigo te frena en seco.",
+        "El veneno consume maná rápido si lo dejás prendido.",
+        "Poco daño de burst: no rematás solo.",
+      ],
+      en: [
+        "You're melee in a lane of ranged supports: you get poked while closing in.",
+        "You need to get close for Fling: enemy CC stops you cold.",
+        "Poison Trail burns mana quickly if you leave it on.",
+        "Little burst damage: you don't finish kills alone.",
+      ],
+    },
+    combos: {
+      es: ["Mega Adhesivo (W) delante del ADC → caminá hasta él → Lanzamiento (E) hacia tu ADC o tu torre → Rastro de Veneno (Q) mientras lo persiguen."],
+      en: ["Mega Adhesive (W) in front of the ADC → walk up → Fling (E) toward your ADC or tower → Poison Trail (Q) while they chase."],
+    },
+    matchups: {
+      good: {
+        es: ["Duplas melee o de corto rango (Leona, Taric) que se te acercan solas.", "ADC sin escapes que no pueden salir del Adhesivo."],
+        en: ["Melee or short-range duos (Leona, Taric) who come to you.", "ADCs without escapes who can't leave the Adhesive."],
+      },
+      bad: {
+        es: ["Soportes de poke (Sona, Lulu, Janna) que te castigan de lejos.", "ADC con dash que se escapa antes del Lanzamiento."],
+        en: ["Poke supports (Sona, Lulu, Janna) who punish you from afar.", "Dash ADCs who escape before the Fling."],
+      },
+    },
+    plan: {
+      es: "En línea jugá desde el arbusto y buscá el Lanzamiento cuando el ADC enemigo se acerque a farmear. Después de nivel 6, roameá con la velocidad de la Insania y meté wards con la Sightstone. En peleas, metete en el medio, lanzá al carry hacia tu equipo y dejá el veneno haciendo caos.",
+      en: "In lane play from the brush and look for Fling when the enemy ADC steps up to farm. After level 6, roam with the Insanity Potion speed and ward with Sightstone. In fights, get in the middle, fling the carry into your team and let the poison cause chaos.",
+    },
+    tips: {
+      es: ["Lanzá siempre hacia tu lado: tirar al enemigo lejos de vos solo lo salva.", "Apagá el Rastro de Veneno cuando no hay nadie cerca para no quedarte sin maná."],
+      en: ["Always fling toward your side: throwing the enemy away from you just saves them.", "Turn off Poison Trail when nobody is around so you don't run out of mana."],
+    },
+  },
+  sivir: {
+    strengths: {
+      es: [
+        "Cuchilla Bumerán (Q) pega a la ida y a la vuelta: poke largo y fácil desde el soporte.",
+        "Escudo de Hechizos (E) bloquea un engage o un CC y te devuelve maná.",
+        "En la Caza (R) le da velocidad a todo el equipo: decide quién pelea y quién escapa.",
+        "Black Cleaver y Statikk hacen que tus autos sigan siendo peligrosos aunque no farmees.",
+      ],
+      en: [
+        "Boomerang Blade (Q) hits on the way out and back: long, easy poke from support.",
+        "Spell Shield (E) blocks an engage or CC and refunds mana.",
+        "On The Hunt (R) speeds up your whole team: it decides who fights and who escapes.",
+        "Black Cleaver and Statikk keep your autos dangerous even without farm.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "No tenés CC propio: dependés del ADC para asegurar kills.",
+        "Sin curas ni escudos para aliados: no salvás a tu ADC de un all-in.",
+        "El Escudo es un solo bloqueo: si lo gastás mal, quedás expuesta.",
+        "Frágil en el early contra soportes tanque que te enganchan.",
+      ],
+      en: [
+        "You have no CC of your own: you rely on your ADC to secure kills.",
+        "No heals or shields for allies: you can't save your ADC from an all-in.",
+        "Spell Shield blocks once: waste it and you're exposed.",
+        "Fragile early against tank supports who catch you.",
+      ],
+    },
+    combos: {
+      es: ["Cuchilla Bumerán (Q) para poke → En la Caza (R) para entrar con todo el equipo → Escudo de Hechizos (E) cuando venga el CC enemigo."],
+      en: ["Boomerang Blade (Q) to poke → On The Hunt (R) to engage with the whole team → Spell Shield (E) when the enemy CC comes."],
+    },
+    matchups: {
+      good: {
+        es: ["Soportes de enganche con una sola habilidad clave (Blitzcrank, Leona) que el Escudo anula.", "Duplas pasivas que te dejan pokear libre."],
+        en: ["Engage supports with one key ability (Blitzcrank, Leona) that Spell Shield negates.", "Passive duos who let you poke freely."],
+      },
+      bad: {
+        es: ["Soportes con mucho CC repetido (Taric, Alistar) que pasan tu único escudo.", "Asesinos que roamean y te encuentran sin wards."],
+        en: ["Supports with repeated CC (Taric, Alistar) who get past your one shield.", "Roaming assassins who catch you without wards."],
+      },
+    },
+    plan: {
+      es: "Pokeá con el Bumerán cuando el enemigo vaya a farmear y guardá el Escudo para su habilidad de enganche. Con la Sightstone y la Frost Queen's Claim controlás visión y sumás algo de oro. En el medio juego usá En la Caza para forzar peleas o para sacar al equipo de una mala.",
+      en: "Poke with Boomerang when the enemy goes to farm and save Spell Shield for their engage ability. With Sightstone and Frost Queen's Claim you control vision and earn some gold. In midgame use On The Hunt to force fights or pull the team out of a bad one.",
+    },
+    tips: {
+      es: ["Tirá el Bumerán de forma que la vuelta también pase por el enemigo: duplicás el daño.", "No uses el Escudo para un poke cualquiera; reservalo para el engage."],
+      en: ["Throw Boomerang so the return also passes through the enemy: double the damage.", "Don't waste Spell Shield on random poke; save it for the engage."],
+    },
+  },
+  skarner: {
+    strengths: {
+      es: [
+        "Golpe de Cristal (Q) con AP hace daño de área y, cargado, ralentiza: la jungla se limpia rápido.",
+        "Empalar (R) suprime y arrastra: secuestrás al carry y lo llevás a tu equipo.",
+        "Iceborn y Lich Bane hacen que cada auto después de un hechizo pegue fuerte y ralentice.",
+        "Exoesqueleto Cristalino (W) te da escudo y velocidad para alcanzar al objetivo.",
+      ],
+      en: [
+        "Crystal Slash (Q) on AP deals area damage and, when charged, slows: jungle clears fast.",
+        "Impale (R) suppresses and drags: you kidnap the carry and take them to your team.",
+        "Iceborn and Lich Bane make every auto after a spell hit hard and slow.",
+        "Crystalline Exoskeleton (W) gives a shield and speed to catch your target.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Melee sin dash: si te kitean antes del Empalar, no hacés nada.",
+        "Una limpieza (QSS) o un Mercurial anula tu ulti.",
+        "Mezclar Golem, Iceborn y AP te deja algo débil si te atrasás.",
+        "Las cámaras de visión enemigas arruinan tus ganks lentos.",
+      ],
+      en: [
+        "Melee without a dash: if you get kited before Impale, you do nothing.",
+        "A Quicksilver Sash or Mercurial negates your ult.",
+        "Mixing Golem, Iceborn and AP leaves you weak if you fall behind.",
+        "Enemy vision ruins your slow ganks.",
+      ],
+    },
+    combos: {
+      es: ["Exoesqueleto Cristalino (W) para acercarte → Golpe de Cristal (Q) para marcar y ralentizar → Empalar (R) → caminá hacia tu equipo → Golpe de Cristal (Q) otra vez."],
+      en: ["Crystalline Exoskeleton (W) to close in → Crystal Slash (Q) to mark and slow → Impale (R) → walk to your team → Crystal Slash (Q) again."],
+    },
+    matchups: {
+      good: {
+        es: ["Carries inmóviles que no pueden escapar del Empalar.", "Equipos sin limpiezas ni QSS."],
+        en: ["Immobile carries who can't escape Impale.", "Teams without cleanses or QSS."],
+      },
+      bad: {
+        es: ["Junglas de counter-jungle que te invaden temprano.", "Comps de kiteo con mucho slow y rango."],
+        en: ["Counter-junglers who invade you early.", "Kiting comps with lots of slows and range."],
+      },
+    },
+    plan: {
+      es: "Limpiá rápido con Golpe de Cristal y gankeá con el Exoesqueleto para cerrar distancia. A partir del 6 tu objetivo es uno solo: llegar al carry enemigo, suprimirlo y arrastrarlo hacia tu equipo. En peleas entrá por el flanco, nunca de frente.",
+      en: "Clear fast with Crystal Slash and gank using Exoskeleton to close the gap. From level 6 your goal is one thing: reach the enemy carry, suppress them and drag them to your team. In fights enter from the flank, never head-on.",
+    },
+    tips: {
+      es: ["Cada auto baja el cooldown de tus hechizos: pegá entre Q y Q para spamear más.", "Planeá el arrastre antes de usar el ulti: caminá hacia tu torre o tu equipo, no hacia el enemigo."],
+      en: ["Each auto lowers your spell cooldowns: hit between Qs to spam more.", "Plan the drag before using your ult: walk toward your tower or team, not toward the enemy."],
+    },
+  },
+  sona: {
+    strengths: {
+      es: [
+        "Himno de Valor (Q) pega a los dos enemigos más cercanos sin necesidad de apuntar.",
+        "Acorde de Poder suma daño extra cada tres hechizos: poke fuerte en línea.",
+        "DFG + Rabadon convierten un Q + Acorde en un one-shot contra magos frágiles.",
+        "Crescendo (R) aturde en línea a varios enemigos: gana cualquier pelea de equipo.",
+      ],
+      en: [
+        "Hymn of Valor (Q) hits the two nearest enemies without needing to aim.",
+        "Power Chord adds extra damage every third spell: strong lane poke.",
+        "DFG + Rabadon turn a Q + Power Chord into a one-shot against squishy mages.",
+        "Crescendo (R) stuns several enemies in a line: wins any teamfight.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sos de las más frágiles del juego: un asesino te borra en un combo.",
+        "Rango corto para una maga de mid: los magos de largo alcance te pokean.",
+        "Sin escape propio, salvo la Canción de Celeridad.",
+        "Si te atrasás, perdés todo el burst que justifica la build.",
+      ],
+      en: [
+        "You're one of the squishiest in the game: an assassin deletes you in one combo.",
+        "Short range for a mid mage: long-range mages poke you.",
+        "No escape of your own besides Song of Celerity.",
+        "If you fall behind, you lose all the burst that justifies the build.",
+      ],
+    },
+    combos: {
+      es: ["Himno de Valor (Q) + auto con Acorde de Poder → Deathfire Grasp → Crescendo (R) → Himno de Valor (Q) para rematar."],
+      en: ["Hymn of Valor (Q) + Power Chord auto → Deathfire Grasp → Crescendo (R) → Hymn of Valor (Q) to finish."],
+    },
+    matchups: {
+      good: {
+        es: ["Magos de corto rango que tienen que acercarse para farmear.", "Comps agrupadas que caen juntas en el Crescendo."],
+        en: ["Short-range mages who need to step up to farm.", "Grouped comps that all get caught by Crescendo."],
+      },
+      bad: {
+        es: ["Asesinos con dash (Katarina, Kassadin) que te alcanzan sin problema.", "Magos de largo alcance (Xerath, Ziggs) que te pokean desde fuera de rango."],
+        en: ["Dash assassins (Katarina, Kassadin) who reach you easily.", "Long-range mages (Xerath, Ziggs) who poke from outside your range."],
+      },
+    },
+    plan: {
+      es: "En línea pokeá con Himno de Valor y cargá el Acorde de Poder para castigar cada vez que el enemigo farmea. Con DFG y Athene buscá roams a las líneas laterales. En peleas quedate atrás, tirá el Crescendo sobre la mayor cantidad posible de enemigos y rematá con el combo de burst.",
+      en: "In lane poke with Hymn of Valor and charge Power Chord to punish every time the enemy farms. With DFG and Athene look for roams to side lanes. In fights stay back, land Crescendo on as many enemies as possible and finish with the burst combo.",
+    },
+    tips: {
+      es: ["Contá los hechizos: el tercero carga el Acorde, así que llegá al all-in con el Acorde listo.", "Dejá activa el aura de Celeridad para escapar si te van a buscar."],
+      en: ["Count your spells: the third charges Power Chord, so go into the all-in with it ready.", "Keep the Celerity aura on to escape if they come for you."],
+    },
+  },
+  soraka: {
+    strengths: {
+      es: [
+        "Llamado Estelar (Q) pega en área alrededor tuyo y cada golpe baja más la resistencia mágica.",
+        "Void Staff + la reducción del Q hacen que tu spam ignore casi toda la MR enemiga.",
+        "Infundir (E) silencia y daña a un enemigo, o le devuelve maná a un aliado.",
+        "Deseo (R) cura a todo tu equipo desde cualquier lugar del mapa.",
+      ],
+      en: [
+        "Starcall (Q) hits an area around you and each hit lowers magic resist further.",
+        "Void Staff + the Q shred make your spam ignore almost all enemy MR.",
+        "Infuse (E) silences and damages an enemy, or restores mana to an ally.",
+        "Wish (R) heals your whole team from anywhere on the map.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "El Llamado Estelar tiene poco rango: tenés que estar cerca para pegar.",
+        "Sin escape: cualquier asesino te encuentra y te mata.",
+        "Sin CC fuerte más allá del silencio: no frenás un all-in.",
+        "El maná se te va rápido si spameás sin Athene.",
+      ],
+      en: [
+        "Starcall has short range: you need to be close to hit.",
+        "No escape: any assassin finds and kills you.",
+        "No hard CC beyond the silence: you can't stop an all-in.",
+        "Mana drains fast if you spam without Athene.",
+      ],
+    },
+    combos: {
+      es: ["Llamado Estelar (Q) varias veces para apilar la reducción de MR → Infundir (E) para silenciar al mago enemigo → seguí con Llamado Estelar (Q)."],
+      en: ["Starcall (Q) several times to stack MR shred → Infuse (E) to silence the enemy mage → keep casting Starcall (Q)."],
+    },
+    matchups: {
+      good: {
+        es: ["Magos de rango corto que dependen de un combo (el silencio lo corta).", "Peleas largas donde tu spam y el Deseo pesan más."],
+        en: ["Short-range combo mages (the silence cuts their combo).", "Long fights where your spam and Wish matter more."],
+      },
+      bad: {
+        es: ["Asesinos con dash que te atrapan sin escape.", "Magos de largo alcance que te pokean fuera del Llamado Estelar."],
+        en: ["Dash assassins who catch you with no escape.", "Long-range mages who poke you outside Starcall range."],
+      },
+    },
+    plan: {
+      es: "En línea limpiá oleadas con Llamado Estelar y apilá la reducción de MR sobre el mago enemigo. Usá el Deseo para salvar aliados en otras líneas: es tu mayor aporte al mapa. En peleas quedate en el medio de tu equipo, spameá el Q y silenciá a quien vaya a hacer su combo.",
+      en: "In lane clear waves with Starcall and stack MR shred on the enemy mage. Use Wish to save allies in other lanes: it's your biggest map contribution. In fights stay in the middle of your team, spam Q and silence whoever is about to combo.",
+    },
+    tips: {
+      es: ["Mirá las barras de vida de todo el equipo: un Deseo a tiempo salva a alguien en otra línea.", "Guardá el silencio de Infundir para el mago o el asesino, no para el tanque."],
+      en: ["Watch your whole team's health bars: a timely Wish saves someone in another lane.", "Save Infuse's silence for the mage or assassin, not the tank."],
+    },
+  },
+  taric: {
+    strengths: {
+      es: [
+        "Deslumbrar (E) aturde a punto y click y pega más cuanto más cerca estás: gana duelos.",
+        "Destrozar (W) da armadura a vos y tus aliados, y al activarlo baja la armadura enemiga.",
+        "Sheen + Atma's: cada hechizo potencia el siguiente auto, y la vida se convierte en daño.",
+        "Imbuir (Q) cura a vos y a un aliado: aguantás mucho en línea.",
+      ],
+      en: [
+        "Dazzle (E) is a point-and-click stun that deals more damage the closer you are: wins duels.",
+        "Shatter (W) gives armor to you and your allies, and when cast it shreds enemy armor.",
+        "Sheen + Atma's: each spell empowers your next auto, and health turns into damage.",
+        "Imbue (Q) heals you and an ally: you sustain a lot in lane.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sin movilidad: si te kitean, no llegás a pegar.",
+        "Rango de Deslumbrar corto en comparación con los tops de rango.",
+        "Poco daño temprano hasta tener Sheen y Atma's.",
+        "El daño mágico te ignora casi toda la armadura acumulada.",
+      ],
+      en: [
+        "No mobility: if you get kited, you can't reach anyone.",
+        "Dazzle's range is short compared to ranged tops.",
+        "Little early damage until you have Sheen and Atma's.",
+        "Magic damage ignores most of your stacked armor.",
+      ],
+    },
+    combos: {
+      es: ["Deslumbrar (E) de cerca → auto con Sheen → Destrozar (W) para bajar armadura → auto → Resplandor (R) → auto."],
+      en: ["Dazzle (E) at close range → Sheen auto → Shatter (W) to shred armor → auto → Radiance (R) → auto."],
+    },
+    matchups: {
+      good: {
+        es: ["Luchadores de daño físico que pegan contra tu armadura.", "Tops melee que se quedan a rango de Deslumbrar."],
+        en: ["Physical-damage bruisers who hit into your armor.", "Melee tops who stay within Dazzle range."],
+      },
+      bad: {
+        es: ["Tops AP (Kennen, Vladimir, Rumble) que ignoran tu armadura.", "Tops de rango que te pokean sin dejarte acercar."],
+        en: ["AP tops (Kennen, Vladimir, Rumble) who ignore your armor.", "Ranged tops who poke you without letting you close in."],
+      },
+    },
+    plan: {
+      es: "Farmeá con la cura de Imbuir hasta tener Sheen; desde ahí buscá trades cortos: aturdí, pegá y retirate. Con Atma's y Frozen Heart sos un tanque que pega fuerte. En peleas de equipo entrá por el ADC enemigo, aturdilo y prendé el Resplandor para que tu equipo también pegue más.",
+      en: "Farm with Imbue's heal until Sheen; from there look for short trades: stun, hit and back off. With Atma's and Frozen Heart you're a tank that hits hard. In teamfights go for the enemy ADC, stun them and pop Radiance so your team hits harder too.",
+    },
+    tips: {
+      es: ["Usá Deslumbrar lo más cerca posible: el daño y la duración del stun suben con la cercanía.", "Intercalá autos entre hechizos para aprovechar cada proc de Sheen."],
+      en: ["Use Dazzle as close as possible: damage and stun duration scale with proximity.", "Weave autos between spells to use every Sheen proc."],
+    },
+  },
+  teemo: {
+    strengths: {
+      es: [
+        "Trampa Nociva (R) te deja llenar la jungla de visión y daño: sabés dónde está todo el mundo.",
+        "Dardo Cegador (Q) anula los autos del ADC enemigo en un gank.",
+        "Liandry y Rylai hacen que los hongos ralenticen y quemen un porcentaje de la vida.",
+        "Moverse Rápido (W) te da velocidad para llegar a los ganks antes que nadie.",
+      ],
+      en: [
+        "Noxious Trap (R) fills the jungle with vision and damage: you know where everyone is.",
+        "Blinding Dart (Q) shuts down the enemy ADC's autos in a gank.",
+        "Liandry's and Rylai's make shrooms slow and burn a percentage of health.",
+        "Move Quick (W) gives speed to reach ganks before anyone else.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Frágil para jungla: los invasores te ganan los duelos temprano.",
+        "Sin CC duro: los ganks dependen de que tu línea tenga control.",
+        "La limpieza de jungla es lenta antes de nivel 6.",
+        "Un Elixir de Oracle te revela y limpia todos los hongos.",
+      ],
+      en: [
+        "Fragile for a jungler: invaders win early duels against you.",
+        "No hard CC: ganks depend on your laner having control.",
+        "Jungle clear is slow before level 6.",
+        "An Oracle's Elixir reveals and clears all your shrooms.",
+      ],
+    },
+    combos: {
+      es: ["Moverse Rápido (W) para llegar → Dardo Cegador (Q) al ADC → autos con Disparo Tóxico (E) → Trampa Nociva (R) en el camino de escape."],
+      en: ["Move Quick (W) to arrive → Blinding Dart (Q) on the ADC → autos with Toxic Shot (E) → Noxious Trap (R) on the escape path."],
+    },
+    matchups: {
+      good: {
+        es: ["Junglas pasivos que farmean y no invaden.", "Equipos que dependen de ADC de autos (el Dardo los anula)."],
+        en: ["Passive junglers who farm and don't invade.", "Teams that rely on auto-attack ADCs (the Dart shuts them down)."],
+      },
+      bad: {
+        es: ["Junglas agresivos (Lee Sin, Xin Zhao) que te invaden temprano.", "Equipos con mucha visión que limpian tus hongos."],
+        en: ["Aggressive junglers (Lee Sin, Xin Zhao) who invade early.", "Teams with lots of vision who clear your shrooms."],
+      },
+    },
+    plan: {
+      es: "Limpiá con cuidado hasta el Spectral Wraith y el 6. Desde ahí, plantá hongos en los caminos del jungla enemigo, en los objetivos y en las entradas de tu jungla. Gankeá cegando al ADC y usá los hongos para cortar escapes. En peleas quedate atrás y usá el campo minado para que el enemigo no pueda perseguir.",
+      en: "Clear carefully until Spectral Wraith and level 6. From there, plant shrooms on the enemy jungler's paths, at objectives and at your jungle entrances. Gank by blinding the ADC and use shrooms to cut off escapes. In fights stay back and use the minefield so the enemy can't chase.",
+    },
+    tips: {
+      es: ["Plantá hongos en Dragón y Barón antes de que aparezcan: ganás visión y daño gratis.", "Ahorrá cargas de hongos para cortar el escape después de un gank."],
+      en: ["Plant shrooms at Dragon and Baron before they spawn: free vision and damage.", "Save shroom charges to cut off the escape after a gank."],
+    },
+  },
+  tryndamere: {
+    strengths: {
+      es: [
+        "Tajo Giratorio (E) tiene un ratio de AP enorme: entrás y salís de la pelea pegando un pepinazo.",
+        "Lich Bane hace que cada auto después del Tajo sume un burst mágico.",
+        "Furia Imparable (R) te deja 5 segundos sin poder morir: tiempo de sobra para borrar a alguien.",
+        "Sed de Sangre (Q) cura más con AP: te recuperás después de cada pelea.",
+      ],
+      en: [
+        "Spinning Slash (E) has a huge AP ratio: you dash in and out dealing a huge chunk.",
+        "Lich Bane makes every auto after the Slash add magic burst.",
+        "Undying Rage (R) keeps you alive for 5 seconds: plenty of time to delete someone.",
+        "Bloodlust (Q) heals more with AP: you recover after every fight.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Melee en el mid: los magos de rango te pokean toda la línea.",
+        "Si te controlan durante el ulti, morís igual cuando termina.",
+        "Sin AD ni velocidad de ataque, tus autos sin Lich Bane no hacen nada.",
+        "Contra Zhonya o curas grandes, el burst se queda corto.",
+      ],
+      en: [
+        "Melee in mid: ranged mages poke you the whole lane.",
+        "If you get CC'd during your ult, you still die when it ends.",
+        "Without AD or attack speed, your autos without Lich Bane do nothing.",
+        "Against Zhonya's or big heals, the burst falls short.",
+      ],
+    },
+    combos: {
+      es: ["Tajo Giratorio (E) sobre el objetivo → auto con Lich Bane → Deathfire Grasp → Grito Burlón (W) si se escapa → Furia Imparable (R) si te bajan."],
+      en: ["Spinning Slash (E) onto the target → Lich Bane auto → Deathfire Grasp → Mocking Shout (W) if they run → Undying Rage (R) if you get low."],
+    },
+    matchups: {
+      good: {
+        es: ["Magos frágiles de corto rango que no pueden kitearte.", "Enemigos sin CC que no te frenan durante el ulti."],
+        en: ["Short-range squishy mages who can't kite you.", "Enemies without CC who can't stop you during your ult."],
+      },
+      bad: {
+        es: ["Magos de poke de largo alcance que te bajan antes del 6.", "Equipos con mucho CC encadenado."],
+        en: ["Long-range poke mages who wear you down before level 6.", "Teams with lots of chained CC."],
+      },
+    },
+    plan: {
+      es: "Sobreviví la línea farmeando con cuidado y curándote con Sed de Sangre. Con Lich Bane y DFG, roameá a otras líneas: el Tajo te mete encima del objetivo y lo borrás en un combo. En peleas esperá a que el enemigo gaste su CC, entrá sobre el squishy y usá la Furia para quedarte hasta rematarlo.",
+      en: "Survive lane by farming carefully and healing with Bloodlust. With Lich Bane and DFG, roam to other lanes: the Slash puts you on the target and you delete them in one combo. In fights wait for the enemy to use their CC, dive the squishy and use Undying Rage to stay until they die.",
+    },
+    tips: {
+      es: ["Usá la Furia antes de quedar con muy poca vida: si te stunean en ese momento, no la podés activar.", "El Tajo baja su cooldown con cada crítico, pero en esta build casi no criteás: usalo con cuidado."],
+      en: ["Use Undying Rage before you get too low: if you're stunned at that moment, you can't cast it.", "Spinning Slash's cooldown drops with crits, but this build barely crits: use it carefully."],
+    },
+  },
+  twistedfate: {
+    strengths: {
+      es: [
+        "Elige una Carta (W): la dorada stunea a punto y click y asegura cualquier duelo o gank.",
+        "Destino (R) revela a todos los campeones enemigos y te teletransporta a cualquier punto: roams globales.",
+        "Mazo Trucado (E) suma daño mágico cada cuatro autos además de velocidad de ataque, y combina con Statikk.",
+        "Infinity Edge + Phantom Dancer convierten tus autos en el daño principal, algo que nadie espera de TF.",
+      ],
+      en: [
+        "Pick a Card (W): the gold card is a point-and-click stun that wins any duel or gank.",
+        "Destiny (R) reveals every enemy champion and teleports you anywhere: global roams.",
+        "Stacked Deck (E) adds magic damage every fourth auto plus attack speed, and pairs with Statikk.",
+        "Infinity Edge + Phantom Dancer make your autos the main damage, something nobody expects from TF.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sin escape propio: si te atrapan después del Destino, morís.",
+        "Rango de ataque corto para un carry de autos: los magos te pokean en línea.",
+        "Necesitás los ítems de crítico para que la build funcione: temprano pegás poco.",
+        "Elegir la carta toma tiempo: los rivales atentos esquivan el stun.",
+      ],
+      en: [
+        "No escape of your own: if you get caught after Destiny, you die.",
+        "Short attack range for an auto-attack carry: mages poke you in lane.",
+        "You need the crit items for the build to work: early on you hit softly.",
+        "Picking a card takes time: alert enemies dodge the stun.",
+      ],
+    },
+    combos: {
+      es: ["Destino (R) → caé al lado del objetivo → Carta Dorada (W) → autos con Mazo Trucado (E) → Cartas Salvajes (Q) sobre el enemigo aturdido."],
+      en: ["Destiny (R) → land next to the target → Gold Card (W) → autos with Stacked Deck (E) → Wild Cards (Q) on the stunned enemy."],
+    },
+    matchups: {
+      good: {
+        es: ["Magos inmóviles que no esquivan la Carta Dorada.", "Mapas con líneas laterales sobreextendidas para tus roams."],
+        en: ["Immobile mages who can't dodge the Gold Card.", "Maps with overextended side lanes for your roams."],
+      },
+      bad: {
+        es: ["Asesinos con dash que te alcanzan antes de elegir carta.", "Magos de largo alcance que te pokean mientras farmeás."],
+        en: ["Dash assassins who reach you before you pick a card.", "Long-range mages who poke you while you farm."],
+      },
+    },
+    plan: {
+      es: "Farmeá con Cartas Salvajes y la carta azul para el maná hasta tener la Statikk. Desde el 6, usá el Destino cada vez que esté disponible para matar en otras líneas con la Carta Dorada. En el late, con IE y PD, quedate detrás de tu equipo pegando autos y guardá la dorada para el que se meta.",
+      en: "Farm with Wild Cards and the blue card for mana until Statikk. From level 6, use Destiny whenever it's up to kill in other lanes with the Gold Card. Late game, with IE and PD, stay behind your team auto-attacking and save the gold card for whoever dives.",
+    },
+    tips: {
+      es: ["Cargá la carta antes de usar el Destino: así caés con la dorada lista.", "Usá la carta azul para recuperar maná en lugar de volver a base."],
+      en: ["Start picking the card before Destiny: you land with the gold card ready.", "Use the blue card to restore mana instead of going back to base."],
+    },
+  },
+  twitch: {
+    strengths: {
+      es: [
+        "Emboscada (Q) te hace invisible: gankeás sin que nadie te vea venir.",
+        "Expurgar (E) escala con AP por cada acumulación de Veneno Mortal: el burst es enorme.",
+        "Barril de Veneno (W) ralentiza y aplica varias acumulaciones de golpe.",
+        "Void Staff hace que el Expurgar ignore gran parte de la resistencia mágica.",
+      ],
+      en: [
+        "Ambush (Q) makes you invisible: you gank without anyone seeing you coming.",
+        "Expunge (E) scales with AP per Deadly Venom stack: the burst is huge.",
+        "Venom Cask (W) slows and applies several stacks at once.",
+        "Void Staff makes Expunge ignore much of the enemy's magic resist.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Muy frágil para jungla: perdés casi cualquier duelo temprano.",
+        "Necesitás tiempo para apilar veneno antes de detonar.",
+        "Los wards de visión y el Elixir de Oracle arruinan tus ganks.",
+        "Sin CC duro: dependés del slow del Barril.",
+      ],
+      en: [
+        "Very fragile for a jungler: you lose almost every early duel.",
+        "You need time to stack venom before detonating.",
+        "Vision wards and Oracle's Elixir ruin your ganks.",
+        "No hard CC: you rely on Venom Cask's slow.",
+      ],
+    },
+    combos: {
+      es: ["Emboscada (Q) para acercarte invisible → Barril de Veneno (W) → autos para apilar → Expurgar (E) con 5-6 acumulaciones."],
+      en: ["Ambush (Q) to approach invisibly → Venom Cask (W) → autos to stack → Expunge (E) at 5-6 stacks."],
+    },
+    matchups: {
+      good: {
+        es: ["Equipos con poca visión y sin Oracle.", "Carries frágiles que se separan de su equipo."],
+        en: ["Teams with little vision and no Oracle.", "Squishy carries who split from their team."],
+      },
+      bad: {
+        es: ["Junglas agresivos que te invaden temprano.", "Equipos con mucho CC que te frenan al salir del sigilo."],
+        en: ["Aggressive junglers who invade early.", "CC-heavy teams who lock you down as you leave stealth."],
+      },
+    },
+    plan: {
+      es: "Limpiá jungla con cuidado y evitá los duelos hasta tener el Spectral Wraith. Gankeá entrando por detrás en sigilo, ralentizá con el Barril y detoná el Expurgar cuando el veneno esté cargado. En peleas de equipo esperá invisible a que el enemigo gaste su CC y entrá sobre los carries.",
+      en: "Clear carefully and avoid duels until Spectral Wraith. Gank by coming in from behind in stealth, slow with Venom Cask and detonate Expunge when the venom is stacked. In teamfights wait invisible for the enemy to use their CC, then dive the carries.",
+    },
+    tips: {
+      es: ["No detones el Expurgar con pocas acumulaciones: esperá a tener al menos cinco.", "Entrá a las peleas por el costado del equipo enemigo, no de frente."],
+      en: ["Don't detonate Expunge with few stacks: wait for at least five.", "Enter fights from the enemy team's flank, not head-on."],
+    },
+  },
+  urgot: {
+    strengths: {
+      es: [
+        "Carga Corrosiva Noxiana (E) marca al enemigo y le baja la armadura.",
+        "Con la marca puesta, Cazador Ácido (Q) se dirige solo al objetivo: poke sin apuntar.",
+        "Manamune y el spam del Q te dan maná y daño de sobra.",
+        "Intercambio de Posición (R) suprime e intercambia lugares: secuestrás a un carry.",
+      ],
+      en: [
+        "Noxian Corrosive Charge (E) marks the enemy and lowers their armor.",
+        "With the mark on, Acid Hunter (Q) locks onto the target: poke without aiming.",
+        "Manamune and Q spam give you plenty of mana and damage.",
+        "Hyper-Kinetic Position Reverser (R) suppresses and swaps places: you kidnap a carry.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Lento y sin escape: los asesinos te alcanzan fácil.",
+        "El ulti tarda en completarse y te deja en el medio del equipo enemigo.",
+        "Si fallás la granada, tu poke pierde casi todo el valor.",
+        "Una limpieza o un QSS cortan la supresión.",
+      ],
+      en: [
+        "Slow and without escape: assassins reach you easily.",
+        "The ult takes time to complete and leaves you in the middle of the enemy team.",
+        "If you miss the charge, your poke loses most of its value.",
+        "A cleanse or QSS breaks the suppression.",
+      ],
+    },
+    combos: {
+      es: ["Carga Corrosiva Noxiana (E) → Capacitor de Terror (W) para el escudo y el slow → Cazador Ácido (Q) varias veces; Intercambio de Posición (R) para traer al carry a tu equipo."],
+      en: ["Noxian Corrosive Charge (E) → Terror Capacitor (W) for the shield and slow → Acid Hunter (Q) several times; Reverser (R) to bring the carry to your team."],
+    },
+    matchups: {
+      good: {
+        es: ["Magos de corto rango que no pueden responder a tu poke.", "Carries frágiles que se quedan atrás de su equipo."],
+        en: ["Short-range mages who can't answer your poke.", "Squishy carries who stay behind their team."],
+      },
+      bad: {
+        es: ["Asesinos con dash que te alcanzan antes del poke.", "Equipos con limpiezas o mucho CC."],
+        en: ["Dash assassins who reach you before you poke.", "Teams with cleanses or lots of CC."],
+      },
+    },
+    plan: {
+      es: "En línea marcá con la granada y pokeá con el Cazador Ácido cada vez que el enemigo farmee; apilá la Manamune con el spam. En el medio juego, pokeá antes de las peleas y buscá el intercambio con el ulti para traer al carry enemigo a tu equipo. Frozen Heart y Randuin te dejan aguantar en primera línea.",
+      en: "In lane mark with the charge and poke with Acid Hunter every time the enemy farms; stack Manamune with the spam. In midgame, poke before fights and look for the ult swap to bring the enemy carry into your team. Frozen Heart and Randuin's let you hold the frontline.",
+    },
+    tips: {
+      es: ["Usá el ulti cerca de tu torre: el intercambio deja al enemigo bajo ella.", "Prendé el escudo del Capacitor antes de usar el ulti para aguantar mientras se completa."],
+      en: ["Use your ult near your tower: the swap leaves the enemy under it.", "Pop the Terror Capacitor shield before ulting to survive while it completes."],
+    },
+  },
+  vayne: {
+    strengths: {
+      es: [
+        "Condenar (E) contra una pared stunea: los ganks con un muro cerca son casi seguros.",
+        "Virotes de Plata (W) hace daño verdadero porcentual: limpiás la jungla y derretís tanques.",
+        "La Hora Final (R) te da AD extra y te vuelve invisible con cada Voltereta.",
+        "El Golem y la Frozen Mallet te dan la vida que a Vayne siempre le falta.",
+      ],
+      en: [
+        "Condemn (E) against a wall stuns: ganks with a wall nearby are nearly guaranteed.",
+        "Silver Bolts (W) deals percent true damage: you clear jungle and melt tanks.",
+        "Final Hour (R) gives bonus AD and makes you invisible with every Tumble.",
+        "Golem and Frozen Mallet give the health Vayne always lacks.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Rango corto y poco daño temprano: tus ganks antes del 6 dependen de tener pared.",
+        "La limpieza de jungla es lenta antes de la BotRK.",
+        "El CC enemigo te deja sin Voltereta y te bajan rápido.",
+        "Los tanques con Thornmail castigan tus autos.",
+      ],
+      en: [
+        "Short range and little early damage: ganks before 6 depend on having a wall.",
+        "Jungle clear is slow before BotRK.",
+        "Enemy CC takes away your Tumble and you go down fast.",
+        "Tanks with Thornmail punish your autos.",
+      ],
+    },
+    combos: {
+      es: ["Voltereta (Q) para acercarte → auto → Condenar (E) contra la pared → dos autos más para el proc de Virotes de Plata."],
+      en: ["Tumble (Q) to close in → auto → Condemn (E) into a wall → two more autos for the Silver Bolts proc."],
+    },
+    matchups: {
+      good: {
+        es: ["Tanques y bruisers que derretís con daño verdadero.", "Líneas con paredes cerca para el Condenar."],
+        en: ["Tanks and bruisers you melt with true damage.", "Lanes with walls nearby for Condemn."],
+      },
+      bad: {
+        es: ["Junglas de duelo temprano (Lee Sin, Xin Zhao).", "Equipos con mucho CC encadenado."],
+        en: ["Strong early duelists (Lee Sin, Xin Zhao).", "Teams with lots of chained CC."],
+      },
+    },
+    plan: {
+      es: "Farmeá hasta el Golem y buscá ganks en líneas con paredes cerca para el Condenar. A partir del 6, usá la invisibilidad de la Hora Final para entrar por sorpresa. En peleas pegale al objetivo más cercano y usá Condenar para separar al que se meta sobre tu equipo.",
+      en: "Farm until Golem and look for ganks in lanes with walls nearby for Condemn. From level 6, use Final Hour's stealth to enter by surprise. In fights hit the closest target and use Condemn to peel whoever dives your team.",
+    },
+    tips: {
+      es: ["Usá Condenar también para alejar a un enemigo de tu equipo, no solo para stunear.", "Contá tus autos: el tercero activa Virotes de Plata, así que no cambies de objetivo."],
+      en: ["Use Condemn to push an enemy away from your team too, not only to stun.", "Count your autos: the third triggers Silver Bolts, so don't switch targets."],
+    },
+  },
+  veigar: {
+    strengths: {
+      es: [
+        "Horizonte de Eventos (E) es una jaula que stunea a todo el que toque el borde.",
+        "Golpe Maligno (Q) te da AP permanente con cada kill: escalás sin límite.",
+        "Explosión Primordial (R) escala con el AP del objetivo: borra magos enemigos.",
+        "Con DFG, un combo completo elimina al carry antes de que pueda moverse.",
+      ],
+      en: [
+        "Event Horizon (E) is a cage that stuns anyone who touches the edge.",
+        "Baleful Strike (Q) gives permanent AP on each kill: you scale without limit.",
+        "Primordial Burst (R) scales with the target's AP: it deletes enemy mages.",
+        "With DFG, a full combo removes the carry before they can move.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Como soporte no farmeás: tus acumulaciones de Q crecen más lento.",
+        "Muy frágil y sin escape.",
+        "Rango corto: los soportes de poke te bajan antes del combo.",
+        "Si fallás la jaula, no tenés cómo ganar el intercambio.",
+      ],
+      en: [
+        "As support you don't farm: your Q stacks grow more slowly.",
+        "Very fragile and without escape.",
+        "Short range: poke supports wear you down before the combo.",
+        "If you miss the cage, you have no way to win the trade.",
+      ],
+    },
+    combos: {
+      es: ["Horizonte de Eventos (E) sobre el enemigo → Materia Oscura (W) en el stun → Deathfire Grasp → Golpe Maligno (Q) → Explosión Primordial (R)."],
+      en: ["Event Horizon (E) on the enemy → Dark Matter (W) on the stun → Deathfire Grasp → Baleful Strike (Q) → Primordial Burst (R)."],
+    },
+    matchups: {
+      good: {
+        es: ["Duplas de enganche que se meten solas en tu jaula.", "ADC sin escapes."],
+        en: ["Engage duos who walk into your cage.", "ADCs without escapes."],
+      },
+      bad: {
+        es: ["Soportes de poke de rango largo (Sona, Lulu).", "Duplas con dash que salen de la jaula antes del stun."],
+        en: ["Long-range poke supports (Sona, Lulu).", "Duos with dashes who leave the cage before the stun."],
+      },
+    },
+    plan: {
+      es: "En línea robá los últimos golpes que tu ADC no pueda llegar a tomar para apilar el Q, y castigá con la jaula cada vez que el enemigo se acerque. Con la Sightstone controlá la visión. En peleas tirá la jaula sobre el grupo enemigo y guardá el combo con DFG para el carry.",
+      en: "In lane take the last hits your ADC can't reach to stack Q, and punish with the cage every time the enemy steps up. Control vision with Sightstone. In fights drop the cage on the enemy group and save the DFG combo for the carry.",
+    },
+    tips: {
+      es: ["Tirá la jaula de modo que el enemigo toque el borde, no el centro: el stun solo se activa en el borde.", "Usá el ulti sobre magos: su AP aumenta tu daño."],
+      en: ["Place the cage so the enemy touches the edge, not the center: the stun only triggers on the edge.", "Use your ult on mages: their AP increases your damage."],
+    },
+  },
+  wukong: {
+    strengths: {
+      es: [
+        "Señuelo (W) te vuelve invisible y deja un clon: confundís en ganks y escapes.",
+        "Ataque Nimbo (E) es un dash que pega a varios objetivos.",
+        "Golpe Aplastante (Q) baja la armadura, y la Black Cleaver la reduce todavía más.",
+        "Ciclón (R) levanta a todos los que toca: en una pelea agrupada gana la pelea.",
+      ],
+      en: [
+        "Decoy (W) makes you invisible and leaves a clone: you confuse in ganks and escapes.",
+        "Nimbus Strike (E) is a dash that hits several targets.",
+        "Crushing Blow (Q) lowers armor, and Black Cleaver reduces it even more.",
+        "Cyclone (R) knocks up everyone it touches: in a grouped fight it wins the fight.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "La limpieza de jungla es lenta antes del Golem.",
+        "Si entrás con el Ciclón y te controlan, quedás en el medio del enemigo.",
+        "Los ítems de crítico tardan en hacer efecto: el midgame es tu ventana.",
+        "Contra equipos dispersos, el Ciclón pierde valor.",
+      ],
+      en: [
+        "Jungle clear is slow before Golem.",
+        "If you dive with Cyclone and get CC'd, you're stuck in the middle of the enemy.",
+        "Crit items take time to kick in: midgame is your window.",
+        "Against spread-out teams, Cyclone loses value.",
+      ],
+    },
+    combos: {
+      es: ["Ataque Nimbo (E) sobre el objetivo → Golpe Aplastante (Q) → Ciclón (R) en el medio del equipo → Señuelo (W) para salir."],
+      en: ["Nimbus Strike (E) onto the target → Crushing Blow (Q) → Cyclone (R) in the middle of the team → Decoy (W) to get out."],
+    },
+    matchups: {
+      good: {
+        es: ["Comps agrupadas que caen juntas en el Ciclón.", "Equipos con poca visión que no ven tus ganks."],
+        en: ["Grouped comps that all get caught by Cyclone.", "Teams with little vision who don't see your ganks."],
+      },
+      bad: {
+        es: ["Equipos de kiteo con mucho slow.", "Junglas que te invaden antes del Golem."],
+        en: ["Kiting teams with lots of slows.", "Junglers who invade before your Golem."],
+      },
+    },
+    plan: {
+      es: "Limpiá jungla hasta el Golem y gankeá entrando con Ataque Nimbo. Usá el Señuelo para confundir al enemigo cuando intente escapar. En peleas de equipo esperá a que el enemigo se agrupe, entrá con el Nimbo y usá el Ciclón en el medio.",
+      en: "Clear until Golem and gank by entering with Nimbus Strike. Use Decoy to confuse the enemy when they try to escape. In teamfights wait for the enemy to group, enter with Nimbus and use Cyclone in the middle.",
+    },
+    tips: {
+      es: ["Usá el Señuelo para esquivar habilidades clave como un ulti o un gancho.", "Golpeá con el Q antes del Ciclón para que tu equipo pegue sobre armadura reducida."],
+      en: ["Use Decoy to dodge key abilities like an ult or a hook.", "Land Q before Cyclone so your team hits through reduced armor."],
+    },
+  },
+  zilean: {
+    strengths: {
+      es: [
+        "Bomba de Tiempo (Q) explota en área y, con Rebobinar (W), podés poner dos seguidas.",
+        "Cronoturno (R) revive a un aliado en plena pelea: cambia el resultado de cualquier teamfight.",
+        "Distorsión Temporal (E) acelera a un aliado o ralentiza a un enemigo.",
+        "Con DFG y Rabadon, la doble bomba elimina a cualquier squishy.",
+      ],
+      en: [
+        "Time Bomb (Q) explodes in an area and, with Rewind (W), you can place two in a row.",
+        "Chronoshift (R) revives an ally mid-fight: it changes the outcome of any teamfight.",
+        "Time Warp (E) speeds up an ally or slows an enemy.",
+        "With DFG and Rabadon's, the double bomb eliminates any squishy.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Las bombas tardan en explotar: los enemigos atentos se alejan de los aliados con la bomba.",
+        "Sin escape más allá de la Distorsión sobre vos.",
+        "El maná se te va rápido si spameás bombas sin Athene.",
+        "Muy frágil contra asesinos.",
+      ],
+      en: [
+        "Bombs take time to explode: alert enemies move away from allies with the bomb.",
+        "No escape beyond casting Time Warp on yourself.",
+        "Mana drains fast if you spam bombs without Athene.",
+        "Very fragile against assassins.",
+      ],
+    },
+    combos: {
+      es: ["Bomba de Tiempo (Q) → Rebobinar (W) → Bomba de Tiempo (Q) otra vez → Distorsión Temporal (E) para ralentizar y que no escape de la explosión."],
+      en: ["Time Bomb (Q) → Rewind (W) → Time Bomb (Q) again → Time Warp (E) to slow so they can't escape the blast."],
+    },
+    matchups: {
+      good: {
+        es: ["Magos de corto rango que tienen que acercarse a tus bombas.", "Peleas de equipo largas donde el Cronoturno pesa más."],
+        en: ["Short-range mages who need to walk into your bombs.", "Long teamfights where Chronoshift matters more."],
+      },
+      bad: {
+        es: ["Asesinos con dash que te alcanzan antes de que explote la bomba.", "Equipos de burst que matan a tu aliado antes del Cronoturno."],
+        en: ["Dash assassins who reach you before the bomb explodes.", "Burst teams who kill your ally before Chronoshift."],
+      },
+    },
+    plan: {
+      es: "En línea pokeá con bombas y usá la doble bomba cuando el enemigo se acerque a farmear. Usá la Distorsión para escapar o para ayudar a tu jungla en los ganks. En peleas guardá el Cronoturno para el carry de tu equipo y tirá la doble bomba sobre el grupo enemigo.",
+      en: "In lane poke with bombs and use the double bomb when the enemy steps up to farm. Use Time Warp to escape or to help your jungler gank. In fights save Chronoshift for your team's carry and drop the double bomb on the enemy group.",
+    },
+    tips: {
+      es: ["Poné bombas sobre minions cerca del enemigo: la explosión en área también le pega.", "Usá el Cronoturno antes de que tu aliado tenga muy poca vida: el burst puede matarlo antes."],
+      en: ["Place bombs on minions near the enemy: the area explosion hits them too.", "Cast Chronoshift before your ally gets too low: burst can kill them first."],
+    },
+  },
+  "ashe-adc": {
+    strengths: {
+      es: [
+        "Disparo Certero (Q) ralentiza con cada auto: kiteás a cualquier melee.",
+        "Flecha de Cristal Encantada (R) cruza el mapa y aturde: inicia peleas o ayuda en otras líneas.",
+        "La pasiva te garantiza un crítico cada tanto: con IE pegás muy fuerte.",
+        "Halcón (E) te da visión gratis de arbustos y objetivos.",
+      ],
+      en: [
+        "Frost Shot (Q) slows with every auto: you kite any melee.",
+        "Enchanted Crystal Arrow (R) crosses the map and stuns: starts fights or helps other lanes.",
+        "The passive guarantees a crit every so often: with IE you hit very hard.",
+        "Hawkshot (E) gives free vision of brushes and objectives.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sin escape: dependés del slow y de tu equipo para sobrevivir.",
+        "El Disparo Certero consume maná con cada auto.",
+        "Las duplas de all-in te castigan en la fase de línea.",
+        "Necesitás varios ítems para pegar tanto como otros ADC.",
+      ],
+      en: [
+        "No escape: you rely on the slow and your team to survive.",
+        "Frost Shot drains mana with every auto.",
+        "All-in duos punish you during laning.",
+        "You need several items to hit as hard as other ADCs.",
+      ],
+    },
+    combos: {
+      es: ["Flecha de Cristal (R) sobre el objetivo → Andanada (W) → autos con Disparo Certero (Q) mientras está aturdido."],
+      en: ["Crystal Arrow (R) on the target → Volley (W) → autos with Frost Shot (Q) while they're stunned."],
+    },
+    matchups: {
+      good: {
+        es: ["ADC de corto rango que no pueden pegarte sin acercarse.", "Equipos melee que no escapan del slow."],
+        en: ["Short-range ADCs who can't hit you without stepping up.", "Melee teams who can't escape the slow."],
+      },
+      bad: {
+        es: ["Duplas de all-in con mucho CC (Leona, Alistar).", "ADC con movilidad que esquivan la Flecha."],
+        en: ["All-in duos with lots of CC (Leona, Alistar).", "Mobile ADCs who dodge the Arrow."],
+      },
+    },
+    plan: {
+      es: "Farmeá seguro en línea, pokeá con Andanada y usá el Halcón para revisar arbustos. Desde el 6, buscá Flechas a otras líneas o al ADC enemigo. En peleas iniciá con la Flecha desde atrás y kiteá con el slow sin acercarte de más.",
+      en: "Farm safely in lane, poke with Volley and use Hawkshot to check brushes. From level 6, look for Arrows on other lanes or the enemy ADC. In fights start with the Arrow from the back and kite with the slow without getting too close.",
+    },
+    tips: {
+      es: ["Apagá el Disparo Certero cuando farmeás para no gastar maná.", "Tirá la Flecha desde la niebla: cuanto más lejos viaja, más dura el stun."],
+      en: ["Turn off Frost Shot when farming to save mana.", "Shoot the Arrow from the fog: the farther it travels, the longer the stun."],
+    },
+  },
+  "twitch-adc": {
+    strengths: {
+      es: [
+        "Rociada (R) le da más rango a tus autos y atraviesa a todos los enemigos en línea.",
+        "Emboscada (Q) te vuelve invisible para reposicionarte en el ángulo perfecto.",
+        "Expurgar (E) detona el veneno acumulado por un gran daño extra.",
+        "BotRK y la Statikk hacen que el veneno se apile rapidísimo.",
+      ],
+      en: [
+        "Spray and Pray (R) gives your autos extra range and pierces every enemy in a line.",
+        "Ambush (Q) makes you invisible to reposition at the perfect angle.",
+        "Expunge (E) detonates stacked venom for big extra damage.",
+        "BotRK and Statikk make venom stack very fast.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Fase de línea débil: poco rango y poca vida.",
+        "Sin escape: si te descubren, morís.",
+        "Dependés de llegar al late con ítems.",
+        "Los wards y el Elixir de Oracle te anulan el sigilo.",
+      ],
+      en: [
+        "Weak laning phase: short range and low health.",
+        "No escape: if you get revealed, you die.",
+        "You depend on reaching late game with items.",
+        "Wards and Oracle's Elixir counter your stealth.",
+      ],
+    },
+    combos: {
+      es: ["Emboscada (Q) para reposicionar → Barril de Veneno (W) → Rociada (R) atravesando al equipo → Expurgar (E) con el veneno cargado."],
+      en: ["Ambush (Q) to reposition → Venom Cask (W) → Spray and Pray (R) through the team → Expunge (E) with stacked venom."],
+    },
+    matchups: {
+      good: {
+        es: ["Equipos agrupados que caen en la línea de la Rociada.", "Equipos con poca visión."],
+        en: ["Grouped teams who line up for Spray and Pray.", "Teams with little vision."],
+      },
+      bad: {
+        es: ["Duplas agresivas de línea (Draven, Graves).", "Equipos con mucho CC y wards."],
+        en: ["Aggressive lane duos (Draven, Graves).", "Teams with lots of CC and wards."],
+      },
+    },
+    plan: {
+      es: "Sobreviví la línea farmeando seguro y usá el Barril para pokear. En el medio juego jugá con la invisibilidad para llegar a ángulos de flanco. En peleas esperá a que el enemigo se agrupe, salí del sigilo detrás de ellos y usá la Rociada para atravesar a todo el equipo.",
+      en: "Survive lane by farming safely and poking with Venom Cask. In midgame play with stealth to reach flank angles. In fights wait for the enemy to group, leave stealth behind them and use Spray and Pray to pierce the whole team.",
+    },
+    tips: {
+      es: ["Salí del sigilo pegando: la Emboscada te da velocidad de ataque extra al salir.", "No uses la Rociada sobre un solo objetivo: buscá alinear varios enemigos."],
+      en: ["Leave stealth while attacking: Ambush gives bonus attack speed on exit.", "Don't use Spray and Pray on one target: line up several enemies."],
+    },
+  },
+  "sivir-adc": {
+    strengths: {
+      es: [
+        "Rebote (W) hace que tus autos reboten entre minions: el mejor waveclear de los ADC.",
+        "Cuchilla Bumerán (Q) pokea a la ida y a la vuelta.",
+        "Escudo de Hechizos (E) bloquea un gancho, un stun o un ulti.",
+        "En la Caza (R) acelera a todo el equipo para forzar peleas o escapar.",
+      ],
+      en: [
+        "Ricochet (W) makes your autos bounce between minions: the best waveclear among ADCs.",
+        "Boomerang Blade (Q) pokes on the way out and back.",
+        "Spell Shield (E) blocks a hook, a stun or an ult.",
+        "On The Hunt (R) speeds up your whole team to force fights or escape.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sin dash: si te alcanzan, dependés del Escudo.",
+        "El Escudo bloquea una sola habilidad.",
+        "El daño a un solo objetivo es menor que el de otros ADC.",
+        "Contra el CC encadenado, un Escudo no alcanza.",
+      ],
+      en: [
+        "No dash: if you get caught, you depend on Spell Shield.",
+        "Spell Shield blocks only one ability.",
+        "Single-target damage is lower than other ADCs.",
+        "Against chained CC, one shield isn't enough.",
+      ],
+    },
+    combos: {
+      es: ["Cuchilla Bumerán (Q) para poke → En la Caza (R) para entrar → Rebote (W) en la pelea → Escudo de Hechizos (E) para el CC enemigo."],
+      en: ["Boomerang Blade (Q) to poke → On The Hunt (R) to engage → Ricochet (W) in the fight → Spell Shield (E) for enemy CC."],
+    },
+    matchups: {
+      good: {
+        es: ["Duplas de enganche con una sola habilidad clave (Blitzcrank).", "Equipos agrupados donde el Rebote pega a varios."],
+        en: ["Engage duos with one key ability (Blitzcrank).", "Grouped teams where Ricochet hits several."],
+      },
+      bad: {
+        es: ["Duplas con mucho CC repetido.", "ADC de largo rango que te pokean."],
+        en: ["Duos with lots of repeated CC.", "Long-range ADCs who poke you."],
+      },
+    },
+    plan: {
+      es: "En línea empujá con el Rebote y pokeá con el Bumerán; guardá el Escudo para el enganche enemigo. En el medio juego usá tu waveclear para empujar líneas y presionar torres. En peleas usá En la Caza para entrar con todo el equipo o para salir de una mala.",
+      en: "In lane push with Ricochet and poke with Boomerang; save Spell Shield for the enemy engage. In midgame use your waveclear to push lanes and pressure towers. In fights use On The Hunt to go in with the whole team or to get out of a bad one.",
+    },
+    tips: {
+      es: ["Bloquear un hechizo con el Escudo te devuelve maná: usalo también para sostener la línea.", "Tirá el Bumerán de forma que la vuelta pase por el enemigo."],
+      en: ["Blocking a spell with Spell Shield restores mana: use it to sustain lane too.", "Throw Boomerang so the return passes through the enemy."],
+    },
+  },
+  "kogmaw-adc": {
+    strengths: {
+      es: [
+        "Bocado Bioarcano (W) le da más rango a tus autos y hace daño mágico porcentual.",
+        "Con Guinsoo y Wit's End, cada auto derrite tanques.",
+        "Cañón de Vísceras (Q) baja la armadura y la resistencia mágica.",
+        "Artillería Viviente (R) pokea desde muy lejos y remata a los que escapan.",
+      ],
+      en: [
+        "Bio-Arcane Barrage (W) gives your autos extra range and percent magic damage.",
+        "With Guinsoo's and Wit's End, every auto melts tanks.",
+        "Caustic Spittle (Q) lowers armor and magic resist.",
+        "Living Artillery (R) pokes from very far away and finishes those who flee.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Inmóvil: sin dash ni escape.",
+        "Fase de línea débil antes de tener ítems.",
+        "Dependés del peel de tu equipo.",
+        "La Artillería se encarece cada vez que la usás seguida.",
+      ],
+      en: [
+        "Immobile: no dash or escape.",
+        "Weak laning before having items.",
+        "You depend on your team's peel.",
+        "Living Artillery costs more each time you use it in a row.",
+      ],
+    },
+    combos: {
+      es: ["Vómito Corrosivo (E) para ralentizar → Bocado Bioarcano (W) → autos con Cañón de Vísceras (Q) → Artillería Viviente (R) para rematar."],
+      en: ["Void Ooze (E) to slow → Bio-Arcane Barrage (W) → autos with Caustic Spittle (Q) → Living Artillery (R) to finish."],
+    },
+    matchups: {
+      good: {
+        es: ["Equipos de tanques que derretís con daño porcentual.", "Comps sin dive que te dejan pegar desde atrás."],
+        en: ["Tank teams you melt with percent damage.", "Comps without dive that let you attack from the back."],
+      },
+      bad: {
+        es: ["Asesinos y dive que te alcanzan.", "Duplas agresivas en la fase de línea."],
+        en: ["Assassins and dive that reach you.", "Aggressive lane duos."],
+      },
+    },
+    plan: {
+      es: "Farmeá seguro en la línea y no busques intercambios largos. Con BotRK y Guinsoo empezás a dominar las peleas. En teamfights quedate siempre atrás de tu equipo, activá el Bocado Bioarcano y pegale al objetivo más cercano mientras tu equipo te protege.",
+      en: "Farm safely in lane and avoid long trades. With BotRK and Guinsoo's you start dominating fights. In teamfights always stay behind your team, activate Barrage and hit the closest target while your team protects you.",
+    },
+    tips: {
+      es: ["Activá el Bocado Bioarcano antes de que empiece la pelea para aprovechar todo su rango.", "Usá la Artillería para rematar, no como daño principal."],
+      en: ["Activate Barrage before the fight starts to use all its range.", "Use Living Artillery to finish, not as your main damage."],
+    },
+  },
+  "vayne-adc": {
+    strengths: {
+      es: [
+        "Virotes de Plata (W) hace daño verdadero porcentual: no importa cuánta armadura tengan.",
+        "Voltereta (Q) te reposiciona y potencia el siguiente auto.",
+        "Condenar (E) stunea contra pared y aleja a los que se meten sobre vos.",
+        "La Hora Final (R) te da AD y sigilo con cada Voltereta.",
+      ],
+      en: [
+        "Silver Bolts (W) deals percent true damage: armor doesn't matter.",
+        "Tumble (Q) repositions you and empowers your next auto.",
+        "Condemn (E) stuns against walls and pushes away divers.",
+        "Final Hour (R) gives AD and stealth with every Tumble.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Rango corto y fase de línea débil.",
+        "Dependés de llegar al late game.",
+        "El CC te deja sin Voltereta.",
+        "Las duplas de poke te bajan en línea.",
+      ],
+      en: [
+        "Short range and weak laning.",
+        "You depend on reaching late game.",
+        "CC takes away your Tumble.",
+        "Poke duos wear you down in lane.",
+      ],
+    },
+    combos: {
+      es: ["Auto → Voltereta (Q) → auto potenciado (proc de Virotes de Plata) → Condenar (E) contra pared si se acercan."],
+      en: ["Auto → Tumble (Q) → empowered auto (Silver Bolts proc) → Condemn (E) into a wall if they close in."],
+    },
+    matchups: {
+      good: {
+        es: ["Equipos de tanques y bruisers.", "ADC melee o de corto rango que se acercan."],
+        en: ["Tank and bruiser teams.", "Melee or short-range ADCs who step up."],
+      },
+      bad: {
+        es: ["Duplas de poke de largo rango (Caitlyn, Ezreal).", "Equipos con mucho CC."],
+        en: ["Long-range poke duos (Caitlyn, Ezreal).", "Teams with lots of CC."],
+      },
+    },
+    plan: {
+      es: "Farmeá seguro en la línea y evitá el poke enemigo. Con BotRK y PD empezás a pesar en las peleas. En teamfights pegale al objetivo más cercano, usá la Voltereta para esquivar habilidades y Condenar para alejar a los que se meten sobre vos.",
+      en: "Farm safely in lane and avoid enemy poke. With BotRK and PD you start mattering in fights. In teamfights hit the closest target, use Tumble to dodge abilities and Condemn to push away divers.",
+    },
+    tips: {
+      es: ["Guardá Condenar para el que se mete sobre vos: es tu mejor defensa.", "Durante la Hora Final, cada Voltereta te da sigilo: usala para que pierdan tu posición."],
+      en: ["Save Condemn for whoever dives you: it's your best defense.", "During Final Hour, each Tumble gives stealth: use it to make them lose track of you."],
+    },
+  },
+  "ezreal-adc": {
+    strengths: {
+      es: [
+        "Disparo Místico (Q) aplica efectos on-hit y baja el cooldown de todos tus hechizos.",
+        "Cambio Arcano (E) es un blink: el ADC más seguro para reposicionar.",
+        "Manamune y Trinity te dan maná infinito y daño de sobra.",
+        "Ráfaga Trascendente (R) cruza el mapa y pega a todos los que atraviesa.",
+      ],
+      en: [
+        "Mystic Shot (Q) applies on-hit effects and lowers all your spell cooldowns.",
+        "Arcane Shift (E) is a blink: the safest ADC for repositioning.",
+        "Manamune and Trinity give infinite mana and plenty of damage.",
+        "Trueshot Barrage (R) crosses the map and hits everyone it passes.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Dependés de acertar los Disparos Místicos.",
+        "Menos daño en peleas largas que otros ADC.",
+        "Los ítems de maná tardan en hacer efecto.",
+        "Contra minions que bloquean, tu poke pierde valor.",
+      ],
+      en: [
+        "You depend on landing Mystic Shots.",
+        "Less damage in long fights than other ADCs.",
+        "Mana items take time to kick in.",
+        "Minion blocks reduce your poke's value.",
+      ],
+    },
+    combos: {
+      es: ["Disparo Místico (Q) → Cambio Esencial (W) → auto con Trinity → Cambio Arcano (E) para reposicionar → Disparo Místico (Q)."],
+      en: ["Mystic Shot (Q) → Essence Flux (W) → Trinity auto → Arcane Shift (E) to reposition → Mystic Shot (Q)."],
+    },
+    matchups: {
+      good: {
+        es: ["Duplas sin enganche que te dejan pokear.", "Comps inmóviles que no esquivan tus disparos."],
+        en: ["Duos without engage who let you poke.", "Immobile comps who can't dodge your shots."],
+      },
+      bad: {
+        es: ["Duplas de all-in fuerte temprano.", "Equipos con mucha movilidad que esquivan el Disparo Místico."],
+        en: ["Strong early all-in duos.", "Highly mobile teams who dodge Mystic Shot."],
+      },
+    },
+    plan: {
+      es: "En línea farmeá con el Disparo Místico y pokeá al enemigo cuando tenga minions cerca de él. Con Manamune y Trinity, tu poke se vuelve constante. En peleas pokeá desde atrás antes del inicio y usá el Cambio Arcano para esquivar o reposicionar, nunca para entrar.",
+      en: "In lane farm with Mystic Shot and poke the enemy when no minions block. With Manamune and Trinity your poke becomes constant. In fights poke from the back before the engage and use Arcane Shift to dodge or reposition, never to dive.",
+    },
+    tips: {
+      es: ["Usá la Ráfaga Trascendente para limpiar oleadas lejanas o rematar en otras líneas.", "Intercalá autos entre los Disparos para aprovechar el proc de Trinity."],
+      en: ["Use Trueshot Barrage to clear distant waves or finish kills in other lanes.", "Weave autos between shots to use the Trinity proc."],
+    },
+  },
+  "missfortune-adc": {
+    strengths: {
+      es: [
+        "Doble Impacto (Q) rebota al enemigo detrás del minion: poke fuerte en línea.",
+        "Lluvia de Balas (E) ralentiza en área y revela zonas.",
+        "Disparos Impuros (W) da velocidad de ataque y reduce las curaciones enemigas.",
+        "Bombardeo (R) hace un daño de área enorme en peleas agrupadas.",
+      ],
+      en: [
+        "Double Up (Q) bounces to the enemy behind the minion: strong lane poke.",
+        "Make It Rain (E) slows an area and reveals zones.",
+        "Impure Shots (W) gives attack speed and reduces enemy healing.",
+        "Bullet Time (R) deals huge area damage in grouped fights.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sin escape más allá de la velocidad de la pasiva.",
+        "El Bombardeo se interrumpe con cualquier CC.",
+        "Contra equipos dispersos, el ulti pierde valor.",
+        "Frágil contra dive.",
+      ],
+      en: [
+        "No escape beyond the passive's speed.",
+        "Bullet Time is interrupted by any CC.",
+        "Against spread-out teams, the ult loses value.",
+        "Fragile against dive.",
+      ],
+    },
+    combos: {
+      es: ["Lluvia de Balas (E) sobre el grupo enemigo → Doble Impacto (Q) → Bombardeo (R) mientras están ralentizados."],
+      en: ["Make It Rain (E) on the enemy group → Double Up (Q) → Bullet Time (R) while they're slowed."],
+    },
+    matchups: {
+      good: {
+        es: ["Equipos agrupados para el Bombardeo.", "Duplas con curaciones (Soraka, Sona) que tus Disparos Impuros anulan."],
+        en: ["Grouped teams for Bullet Time.", "Healing duos (Soraka, Sona) countered by Impure Shots."],
+      },
+      bad: {
+        es: ["Equipos con mucho CC que cortan tu ulti.", "Asesinos con dash."],
+        en: ["CC-heavy teams who cancel your ult.", "Dash assassins."],
+      },
+    },
+    plan: {
+      es: "En línea pokeá con el Doble Impacto rebotando desde los minions y buscá intercambios agresivos. En el medio juego empujá con tu dupla y presioná torres. En peleas buscá el ángulo para tirar el Bombardeo sobre todo el equipo enemigo desde un lugar seguro.",
+      en: "In lane poke with Double Up bouncing off minions and look for aggressive trades. In midgame push with your duo and pressure towers. In fights look for the angle to channel Bullet Time on the whole enemy team from a safe spot.",
+    },
+    tips: {
+      es: ["Usá la Lluvia de Balas antes del ulti para que el enemigo no salga del área.", "Esperá a que el CC enemigo esté gastado antes de canalizar el Bombardeo."],
+      en: ["Use Make It Rain before your ult so the enemy can't leave the area.", "Wait for enemy CC to be used before channeling Bullet Time."],
+    },
+  },
+  "tristana-adc": {
+    strengths: {
+      es: [
+        "La pasiva aumenta el rango de ataque con cada nivel: en el late pegás desde muy lejos.",
+        "Salto de Cohete (W) se reinicia con kills y asistencias: limpiás peleas enteras.",
+        "Carga Explosiva (E) reduce las curaciones enemigas y explota al matar.",
+        "Disparo de Culata (R) aleja a cualquiera que se meta sobre vos.",
+      ],
+      en: [
+        "The passive increases attack range every level: late game you hit from very far.",
+        "Rocket Jump (W) resets on kills and assists: you clean up whole fights.",
+        "Explosive Shot (E) reduces enemy healing and explodes on kills.",
+        "Buster Shot (R) knocks back anyone who dives you.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Rango corto en los primeros niveles.",
+        "Si usás el Salto para entrar, te quedás sin escape.",
+        "Sin CC salvo el Disparo de Culata.",
+        "Las duplas de poke te castigan antes de crecer.",
+      ],
+      en: [
+        "Short range at early levels.",
+        "If you use Rocket Jump to dive, you have no escape left.",
+        "No CC besides Buster Shot.",
+        "Poke duos punish you before you scale.",
+      ],
+    },
+    combos: {
+      es: ["Fuego Rápido (Q) → autos → Salto de Cohete (W) sobre el objetivo bajo → reinicio del Salto con la kill → Disparo de Culata (R) para alejar al siguiente."],
+      en: ["Rapid Fire (Q) → autos → Rocket Jump (W) onto a low target → Jump reset on the kill → Buster Shot (R) to push away the next one."],
+    },
+    matchups: {
+      good: {
+        es: ["ADC de corto rango en el late game.", "Equipos con curaciones que tu E reduce."],
+        en: ["Short-range ADCs in the late game.", "Healing teams countered by your E."],
+      },
+      bad: {
+        es: ["Duplas de poke temprano.", "Equipos con mucho CC que te frenan en el aire."],
+        en: ["Early poke duos.", "CC-heavy teams who stop you mid-jump."],
+      },
+    },
+    plan: {
+      es: "Farmeá seguro hasta que tu rango crezca y tengas IE. En el medio juego empujá torres con tu rango. En peleas quedate atrás pegando y guardá el Salto para escapar o para limpiar cuando haya kills; el Disparo de Culata es tu herramienta defensiva.",
+      en: "Farm safely until your range grows and you have IE. In midgame push towers with your range. In fights stay back hitting and save Rocket Jump to escape or clean up when there are kills; Buster Shot is your defensive tool.",
+    },
+    tips: {
+      es: ["Usá el Disparo de Culata para mandar al enemigo hacia tu equipo, no lejos de él.", "No uses el Salto para entrar salvo que el objetivo esté casi muerto."],
+      en: ["Use Buster Shot to send the enemy toward your team, not away from it.", "Don't jump in unless the target is almost dead."],
+    },
+  },
+  "graves-adc": {
+    strengths: {
+      es: [
+        "Descarga (Q) a corta distancia pega un burst brutal.",
+        "La pasiva te da armadura y resistencia mágica mientras peleás.",
+        "Movimiento Rápido (E) es un dash que da velocidad de ataque.",
+        "Colisión (R) explota en cono y remata a varios enemigos.",
+      ],
+      en: [
+        "Buckshot (Q) at close range deals brutal burst.",
+        "The passive gives armor and magic resist while fighting.",
+        "Quickdraw (E) is a dash that gives attack speed.",
+        "Collateral Damage (R) explodes in a cone and finishes several enemies.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Rango de ataque corto para un ADC.",
+        "Necesitás estar cerca para el burst de Descarga.",
+        "Cae en el late game frente a los hipercarries.",
+        "Contra duplas de largo rango, te pokean antes de acercarte.",
+      ],
+      en: [
+        "Short attack range for an ADC.",
+        "You need to be close for Buckshot's burst.",
+        "Falls off late game against hypercarries.",
+        "Long-range duos poke you before you close in.",
+      ],
+    },
+    combos: {
+      es: ["Movimiento Rápido (E) para acercarte → Descarga (Q) a quemarropa → autos → Colisión (R) para rematar."],
+      en: ["Quickdraw (E) to close in → point-blank Buckshot (Q) → autos → Collateral Damage (R) to finish."],
+    },
+    matchups: {
+      good: {
+        es: ["ADC frágiles en la fase de línea.", "Duplas pasivas que no castigan tu agresividad."],
+        en: ["Squishy ADCs in lane.", "Passive duos who don't punish your aggression."],
+      },
+      bad: {
+        es: ["Duplas de largo rango (Caitlyn).", "Hipercarries que te superan en el late."],
+        en: ["Long-range duos (Caitlyn).", "Hypercarries who outscale you late."],
+      },
+    },
+    plan: {
+      es: "Sé agresivo en la línea: Descarga y autos te ganan casi todos los intercambios. Usá la ventaja temprana para tomar torres y dragones. En peleas usá la Cortina de Humo (W) para cegar al enemigo y buscá el burst sobre el carry más cercano.",
+      en: "Be aggressive in lane: Buckshot and autos win almost every trade. Use your early lead to take towers and dragons. In fights use Smoke Screen (W) to blind the enemy and look for burst on the closest carry.",
+    },
+    tips: {
+      es: ["Cada auto baja el cooldown del Movimiento Rápido: pegá para tenerlo listo.", "La Descarga pega más si todas las balas tocan al objetivo: acercate."],
+      en: ["Each auto lowers Quickdraw's cooldown: keep hitting to have it ready.", "Buckshot hits harder when all pellets connect: get close."],
+    },
+  },
+  "urgot-adc": {
+    strengths: {
+      es: [
+        "Cazador Ácido (Q) se dirige solo al objetivo marcado: poke constante sin apuntar.",
+        "Carga Corrosiva Noxiana (E) baja la armadura del enemigo.",
+        "Capacitor de Terror (W) te da escudo y hace que tus golpes ralenticen.",
+        "El Intercambio de Posición (R) suprime e intercambia lugares con un enemigo.",
+      ],
+      en: [
+        "Acid Hunter (Q) locks onto the marked target: constant poke without aiming.",
+        "Noxian Corrosive Charge (E) lowers the enemy's armor.",
+        "Terror Capacitor (W) gives a shield and makes your hits slow.",
+        "Position Reverser (R) suppresses and swaps places with an enemy.",
+      ],
+    },
+    weaknesses: {
+      es: [
+        "Sin escape.",
+        "Si fallás la Carga, tu poke pierde valor.",
+        "El ulti te deja en el medio del equipo enemigo.",
+        "Rango corto para un ADC.",
+      ],
+      en: [
+        "No escape.",
+        "If you miss the Charge, your poke loses value.",
+        "The ult leaves you in the middle of the enemy team.",
+        "Short range for an ADC.",
+      ],
+    },
+    combos: {
+      es: ["Carga Corrosiva Noxiana (E) → Cazador Ácido (Q) varias veces → Capacitor de Terror (W) si te alcanzan."],
+      en: ["Noxian Corrosive Charge (E) → Acid Hunter (Q) several times → Terror Capacitor (W) if they reach you."],
+    },
+    matchups: {
+      good: {
+        es: ["ADC de corto rango que no esquivan tu poke.", "Duplas sin enganche fuerte."],
+        en: ["Short-range ADCs who can't dodge your poke.", "Duos without strong engage."],
+      },
+      bad: {
+        es: ["Duplas de all-in con mucho CC.", "ADC de largo rango que te pokean."],
+        en: ["All-in duos with lots of CC.", "Long-range ADCs who poke you."],
+      },
+    },
+    plan: {
+      es: "En línea marcá con la Carga y pokeá con el Cazador Ácido; apilá la Manamune con el spam. En el medio juego, Frozen Heart y Randuin te vuelven un ADC difícil de matar. En peleas pokeá antes del inicio y buscá el intercambio del ulti para traer al carry enemigo a tu equipo.",
+      en: "In lane mark with the Charge and poke with Acid Hunter; stack Manamune with the spam. In midgame, Frozen Heart and Randuin's make you a hard-to-kill ADC. In fights poke before the engage and look for the ult swap to bring the enemy carry into your team.",
+    },
+    tips: {
+      es: ["Usá el ulti cerca de tu torre o de tu equipo.", "Activá el Capacitor antes de un all-in para el escudo."],
+      en: ["Use your ult near your tower or team.", "Activate Terror Capacitor before an all-in for the shield."],
     },
   },
 };

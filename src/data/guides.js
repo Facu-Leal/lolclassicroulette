@@ -194,8 +194,8 @@ export const guides = {
     masteryWhy: { es: "21/0/9 va a daño para que el spam de Q realmente lastime.", en: "21/0/9 goes damage so the Q spam actually hurts." },
   },
   taric: {
-    guide: { es: "Apilá armadura: tu pasiva la convierte en AD, así que sos tanque y pegás fuerte a la vez con Destrozar (E). Usá Deslumbrar (E) (E cargado) para stunear y ganar duelos; Gema Radiante escuda a tus aliados en la pelea.", en: "Stack armor: your passive turns it into AD, so you're tanky and hit hard at once with Shatter (E). Use Dazzle (E) (charged) to stun and win duels; Radiance shields allies in the fight." },
-    masteryWhy: { es: "9/21/0 va a defensa, que además se traduce en AD por tu pasiva.", en: "9/21/0 goes defense, which also converts into AD via your passive." },
+    guide: { es: "Apilá resistencias y vida: con Sheen y Atma's sos tanque y pegás fuerte a la vez. Intercalá autos entre hechizos, bajá la armadura enemiga con Destrozar (W) y usá Deslumbrar (E) de cerca para stunear y ganar duelos; Resplandor (R) potencia a tus aliados en la pelea.", en: "Stack resistances and health: with Sheen and Atma's you're tanky and hit hard at once. Weave autos between spells, shred enemy armor with Shatter (W) and use Dazzle (E) up close to stun and win duels; Radiance (R) empowers your allies in the fight." },
+    masteryWhy: { es: "9/21/0 va a defensa, que además se traduce en daño por Atma's.", en: "9/21/0 goes defense, which also converts into damage via Atma's." },
   },
   teemo: {
     guide: { es: "Sembrá Hongos Nocivos (R) por toda la jungla para cubrir de visión y trampas los caminos clave; gankeá cegando (Q) al ADC enemigo para anular sus autoataques. Molestá, controlá objetivos y envenená a todos.", en: "Plant Noxious Traps (R) across the jungle to blanket key paths with vision and mines; gank by blinding (Q) the enemy ADC to shut off their autos. Harass, control objectives and poison everyone." },
@@ -210,7 +210,7 @@ export const guides = {
     masteryWhy: { es: "21/0/9 va a AP para que el spin + Lich Bane haga daño real.", en: "21/0/9 goes AP so the spin + Lich Bane deals real damage." },
   },
   twistedfate: {
-    guide: { es: "Cargá el Mazo Trucado (E) para asegurar críticos y elegí la carta según la situación: dorada para stunear, roja para área. Poke con cartas y autos, y usá el ulti (Destino — R) para roamear y matar en otras líneas con visión global.", en: "Charge Stacked Deck (E) for guaranteed crits and pick your card by situation: gold to stun, red for AoE. Poke with cards and autos, and use the ult (Destiny) to roam and kill in other lanes with global vision." },
+    guide: { es: "Con Statikk, IE y PD tus autos son tu daño principal y el Mazo Trucado (E) suma daño cada cuatro golpes; elegí la carta según la situación: dorada para stunear, roja para área. Poke con cartas y autos, y usá el ulti (Destino — R) para roamear y matar en otras líneas con visión global.", en: "With Statikk, IE and PD your autos are your main damage and Stacked Deck (E) adds damage every fourth hit; pick your card by situation: gold to stun, red for AoE. Poke with cards and autos, and use the ult (Destiny) to roam and kill in other lanes with global vision." },
     masteryWhy: { es: "21/9/0 da daño de crítico con aguante para pelear en el medio.", en: "21/9/0 gives crit damage with durability to brawl in mid." },
   },
   twitch: {
@@ -226,7 +226,7 @@ export const guides = {
     masteryWhy: { es: "21/9/0 da daño con aguante para gankear y duelear en la jungla.", en: "21/9/0 gives damage with durability to gank and duel in the jungle." },
   },
   veigar: {
-    guide: { es: "La Jaula (E) es el mejor stun de zona: encerrá al enemigo y castigá con Golpe Baleful (Q), que apila AP infinito con cada last hit. Con DFG + ulti borrás a cualquier carry sin importar cuánto AP tengas; jugá seguro y escalá.", en: "The Cage (E) is the best zoning stun: trap the enemy and punish with Baleful Strike (Q), which stacks infinite AP on each last hit. With DFG + ult you delete any carry no matter their AP; play safe and scale." },
+    guide: { es: "La Jaula (E) es el mejor stun de zona: encerrá al enemigo y castigá con Golpe Maligno (Q), que apila AP infinito con cada last hit. Con DFG + ulti borrás a cualquier carry sin importar cuánto AP tengas; jugá seguro y escalá.", en: "The Cage (E) is the best zoning stun: trap the enemy and punish with Baleful Strike (Q), which stacks infinite AP on each last hit. With DFG + ult you delete any carry no matter their AP; play safe and scale." },
     masteryWhy: { es: "21/0/9 va a burst para que el combo one-shotee squishies.", en: "21/0/9 goes burst so the combo one-shots squishies." },
   },
   warwick: {
@@ -234,11 +234,11 @@ export const guides = {
     masteryWhy: { es: "21/9/0 potencia el daño híbrido con aguante para pelear largo.", en: "21/9/0 boosts hybrid damage with durability for long fights." },
   },
   wukong: {
-    guide: { es: "En ganks, el Señuelo (W) deja un clon que confunde y te vuelve invisible un instante para reposicionar. En teamfights, el ulti (Ciclón — R) con IE + PD hace críticos en área que ganan la pelea solos; iniciá con Salto (E) + Golpe Aplastante (Q).", en: "On ganks, Decoy (W) leaves a clone that confuses and briefly stealths you to reposition. In teamfights, Cyclone (R) with IE + PD crits the whole team to win fights alone; open with Nimbus Strike (E) + Crushing Blow (Q)." },
+    guide: { es: "En ganks, el Señuelo (W) deja un clon que confunde y te vuelve invisible un instante para reposicionar. En teamfights, el ulti (Ciclón — R) escala con tu AD y levanta a todo el equipo enemigo; iniciá con Ataque Nimbo (E) + Golpe Aplastante (Q).", en: "On ganks, Decoy (W) leaves a clone that confuses and briefly stealths you to reposition. In teamfights, Cyclone (R) scales with your AD and knocks up the whole enemy team; open with Nimbus Strike (E) + Crushing Blow (Q)." },
     masteryWhy: { es: "21/9/0 da daño de crítico con aguante para entrar a la pelea.", en: "21/9/0 gives crit damage with durability to dive the fight." },
   },
   zilean: {
-    guide: { es: "Rebobinar (E) te deja soltar dos Bombas de Tiempo seguidas: la primera stunea y la segunda explota por daño enorme. Poke con ese combo y acelerá aliados con W. El ulti (Cronoturno — R) revive a tu carry en plena pelea: cambia teamfights.", en: "Rewind (E) lets you drop two Time Bombs back to back: the first stuns, the second bursts hard. Poke with that combo and speed allies with W. The ult (Chronoshift) revives your carry mid-fight: it swings teamfights." },
+    guide: { es: "Rebobinar (W) te deja soltar dos Bombas de Tiempo seguidas para el doble de daño. Poke con ese combo y acelerá aliados o ralentizá enemigos con Distorsión Temporal (E). El ulti (Cronoturno — R) revive a tu carry en plena pelea: cambia teamfights.", en: "Rewind (W) lets you drop two Time Bombs back to back for double damage. Poke with that combo and speed allies or slow enemies with Time Warp (E). The ult (Chronoshift) revives your carry mid-fight: it swings teamfights." },
     masteryWhy: { es: "21/0/9 va a daño para que la doble bomba reviente squishies.", en: "21/0/9 goes damage so the double bomb blows up squishies." },
   },
 };

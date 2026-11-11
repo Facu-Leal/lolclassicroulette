@@ -638,7 +638,7 @@ export const champions = [
       masteries: { es: "9/21/0 — Defensa", en: "9/21/0 — Defense" },
       runes: { es: "Armadura, MR/nivel, quints de armadura", en: "Armor marks, MR/level, armor quints" },
       summoners: ["Flash", "Teleport"],
-      playstyle: { es: "La pasiva convierte armadura en AD, así que apilás resistencias y pegás durísimo con Destrozar; Aturdir asegura los duelos.", en: "The passive turns armor into AD, so you stack resistances and hit hard with Shatter; Dazzle (E) wins duels." }
+      playstyle: { es: "Sheen + Atma's convierten tus resistencias y tu vida en daño: cada hechizo potencia el siguiente golpe, Destrozar (W) baja la armadura enemiga y Deslumbrar (E) gana los duelos.", en: "Sheen + Atma's turn your resistances and health into damage: each spell empowers your next hit, Shatter (W) shreds enemy armor and Dazzle (E) wins duels." }
     }
   },
   {
@@ -690,7 +690,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "AD, armadura, quints de velocidad de ataque", en: "AD marks, armor, attack speed quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Mazo Trucado carga la carta roja para críticos garantizados; la Carta Dorada stunea y el ulti da roams globales.", en: "Stacked Deck loads the red card for guaranteed crits; Gold Card stuns and the ult gives global roams." }
+      playstyle: { es: "Statikk, IE y PD hacen de TF un carry de autos con Mazo Trucado (E) sumando daño cada cuatro golpes; la Carta Dorada stunea y el ulti da roams globales.", en: "Statikk, IE and PD make TF an auto-attack carry with Stacked Deck (E) adding damage every fourth hit; Gold Card stuns and the ult gives global roams." }
     }
   },
   {
@@ -768,7 +768,7 @@ export const champions = [
       masteries: { es: "21/9/0 — Ofensiva", en: "21/9/0 — Offense" },
       runes: { es: "AD, armadura, quints de AD", en: "AD marks, armor, AD quints" },
       summoners: ["Flash", "Smite"],
-      playstyle: { es: "El clon del Señuelo confunde en ganks, y el ulti (Ciclón — R) con IE + PD hace críticos en área que ganan teamfights solos.", en: "Decoy (W)'s clone confuses in ganks, and Cyclone (R) with IE + PD crits the whole team to win fights alone." }
+      playstyle: { es: "El clon del Señuelo confunde en ganks, y el ulti (Ciclón — R) con IE + PD escala con tu AD y levanta a todo el equipo enemigo para ganar teamfights.", en: "Decoy (W)'s clone confuses in ganks, and Cyclone (R) scales with your AD and knocks up the whole enemy team to win fights." }
     }
   },
   {
@@ -781,7 +781,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Rebobinar (W) deja soltar doble Bomba de Tiempo (Q) que stunea y explota por daño enorme; el ulti (Cronoturno — R) revive a tu carry en peleas.", en: "Rewind (E) lets you drop a double Time Bomb (Q) that stuns and bursts hard; Chronoshift revives your carry in fights." }
+      playstyle: { es: "Rebobinar (W) deja soltar doble Bomba de Tiempo (Q) que explota dos veces por daño enorme; el ulti (Cronoturno — R) revive a tu carry en peleas.", en: "Rewind (W) lets you drop a double Time Bomb (Q) that bursts twice; Chronoshift (R) revives your carry in fights." }
     }
   }
 ];
