@@ -235,7 +235,7 @@ export const champions = [
       masteries: { es: "9/0/21 — Utilidad", en: "9/0/21 — Utility" },
       runes: { es: "Pen mágica, regen maná, quints de AP", en: "Magic pen, mana regen, AP quints" },
       summoners: ["Flash", "Exhaust"],
-      playstyle: { es: "Las torretas zonifican todo el bot lane, el Misil Aturdidor CC-ea y hacés la línea imposible de jugar.", en: "Turrets (Q) zone the whole bot lane, the Stun Grenade CCs, and you make the lane miserable to play." }
+      playstyle: { es: "Las torretas zonifican todo el bot lane, la Granada Conmocionante aturde y ciega, y hacés la línea imposible de jugar.", en: "Turrets (Q) zone the whole bot lane, the Concussion Grenade stuns and blinds, and you make the lane miserable to play." }
     }
   },
   {
@@ -664,7 +664,7 @@ export const champions = [
       masteries: { es: "21/0/9 — Ofensiva", en: "21/0/9 — Offense" },
       runes: { es: "Pen mágica, MR/nivel, quints de AP", en: "Magic pen, MR/level, AP quints" },
       summoners: ["Flash", "Ignite"],
-      playstyle: { es: "Carga Explosiva con AP detona por daño enorme; el Salto resetea con kills y el ulti (Buster Shot) hace peel y burst.", en: "Explosive Charge on AP detonates for huge damage; Rocket Jump resets on kills and Buster Shot peels and bursts." }
+      playstyle: { es: "Con AP, Salto de Cohete, Disparo Explosivo y Disparo de Culata pegan un burst enorme; el Salto se reinicia con kills y el ulti hace peel o remata.", en: "On AP, Rocket Jump, Explosive Shot and Buster Shot deal huge burst; Rocket Jump resets on kills and the ult peels or finishes." }
     }
   },
   {

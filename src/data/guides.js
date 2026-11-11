@@ -70,7 +70,7 @@ export const guides = {
     masteryWhy: { es: "21/9/0 da burst con algo de aguante para pelear de cerca en el medio.", en: "21/9/0 gives burst with some durability to brawl up close in mid." },
   },
   heimerdinger: {
-    guide: { es: "Plantá las torretas (H) para zonificar todo el bot lane y hacé la línea intransitable; poke con misiles (Q) y usá la Granada Aturdidora (E) para asegurar el all-in del ADC. Defendé torres y objetivos con el ejército de torretas.", en: "Place turrets (H) to zone the whole bot lane and make it impassable; poke with rockets (Q) and use the Stun Grenade (E) to lock the ADC's all-in. Defend towers and objectives with your turret army." },
+    guide: { es: "Plantá las torretas (Q) para zonificar todo el bot lane y hacé la línea intransitable; poke con los Microcohetes (W) y usá la Granada Conmocionante (E), que aturde y ciega, para asegurar el all-in del ADC. Defendé torres y objetivos con el ejército de torretas.", en: "Place turrets (Q) to zone the whole bot lane and make it impassable; poke with Micro-Rockets (W) and use the Concussion Grenade (E), which stuns and blinds, to lock the ADC's all-in. Defend towers and objectives with your turret army." },
     masteryWhy: { es: "9/0/21 da maná y utilidad para plantar torretas sin parar.", en: "9/0/21 gives mana and utility to place turrets nonstop." },
   },
   janna: {
@@ -98,7 +98,7 @@ export const guides = {
     masteryWhy: { es: "21/9/0 da burst con aguante para entrar a la pelea y resetear.", en: "21/9/0 gives burst with durability to dive in and reset." },
   },
   kayle: {
-    guide: { es: "Como soporte, poke y sostené con Ralentización Reactiva (E) y curá al ADC con Reactivación (W). Tu momento decisivo es el ulti (Intervención — R): volvé invulnerable a tu carry justo cuando el enemigo se compromete a matarlo.", en: "As support, poke and sustain with Reactive slow (E) and heal the ADC with Reactivation (W). Your decisive moment is the ult (Intervention): make your carry invulnerable right as the enemy commits to the kill." },
+    guide: { es: "Como soporte, poke con Ajuste de Cuentas (Q) y Furia Justiciera (E) y curá al ADC con Reactivación (W). Tu momento decisivo es el ulti (Intervención — R): volvé invulnerable a tu carry justo cuando el enemigo se compromete a matarlo.", en: "As support, poke with Reckoning (Q) and Righteous Fury (E) and heal the ADC with Reactivation (W). Your decisive moment is the ult (Intervention): make your carry invulnerable right as the enemy commits to the kill." },
     masteryWhy: { es: "9/0/21 da maná y utilidad para curar y aguantar toda la línea.", en: "9/0/21 gives mana and utility to heal and sustain the whole lane." },
   },
   kogmaw: {
@@ -186,7 +186,7 @@ export const guides = {
     masteryWhy: { es: "21/9/0 potencia el daño de Q con aguante para llegar a la supresión.", en: "21/9/0 boosts Q damage with durability to reach the suppress." },
   },
   sona: {
-    guide: { es: "Alterná tus auras: poke con Aria de Perseverancia (Q) + Acorde de Poder y sostené a tu equipo con las otras. Con DFG one-shoteás a un squishy y el ulti (Crescendo — R) aturde a varios: es tu iniciación o tu disengage clave.", en: "Rotate your auras: poke with Hymn of Valor (Q) + Power Chord and sustain your team with the others. With DFG you one-shot a squishy and the ult (Crescendo — R) stuns multiple enemies: it's your key engage or disengage." },
+    guide: { es: "Alterná tus auras: poke con Himno de Valor (Q) + Acorde de Poder y sostené a tu equipo con las otras. Con DFG one-shoteás a un squishy y el ulti (Crescendo — R) aturde a varios: es tu iniciación o tu disengage clave.", en: "Rotate your auras: poke with Hymn of Valor (Q) + Power Chord and sustain your team with the others. With DFG you one-shot a squishy and the ult (Crescendo — R) stuns multiple enemies: it's your key engage or disengage." },
     masteryWhy: { es: "21/0/9 aprovecha el AP para pasar de soporte a carry de daño.", en: "21/0/9 leverages AP to turn support into a damage carry." },
   },
   soraka: {
@@ -202,8 +202,8 @@ export const guides = {
     masteryWhy: { es: "21/9/0 potencia la quemadura y el on-hit con algo de aguante.", en: "21/9/0 boosts the burn and on-hit with some durability." },
   },
   tristana: {
-    guide: { es: "Poné Carga Explosiva (E) sobre el enemigo y detoná con autos/Q: con AP el estallido hace un daño enorme. El Salto (W) resetea con kills, así que entrá, borrá y saltá fuera; el ulti (Disparo de Culata — R) hace peel o remate.", en: "Put Explosive Charge (E) on the enemy and detonate with autos/Q: on AP the burst is huge. Rocket Jump (W) resets on kills, so dive in, delete, and jump out; the ult (Buster Shot) peels or finishes." },
-    masteryWhy: { es: "21/0/9 va full AP para que la Carga Explosiva reviente.", en: "21/0/9 goes full AP so Explosive Charge blows up." },
+    guide: { es: "Quemá al objetivo con Disparo Explosivo (E) y saltale encima con Salto de Cohete (W): con AP los dos pegan un burst enorme. El Salto (W) resetea con kills, así que entrá, borrá y saltá fuera; el ulti (Disparo de Culata — R) hace peel o remate.", en: "Burn the target with Explosive Shot (E) and jump on them with Rocket Jump (W): on AP both deal huge burst. Rocket Jump (W) resets on kills, so dive in, delete, and jump out; the ult (Buster Shot) peels or finishes." },
+    masteryWhy: { es: "21/0/9 va full AP para que el Salto, el Disparo Explosivo y el ulti revienten.", en: "21/0/9 goes full AP so Rocket Jump, Explosive Shot and the ult blow up." },
   },
   tryndamere: {
     guide: { es: "Build meme total: Giro Mortal (E) escala con AP y con Lich Bane cada golpe pega un burst absurdo. Furia Imparable (R) te mantiene vivo 5 segundos aunque te maten: entrá sin miedo, girá sobre el squishy y rematá.", en: "A total meme build: Spinning Slash (E) scales with AP and with Lich Bane each hit bursts absurdly. Undying Rage (R) keeps you alive 5 seconds even at death: dive fearlessly, spin onto the squishy and finish." },
@@ -230,7 +230,7 @@ export const guides = {
     masteryWhy: { es: "21/0/9 va a burst para que el combo one-shotee squishies.", en: "21/0/9 goes burst so the combo one-shots squishies." },
   },
   warwick: {
-    guide: { es: "Golpe Voraz (Q) escala con AP y te cura muchísimo, así que sos un jungla con sustain infinito; con Nashor + Guinsoo hacés DPS híbrido. El ulti (Ansia de Sangre) fija al carry enemigo en su lugar para que sueltes todo tu combo.", en: "Hungering Strike (Q) scales with AP and heals a ton, so you're a jungler with infinite sustain; with Nashor + Guinsoo you deal hybrid DPS. The ult (Infinite Duress) pins the enemy carry in place for your full combo." },
+    guide: { es: "Golpe Voraz (Q) escala con AP y te cura muchísimo, así que sos un jungla con sustain infinito; con Nashor + Guinsoo hacés DPS híbrido. El ulti (Presa Infinita — R) fija al carry enemigo en su lugar para que sueltes todo tu combo.", en: "Hungering Strike (Q) scales with AP and heals a ton, so you're a jungler with infinite sustain; with Nashor + Guinsoo you deal hybrid DPS. The ult (Infinite Duress) pins the enemy carry in place for your full combo." },
     masteryWhy: { es: "21/9/0 potencia el daño híbrido con aguante para pelear largo.", en: "21/9/0 boosts hybrid damage with durability for long fights." },
   },
   wukong: {

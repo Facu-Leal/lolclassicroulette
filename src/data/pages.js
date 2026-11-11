@@ -261,8 +261,8 @@ export const pages = {
         { h: "7. AP Jax — el burst que nadie espera", p: [
           "Tu W y el rayo de la R hacen daño mágico, así que con AP pegás un burst enorme mientras tu E te vuelve casi inmune a los autoataques. Escala hasta borrar carries. <a href=\"/es/campeon/jax\">Ver la build de AP Jax →</a>",
         ] },
-        { h: "8. AP Gangplank — barriles explosivos", p: [
-          "Parrrley a distancia que da oro extra y barriles que, con AP, revientan a todo un equipo agrupado. Y un ulti global para meterte en cualquier pelea del mapa. <a href=\"/es/campeon/gangplank\">Ver la build de AP Gangplank →</a>",
+        { h: "8. AP Gangplank — Parrrley con Lich Bane", p: [
+          "Parrrley a distancia que activa el Lich Bane y da oro extra al matar, Naranjas que limpian el CC y curan con AP, y un ulti global para meterte en cualquier pelea del mapa. <a href=\"/es/campeon/gangplank\">Ver la build de AP Gangplank →</a>",
         ] },
         { h: "9. Karthus jungla — la muerte que llega a todos", p: [
           "El clásico de la jungla: farmeás con Muro de la Muerte, y en el late tu definitiva (Réquiem) castiga a TODO el equipo enemigo desde cualquier parte del mapa. Muerto seguís pegando. <a href=\"/es/campeon/karthus\">Ver la build de Karthus →</a>",
@@ -303,8 +303,8 @@ export const pages = {
         { h: "7. AP Jax — the burst nobody expects", p: [
           "Your W and R lightning deal magic damage, so with AP you land a huge burst while your E makes you nearly immune to autoattacks. Scales until it deletes carries. <a href=\"/en/champion/jax\">See the AP Jax build →</a>",
         ] },
-        { h: "8. AP Gangplank — explosive barrels", p: [
-          "Ranged Parrrley that grants bonus gold, and barrels that, with AP, blow up a whole grouped team. Plus a global ult to join any fight on the map. <a href=\"/en/champion/gangplank\">See the AP Gangplank build →</a>",
+        { h: "8. AP Gangplank — Lich Bane Parrrley", p: [
+          "Ranged Parrrley that procs Lich Bane and grants bonus gold on kills, Oranges that cleanse CC and heal with AP, and a global ult to join any fight on the map. <a href=\"/en/champion/gangplank\">See the AP Gangplank build →</a>",
         ] },
         { h: "9. Jungle Karthus — the death that reaches everyone", p: [
           "The jungle classic: you farm with Wall of Pain, and late your ultimate (Requiem) punishes the WHOLE enemy team from anywhere on the map. Dead, you keep dealing damage. <a href=\"/en/champion/karthus\">See the Karthus build →</a>",

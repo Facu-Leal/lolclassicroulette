@@ -9,49 +9,53 @@ export const buildDetails = {
   warwick: {
     strengths: {
       es: [
-        "Sustain brutal en la jungla: tu Q se cura y con AP pega y regenera más, así que casi no volvés a la base.",
-        "La R es una supresión de un solo objetivo imposible de cancelar salvo con QSS o mucha tenacidad.",
-        "La pasiva te da velocidad de ataque y curación al pegar: ganás casi cualquier pelea prolongada.",
+        "Golpe Voraz (Q) pega un porcentaje de la vida máxima, escala con AP y te cura: sustain brutal en la jungla.",
+        "Presa Infinita (R) es una supresión a punto y click: saltás sobre el carry y lo dejás inmóvil.",
+        "La pasiva (Sed Eterna) te cura cada vez más con cada golpe seguido al mismo objetivo.",
+        "Llamado del Cazador (W) te da velocidad de ataque a vos y a tus aliados cercanos.",
       ],
       en: [
-        "Brutal jungle sustain: your Q heals, and with AP it hits and restores more, so you rarely recall.",
-        "Your R is a single-target suppression that can't be cancelled except by QSS or high tenacity.",
-        "The passive grants attack speed and on-hit healing: you win almost any drawn-out fight.",
+        "Hungering Strike (Q) deals a percentage of max health, scales with AP and heals you: brutal jungle sustain.",
+        "Infinite Duress (R) is a point-and-click suppression: you jump on the carry and lock them down.",
+        "The passive (Eternal Thirst) heals you more and more with each consecutive hit on the same target.",
+        "Hunter's Call (W) gives attack speed to you and nearby allies.",
       ],
     },
     weaknesses: {
       es: [
-        "Sin la R en cooldown quedás bastante inofensivo entre ultis.",
-        "Dependés de llegar a rango cuerpo a cuerpo; los campeones de kiteo te sufren poco.",
-        "En versión AP sacrificás algo de aguante: si te fokean, caés.",
+        "Con la R en cooldown quedás bastante inofensivo entre ultis.",
+        "Sin dash propio fuera del ulti: los campeones de kiteo te sufren poco.",
+        "En versión AP sacrificás algo de aguante: si te focalizan, caés.",
+        "Un QSS o una limpieza cancelan tu ulti.",
       ],
       en: [
         "With your R on cooldown you're fairly harmless between ultimates.",
-        "You depend on reaching melee range; kiting champions barely fear you.",
+        "No dash outside the ult: kiting champions barely fear you.",
         "The AP version sacrifices some tankiness: if you get focused, you fall.",
+        "A QSS or cleanse cancels your ult.",
       ],
     },
     combos: {
-      es: ["Entrada con E → R para bloquear al carry enemigo → Q para curarte mientras lo matás."],
-      en: ["Engage with E → R to lock down the enemy carry → Q to heal while you finish them."],
+      es: ["Olfato de Sangre (E) para encontrar al objetivo bajo y acercarte rápido → Presa Infinita (R) → Llamado del Cazador (W) → Golpe Voraz (Q) para curarte mientras lo matás."],
+      en: ["Blood Scent (E) to find the low target and close in fast → Infinite Duress (R) → Hunter's Call (W) → Hungering Strike (Q) to heal while you kill them."],
     },
     matchups: {
       good: {
-        es: ["Campeones inmóviles (Karthus, Fiddlesticks) que no escapan de tu R.", "Junglas sin sustain: perdés casi ninguna pelea larga."],
-        en: ["Immobile champions (Karthus, Fiddlesticks) who can't escape your R.", "Junglers without sustain: you lose almost no extended fight."],
+        es: ["Carries frágiles sin QSS.", "Peleas largas donde tu curación y tu daño sostenido pesan más."],
+        en: ["Squishy carries without QSS.", "Long fights where your healing and sustained damage matter more."],
       },
       bad: {
-        es: ["Campeones con QSS o mucha tenacidad que anulan tu R.", "ADCs con dashes (Ezreal, Caitlyn) que te patean sin dejarte pegar."],
-        en: ["Champions with QSS or high tenacity that negate your R.", "ADCs with dashes (Ezreal, Caitlyn) who kite you out."],
+        es: ["Equipos de kiteo con mucho slow.", "Junglas de burst temprano que te ganan los duelos antes del Golem."],
+        en: ["Kiting teams with lots of slows.", "Early-burst junglers who win duels before your Golem."],
       },
     },
     plan: {
-      es: "Farmeá la jungla temprano abusando del sustain de tu Q; a nivel 6 empezá a buscar ganks usando la R para bloquear al objetivo prioritario. En mid game acompañá a tu equipo y guardá la R para el carry rival en cada teamfight. Late, sos un buscador de picks: si suprimís al AD o AP enemigo, la pelea ya está ganada.",
-      en: "Farm the jungle early abusing your Q sustain; at level 6 start ganking, using R to lock the priority target. Mid game, group with your team and save R for the enemy carry every fight. Late, you're a pick-hunter: suppress the enemy AD or AP and the fight is already won.",
+      es: "Limpiá la jungla curándote con Golpe Voraz y casi sin volver a base. Usá el Olfato de Sangre para detectar enemigos con poca vida y gankeá con el ulti desde el 6. En teamfights guardá la Presa Infinita para el carry enemigo, no para el primer tanque que veas.",
+      en: "Clear the jungle healing with Hungering Strike and barely recalling. Use Blood Scent to detect low-health enemies and gank with your ult from level 6. In teamfights save Infinite Duress for the enemy carry, not the first tank you see.",
     },
     tips: {
-      es: ["Guardá la R para el carry, no la tires en el primer tanque que veas.", "Aprovechá el rastro de sangre de la pasiva para cazar enemigos con poca vida."],
-      en: ["Save R for the carry, don't blow it on the first tank you see.", "Use the passive's blood trail to hunt low-health enemies."],
+      es: ["Guardá la R para el carry: no la gastes en el primer tanque que veas.", "El Olfato de Sangre te avisa de enemigos con poca vida cerca: aprovechalo para cazar."],
+      en: ["Save R for the carry, don't blow it on the first tank you see.", "Blood Scent warns you of low-health enemies nearby: use it to hunt them down."],
     },
   },
 
@@ -254,49 +258,53 @@ export const buildDetails = {
   gangplank: {
     strengths: {
       es: [
-        "Parrrley (Q) escala con AP y aplica efectos a distancia: poke seguro que te da oro extra al matar unidades.",
-        "Tus barriles pegan daño mágico en área con AP: un buen encadenado revienta a varios.",
-        "Ulti global: presionás todo el mapa y rematás peleas desde lejos.",
+        "Parrrley (Q) es un disparo a distancia que activa el proc de Lich Bane: cada Q es un golpe potenciado a 625 de rango.",
+        "Matar con Parrrley te da oro extra y te devuelve la mitad del maná: farmeás seguro y rápido.",
+        "Quitar Escorbuto (W) limpia todo el CC y su curación escala al 100% con tu AP.",
+        "Bombardeo (R) es global: lluvia de balas que dañan y ralentizan en cualquier pelea del mapa.",
       ],
       en: [
-        "Parrrley (Q) scales with AP and applies effects at range: safe poke that grants bonus gold on unit kills.",
-        "Your barrels deal AoE magic damage with AP: a good chain blows up several enemies.",
-        "Global ult: you pressure the whole map and finish fights from afar.",
+        "Parrrley (Q) is a ranged shot that triggers the Lich Bane proc: every Q is an empowered hit from 625 range.",
+        "Killing with Parrrley gives bonus gold and refunds half its mana: you farm safely and fast.",
+        "Remove Scurvy (W) cleanses all CC and its heal scales with 100% of your AP.",
+        "Cannon Barrage (R) is global: a rain of cannonballs that damages and slows in any fight on the map.",
       ],
     },
     weaknesses: {
       es: [
-        "Curva de aprendizaje alta: los barriles requieren práctica para encadenarlos.",
-        "Frágil si te caen encima; dependés de la distancia.",
-        "Sin barriles listos, tu burst desaparece.",
+        "Parrrley no escala con AP: tu daño mágico sale del proc de Lich Bane, que tiene su propio cooldown.",
+        "Sos melee: fuera de la Q, para pegar tenés que acercarte.",
+        "Las balas del Bombardeo caen al azar dentro del área: el daño no es constante.",
+        "Sin CC duro: solo los slows de la pasiva y del ulti.",
       ],
       en: [
-        "High skill curve: barrels take practice to chain.",
-        "Fragile if they collapse on you; you depend on distance.",
-        "Without barrels ready, your burst disappears.",
+        "Parrrley doesn't scale with AP: your magic damage comes from the Lich Bane proc, which has its own cooldown.",
+        "You're melee: outside of Q, you have to get close to hit.",
+        "Cannon Barrage's cannonballs land randomly inside the area: the damage isn't consistent.",
+        "No hard CC: only the slows from your passive and ult.",
       ],
     },
     combos: {
-      es: ["Colocá un barril → Q al barril para detonarlo en cadena → encadena un segundo barril, sumando la W (Comida en Mal Estado) para limpiar CC."],
-      en: ["Place a barrel → Q the barrel to detonate the chain → chain a second barrel, adding W (Remove Scurvy) to cleanse CC."],
+      es: ["Parrrley (Q) con el proc de Lich Bane → Deathfire Grasp → autos con el veneno de la pasiva → Parrrley (Q) de nuevo cuando vuelva el proc; Bombardeo (R) para cortar la huida."],
+      en: ["Parrrley (Q) with the Lich Bane proc → Deathfire Grasp → autos with the passive's poison → Parrrley (Q) again when the proc is back; Cannon Barrage (R) to cut off the escape."],
     },
     matchups: {
       good: {
-        es: ["Líneas inmóviles a las que pokeás con Q sin represalia.", "Peleas agrupadas donde los barriles pegan a todo el equipo."],
-        en: ["Immobile lanes you poke with Q without retaliation.", "Grouped fights where barrels hit the whole team."],
+        es: ["Mids de corto rango a los que pokeás con Parrrley sin que te respondan.", "Composiciones que dependen de un stun clave: Quitar Escorbuto te lo saca."],
+        en: ["Short-range mids you poke with Parrrley without retaliation.", "Comps that rely on one key stun: Remove Scurvy cleanses it."],
       },
       bad: {
-        es: ["All-in temprano (Renekton, Darius) que te revientan antes de escalar.", "Campeones móviles que esquivan los barriles."],
-        en: ["Early all-in (Renekton, Darius) who blow you up before you scale.", "Mobile champions who dodge the barrels."],
+        es: ["Asesinos de burst que te matan antes de que la W sirva de algo.", "Magos de largo alcance que te superan en poke."],
+        en: ["Burst assassins who kill you before W can matter.", "Long-range mages who out-poke you."],
       },
     },
     plan: {
-      es: "Usá Parrrley para farmear a rango y juntar oro extra con la pasiva de plata. Practicá el encadenado de barriles: es tu fuente principal de daño en pelea. Con la R, ayudá a otras líneas o rematá teamfights aplicando lentitud y daño en área desde cualquier parte del mapa.",
-      en: "Use Parrrley to farm at range and stack bonus gold via the silver passive. Practice chaining barrels: it's your main source of fight damage. With R, help other lanes or finish teamfights, applying slow and AoE damage from anywhere on the map.",
+      es: "Farmeá con Parrrley para sumar oro extra y pokeá con Q + Lich Bane cada vez que el rival vaya a farmear. Guardá Quitar Escorbuto para el CC clave. Usá el Bombardeo para ayudar a otras líneas o en peleas por dragón. En teamfights quedate a rango de Parrrley y rematá a los squishies que queden bajos.",
+      en: "Farm with Parrrley for bonus gold and poke with Q + Lich Bane every time the enemy goes to farm. Save Remove Scurvy for the key CC. Use Cannon Barrage to help other lanes or in dragon fights. In teamfights stay at Parrrley range and finish squishies who end up low.",
     },
     tips: {
-      es: ["Detoná barriles con la Q para no gastar autoataques y mantener el rango.", "Guardá la W (naranja) para el CC clave: te limpia aturdimientos y anclas."],
-      en: ["Detonate barrels with Q to save autoattacks and keep your range.", "Save W (the orange) for key CC: it cleanses stuns and anchors."],
+      es: ["Esperá a que vuelva el proc de Lich Bane entre Q y Q: tirar Parrrley sin proc es mucho menos daño.", "Tirá el Bombardeo donde el enemigo se va a quedar peleando: las balas caen al azar y necesitan tiempo."],
+      en: ["Wait for the Lich Bane proc to come back between Qs: Parrrley without the proc is far less damage.", "Drop Cannon Barrage where the enemy will keep fighting: the cannonballs land randomly and need time."],
     },
   },
 
@@ -539,59 +547,59 @@ export const buildDetails = {
   tristana: {
     strengths: {
       es: [
-        "Carga Explosiva (E) con AP pega un burst enorme al detonar: sorprende a cualquiera que la subestime.",
-        "El Salto Cohete (W) se resetea al participar en una kill: encadenás de un objetivo al siguiente.",
-        "Poke seguro a distancia: saltás, colocás la bomba y saltás de vuelta sin quedarte.",
-        "El ulti (Descarga Explosiva) sirve para el peel (empujás al diver) o para rematar.",
+        "Salto de Cohete (W) escala con AP: entrás haciendo daño en área y ralentizando, y se reinicia con kills y asistencias.",
+        "Disparo de Culata (R) pega un burst enorme con AP y además empuja al objetivo: sirve para rematar o para el peel.",
+        "Disparo Explosivo (E) quema al objetivo con daño mágico durante unos segundos y le reduce las curaciones.",
+        "La pasiva de rango (Puntería) hace que en el late pegues desde más lejos que cualquier mid.",
       ],
       en: [
-        "Explosive Charge (E) with AP lands a huge burst when it detonates: it surprises anyone who underestimates it.",
-        "Rocket Jump (W) resets on takedown: you chain from one target to the next.",
-        "Safe ranged poke: you jump in, place the bomb and jump back out without lingering.",
-        "The ult (Buster Shot) works for peel (knock the diver away) or to finish a kill.",
+        "Rocket Jump (W) scales with AP: you land dealing area damage and slowing, and it resets on kills and assists.",
+        "Buster Shot (R) deals huge burst with AP and knocks the target back: use it to finish or to peel.",
+        "Explosive Shot (E) burns the target with magic damage over a few seconds and reduces their healing.",
+        "The range passive (Draw a Bead) means that late game you hit from farther than any other mid.",
       ],
     },
     weaknesses: {
       es: [
-        "La E necesita detonar (con autos o tiempo): el burst no es instantáneo como el de un mago puro.",
-        "Frágil: si te agarran después del salto, caés rápido.",
-        "Si la W está en cooldown y no resetea, te quedás sin escape ni movilidad.",
-        "El enganche es predecible: todos saben que vas a saltar encima.",
+        "Si usás el Salto para entrar y no conseguís la kill, te quedás sin escape.",
+        "El Disparo Explosivo es daño en el tiempo: no alcanza para un one-shot instantáneo.",
+        "Fuego Rápido (Q) no aporta nada en esta build.",
+        "Sin CC duro más allá del empujón del ulti.",
       ],
       en: [
-        "The E needs to detonate (via autos or time): the burst isn't instant like a pure mage's.",
-        "Fragile: if you're caught after the jump, you fall fast.",
-        "If W is on cooldown and doesn't reset, you're left with no escape or mobility.",
-        "The engage is predictable: everyone knows you're going to jump on top.",
+        "If you jump in and don't get the kill, you have no escape left.",
+        "Explosive Shot is damage over time: it isn't an instant one-shot.",
+        "Rapid Fire (Q) adds nothing in this build.",
+        "No hard CC beyond the ult's knockback.",
       ],
     },
     combos: {
       es: [
-        "Combo de burst: Salto Cohete (W) sobre el objetivo → Carga Explosiva (E) → un autoataque para sumar cargas → detoná + DFG para matar. Si conseguís la kill, la W se resetea: saltá al siguiente.",
-        "Peel: si te divean, Descarga Explosiva (R) para empujar al asesino lejos de vos.",
+        "Burst: Disparo Explosivo (E) sobre el objetivo → Salto de Cohete (W) encima → Deathfire Grasp → Disparo de Culata (R). Si conseguís la kill, la W se reinicia: saltá al siguiente.",
+        "Peel: si te divean, Disparo de Culata (R) para empujar al asesino lejos de vos.",
       ],
       en: [
-        "Burst combo: Rocket Jump (W) onto the target → Explosive Charge (E) → an autoattack to add stacks → detonate + DFG to kill. If you get the kill, W resets: jump to the next.",
+        "Burst: Explosive Shot (E) on the target → Rocket Jump (W) on top → Deathfire Grasp → Buster Shot (R). If you get the kill, W resets: jump to the next.",
         "Peel: if you get dived, Buster Shot (R) to knock the assassin away from you.",
       ],
     },
     matchups: {
       good: {
-        es: ["Mids escuálidos e inmóviles que no sobreviven al combo con la E detonada.", "Peleas donde la W encadena reseteos y snowballeás sola."],
-        en: ["Squishy, immobile mids who don't survive the combo with a detonated E.", "Fights where W chains resets and you snowball on your own."],
+        es: ["Mids frágiles e inmóviles que no sobreviven al combo.", "Rivales que se curan: el Disparo Explosivo les corta la curación."],
+        en: ["Squishy, immobile mids who don't survive the combo.", "Opponents who heal: Explosive Shot cuts their healing."],
       },
       bad: {
-        es: ["CC duro que te atrapa justo después del salto.", "Magos de poke que te mantienen fuera de rango."],
-        en: ["Hard CC that catches you right after the jump.", "Poke mages that keep you out of range."],
+        es: ["Mids con mucho CC que te frenan en el aire.", "Tanques y magos con Zhonya que aguantan el burst."],
+        en: ["CC-heavy mids who stop you mid-jump.", "Tanks and Zhonya mages who survive the burst."],
       },
     },
     plan: {
-      es: "Farmea seguro y pokeá saltando con la E y volviendo atrás. Buscá un pick donde la W te dé la kill y se resetee: ahí es cuando explotás una pelea encadenando saltos. Usá el ulti para sacarte de encima a los divers o para empujar a un enemigo hacia tu equipo. Colocá la Carga Explosiva temprano en el combo para que esté lista para detonar en el momento del burst.",
-      en: "Farm safe and poke by jumping in with E and back out. Look for a pick where W lands the kill and resets: that's when you blow up a fight chaining jumps. Use the ult to peel divers off you or to knock an enemy into your team. Place Explosive Charge early in the combo so it's ready to detonate at the burst moment.",
+      es: "Farmeá seguro con autos (la pasiva de E hace explotar a los minions que matás) y pokeá con el Disparo Explosivo. Desde el 6 buscá picks: quemá con la E, saltá encima, DFG y ulti. Si sale la kill, el Salto se reinicia y podés encadenar la pelea. Guardá el ulti para el peel cuando no haya kill asegurada.",
+      en: "Farm safely with autos (E's passive makes the minions you kill explode) and poke with Explosive Shot. From level 6 look for picks: burn with E, jump on top, DFG and ult. If you get the kill, Rocket Jump resets and you can chain the fight. Save the ult for peel when there's no guaranteed kill.",
     },
     tips: {
-      es: ["Colocá la E al principio del combo: tarda en detonar, así llega lista para el momento del burst.", "Guardá la W para la ventana de reseteo, no la gastes solo como escape."],
-      en: ["Place E at the start of the combo: it takes time to detonate, so it's ready for the burst moment.", "Save W for the reset window, don't spend it just as an escape."],
+      es: ["No saltes primero: dejá el Salto para cuando el objetivo esté al alcance de la kill.", "Usá el Disparo de Culata para mandar al enemigo hacia tu equipo, no lejos."],
+      en: ["Don't jump first: save Rocket Jump for when the target is within kill range.", "Use Buster Shot to send the enemy toward your team, not away."],
     },
   },
 
@@ -1656,53 +1664,53 @@ export const buildDetails = {
   heimerdinger: {
     strengths: {
       es: [
-        "Las torretas (Q) zonifican todo el bot lane: hacen la línea imposible de jugar para el enemigo.",
-        "La Granada CH-2 (E) aturde y ciega, un CC muy fiable para el all-in.",
-        "Poke incesante entre torretas y misiles: desgastás sin parar.",
-        "Con Actualización (R) potenciás una habilidad para un pico de daño o control.",
+        "Las torretas H-28G (Q) zonifican todo el bot lane y se quedan activas aunque te alejes.",
+        "La Granada Conmocionante CH-1 (E) aturde a quien recibe el impacto directo y ciega a todo el área: apaga al ADC enemigo.",
+        "La pasiva (Robots de Reparación) da regeneración de vida a tus aliados y torres cercanas: tu línea casi no vuelve a base.",
+        "¡ACTUALIZACIÓN! (R) da reducción de enfriamiento y, al activarla, cura tus torretas y les da disparos de escarcha que ralentizan.",
       ],
       en: [
-        "The turrets (Q) zone the whole bot lane: they make the lane impossible to play for the enemy.",
-        "The CH-2 Grenade (E) stuns and blinds, very reliable CC for the all-in.",
-        "Relentless poke between turrets and missiles: you chip non-stop.",
-        "With Upgrade (R) you empower an ability for a burst of damage or control.",
+        "H-28G turrets (Q) zone the whole bot lane and stay active even when you walk away.",
+        "The CH-1 Concussion Grenade (E) stuns whoever takes the direct hit and blinds the whole area: it shuts down the enemy ADC.",
+        "The passive (Repair Bots) gives health regen to nearby allies and towers: your lane rarely needs to recall.",
+        "UPGRADE!!! (R) gives cooldown reduction and, when activated, heals your turrets and gives them slowing frost shots.",
       ],
     },
     weaknesses: {
       es: [
         "Sin movilidad: los dives y flancos te castigan.",
-        "Las torretas tardan en colocarse: fuera de línea, tu setup es más lento.",
-        "Depende de acertar la Granada para el CC.",
+        "Si morís, tus torretas desaparecen con vos.",
+        "El stun solo afecta al que recibe el impacto directo; el resto queda solo cegado.",
         "Si te empujan fuera de tus torretas, perdés casi todo tu valor.",
       ],
       en: [
         "No mobility: dives and flanks punish you.",
-        "Turrets take time to set up: away from lane, your setup is slower.",
-        "Relies on landing the Grenade for the CC.",
+        "If you die, your turrets disappear with you.",
+        "The stun only affects whoever takes the direct hit; everyone else is only blinded.",
         "If pushed off your turrets, you lose most of your value.",
       ],
     },
     combos: {
-      es: ["Colocá torretas (Q) para zonear → Misiles (W) para poke → Granada CH-2 (E) para aturdir y abrir el all-in; Actualización (R) sobre la Granada para un CC más largo."],
-      en: ["Place turrets (Q) to zone → Missiles (W) for poke → CH-2 Grenade (E) to stun and open the all-in; Upgrade (R) on the Grenade for longer CC."],
+      es: ["Colocá torretas (Q) en el arbusto de la línea → Microcohetes (W) para el poke → Granada CH-1 (E) para aturdir y cegar al ADC → ¡ACTUALIZACIÓN! (R) para que las torretas ralenticen durante el all-in."],
+      en: ["Place turrets (Q) in the lane brush → Micro-Rockets (W) to poke → CH-1 Grenade (E) to stun and blind the ADC → UPGRADE!!! (R) so the turrets slow during the all-in."],
     },
     matchups: {
       good: {
-        es: ["Bot lanes melee que no pueden acercarse a tus torretas.", "Comps que dependen de un choque frontal (tu zona los frena)."],
-        en: ["Melee bot lanes that can't approach your turrets.", "Comps that rely on a frontal clash (your zone stops them)."],
+        es: ["Bot lanes de autoataques que la ceguera de la Granada deja sin daño.", "Duplas melee que no pueden acercarse a tus torretas."],
+        en: ["Auto-attack bot lanes that the Grenade's blind leaves without damage.", "Melee duos who can't approach your turrets."],
       },
       bad: {
-        es: ["Dive con movilidad que salta por encima de las torretas.", "Poke a rango que destruye tus torretas de lejos."],
-        en: ["Mobile dives that jump over the turrets.", "Ranged poke that destroys your turrets from afar."],
+        es: ["Dive con movilidad que salta por encima de las torretas.", "Poke de largo alcance que destruye tus torretas de lejos."],
+        en: ["Mobile dives that jump over the turrets.", "Long-range poke that destroys your turrets from afar."],
       },
     },
     plan: {
-      es: "Armá un nido de torretas en el bot lane y hacé la línea injugable con poke constante. Guardá la Granada para el all-in o para frenar un enganche. En objetivos (Dragón), colocá torretas alrededor para controlar la zona. Posicioná con cuidado: fuera de tus torretas sos mucho más débil.",
-      en: "Build a turret nest in the bot lane and make it unplayable with constant poke. Save the Grenade for the all-in or to stop an engage. At objectives (Dragon), place turrets around to control the area. Position carefully: away from your turrets you're much weaker.",
+      es: "Armá un nido de torretas en el bot lane y desgastá con los cohetes mientras la pasiva sostiene a tu ADC. Guardá la Granada para el all-in o para cortar un enganche: un ADC cegado no hace daño. En objetivos (Dragón), colocá torretas antes y activá ¡ACTUALIZACIÓN! cuando empiece la pelea.",
+      en: "Build a turret nest in the bot lane and wear the enemy down with rockets while your passive sustains your ADC. Save the Grenade for the all-in or to stop an engage: a blinded ADC deals no damage. At objectives (Dragon), place turrets early and activate UPGRADE!!! when the fight starts.",
     },
     tips: {
-      es: ["Colocá torretas antes de las peleas por objetivos para dominar la zona.", "Guardá Actualización para una Granada de CC más largo en el momento clave."],
-      en: ["Place turrets before objective fights to dominate the area.", "Save Upgrade for a longer-CC Grenade at the key moment."],
+      es: ["Apuntá la Granada al objetivo principal: el stun es solo para el impacto directo.", "Mantenete con vida: si morís, perdés todas las torretas."],
+      en: ["Aim the Grenade at the main target: the stun is only for the direct hit.", "Stay alive: if you die, you lose all your turrets."],
     },
   },
 
@@ -2478,8 +2486,8 @@ export const buildDetails = {
       ],
     },
     combos: {
-      es: ["Trampa (W) para revelar y ralentizar → Lanza (Q) a máximo rango sobre el objetivo marcado para el poke máximo; Toque Primitivo (E) para curar a tu ADC entre intercambios."],
-      en: ["Trap (W) to reveal and slow → Spear (Q) at max range on the marked target for max poke; Primal Surge (E) to heal your ADC between trades."],
+      es: ["Emboscada (W) en el camino del enemigo para revelarlo y bajarle las resistencias → Lanza (Q) a máximo rango para el poke máximo; Toque Primitivo (E) para curar a tu ADC entre intercambios."],
+      en: ["Bushwhack (W) in the enemy's path to reveal them and shred their resistances → Spear (Q) at max range for max poke; Primal Surge (E) to heal your ADC between trades."],
     },
     matchups: {
       good: {
@@ -2492,12 +2500,12 @@ export const buildDetails = {
       },
     },
     plan: {
-      es: "En línea, pokeá con la Lanza a máximo rango (marcá primero con la Trampa para asegurar el tiro) y curá a tu ADC con el Toque Primitivo. Desgastás a la bot lane enemiga hasta forzar el all-in de tu carry. Usá la forma Puma para reposicionarte y escapar. Todo depende de tu puntería con la Q.",
-      en: "In lane, poke with the Spear at max range (mark first with the Trap to secure the shot) and heal your ADC with Primal Surge. You wear down the enemy bot lane until you force your carry's all-in. Use Cougar form to reposition and escape. It all comes down to your Q aim.",
+      es: "En línea, pokeá con la Lanza a máximo rango (cuanto más lejos viaja, más daño hace) y curá a tu ADC con el Toque Primitivo. Desgastás a la bot lane enemiga hasta forzar el all-in de tu carry. Usá la forma Puma para reposicionarte y escapar. Todo depende de tu puntería con la Q.",
+      en: "In lane, poke with the Spear at max range (the farther it travels, the more damage it deals) and heal your ADC with Primal Surge. You wear down the enemy bot lane until you force your carry's all-in. Use Cougar form to reposition and escape. It all comes down to your Q aim.",
     },
     tips: {
-      es: ["Marcá con la Trampa o la Q corta antes de la Lanza a rango: pega mucho más sobre objetivos marcados.", "Guardá la forma Puma para escapar del enganche enemigo."],
-      en: ["Mark with the Trap or short Q before the long-range Spear: it hits much harder on marked targets.", "Save Cougar form to escape the enemy engage."],
+      es: ["Tirá la Lanza desde el máximo rango posible: el daño sube con la distancia recorrida.", "Guardá la forma Puma para escapar del enganche enemigo."],
+      en: ["Throw the Spear from as far as possible: damage grows with the distance it travels.", "Save Cougar form to escape the enemy engage."],
     },
   },
 
@@ -2638,7 +2646,7 @@ export const buildDetails = {
     },
     combos: {
       es: ["Poke en línea: Lanza Cometa (Q) al ADC enemigo. All-in: Asalto Égida (W) para saltar y aturdir → Bloqueo de Corazón (E) + tu ADC para rematar."],
-      en: ["Lane poke: Spear Shot (Q) at the enemy ADC. All-in: Aegis of Zeonia (W) to leap and stun → Aegis Protection (E) + your ADC to finish."],
+      en: ["Lane poke: Spear Shot (Q) at the enemy ADC. All-in: Aegis of Zeonia (W) to leap and stun → Heartseeker Strike (E) + your ADC to finish."],
     },
     matchups: {
       good: {
@@ -3912,13 +3920,13 @@ export const buildDetails = {
       es: [
         "La pasiva aumenta el rango de ataque con cada nivel: en el late pegás desde muy lejos.",
         "Salto de Cohete (W) se reinicia con kills y asistencias: limpiás peleas enteras.",
-        "Carga Explosiva (E) reduce las curaciones enemigas y explota al matar.",
+        "Disparo Explosivo (E) quema al objetivo, reduce sus curaciones y hace explotar a las unidades que matás.",
         "Disparo de Culata (R) aleja a cualquiera que se meta sobre vos.",
       ],
       en: [
         "The passive increases attack range every level: late game you hit from very far.",
         "Rocket Jump (W) resets on kills and assists: you clean up whole fights.",
-        "Explosive Shot (E) reduces enemy healing and explodes on kills.",
+        "Explosive Shot (E) burns the target, reduces their healing and makes units you kill explode.",
         "Buster Shot (R) knocks back anyone who dives you.",
       ],
     },
